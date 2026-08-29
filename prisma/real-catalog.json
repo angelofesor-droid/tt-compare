@@ -1386,6 +1386,3187 @@
       "sourceUrl": "https://www.stigaus.com/products/stiga-optimum-30-table-tennis-table",
       "sourceName": "STIGA US (stigaus.com)",
       "price": null
+    },
+    {
+      "name": "Tenergy 05FX",
+      "brand": "Butterfly",
+      "speed": 81,
+      "speedScale": null,
+      "spin": 64,
+      "control": 65,
+      "thickness": null,
+      "hardness": 32,
+      "weight": null,
+      "color": "Negro / Rojo",
+      "tackiness": null,
+      "surfaceType": "Pimples-In (Invertida)",
+      "technology": "Spring Sponge",
+      "summary": "Versión FX (sponge blando) de la Tenergy 05: más control y facilidad a costa de algo de velocidad y giro. Referencia para el juego de revés y el ataque todo-campo.",
+      "description": "Usa Spring Sponge blando (32°) con el mismo topsheet de alta tensión de la Tenergy 05. Ofrece gran control y tolerancia al fallo, ideal para jugadores que quieren el giro y la consistencia de la T05 sin tanta exigencia física ni rebote brusco.",
+      "pros": [
+        "Más control y facilidad que la Tenergy 05",
+        "Buen giro con topsheet de alta tensión",
+        "Muy adecuada para el revés ofensivo"
+      ],
+      "cons": [
+        "Menos velocidad y giro que la Tenergy 05",
+        "Precio elevado del segmento Tenergy"
+      ],
+      "imageUrl": "https://revspin.net/images/rubber/butterfly-tenergy-05-fx.jpg",
+      "sourceUrl": "https://revspin.net/rubber/butterfly-tenergy-05-fx.html",
+      "sourceName": "Revspin.net",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "81",
+        "spin": "64",
+        "control": "65",
+        "hardness": "32",
+        "color": "Negro / Rojo",
+        "surfaceType": "Pimples-In (Invertida)",
+        "technology": "Spring Sponge"
+      },
+      "scale": null
+    },
+    {
+      "name": "Tenergy 64",
+      "brand": "Butterfly",
+      "speed": 87,
+      "speedScale": null,
+      "spin": 70,
+      "control": 75,
+      "thickness": null,
+      "hardness": 36,
+      "weight": null,
+      "color": "Negro / Rojo",
+      "tackiness": "Ligeramente pegajosa",
+      "surfaceType": "Pimples-In (Invertida)",
+      "technology": "Spring Sponge",
+      "summary": "Goma ofensiva de alta tensión con lanzamiento medio y trayectoria directa; favorita de muchos para el revés y el contraataque.",
+      "description": "Spring Sponge (36°) con topsheet de alta tensión. Velocidad y giro muy equilibrados con un ángulo de expulsión más bajo y predecible que la Tenergy 05, favoreciendo golpes planos, bloqueos activos y contraataques rápidos.",
+      "pros": [
+        "Gran equilibrio velocidad/giro",
+        "Trayectoria directa y predecible",
+        "Excelente para contraataque y revés"
+      ],
+      "cons": [
+        "Menos giro extremo que Tenergy 05",
+        "Precio alto dentro del catálogo Tenergy"
+      ],
+      "imageUrl": "https://revspin.net/images/rubber/butterfly-tenergy-64.jpg",
+      "sourceUrl": "https://revspin.net/rubber/butterfly-tenergy-64.html",
+      "sourceName": "Revspin.net",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "87",
+        "spin": "70",
+        "control": "75",
+        "hardness": "36",
+        "color": "Negro / Rojo",
+        "tackiness": "Ligeramente pegajosa",
+        "surfaceType": "Pimples-In (Invertida)",
+        "technology": "Spring Sponge"
+      },
+      "scale": null
+    },
+    {
+      "name": "Tenergy 80",
+      "brand": "Butterfly",
+      "speed": 85,
+      "speedScale": null,
+      "spin": 73,
+      "control": 77,
+      "thickness": null,
+      "hardness": 36,
+      "weight": null,
+      "color": "Negro / Rojo",
+      "tackiness": "Ligeramente pegajosa",
+      "surfaceType": "Pimples-In (Invertida)",
+      "technology": "Spring Sponge",
+      "summary": "Puente entre velocidad y giro: más rápida que la T05 y con el mismo topsheet de alta tensión. Muy versátil para el juego ofensivo completo.",
+      "description": "Spring Sponge (36°). Combina la velocidad de la T64 con el giro de la T05, permitiendo topspin, ataque y contraataque con independencia del estilo. Muy valorada por su versatilidad y equilibrio general.",
+      "pros": [
+        "Equilibrio ideal entre velocidad y giro",
+        "Versátil para ataque y contraataque",
+        "Alta tensión con gran rebote"
+      ],
+      "cons": [
+        "No sobresale en ningún aspecto concreto",
+        "Precio elevado"
+      ],
+      "imageUrl": "https://revspin.net/images/rubber/butterfly-tenergy-80.jpg",
+      "sourceUrl": "https://revspin.net/rubber/butterfly-tenergy-80.html",
+      "sourceName": "Revspin.net",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "85",
+        "spin": "73",
+        "control": "77",
+        "hardness": "36",
+        "color": "Negro / Rojo",
+        "tackiness": "Ligeramente pegajosa",
+        "surfaceType": "Pimples-In (Invertida)",
+        "technology": "Spring Sponge"
+      },
+      "scale": null
+    },
+    {
+      "name": "Tenergy 25",
+      "brand": "Butterfly",
+      "speed": 64,
+      "speedScale": null,
+      "spin": 76,
+      "control": 86,
+      "thickness": null,
+      "hardness": 36,
+      "weight": null,
+      "color": "Negro / Rojo",
+      "tackiness": null,
+      "surfaceType": "Pimples-In (Invertida)",
+      "technology": "Spring Sponge",
+      "summary": "Goma de giro sobresaliente y control alto con velocidad moderada; excelente para topspin constante y juego de mucha rotación.",
+      "description": "Spring Sponge (36°) con topsheet de alta tensión. Aporta un giro muy alto con velocidad contenida y gran control, siendo una opción de ataque centrada en la rotación y la colocación más que en la potencia bruta.",
+      "pros": [
+        "Control y giro muy altos",
+        "Ideal para topspin constante",
+        "Gran facilidad en saques y restos con efecto"
+      ],
+      "cons": [
+        "Menos velocidad que otras Tenergy",
+        "Orientada a un estilo de ataque con giro"
+      ],
+      "imageUrl": "https://revspin.net/images/rubber/butterfly-tenergy-25.jpg",
+      "sourceUrl": "https://revspin.net/rubber/butterfly-tenergy-25.html",
+      "sourceName": "Revspin.net",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "64",
+        "spin": "76",
+        "control": "86",
+        "hardness": "36",
+        "color": "Negro / Rojo",
+        "surfaceType": "Pimples-In (Invertida)",
+        "technology": "Spring Sponge"
+      },
+      "scale": null
+    },
+    {
+      "name": "Dignics 05",
+      "brand": "Butterfly",
+      "speed": 86,
+      "speedScale": null,
+      "spin": 85,
+      "control": 88,
+      "thickness": null,
+      "hardness": 40,
+      "weight": null,
+      "color": "Negro / Rojo",
+      "tackiness": "Ligeramente pegajosa",
+      "surfaceType": "Pimples-In (Invertida)",
+      "technology": "High Tension, Spring Sponge X",
+      "summary": "La goma ofensiva de gama alta de Butterfly con Spring Sponge X: velocidad y giro de élite, gran durabilidad y precisión. Referencia del circuito profesional.",
+      "description": "Spring Sponge X (40°) y topsheet de alta tensión. Ofrece velocidad y giro de primer nivel con un control sorprendente y una durabilidad excepcional. Requiere un gesto técnico desarrollado para exprimir todo su potencial.",
+      "pros": [
+        "Velocidad y giro de élite",
+        "Durabilidad muy superior a la media",
+        "Control preciso en el ataque"
+      ],
+      "cons": [
+        "Precio muy alto",
+        "Exige un nivel técnico avanzado",
+        "Juego corto exigente"
+      ],
+      "imageUrl": "https://revspin.net/images/rubber/butterfly-dignics-05.jpg",
+      "sourceUrl": "https://revspin.net/rubber/butterfly-dignics-05.html",
+      "sourceName": "Revspin.net",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "86",
+        "spin": "85",
+        "control": "88",
+        "hardness": "40",
+        "color": "Negro / Rojo",
+        "tackiness": "Ligeramente pegajosa",
+        "surfaceType": "Pimples-In (Invertida)",
+        "technology": "High Tension, Spring Sponge X"
+      },
+      "scale": null
+    },
+    {
+      "name": "Dignics 80",
+      "brand": "Butterfly",
+      "speed": 88,
+      "speedScale": null,
+      "spin": 82,
+      "control": 86,
+      "thickness": null,
+      "hardness": 40,
+      "weight": null,
+      "color": "Negro / Rojo",
+      "tackiness": "Ligeramente pegajosa",
+      "surfaceType": "Pimples-In (Invertida)",
+      "technology": "High Tension, Spring Sponge X",
+      "summary": "Goma ofensiva con lanzamiento medio y gran potencia; velocidad superior a la Dignics 05 con buen giro y control.",
+      "description": "Spring Sponge X (40°). Ofrece mayor velocidad que la Dignics 05 con un ángulo de expulsión medio y un control destacado, manteniendo la durabilidad y consistencia características de la serie Dignics.",
+      "pros": [
+        "Alta velocidad con buen control",
+        "Gran durabilidad",
+        "Ángulo de expulsión equilibrado"
+      ],
+      "cons": [
+        "Precio alto",
+        "Exige una técnica sólida"
+      ],
+      "imageUrl": "https://revspin.net/images/rubber/butterfly-dignics-80.jpg",
+      "sourceUrl": "https://revspin.net/rubber/butterfly-dignics-80.html",
+      "sourceName": "Revspin.net",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "88",
+        "spin": "82",
+        "control": "86",
+        "hardness": "40",
+        "color": "Negro / Rojo",
+        "tackiness": "Ligeramente pegajosa",
+        "surfaceType": "Pimples-In (Invertida)",
+        "technology": "High Tension, Spring Sponge X"
+      },
+      "scale": null
+    },
+    {
+      "name": "Dignics 64",
+      "brand": "Butterfly",
+      "speed": 90,
+      "speedScale": null,
+      "spin": 79,
+      "control": 84,
+      "thickness": null,
+      "hardness": 40,
+      "weight": null,
+      "color": "Negro / Rojo",
+      "tackiness": null,
+      "surfaceType": "Pimples-In (Invertida)",
+      "technology": "High Tension, Spring Sponge X",
+      "summary": "La más rápida de la serie Dignics, con trayectoria directa y lanzamiento bajo; pensada para velocidad y contraataque.",
+      "description": "Spring Sponge X (40°). Máxima velocidad de la línea Dignics con un ángulo de expulsión bajo y directo, orientada a jugadores que buscan potencia y golpes planos sin perder el control característico de la serie.",
+      "pros": [
+        "La más rápida de la serie Dignics",
+        "Trayectoria directa y potente",
+        "Muy duradera"
+      ],
+      "cons": [
+        "Menos giro que Dignics 05",
+        "Precio elevado",
+        "Exige gestos técnicos rápidos"
+      ],
+      "imageUrl": "https://revspin.net/images/rubber/butterfly-dignics-64.jpg",
+      "sourceUrl": "https://revspin.net/rubber/butterfly-dignics-64.html",
+      "sourceName": "Revspin.net",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "90",
+        "spin": "79",
+        "control": "84",
+        "hardness": "40",
+        "color": "Negro / Rojo",
+        "surfaceType": "Pimples-In (Invertida)",
+        "technology": "High Tension, Spring Sponge X"
+      },
+      "scale": null
+    },
+    {
+      "name": "Glayzer",
+      "brand": "Butterfly",
+      "speed": 81,
+      "speedScale": null,
+      "spin": 73,
+      "control": 82,
+      "thickness": null,
+      "hardness": 38,
+      "weight": null,
+      "color": "Negro / Rojo",
+      "tackiness": "Ligeramente pegajosa",
+      "surfaceType": "Pimples-In (Invertida)",
+      "technology": "High Tension, Spring Sponge X",
+      "summary": "Goma de gama media con Spring Sponge X: gran facilidad y control a un precio inferior a Tenergy/Dignics. Ideal para club y nivel intermedio.",
+      "description": "Spring Sponge X (38°) con topsheet de alta tensión. Aporta velocidad y giro sólidos con un control muy bueno, siendo una puerta de entrada accesible al rendimiento Butterfly a un coste menor que la serie Tenergy.",
+      "pros": [
+        "Excelente relación precio/rendimiento",
+        "Muy fácil de controlar",
+        "Topsheet de alta tensión"
+      ],
+      "cons": [
+        "Menos velocidad y giro que Tenergy",
+        "Peso medio-alto"
+      ],
+      "imageUrl": "https://revspin.net/images/rubber/butterfly-glayzer.jpg",
+      "sourceUrl": "https://revspin.net/rubber/butterfly-glayzer.html",
+      "sourceName": "Revspin.net",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "81",
+        "spin": "73",
+        "control": "82",
+        "hardness": "38",
+        "color": "Negro / Rojo",
+        "tackiness": "Ligeramente pegajosa",
+        "surfaceType": "Pimples-In (Invertida)",
+        "technology": "High Tension, Spring Sponge X"
+      },
+      "scale": null
+    },
+    {
+      "name": "Glayzer 09C",
+      "brand": "Butterfly",
+      "speed": 75,
+      "speedScale": null,
+      "spin": 87,
+      "control": null,
+      "thickness": "2.1 / 1.9 mm",
+      "hardness": 42,
+      "weight": null,
+      "color": "Negro / Rojo",
+      "tackiness": "Pegajosa (tacky)",
+      "surfaceType": "Pimples-In (Invertida)",
+      "technology": "High Tension, Spring Sponge X",
+      "summary": "Versión pegajosa de la Glayzer con topsheet de fricción y Spring Sponge X (42°): giro potente y juego fácil sobre la mesa.",
+      "description": "Topsheet de fricción tipo tacky con efecto High Tension y Spring Sponge X (42°). Genera un giro potente con trayectoria estable y facilita las técnicas sobre la mesa, apuntando a un rango de jugadores más amplio que la Dignics 09C.",
+      "pros": [
+        "Topsheet pegajoso de alto giro",
+        "Spring Sponge X fácil de jugar",
+        "Trayectoria estable y control alto"
+      ],
+      "cons": [
+        "Menos velocidad que otras ofensivas",
+        "Precio algo elevado para gama media"
+      ],
+      "imageUrl": "https://revspin.net/images/rubber/butterfly-glayzer-09c.jpg",
+      "sourceUrl": "https://www.butterfly-global.com/en/products/detail/06110.html",
+      "sourceName": "Butterfly Global",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "75",
+        "spin": "87",
+        "thickness": "2.1 / 1.9 mm",
+        "hardness": "42",
+        "color": "Negro / Rojo",
+        "tackiness": "Pegajosa (tacky)",
+        "surfaceType": "Pimples-In (Invertida)",
+        "technology": "High Tension, Spring Sponge X"
+      },
+      "scale": null
+    },
+    {
+      "name": "Rozena",
+      "brand": "Butterfly",
+      "speed": 83,
+      "speedScale": null,
+      "spin": 70,
+      "control": 75,
+      "thickness": null,
+      "hardness": 35,
+      "weight": null,
+      "color": "Negro / Rojo",
+      "tackiness": "Ligeramente pegajosa",
+      "surfaceType": "Pimples-In (Invertida)",
+      "technology": "Spring Sponge",
+      "summary": "Goma de gama media-alta con Spring Sponge: control y consistencia excelentes a un precio accesible. Alternativa económica a Tenergy.",
+      "description": "Spring Sponge (35°) con topsheet de alta tensión propio. Prioriza la tolerancia y la estabilidad, compensando errores de ángulo y dirección. Su control y consistencia la hacen recomendable para jugadores intermedios y avanzados.",
+      "pros": [
+        "Excelente control y consistencia",
+        "Muy tolerante a errores",
+        "Precio accesible frente a Tenergy"
+      ],
+      "cons": [
+        "Menos velocidad y giro que Tenergy",
+        "Durabilidad media"
+      ],
+      "imageUrl": "https://revspin.net/images/rubber/butterfly-rozena.jpg",
+      "sourceUrl": "https://revspin.net/rubber/butterfly-rozena.html",
+      "sourceName": "Revspin.net",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "83",
+        "spin": "70",
+        "control": "75",
+        "hardness": "35",
+        "color": "Negro / Rojo",
+        "tackiness": "Ligeramente pegajosa",
+        "surfaceType": "Pimples-In (Invertida)",
+        "technology": "Spring Sponge"
+      },
+      "scale": null
+    },
+    {
+      "name": "Hurricane 3 Provincial",
+      "brand": "DHS",
+      "speed": 8.4,
+      "speedScale": "0-10",
+      "spin": 9.6,
+      "control": 8.5,
+      "thickness": 2.15,
+      "hardness": 40,
+      "weight": null,
+      "color": "Negro / Rojo",
+      "tackiness": "Muy pegajosa",
+      "surfaceType": "Lisa (invertida)",
+      "technology": "Top sheet pegajoso y esponja naranja (#20) de alta densidad, calidad provincial. Se recomienda boosting para alcanzar su máximo potencial.",
+      "summary": "Versión provincial del clásico Hurricane 3: máximo control, giro muy alto y una esponja densa y pegajosa para jugadores de alto nivel.",
+      "description": "Es una versión de mayor calidad del Hurricane 3, orientada a jugadores que buscan un arma extrema. Reduce la pesadez en los golpes, produce arcos más largos para mejor control y permite ataques rápidos y topspin potente incluso cerca de la mesa. Desde 2000 es la goma preferida de jugadores profesionales. Requiere boosting para liberar todo su potencial.",
+      "pros": [
+        "Control excelente en juego corto",
+        "Giro muy alto con técnica de cepillado",
+        "Arcos largos y buena retención de la bola",
+        "Calidad premium de selección provincial"
+      ],
+      "cons": [
+        "Velocidad media, requiere mucha potencia propia",
+        "Necesita boosting para su máximo rendimiento",
+        "Muy pegajosa y relativamente pesada"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_dhs-h3-p-40.jpg",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=dhs-h3-p-40",
+      "sourceName": "Megaspin / Revspin",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "8.4",
+        "spin": "9.6",
+        "control": "8.5",
+        "thickness": "2.15",
+        "hardness": "40",
+        "color": "Negro / Rojo",
+        "tackiness": "Muy pegajosa",
+        "surfaceType": "Lisa (invertida)",
+        "technology": "Top sheet pegajoso y esponja naranja (#20) de alta densidad, calidad provincial. Se recomienda boosting para alcanzar su máximo potencial."
+      },
+      "scale": {
+        "speed": "0-10"
+      }
+    },
+    {
+      "name": "Hurricane 3-50",
+      "brand": "DHS",
+      "speed": 86,
+      "speedScale": "0-100",
+      "spin": 92,
+      "control": 73,
+      "thickness": 2.1,
+      "hardness": 37,
+      "weight": null,
+      "color": "Negro / Rojo",
+      "tackiness": "Pegajosa",
+      "surfaceType": "Lisa (invertida)",
+      "technology": "Combinación de top sheet pegajoso con esponja elástica; equilibrio entre giro por fricción y golpeo directo potente. Estilo moderno de giro e impacto.",
+      "summary": "Mezcla de goma pegajosa con esponja elástica: buen giro y golpeo directo potente para un estilo moderno de giro e impacto.",
+      "description": "Diseñada para un estilo de juego moderno de giro e impacto, la Hurricane 3-50 ofrece el equilibrio perfecto entre generación de giro por fricción y golpeo directo potente. Integra un top sheet pegajoso con una esponja elástica para producir fuerte giro y velocidad.",
+      "pros": [
+        "Equilibrio entre giro y potencia",
+        "Esponja más elástica que la H3 clásica",
+        "Ataques y loops potentes"
+      ],
+      "cons": [
+        "Control algo inferior a la H3 clásica",
+        "Exige técnica de golpeo activa"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_dhs-h3-50-mid.jpg",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=dhs-h3-50-mid",
+      "sourceName": "Megaspin",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "86",
+        "spin": "92",
+        "control": "73",
+        "thickness": "2.1",
+        "hardness": "37",
+        "color": "Negro / Rojo",
+        "tackiness": "Pegajosa",
+        "surfaceType": "Lisa (invertida)",
+        "technology": "Combinación de top sheet pegajoso con esponja elástica; equilibrio entre giro por fricción y golpeo directo potente. Estilo moderno de giro e impacto."
+      },
+      "scale": {
+        "speed": "0-100"
+      }
+    },
+    {
+      "name": "Hurricane 8-80",
+      "brand": "DHS",
+      "speed": 92,
+      "speedScale": "0-100",
+      "spin": 96,
+      "control": 73,
+      "thickness": 2.1,
+      "hardness": 38,
+      "weight": null,
+      "color": "Negro / Rojo",
+      "tackiness": "Pegajosa",
+      "surfaceType": "Lisa (invertida)",
+      "technology": "Top sheet pegajoso sobre esponja media-dura, más ligera y resiliente. Híbrida, pensada para la pelota 40+ tanto en drive como en revés.",
+      "summary": "Híbrida pegajosa de la serie Hurricane con excelente velocidad y giro, más ligera y resiliente, ideal para drive y revés con pelota 40+.",
+      "description": "Mantiene el giro único de la serie Hurricane y alcanza excelente velocidad y elasticidad incluso a potencia baja y media. Más ligera y resiliente, es adecuada tanto para drive como para revés, diseñada específicamente para la pelota plástica 40+.",
+      "pros": [
+        "Alta velocidad y mucho giro",
+        "Muy buena para revés híbrido",
+        "Eficaz a baja y media potencia",
+        "Más ligera que las Hurricane clásicas"
+      ],
+      "cons": [
+        "Control medio",
+        "Top sheet pegajoso exige buen cepillado"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_dhs-hurricane-8-80-38.jpg",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=dhs-hurricane-8-80-38",
+      "sourceName": "Megaspin",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "92",
+        "spin": "96",
+        "control": "73",
+        "thickness": "2.1",
+        "hardness": "38",
+        "color": "Negro / Rojo",
+        "tackiness": "Pegajosa",
+        "surfaceType": "Lisa (invertida)",
+        "technology": "Top sheet pegajoso sobre esponja media-dura, más ligera y resiliente. Híbrida, pensada para la pelota 40+ tanto en drive como en revés."
+      },
+      "scale": {
+        "speed": "0-100"
+      }
+    },
+    {
+      "name": "Skyline 2",
+      "brand": "DHS",
+      "speed": 8.2,
+      "speedScale": "0-10",
+      "spin": 10.0,
+      "control": 9.6,
+      "thickness": 2.15,
+      "hardness": null,
+      "weight": null,
+      "color": "Negro / Rojo",
+      "tackiness": "Muy pegajosa",
+      "surfaceType": "Lisa (invertida)",
+      "technology": "Top sheet muy pegajoso con esponja media-dura; combinación de coloide con acritud y glutinosidad que genera un giro potente y cambiante.",
+      "summary": "Goma china clásica muy pegajosa para topspin agresivo, con control sobresaliente en juego corto y bloqueos; fue la goma de Wang Hao.",
+      "description": "Desarrollo de los expertos de DHS, ideal para jugadores que presionan con topspin potente. Su superficie muy pegajosa y esponja media-dura entregan enorme giro y control sobresaliente en juego corto y bloqueo. Fue la elección del multicampeón mundial Wang Hao.",
+      "pros": [
+        "Giro enorme por superficie muy pegajosa",
+        "Control sobresaliente en juego corto y bloqueos",
+        "Excelente para servicio y juego de colocación",
+        "Lineal: velocidad según tu esfuerzo"
+      ],
+      "cons": [
+        "Muy pegajosa y pesada",
+        "Exige gran esfuerzo físico para generar velocidad",
+        "Requiere horas de adaptación"
+      ],
+      "imageUrl": "https://static.tabletennis11.com/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/9/4/9417_9417_5d43fc09bba1d4_78939598_DHS-Skyline-2-Rubber-Table-Tennis-Ping-Pong_jpg_1.jpg",
+      "sourceUrl": "https://dhs-tt.com/dhs_en/dhs-skyline-2",
+      "sourceName": "Tabletennis11 / Pingis",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "8.2",
+        "spin": "10.0",
+        "control": "9.6",
+        "thickness": "2.15",
+        "color": "Negro / Rojo",
+        "tackiness": "Muy pegajosa",
+        "surfaceType": "Lisa (invertida)",
+        "technology": "Top sheet muy pegajoso con esponja media-dura; combinación de coloide con acritud y glutinosidad que genera un giro potente y cambiante."
+      },
+      "scale": {
+        "speed": "0-10"
+      }
+    },
+    {
+      "name": "Skyline 3",
+      "brand": "DHS",
+      "speed": 83,
+      "speedScale": "0-100",
+      "spin": 90,
+      "control": 75,
+      "thickness": 2.15,
+      "hardness": 39,
+      "weight": null,
+      "color": "Negro / Rojo",
+      "tackiness": "Pegajosa",
+      "surfaceType": "Lisa (invertida)",
+      "technology": "Técnica nueva con esponja que vuelve rápido a su forma original para ataques continuos de loop; coloide con flexibilidad y glutinosidad.",
+      "summary": "Goma pegajosa de ataque rápido y continuo; su esponja recupera la forma al instante para sostener loops en cadena.",
+      "description": "Fast, continua y densa: Skyline 3 ofrece un poder de ataque más rápido con loop drive. La deformación de la esponja vuelve a su forma original rápidamente para sostener ataques continuos de loop, manteniendo presión constante sobre el rival. Combina flexibilidad y glutinosidad con trayectoria de loop baja y penetrante.",
+      "pros": [
+        "Ataques continuos de loop muy rápidos",
+        "Gran giro",
+        "Buen control en bloqueo y juego corto",
+        "Muy versátil para drive y revés"
+      ],
+      "cons": [
+        "Exige buena técnica de cepillado",
+        "Pegajosa: velocidad depende de tu esfuerzo"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_dhs-skyline-3-39.jpg",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=dhs-skyline-3-39",
+      "sourceName": "Megaspin",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "83",
+        "spin": "90",
+        "control": "75",
+        "thickness": "2.15",
+        "hardness": "39",
+        "color": "Negro / Rojo",
+        "tackiness": "Pegajosa",
+        "surfaceType": "Lisa (invertida)",
+        "technology": "Técnica nueva con esponja que vuelve rápido a su forma original para ataques continuos de loop; coloide con flexibilidad y glutinosidad."
+      },
+      "scale": {
+        "speed": "0-100"
+      }
+    },
+    {
+      "name": "G666",
+      "brand": "DHS",
+      "speed": 7.7,
+      "speedScale": "0-10",
+      "spin": 9.1,
+      "control": 9.0,
+      "thickness": 2.15,
+      "hardness": 40,
+      "weight": null,
+      "color": "Negro / Rojo",
+      "tackiness": "Pegajosa",
+      "surfaceType": "Lisa (invertida)",
+      "technology": "Top sheet pegajoso de estructura molecular especial que mantiene la adherencia; esponja flexible especial que crea un óptimo momento de fricción en el contacto.",
+      "summary": "Goma china pegajosa de gran control, ideal para topspin controlado y variado desde media distancia o cerca de la mesa.",
+      "description": "Su top sheet pegajoso conserva la adherencia por largo tiempo gracias a su estructura molecular especial. Combinada con una esponja flexible, permite colocar la bola con precisión y variar velocidad y giro atacando cerca de la mesa o desde media distancia. La nueva G666 es especialmente apta para topspin controlado y variado.",
+      "pros": [
+        "Excelente control",
+        "Giro alto",
+        "Precisión en colocación",
+        "Perfecta para topspin controlado y variado"
+      ],
+      "cons": [
+        "Velocidad media-baja",
+        "Depende del esfuerzo del jugador para la velocidad"
+      ],
+      "imageUrl": "https://static.tabletennis11.com/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/9/4/9482_6IJzDLgOHKZQ_jpg.jpg",
+      "sourceUrl": "https://dhs-tt.com/dhs_en/dhs-g666",
+      "sourceName": "Tabletennis11 / Revspin",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "7.7",
+        "spin": "9.1",
+        "control": "9.0",
+        "thickness": "2.15",
+        "hardness": "40",
+        "color": "Negro / Rojo",
+        "tackiness": "Pegajosa",
+        "surfaceType": "Lisa (invertida)",
+        "technology": "Top sheet pegajoso de estructura molecular especial que mantiene la adherencia; esponja flexible especial que crea un óptimo momento de fricción en el contacto."
+      },
+      "scale": {
+        "speed": "0-10"
+      }
+    },
+    {
+      "name": "PF4-50",
+      "brand": "DHS",
+      "speed": 6.3,
+      "speedScale": "0-10",
+      "spin": 7.7,
+      "control": 9.0,
+      "thickness": 2.1,
+      "hardness": null,
+      "weight": 46,
+      "color": "Negro / Rojo",
+      "tackiness": "Medio pegajosa",
+      "surfaceType": "Lisa (invertida)",
+      "technology": "Versión más ligera del clásico PF4 con esponja ligera y elástica, más suave y fácil de comprimir para iniciarse en gomas chinas pegajosas.",
+      "summary": "Versión más ligera del clásico PF4: esponja elástica y suave, ideal para iniciarse en gomas chinas pegajosas sin una esponja muy dura.",
+      "description": "Una versión más ligera del clásico PF4. Equipada con una esponja ligera y elástica, resulta atractiva para quienes quieren probar una goma china pegajosa sin la incomodidad de una esponja muy dura. Ofrece muy buen control para aprender los golpes con buena colocación de la bola.",
+      "pros": [
+        "Excelente control para principiantes",
+        "Esponja ligera y elástica, fácil de comprimir",
+        "Precio muy accesible",
+        "Buen punto de entrada a las gomas chinas"
+      ],
+      "cons": [
+        "Velocidad baja y poca chispa",
+        "Giro limitado",
+        "Adherencia que se reduce tras varias sesiones"
+      ],
+      "imageUrl": "https://static.tabletennis11.com/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/2/3/23121_23121_5f6dc345eaedf7_18046018_PF-4-50_jpg_1.jpg",
+      "sourceUrl": "https://dhs-tt.com/dhs_en/dhs-pf4-50",
+      "sourceName": "Tabletennis11 / Revspin",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "6.3",
+        "spin": "7.7",
+        "control": "9.0",
+        "thickness": "2.1",
+        "weight": "46",
+        "color": "Negro / Rojo",
+        "tackiness": "Medio pegajosa",
+        "surfaceType": "Lisa (invertida)",
+        "technology": "Versión más ligera del clásico PF4 con esponja ligera y elástica, más suave y fácil de comprimir para iniciarse en gomas chinas pegajosas."
+      },
+      "scale": {
+        "speed": "0-10"
+      }
+    },
+    {
+      "name": "Tin Arc 5",
+      "brand": "DHS",
+      "speed": 8.6,
+      "speedScale": "0-10",
+      "spin": 8.9,
+      "control": 9.0,
+      "thickness": 2.1,
+      "hardness": null,
+      "weight": null,
+      "color": "Negro / Rojo",
+      "tackiness": "Ligeramente pegajosa",
+      "surfaceType": "Lisa (invertida)",
+      "technology": "Top sheet muy elástico con pimple grueso bajo la superficie y esponja suave con tecnología MACRO-CELL de alta elasticidad; diseñada para potenciar la velocidad de la pelota 40+.",
+      "summary": "Goma de control y giro con esponja suave y top sheet elástico que da gran potencia con poco esfuerzo, pensada para la pelota plástica 40+.",
+      "description": "TinArc 5 combina gran sensación con golpes elásticos potentes. La bola se absorbe y penetra fácilmente, ideal para loops rápidos, manejo de la bola cerca de la red y juego lejos de la mesa. Su esponja suave y top sheet elástico, con la tecnología MACRO-CELL de alta elasticidad, entregan gran potencia con mínimo esfuerzo y compensan la falta de velocidad y rotación de las pelotas plásticas 40+.",
+      "pros": [
+        "Sensación y control excelentes",
+        "Gran potencia con poco esfuerzo",
+        "Loops rápidos y consistencia en rallies",
+        "Equilibrio entre giro y velocidad"
+      ],
+      "cons": [
+        "Se siente algo muerta en juego pasivo",
+        "Exige golpes activos para despertar la esponja"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_dhs-tinarc-5-med.jpg",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=dhs-tinarc-5-med",
+      "sourceName": "Megaspin / Revspin",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "8.6",
+        "spin": "8.9",
+        "control": "9.0",
+        "thickness": "2.1",
+        "color": "Negro / Rojo",
+        "tackiness": "Ligeramente pegajosa",
+        "surfaceType": "Lisa (invertida)",
+        "technology": "Top sheet muy elástico con pimple grueso bajo la superficie y esponja suave con tecnología MACRO-CELL de alta elasticidad; diseñada para potenciar la velocidad de la pelota 40+."
+      },
+      "scale": {
+        "speed": "0-10"
+      }
+    },
+    {
+      "name": "Hurricane 3 NEO Blue Sponge",
+      "brand": "DHS",
+      "speed": 8.4,
+      "speedScale": "0-10",
+      "spin": 9.6,
+      "control": 8.5,
+      "thickness": 2.15,
+      "hardness": 40,
+      "weight": null,
+      "color": "Negro / Rojo",
+      "tackiness": "Muy pegajosa",
+      "surfaceType": "Lisa (invertida)",
+      "technology": "Top sheet pegajoso NEO pre-tuneado sobre esponja azul de calidad provincial; incremento notable de giro, control y velocidad frente a la H3 NEO comercial.",
+      "summary": "Versión provincial con esponja azul de la H3 NEO: giro, control y velocidad amplificados para jugadores de alto nivel.",
+      "description": "Versión de mayor calidad de la Hurricane 3 NEO con esponja azul provincial. Con esta versión de esponja azul se espera un aumento dramático de giro, control y velocidad: todo lo que disfrutas de la H3 NEO original amplificado en gran medida. Es una de las gomas favoritas de los profesionales para el drive.",
+      "pros": [
+        "Giro, control y velocidad superiores",
+        "Top sheet NEO pre-tuneado listo para jugar",
+        "Adherencia muy alta",
+        "Elección de muchos profesionales"
+      ],
+      "cons": [
+        "Precio elevado",
+        "Muy pegajosa y exige buena técnica",
+        "Requiere boosting para el máximo nivel"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_dhs-h3-neo-prov-blue-40.jpg",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=dhs-h3-neo-prov-blue-40",
+      "sourceName": "Megaspin / Revspin",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "8.4",
+        "spin": "9.6",
+        "control": "8.5",
+        "thickness": "2.15",
+        "hardness": "40",
+        "color": "Negro / Rojo",
+        "tackiness": "Muy pegajosa",
+        "surfaceType": "Lisa (invertida)",
+        "technology": "Top sheet pegajoso NEO pre-tuneado sobre esponja azul de calidad provincial; incremento notable de giro, control y velocidad frente a la H3 NEO comercial."
+      },
+      "scale": {
+        "speed": "0-10"
+      }
+    },
+    {
+      "name": "Gold Arc 8",
+      "brand": "DHS",
+      "speed": 93,
+      "speedScale": "0-100",
+      "spin": 94,
+      "control": 69,
+      "thickness": 2.1,
+      "hardness": 47.5,
+      "weight": null,
+      "color": "Negro / Rojo",
+      "tackiness": "No pegajosa",
+      "surfaceType": "Lisa (invertida)",
+      "technology": "Tensor no pegajoso fabricado en Alemania (dureza estándar Shore C 47.5), top sheet altamente tensionado y esponja densa de poros grandes para máxima elasticidad y reserva de potencia.",
+      "summary": "Tensor híbrido de gama alta, no pegajoso, con altísima velocidad y giro; equilibrado para drive y revés moderno.",
+      "description": "Goma tensora no pegajosa fabricada en Alemania, diseñada para rendir como una hoja ofensiva de alta gama. Su top sheet altamente tensionado genera potencia y fricción con facilidad, y su esponja densa de poros grandes ofrece excelente elasticidad y reserva de potencia. Equilibra velocidad, giro y control, apta tanto para drive como para revés de jugadores agresivos.",
+      "pros": [
+        "Velocidad y giro muy altos",
+        "Bloqueo superb con su dureza y ángulo de expulsión",
+        "Versátil para drive y revés",
+        "Sensación moderna europea de tensor"
+      ],
+      "cons": [
+        "Control medio-bajo",
+        "Dureza Shore C alta (47.5) puede ser exigente"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_d-gold-arc-8.jpg",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=d-gold-arc-8",
+      "sourceName": "Megaspin",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "93",
+        "spin": "94",
+        "control": "69",
+        "thickness": "2.1",
+        "hardness": "47.5",
+        "color": "Negro / Rojo",
+        "tackiness": "No pegajosa",
+        "surfaceType": "Lisa (invertida)",
+        "technology": "Tensor no pegajoso fabricado en Alemania (dureza estándar Shore C 47.5), top sheet altamente tensionado y esponja densa de poros grandes para máxima elasticidad y reserva de potencia."
+      },
+      "scale": {
+        "speed": "0-100"
+      }
+    },
+    {
+      "name": "Rakza 7 Soft",
+      "brand": "Yasaka",
+      "speed": 87,
+      "speedScale": "Offensiva moderada",
+      "spin": 95,
+      "control": 71,
+      "thickness": "1.8 / 2.0 / Max",
+      "hardness": "37-42° (ESN ~40°)",
+      "weight": null,
+      "color": "Rojo, Negro",
+      "tackiness": "No pegajosa (agarre por fricción)",
+      "surfaceType": "Invertida (liso)",
+      "technology": "Misma superficie que Rakza 7 con esponja más blanda; efecto speed glue integrado",
+      "summary": "Goma ofensiva invertida con esponja blanda que mejora el control, la curva y la sensación en el juego corto, a costa de un poco de velocidad.",
+      "description": "La Rakza 7 Soft usa la misma superficie que la Rakza 7 pero con una esponja más blanda que aporta más sonido y efecto de speed glue integrado. Mejora el control y la sensación de la pelota, y tras golpear con top spin la curva es ligeramente más alta, dando más margen en el juego. Destaca por su dwell time y control en bloques y contraataques.",
+      "pros": [
+        "Excelente control y sensación",
+        "Mayor dwell time y generación de spin",
+        "Buena para juego corto y devolución de servicio",
+        "Ideal para revés y jugadores intermedios"
+      ],
+      "cons": [
+        "Menos velocidad que la Rakza 7 estándar",
+        "No tan explosiva en juego a media distancia"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_y-rakza-7-soft.jpg",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=y-rakza-7-soft",
+      "sourceName": "Megaspin",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "87",
+        "spin": "95",
+        "control": "71",
+        "thickness": "1.8 / 2.0 / Max",
+        "hardness": "37-42° (ESN ~40°)",
+        "color": "Rojo, Negro",
+        "tackiness": "No pegajosa (agarre por fricción)",
+        "surfaceType": "Invertida (liso)",
+        "technology": "Misma superficie que Rakza 7 con esponja más blanda; efecto speed glue integrado"
+      },
+      "scale": {
+        "speed": "Offensiva moderada"
+      }
+    },
+    {
+      "name": "Rakza 9",
+      "brand": "Yasaka",
+      "speed": 95,
+      "speedScale": "Offensiva alta",
+      "spin": 93,
+      "control": 69,
+      "thickness": "1.8 / 2.0 / Max",
+      "hardness": "42.5°",
+      "weight": null,
+      "color": "Rojo, Negro",
+      "tackiness": "No pegajosa (grip alto)",
+      "surfaceType": "Invertida (liso)",
+      "technology": "Hybrid Energy (nueva fórmula de superficie + esponja homogénea con poros grandes)",
+      "summary": "La goma más rápida de la serie Rakza Hybrid Energy, pensada para jugadores ofensivos técnicos que combinan alta velocidad y spin.",
+      "description": "La Rakza 9 presenta una fórmula de superficie recién desarrollada y una esponja más homogénea con poros mayores, lo que le da características de velocidad mejoradas. Es la más rápida de las gomas Hybrid Energy de Yasaka y ofrece un ángulo de lanzamiento más bajo que la Rakza 7, beneficioso para ataques directos y rápidos. Requiere contacto preciso por su arco bajo.",
+      "pros": [
+        "Alta velocidad y catapulta",
+        "Mucho spin y grip",
+        "Ideal para jugadores ofensivos técnicos"
+      ],
+      "cons": [
+        "Control moderado (60-69)",
+        "Arco bajo que exige contacto preciso",
+        "Requiere buen uso de piernas y cintura"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_y-rakza-9.jpg",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=y-rakza-9",
+      "sourceName": "Megaspin",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "95",
+        "spin": "93",
+        "control": "69",
+        "thickness": "1.8 / 2.0 / Max",
+        "hardness": "42.5°",
+        "color": "Rojo, Negro",
+        "tackiness": "No pegajosa (grip alto)",
+        "surfaceType": "Invertida (liso)",
+        "technology": "Hybrid Energy (nueva fórmula de superficie + esponja homogénea con poros grandes)"
+      },
+      "scale": {
+        "speed": "Offensiva alta"
+      }
+    },
+    {
+      "name": "Rakza X",
+      "brand": "Yasaka",
+      "speed": 96,
+      "speedScale": "Offensiva alta",
+      "spin": 95,
+      "control": 68,
+      "thickness": "1.8 / 2.0 / Max",
+      "hardness": "~47.5°",
+      "weight": null,
+      "color": "Rojo, Negro",
+      "tackiness": "No pegajosa (grip excepcional)",
+      "surfaceType": "Invertida (liso)",
+      "technology": "NSS (New Surface System) con superficie de caucho natural + esponja Power Sponge dura",
+      "summary": "Goma ofensiva de la serie Rakza con superficie de agarre excepcional y esponja dura que ofrece gran spin, velocidad y precisión.",
+      "description": "La Rakza X es la incorporación más reciente a la serie Rakza. Su superficie de caucho natural, fabricada con un nuevo método de producción (NSS), otorga un agarre excepcional que permite spin y velocidad fenomenales. Esta superficie se combina con una esponja Power Sponge más dura, lo que reduce el margen de error pero permite colocar la pelota con alta precisión.",
+      "pros": [
+        "Grip y spin excepcionales",
+        "Muy rápida",
+        "Precisión en la colocación de la pelota"
+      ],
+      "cons": [
+        "Esponja dura que exige técnica",
+        "Control moderado",
+        "Menos margen de error"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_y-rakza-x.jpg",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=y-rakza-x",
+      "sourceName": "Megaspin",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "96",
+        "spin": "95",
+        "control": "68",
+        "thickness": "1.8 / 2.0 / Max",
+        "hardness": "~47.5°",
+        "color": "Rojo, Negro",
+        "tackiness": "No pegajosa (grip excepcional)",
+        "surfaceType": "Invertida (liso)",
+        "technology": "NSS (New Surface System) con superficie de caucho natural + esponja Power Sponge dura"
+      },
+      "scale": {
+        "speed": "Offensiva alta"
+      }
+    },
+    {
+      "name": "Rakza X Soft",
+      "brand": "Yasaka",
+      "speed": 89,
+      "speedScale": "Offensiva moderada",
+      "spin": 96,
+      "control": 70,
+      "thickness": "1.8 / 2.0 / Max",
+      "hardness": "40-45° (ESN ~42.5°)",
+      "weight": null,
+      "color": "Rojo, Negro",
+      "tackiness": "No pegajosa (grip alto)",
+      "surfaceType": "Invertida (liso)",
+      "technology": "NSS (New Surface System) + esponja Feel Sponge blanda con buen efecto catapulta",
+      "summary": "Goma orientada al spin y al control con sensación blanda, combinando la superficie de alto agarre NSS con una esponja elástica.",
+      "description": "En la Rakza X Soft, la misma superficie de alto agarre NSS trabaja con una esponja Feel Sponge relativamente blanda con buen efecto catapulta. La combinación de esponja elástica y superficie de alto grip mejora la sensación y el control del juego. Está especialmente indicada para loopers y atacantes orientados al spin que buscan una sensación suave con excelente control.",
+      "pros": [
+        "Gran spin y control",
+        "Sensación suave y cómoda",
+        "Buen efecto catapulta",
+        "Recomendada para revés"
+      ],
+      "cons": [
+        "Requiere más esfuerzo físico para generar potencia",
+        "Menos velocidad que la Rakza X estándar"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_y-rakza-x-soft.jpg",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=y-rakza-x-soft",
+      "sourceName": "Megaspin",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "89",
+        "spin": "96",
+        "control": "70",
+        "thickness": "1.8 / 2.0 / Max",
+        "hardness": "40-45° (ESN ~42.5°)",
+        "color": "Rojo, Negro",
+        "tackiness": "No pegajosa (grip alto)",
+        "surfaceType": "Invertida (liso)",
+        "technology": "NSS (New Surface System) + esponja Feel Sponge blanda con buen efecto catapulta"
+      },
+      "scale": {
+        "speed": "Offensiva moderada"
+      }
+    },
+    {
+      "name": "Rakza PO",
+      "brand": "Yasaka",
+      "speed": 93,
+      "speedScale": "Offensiva (pips cortos)",
+      "spin": 70,
+      "control": 78,
+      "thickness": "2.0 / Max",
+      "hardness": null,
+      "weight": null,
+      "color": "Rojo, Negro",
+      "tackiness": "No pegajosa",
+      "surfaceType": "Pimples out (picos cortos / pips-out)",
+      "technology": "Hybrid Energy: superficie de goma natural con mayor agarre + esponja Power Sponge",
+      "summary": "Goma de picos cortos con capacidad de spin aumentada, gracias a la geometría de los picos y al uso de más goma natural.",
+      "description": "La Rakza PO es una goma de picos cortos (short pips-out) con una superficie recién desarrollada hecha principalmente de goma natural, lo que mejora drásticamente el agarre y el poder de spin. Su superficie se combina con la nueva esponja Power Sponge, logrando el efecto Hybrid Energy. La geometría de los picos y la mayor goma natural aumentan la capacidad de spin.",
+      "pros": [
+        "Spin aumentado para picos cortos",
+        "Alta velocidad",
+        "Buen control en juego rápido"
+      ],
+      "cons": [
+        "Menos spin que una invertida",
+        "Requiere técnica de pips-out"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_y-rakza-po.jpg",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=y-rakza-po",
+      "sourceName": "Megaspin",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "93",
+        "spin": "70",
+        "control": "78",
+        "thickness": "2.0 / Max",
+        "color": "Rojo, Negro",
+        "tackiness": "No pegajosa",
+        "surfaceType": "Pimples out (picos cortos / pips-out)",
+        "technology": "Hybrid Energy: superficie de goma natural con mayor agarre + esponja Power Sponge"
+      },
+      "scale": {
+        "speed": "Offensiva (pips cortos)"
+      }
+    },
+    {
+      "name": "Rising Dragon",
+      "brand": "Yasaka",
+      "speed": 92,
+      "speedScale": "Offensiva",
+      "spin": 98,
+      "control": 97,
+      "thickness": "2.0 / Max",
+      "hardness": null,
+      "weight": null,
+      "color": "Rojo, Negro",
+      "tackiness": "Pegajosa (superficie sticky estilo chino)",
+      "surfaceType": "Invertida (liso)",
+      "technology": "Superficie pegajosa estilo chino combinada con tecnología japonesa de velocidad y tacto",
+      "summary": "Goma que combina la superficie pegajosa china con la velocidad y el tacto japoneses, ideal para spin máximo con buen control.",
+      "description": "Con Rising Dragon, Yasaka combina las ventajas de la superficie pegajosa china con las reconocidas cualidades de velocidad y tacto de la tecnología japonesa. Ofrece spin máximo con buena velocidad y un control sorprendente. Facilita tanto cortes (chops) precisos como drives potentes con buen control, siendo adecuada para jugadores de nivel intermedio a avanzado que buscan un estilo agresivo pero adaptable.",
+      "pros": [
+        "Spin máximo",
+        "Alto control",
+        "Buena velocidad",
+        "Versátil para chop y drive"
+      ],
+      "cons": [
+        "Menos ideal para quien evita gomas de estilo chino"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_y-rising-dragon.jpg",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=y-rising-dragon",
+      "sourceName": "Megaspin",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "92",
+        "spin": "98",
+        "control": "97",
+        "thickness": "2.0 / Max",
+        "color": "Rojo, Negro",
+        "tackiness": "Pegajosa (superficie sticky estilo chino)",
+        "surfaceType": "Invertida (liso)",
+        "technology": "Superficie pegajosa estilo chino combinada con tecnología japonesa de velocidad y tacto"
+      },
+      "scale": {
+        "speed": "Offensiva"
+      }
+    },
+    {
+      "name": "Mark V",
+      "brand": "Yasaka",
+      "speed": 80,
+      "speedScale": "Allround",
+      "spin": 80,
+      "control": 79,
+      "thickness": "1.0 / 1.5 / 1.8 / 2.0 / Max",
+      "hardness": "~42.5° (medium-hard)",
+      "weight": null,
+      "color": "Rojo, Negro",
+      "tackiness": "No pegajosa (grip)",
+      "surfaceType": "Invertida (liso)",
+      "technology": "Goma clásica invertida (desde 1969), mezcla de caucho natural y sintético, sin tensor",
+      "summary": "La goma invertida clásica de Yasaka, legendaria por su control y consistencia, equilibrada para todo tipo de juego.",
+      "description": "La Mark V es una de las primeras gomas que mezcló caucho natural y sintético y lleva más de dos décadas usándose en el máximo nivel. Es una goma clásica, no pegajosa y de agarre, con esponja medium-hard (~42.5°) que ofrece un control y consistencia excepcionales. Genera un arco medio-alto y un juego lineal y predecible, excelente para jugadores en desarrollo. No está diseñada para la velocidad explosiva de los tensores modernos.",
+      "pros": [
+        "Control excepcional y consistencia",
+        "Feel y sensación excelentes",
+        "Lineal y predecible, ideal para aprender",
+        "Insensible a spins entrantes"
+      ],
+      "cons": [
+        "Menos velocidad que los tensores modernos",
+        "Menos spin por estándares actuales",
+        "Rinde mejor con speed glue"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_y-markv.jpg",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=y-markv",
+      "sourceName": "Megaspin",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "80",
+        "spin": "80",
+        "control": "79",
+        "thickness": "1.0 / 1.5 / 1.8 / 2.0 / Max",
+        "hardness": "~42.5° (medium-hard)",
+        "color": "Rojo, Negro",
+        "tackiness": "No pegajosa (grip)",
+        "surfaceType": "Invertida (liso)",
+        "technology": "Goma clásica invertida (desde 1969), mezcla de caucho natural y sintético, sin tensor"
+      },
+      "scale": {
+        "speed": "Allround"
+      }
+    },
+    {
+      "name": "Mark V GPS",
+      "brand": "Yasaka",
+      "speed": 7.5,
+      "speedScale": "Allround / control",
+      "spin": 7.9,
+      "control": 8.3,
+      "thickness": null,
+      "hardness": "Blanda-media (medium soft, ~38-40°)",
+      "weight": null,
+      "color": "Rojo, Negro",
+      "tackiness": "Mediamente pegajosa (medium tacky)",
+      "surfaceType": "Invertida (liso)",
+      "technology": "Variante blanda de la goma clásica Mark V",
+      "summary": "Versión blanda de la clásica Mark V que genera un poco más de spin gracias a su esponja más suave, a cambio de algo de velocidad.",
+      "description": "La Mark V GPS es una variante de la legendaria Mark V con una esponja más blanda que produce algo más de spin que la Mark V regular, aunque es ligeramente más lenta. Ofrece excelente control y precisión, con un tacto jugable y estable (sin el carácter impredecible de muchos tensores). Bien balanceada para juego ofensivo controlado, contraataques precisos y golpes defensivos fiables.",
+      "pros": [
+        "Excelente control y precisión",
+        "Buen spin para goma clásica",
+        "Juego estable y predecible",
+        "Tacto agradable"
+      ],
+      "cons": [
+        "Más lenta que la Mark V estándar",
+        "Sin la velocidad explosiva de un tensor moderno"
+      ],
+      "imageUrl": "https://revspin.net/assets/table-tennis-images/rubbers/yasaka-mark-v-gps.jpg",
+      "sourceUrl": "https://revspin.net/rubber/yasaka-mark-v-gps.html",
+      "sourceName": "Revspin",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "7.5",
+        "spin": "7.9",
+        "control": "8.3",
+        "hardness": "Blanda-media (medium soft, ~38-40°)",
+        "color": "Rojo, Negro",
+        "tackiness": "Mediamente pegajosa (medium tacky)",
+        "surfaceType": "Invertida (liso)",
+        "technology": "Variante blanda de la goma clásica Mark V"
+      },
+      "scale": {
+        "speed": "Allround / control"
+      }
+    },
+    {
+      "name": "Original Extra HG (XHG)",
+      "brand": "Yasaka",
+      "speed": 7.3,
+      "speedScale": "Control",
+      "spin": 7.7,
+      "control": 8.4,
+      "thickness": null,
+      "hardness": "~37.5°",
+      "weight": null,
+      "color": "Rojo, Negro",
+      "tackiness": "No pegajosa (grip)",
+      "surfaceType": "Invertida (liso)",
+      "technology": "Goma clásica de control, apta para métodos de juego modernos",
+      "summary": "Goma clásica muy apreciada por su control y durabilidad, ideal para aprender y para jugadores que priorizan la precisión.",
+      "description": "La Original Extra HG es adecuada para métodos modernos de juego, permitiendo variar ataque y defensa con gran variedad de spin y potencia. Altamente valorada como goma amigable para principiantes, con control y durabilidad muy bien recibidos, aunque su velocidad y spin limitados hacen que jugadores de nivel medio recomienden subir a gomas superiores. Excelente para aprender técnicas.",
+      "pros": [
+        "Excelente control (8.4)",
+        "Apta para principiantes",
+        "Buena durabilidad",
+        "Ideal para aprender técnicas"
+      ],
+      "cons": [
+        "Velocidad y spin limitados",
+        "Se queda corta conforme mejora el nivel"
+      ],
+      "imageUrl": "https://revspin.net/assets/table-tennis-images/rubbers/yasaka-original-extra-xhg.jpg",
+      "sourceUrl": "https://revspin.net/rubber/yasaka-original-extra-xhg.html",
+      "sourceName": "Revspin",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "7.3",
+        "spin": "7.7",
+        "control": "8.4",
+        "hardness": "~37.5°",
+        "color": "Rojo, Negro",
+        "tackiness": "No pegajosa (grip)",
+        "surfaceType": "Invertida (liso)",
+        "technology": "Goma clásica de control, apta para métodos de juego modernos"
+      },
+      "scale": {
+        "speed": "Control"
+      }
+    },
+    {
+      "name": "Donic Acuda S1",
+      "brand": "Donic",
+      "speed": 95,
+      "speedScale": "0-100",
+      "spin": 92,
+      "control": 69,
+      "thickness": "1.8 / 2.0 / MAX",
+      "hardness": "Medium-hard sponge (47.5° ESN)",
+      "weight": null,
+      "color": "Rojo / Negro",
+      "tackiness": "No tacky (anti-adherente)",
+      "surfaceType": "Invertido (pips hacia dentro)",
+      "technology": "Tensor — Formula DONIC 3rd Generation (FD3); goma ofensiva de alto rendimiento de dureza media-alta optimizada para el giro.",
+      "summary": "Goma ofensiva rápida con excelente giro, dureza media-alta y muy buen control, ideal para jugadores agresivos de primera bola.",
+      "description": "La Acuda S1 es una goma invertida de alto rendimiento, muy rápida y con sobresalientes cualidades de giro. Con su esponja de dureza media-alta permite jugar loop sobre loop como en la época del pegado rápido, tanto cerca como lejos de la mesa. Ofrece un excelente toque y precisión, resultado de la tecnología Formula DONIC de 3ª generación que compensa la prohibición del pegado rápido. Orientada a jugadores ofensivos agresivos que dominan cerca de la mesa y golpean la bola con fuerza.",
+      "pros": [
+        "Muy rápida y con gran capacidad de giro",
+        "Excelente toque y precisión",
+        "Buen control para su velocidad",
+        "Trayectoria de bola potente y estable"
+      ],
+      "cons": [
+        "Requiere buen nivel técnico para dominarla",
+        "No es la más controladora de la serie",
+        "Menos indicada para juego pasivo o defensivo"
+      ],
+      "imageUrl": "https://www.donic.com/media/bc/8c/67/1783410370/donic-rubber-acuda-s1-3d-diagonal.jpg",
+      "sourceUrl": "https://www.donic.com/en/DONIC-ACUDA-S1/000207120",
+      "sourceName": "Donic",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "95",
+        "spin": "92",
+        "control": "69",
+        "thickness": "1.8 / 2.0 / MAX",
+        "hardness": "Medium-hard sponge (47.5° ESN)",
+        "color": "Rojo / Negro",
+        "tackiness": "No tacky (anti-adherente)",
+        "surfaceType": "Invertido (pips hacia dentro)",
+        "technology": "Tensor — Formula DONIC 3rd Generation (FD3); goma ofensiva de alto rendimiento de dureza media-alta optimizada para el giro."
+      },
+      "scale": {
+        "speed": "0-100"
+      }
+    },
+    {
+      "name": "Donic Acuda S2",
+      "brand": "Donic",
+      "speed": 90,
+      "speedScale": "0-100",
+      "spin": 93,
+      "control": 70,
+      "thickness": "1.8 / 2.0 / MAX",
+      "hardness": "Medium sponge (42.5° ESN)",
+      "weight": null,
+      "color": "Rojo / Negro",
+      "tackiness": "No tacky (anti-adherente)",
+      "surfaceType": "Invertido (pips hacia dentro)",
+      "technology": "Tensor — Formula DONIC 3rd Generation (FD3); esponja media de poro grande y abierto.",
+      "summary": "Goma rápida de esponja media, muy precisa y con gran giro, excelente para contragiro y juego ofensivo equilibrado.",
+      "description": "La Acuda S2 es una goma rápida con una esponja media de poros grandes que produce altas velocidades y un sonido característico. Es adecuada tanto para jugar cerca como lejos de la mesa, y su gran fortaleza se encuentra en el contragiro (counter topspin). Es conocida por su sensación muy precisa y por un toque ligeramente más indulgente que la S1, que permite que la bola se hunda más en la goma y favorece aún más la generación de giro manteniendo la velocidad y la precisión de la serie Acuda.",
+      "pros": [
+        "Sensación muy precisa",
+        "Gran giro con buena velocidad",
+        "Esponja media indulgente y cómoda",
+        "Excelente para contragiros"
+      ],
+      "cons": [
+        "No domina en velocidad pura",
+        "Puede perder precisión en topspin lejano"
+      ],
+      "imageUrl": "https://www.donic.com/media/0b/b2/11/1783410527/donic-rubber-acuda-s2-3d-diagonal.jpg",
+      "sourceUrl": "https://www.donic.com/en/DONIC-ACUDA-S2/000208125",
+      "sourceName": "Donic",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "90",
+        "spin": "93",
+        "control": "70",
+        "thickness": "1.8 / 2.0 / MAX",
+        "hardness": "Medium sponge (42.5° ESN)",
+        "color": "Rojo / Negro",
+        "tackiness": "No tacky (anti-adherente)",
+        "surfaceType": "Invertido (pips hacia dentro)",
+        "technology": "Tensor — Formula DONIC 3rd Generation (FD3); esponja media de poro grande y abierto."
+      },
+      "scale": {
+        "speed": "0-100"
+      }
+    },
+    {
+      "name": "Donic Acuda S3",
+      "brand": "Donic",
+      "speed": 87,
+      "speedScale": "0-100",
+      "spin": 94,
+      "control": 72,
+      "thickness": "1.8 / 2.0 / MAX",
+      "hardness": "Soft sponge",
+      "weight": "45 g (en 2.2 mm)",
+      "color": "Rojo / Negro",
+      "tackiness": "No tacky (anti-adherente)",
+      "surfaceType": "Invertido (pips hacia dentro)",
+      "technology": "Tensor — Formula DONIC 3rd Generation (FD3); esponja muy blanda para mayor toque y sonido.",
+      "summary": "Goma blanda y muy giradora, con gran control y toque, pensada para jugadores de giro y allround.",
+      "description": "La Acuda S3 produce un giro excelente, como el resto de la serie Acuda. Su esponja muy blanda aumenta el toque y el sonido, ofreciendo suficiente velocidad para un giro potente y un juego de bloqueo positivo. Características de juego: optimizada para el giro, rápida y con un sonido perfecto. Está recomendada para jugadores de giro y allround que requieren un excelente control. Permite abrir topspins contra efecto cortado pesado con un gran margen de seguridad.",
+      "pros": [
+        "Gran giro con esponja blanda",
+        "Excelente control y toque",
+        "Ideal para abrir contra cortado",
+        "Gran margen en topspins"
+      ],
+      "cons": [
+        "Velocidad más limitada que S1/S2",
+        "Puede sentirse blanda para golpes potentes a distancia"
+      ],
+      "imageUrl": "https://www.donic.com/media/92/9b/33/1783410614/donic-rubber-acuda-s3-3d-diagonal.jpg",
+      "sourceUrl": "https://www.donic.com/en/DONIC-ACUDA-S3/000209225",
+      "sourceName": "Donic",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "87",
+        "spin": "94",
+        "control": "72",
+        "thickness": "1.8 / 2.0 / MAX",
+        "hardness": "Soft sponge",
+        "weight": "45 g (en 2.2 mm)",
+        "color": "Rojo / Negro",
+        "tackiness": "No tacky (anti-adherente)",
+        "surfaceType": "Invertido (pips hacia dentro)",
+        "technology": "Tensor — Formula DONIC 3rd Generation (FD3); esponja muy blanda para mayor toque y sonido."
+      },
+      "scale": {
+        "speed": "0-100"
+      }
+    },
+    {
+      "name": "Donic Bluefire JP 01",
+      "brand": "Donic",
+      "speed": 102,
+      "speedScale": "0-100",
+      "spin": 105,
+      "control": 70,
+      "thickness": "1.8 / 2.0 / MAX",
+      "hardness": "Medium-hard sponge (47.5° ESN)",
+      "weight": null,
+      "color": "Rojo / Negro",
+      "tackiness": "Grippy (superficie adherente y elástica)",
+      "surfaceType": "Invertido (pips hacia dentro)",
+      "technology": "Tensor — Formula DONIC 3rd Generation (FD3); superficie elástica muy adherente con esponja de dureza media-alta.",
+      "summary": "Goma ofensiva muy rápida y giradora con esponja de dureza media-alta y superficie muy adherente, ideal para atacantes de primera bola.",
+      "description": "La Bluefire JP 01 posee una superficie superior muy adherente, tensa y elástica que produce máximo giro en los topspins y se mantiene más tiempo sobre la goma (efecto 'stays on the blade'). Está recomendada para atacantes que juegan cerca de la mesa así como para quienes gustan de jugar lejos de la mesa. Es una goma excelente con dureza de 47.5 grados, muy consistente y potente.",
+      "pros": [
+        "Máximo giro en topspin",
+        "Superficie muy adherente y elástica",
+        "Muy rápida y potente",
+        "Efecto 'stays on the blade'"
+      ],
+      "cons": [
+        "Dureza media-alta, exige buen nivel",
+        "Menos controladora para juego corto delicado"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom_d-bluefire-jp-01.jpg",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=d-bluefire-jp-01",
+      "sourceName": "Megaspin",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "102",
+        "spin": "105",
+        "control": "70",
+        "thickness": "1.8 / 2.0 / MAX",
+        "hardness": "Medium-hard sponge (47.5° ESN)",
+        "color": "Rojo / Negro",
+        "tackiness": "Grippy (superficie adherente y elástica)",
+        "surfaceType": "Invertido (pips hacia dentro)",
+        "technology": "Tensor — Formula DONIC 3rd Generation (FD3); superficie elástica muy adherente con esponja de dureza media-alta."
+      },
+      "scale": {
+        "speed": "0-100"
+      }
+    },
+    {
+      "name": "Donic Bluefire JP 03",
+      "brand": "Donic",
+      "speed": 86,
+      "speedScale": "0-100",
+      "spin": 91,
+      "control": 94,
+      "thickness": "1.8 / 2.0 / MAX",
+      "hardness": "Soft-medium sponge",
+      "weight": null,
+      "color": "Rojo / Negro",
+      "tackiness": "Grippy (superficie adherente y elástica)",
+      "surfaceType": "Invertido (pips hacia dentro)",
+      "technology": "Tensor — Formula DONIC 3rd Generation (FD3); esponja blanda-media con superficie muy adherente.",
+      "summary": "Goma versátil y consistente con gran control, superficie adherente y esponja blanda-media, apta para la mayoría de jugadores.",
+      "description": "La Bluefire JP 03 es una goma versátil diseñada para estilos de juego ofensivo, allround y de control. Su superficie superior muy adherente, tensa pero elástica, produce máximo giro en los topspins y un control fantástico gracias al mayor contacto con la goma. La serie Bluefire JP es una goma muy consistente, adecuada para la mayoría de los jugadores, combinando gran control, giro y una dureza blanda-media que la hace cómoda de usar.",
+      "pros": [
+        "Gran control y consistencia",
+        "Superficie adherente con máximo giro",
+        "Adecuada para mayoría de jugadores",
+        "Fácil de usar y manejable"
+      ],
+      "cons": [
+        "Menos velocidad que la JP 01",
+        "No tan explosiva para jugadores muy ofensivos"
+      ],
+      "imageUrl": "https://revspin.net/shop/143-large_default/donic-bluefire-jp-03.jpg",
+      "sourceUrl": "https://revspin.net/rubber/donic-bluefire-jp-03.html",
+      "sourceName": "Revspin",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "86",
+        "spin": "91",
+        "control": "94",
+        "thickness": "1.8 / 2.0 / MAX",
+        "hardness": "Soft-medium sponge",
+        "color": "Rojo / Negro",
+        "tackiness": "Grippy (superficie adherente y elástica)",
+        "surfaceType": "Invertido (pips hacia dentro)",
+        "technology": "Tensor — Formula DONIC 3rd Generation (FD3); esponja blanda-media con superficie muy adherente."
+      },
+      "scale": {
+        "speed": "0-100"
+      }
+    },
+    {
+      "name": "Donic Bluefire M1",
+      "brand": "Donic",
+      "speed": 96,
+      "speedScale": "0-100",
+      "spin": 93,
+      "control": 69,
+      "thickness": "1.8 / 2.0 / MAX",
+      "hardness": "Medium-hard sponge (47.5° ESN)",
+      "weight": null,
+      "color": "Rojo / Negro",
+      "tackiness": "Grippy (ligeramente adherente)",
+      "surfaceType": "Invertido (pips hacia dentro)",
+      "technology": "Tensor — Formula DONIC 3rd Generation (FD3); esponja azul de 47.5° con superficie de pips estrechos y largos.",
+      "summary": "Goma ofensiva de referencia, la más dura y rápida de la serie Bluefire M, con gran dinámica y catapulta en topspin.",
+      "description": "La Bluefire M1 es la goma más dura y rápida de la popular serie Bluefire M de Donic. Una esponja azul de 47.5 grados se combina con una superficie de pips estrechos y largos que ofrece una velocidad explosiva y un topspin pesado. Especialmente en los golpes de topspin, la Bluefire proporciona una dinámica increíble y una trayectoria de vuelo (arco) extremadamente alta, que aporta máxima rotación y propiedades de catapulta óptimas. Es la favorita de numerosos jugadores de ataque de alto nivel.",
+      "pros": [
+        "La más rápida y dura de la serie M",
+        "Topspin pesado y gran dinamismo",
+        "Alto arco de vuelo y catapulta",
+        "Rendimiento de nivel profesional"
+      ],
+      "cons": [
+        "Control exigente por su rapidez",
+        "Requiere buen nivel para bloquear y juego corto"
+      ],
+      "imageUrl": "https://www.donic.com/media/fc/51/f6/1782208955/donic-rubber-bluefire-m1-3d-diagonal.jpg",
+      "sourceUrl": "https://www.donic.com/en/DONIC-Bluefire-M1/000294120",
+      "sourceName": "Donic",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "96",
+        "spin": "93",
+        "control": "69",
+        "thickness": "1.8 / 2.0 / MAX",
+        "hardness": "Medium-hard sponge (47.5° ESN)",
+        "color": "Rojo / Negro",
+        "tackiness": "Grippy (ligeramente adherente)",
+        "surfaceType": "Invertido (pips hacia dentro)",
+        "technology": "Tensor — Formula DONIC 3rd Generation (FD3); esponja azul de 47.5° con superficie de pips estrechos y largos."
+      },
+      "scale": {
+        "speed": "0-100"
+      }
+    },
+    {
+      "name": "Donic Bluefire M1 Turbo",
+      "brand": "Donic",
+      "speed": 96,
+      "speedScale": "0-100",
+      "spin": 97,
+      "control": 68,
+      "thickness": "1.8 / 2.0 / MAX",
+      "hardness": "Medium-hard sponge (50° ESN)",
+      "weight": "52 g (en 2.2 mm)",
+      "color": "Rojo / Negro",
+      "tackiness": "Grippy (superficie spin-elástica)",
+      "surfaceType": "Invertido (pips hacia dentro)",
+      "technology": "Tensor — Formula DONIC 3rd Generation (FD3); esponja media++ (50°) con superficie spin-elástica para giro extra.",
+      "summary": "Evolución de la M1 con esponja ligeramente más dura (media++) y superficie spin-elástica que aporta más giro y velocidad.",
+      "description": "La Bluefire M1 Turbo es una mejora destacada de la goma Bluefire M1. Presenta una esponja ligeramente más dura (media++) que la M1 y una superficie superior spin-elástica que ofrece giro adicional. Especialmente en los topspins, la Bluefire aporta una dinámica increíble y una trayectoria de vuelo extremadamente alta con máxima rotación y óptimas propiedades de catapulta. Está pensada para jugadores de ataque agresivos; jugar con esta goma es un auténtico sueño para el atacante.",
+      "pros": [
+        "Más giro y velocidad que la M1",
+        "Esponja ligeramente más dura",
+        "Trayectoria alta con máxima rotación",
+        "Excelente catapulta para topspin"
+      ],
+      "cons": [
+        "Control más exigente (68)",
+        "Requiere gran nivel de ataque"
+      ],
+      "imageUrl": "https://www.donic.com/media/61/30/e4/1782208979/donic-rubber-bluefire-m1-turbo-3d-diagonal.jpg",
+      "sourceUrl": "https://www.donic.com/en/DONIC-Bluefire-M1-Turbo/000297120",
+      "sourceName": "Donic",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "96",
+        "spin": "97",
+        "control": "68",
+        "thickness": "1.8 / 2.0 / MAX",
+        "hardness": "Medium-hard sponge (50° ESN)",
+        "weight": "52 g (en 2.2 mm)",
+        "color": "Rojo / Negro",
+        "tackiness": "Grippy (superficie spin-elástica)",
+        "surfaceType": "Invertido (pips hacia dentro)",
+        "technology": "Tensor — Formula DONIC 3rd Generation (FD3); esponja media++ (50°) con superficie spin-elástica para giro extra."
+      },
+      "scale": {
+        "speed": "0-100"
+      }
+    },
+    {
+      "name": "Donic Coppa X1 (Gold)",
+      "brand": "Donic",
+      "speed": 86,
+      "speedScale": "0-100",
+      "spin": 76,
+      "control": 70,
+      "thickness": "1.8 / 2.0 / MAX",
+      "hardness": "Medium-hard sponge (45° ESN)",
+      "weight": null,
+      "color": "Rojo / Negro",
+      "tackiness": "No tacky (superficie insensible a la adherencia)",
+      "surfaceType": "Invertido (pips hacia dentro)",
+      "technology": "Tensor — Formula DONIC 3rd Generation (FD3); goma ofensiva optimizada a la velocidad con esponja media-dura.",
+      "summary": "Goma ofensiva rápida, precisa y con buen giro, de esponja media-dura y excelente toque de bola, muy equilibrada.",
+      "description": "La Coppa X1 (Gold) es una goma rápida, muy precisa, giradora y con una muy buena sensación de bola. Su tecnología es la de una goma ofensiva optimizada a la velocidad, con una esponja media-dura (ligeramente más blanda que la Coppa X1 Turbo) y una superficie spin-elástica. La serie Coppa X incluye cuatro gomas ofensivas orientadas a la velocidad. Es ligera, fácil de usar y ofrece un gran equilibrio entre velocidad, giro y control, aunque no sobresale en ninguna característica en particular.",
+      "pros": [
+        "Muy equilibrada y fácil de usar",
+        "Peso relativamente ligero",
+        "Buena sensación y precisión",
+        "Excelente relación calidad-precio"
+      ],
+      "cons": [
+        "No sobresale en velocidad ni giro extremo",
+        "Menos giro que otras gomas ofensivas"
+      ],
+      "imageUrl": "https://www.donic.com/media/a4/7f/d5/1669040891/donic-rubber_coppa_x1_gold-web.jpg",
+      "sourceUrl": "https://www.donic.com/en/DONIC-Coppa-X1-Gold/000290125",
+      "sourceName": "Donic",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "86",
+        "spin": "76",
+        "control": "70",
+        "thickness": "1.8 / 2.0 / MAX",
+        "hardness": "Medium-hard sponge (45° ESN)",
+        "color": "Rojo / Negro",
+        "tackiness": "No tacky (superficie insensible a la adherencia)",
+        "surfaceType": "Invertido (pips hacia dentro)",
+        "technology": "Tensor — Formula DONIC 3rd Generation (FD3); goma ofensiva optimizada a la velocidad con esponja media-dura."
+      },
+      "scale": {
+        "speed": "0-100"
+      }
+    },
+    {
+      "name": "Donic Baracuda",
+      "brand": "Donic",
+      "speed": 90,
+      "speedScale": "0-100",
+      "spin": 94,
+      "control": 70,
+      "thickness": "1.8 / 2.0 / MAX",
+      "hardness": "Medium-hard sponge (47.5° ESN)",
+      "weight": null,
+      "color": "Rojo / Negro",
+      "tackiness": "No tacky (anti-adherente)",
+      "surfaceType": "Invertido (pips hacia dentro)",
+      "technology": "Tensor — Formula DONIC (FD); esponja media-dura con adición decisiva de arco alto para más giro.",
+      "summary": "Goma de altísimo giro y trayectoria alta, basada en la Formula DONIC, pensada para topspin agresivo y atacar efecto cortado.",
+      "description": "La Baracuda está basada en la Formula DONIC pero con un añadido decisivo: la bola sale de la goma en un arco considerablemente más alto, proporcionando mucho más giro en los topspins. Este ángulo de lanzamiento alto y el giro permiten una mayor capacidad para atacar el efecto cortado y un mayor margen de seguridad. No le falta velocidad, pero su enfoque principal es el giro extremadamente alto. Además, la superficie ha sido reconstruida para minimizar la abrasión y los daños en los bordes, ofreciendo más horas de juego.",
+      "pros": [
+        "Giros altísimos y trayectoria alta",
+        "Excelente para atacar efecto cortado",
+        "Buen margen de seguridad en topspin",
+        "Superficie resistente a la abrasión"
+      ],
+      "cons": [
+        "Trayectoria alta puede incomodar a algunos",
+        "Requiere adaptación al arco elevado"
+      ],
+      "imageUrl": "https://www.donic.com/media/35/d4/43/1669040876/donic-rubber_baracuda-web.jpg",
+      "sourceUrl": "https://www.donic.com/en/DONIC-BARACUDA/000284118",
+      "sourceName": "Donic",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "90",
+        "spin": "94",
+        "control": "70",
+        "thickness": "1.8 / 2.0 / MAX",
+        "hardness": "Medium-hard sponge (47.5° ESN)",
+        "color": "Rojo / Negro",
+        "tackiness": "No tacky (anti-adherente)",
+        "surfaceType": "Invertido (pips hacia dentro)",
+        "technology": "Tensor — Formula DONIC (FD); esponja media-dura con adición decisiva de arco alto para más giro."
+      },
+      "scale": {
+        "speed": "0-100"
+      }
+    },
+    {
+      "name": "Donic Desto F1",
+      "brand": "Donic",
+      "speed": 92,
+      "speedScale": "0-100",
+      "spin": 84,
+      "control": 70,
+      "thickness": "1.8 / 2.0 / MAX",
+      "hardness": "Medium-hard sponge",
+      "weight": null,
+      "color": "Rojo / Negro",
+      "tackiness": "No tacky (anti-adherente)",
+      "surfaceType": "Invertido (pips hacia dentro)",
+      "technology": "Tensor — efecto pegado rápido integrado (built-in speed glue) con esponja media-dura.",
+      "summary": "Clásica goma de ataque muy rápida con efecto pegado rápido integrado, sonido notable y toque suave.",
+      "description": "La Desto F1 es la goma más rápida de la serie Desto y un clásico que marcó época al integrar el efecto de pegado rápido sin necesidad de cola externa. Posee un sonido característico y notable, y su toque tiende al lado suave. Aporta mucho giro y velocidad con un toque blando y un sonido agradable, gracias a su tecnología de goma de alta tecnología con esponja media-dura. Está indicada para jugadores ofensivos con un alto nivel de juego y experiencia de entrenamiento. La superficie muy desarrollada y sensible debe protegerse con el film protector incluido.",
+      "pros": [
+        "Muy rápida con efecto pegado rápido integrado",
+        "Sonido notable y toque agradable",
+        "Mucho giro y velocidad",
+        "Clásica probada y querida por años"
+      ],
+      "cons": [
+        "Superficie sensible que requiere protección",
+        "Menos giro que gomas modernas de máximo efecto"
+      ],
+      "imageUrl": "https://www.donic.com/media/49/30/40/1782215910/donic-rubber-desto-f1-3d-diagonal.jpg",
+      "sourceUrl": "https://www.donic.com/en/DONIC-DESTO-F1/000221225",
+      "sourceName": "Donic",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "92",
+        "spin": "84",
+        "control": "70",
+        "thickness": "1.8 / 2.0 / MAX",
+        "hardness": "Medium-hard sponge",
+        "color": "Rojo / Negro",
+        "tackiness": "No tacky (anti-adherente)",
+        "surfaceType": "Invertido (pips hacia dentro)",
+        "technology": "Tensor — efecto pegado rápido integrado (built-in speed glue) con esponja media-dura."
+      },
+      "scale": {
+        "speed": "0-100"
+      }
+    },
+    {
+      "name": "Xiom Vega Pro",
+      "brand": "Xiom",
+      "speed": 9.1,
+      "speedScale": "Muy alta",
+      "spin": 9.2,
+      "control": 8.7,
+      "thickness": "2.0 / 2.2 mm",
+      "hardness": "47,5° (media-alta)",
+      "weight": "Medio-pesado (5.5/10)",
+      "color": "Rojo / Negro",
+      "tackiness": "Ligeramente adherente",
+      "surfaceType": "Liso (invertido)",
+      "technology": "Hyper Elasto + Carbo Sponge (tecnología TENSOR de tensión integrada)",
+      "summary": "Goma ofensiva con máxima generación de efecto. Top laminado rígido (47,5°) y muy duradero.",
+      "description": "La serie Vega combina las tecnologías Hyper Elasto y Carbo Sponge, ambas basadas en TENSOR, que otorgan tensión integrada. VEGA PRO está enfocada a producir efecto extremo y estabilidad, con esponja negra Carbo Sponge de 47,5° que aporta eficiencia energética. Su sensación es excitante pero cómoda, ideal para un juego agresivo y seguro. Es una de las gomas Xiom más populares por su excelente relación calidad-precio.",
+      "pros": [
+        "Efecto (spin) muy alto",
+        "Excelente relación calidad-precio",
+        "Gran durabilidad y resistencia al desgaste",
+        "Drive potente y estable"
+      ],
+      "cons": [
+        "Goma pesada; difícil en doble cara",
+        "Esponja dura que exige fuerza de impacto",
+        "No recomendada para principiantes"
+      ],
+      "imageUrl": "https://revspin.net/images/rubber/xiom-vega-pro.jpg",
+      "sourceUrl": "https://revspin.net/rubber/xiom-vega-pro.html",
+      "sourceName": "Revspin (valoraciones de usuarios) + Megaspin.net (ficha del fabricante)",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "9.1",
+        "spin": "9.2",
+        "control": "8.7",
+        "thickness": "2.0 / 2.2 mm",
+        "hardness": "47,5° (media-alta)",
+        "weight": "Medio-pesado (5.5/10)",
+        "color": "Rojo / Negro",
+        "tackiness": "Ligeramente adherente",
+        "surfaceType": "Liso (invertido)",
+        "technology": "Hyper Elasto + Carbo Sponge (tecnología TENSOR de tensión integrada)"
+      },
+      "scale": {
+        "speed": "Muy alta"
+      }
+    },
+    {
+      "name": "Xiom Vega Asia",
+      "brand": "Xiom",
+      "speed": 8.9,
+      "speedScale": "Alta",
+      "spin": 8.4,
+      "control": 8.5,
+      "thickness": "2.0 / 2.2 mm",
+      "hardness": "Media (≈5.6/10)",
+      "weight": "Peso medio (4.2/10)",
+      "color": "Rojo / Negro",
+      "tackiness": "Ligeramente adherente",
+      "surfaceType": "Liso (invertido)",
+      "technology": "Hyper Elasto + Carbo Sponge",
+      "summary": "Versión más rápida y equilibrada de la serie Vega; esponja negra Carbo Sponge y gran zona segura sobre la red.",
+      "description": "Vega Asia es una versión más rápida y equilibrada dentro de la serie Vega. El top de caucho natural Hyper Elasto aporta un efecto soberbio y la Carbo Sponge negra genera más potencia. Comparada con Vega Pro, es más blanda, con más velocidad y mejor equilibrio. Su 'ventana grande' de seguridad sobre la red hace cada ataque de topspin más seguro y agresivo, con gran equilibrio entre velocidad, efecto y control.",
+      "pros": [
+        "Gran equilibrio velocidad/efecto/control",
+        "Amplia zona segura sobre la red",
+        "Buenas durabilidad y vida útil",
+        "Más rápida y balanceada que Vega Pro"
+      ],
+      "cons": [
+        "Efecto algo menor que Vega Pro",
+        "Sensación media; menos blanda que Europe"
+      ],
+      "imageUrl": "https://revspin.net/images/rubber/xiom-vega-asia.jpg",
+      "sourceUrl": "https://revspin.net/rubber/xiom-vega-asia.html",
+      "sourceName": "Revspin (valoraciones de usuarios) + Megaspin.net (ficha del fabricante)",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "8.9",
+        "spin": "8.4",
+        "control": "8.5",
+        "thickness": "2.0 / 2.2 mm",
+        "hardness": "Media (≈5.6/10)",
+        "weight": "Peso medio (4.2/10)",
+        "color": "Rojo / Negro",
+        "tackiness": "Ligeramente adherente",
+        "surfaceType": "Liso (invertido)",
+        "technology": "Hyper Elasto + Carbo Sponge"
+      },
+      "scale": {
+        "speed": "Alta"
+      }
+    },
+    {
+      "name": "Xiom Vega Europe",
+      "brand": "Xiom",
+      "speed": 8.7,
+      "speedScale": "Alta",
+      "spin": 8.9,
+      "control": 9.1,
+      "thickness": "2.0 / 2.2 mm",
+      "hardness": "Media-suave (≈2.8/10)",
+      "weight": "Peso medio-ligero (3.4/10)",
+      "color": "Rojo / Negro",
+      "tackiness": "Ligeramente adherente",
+      "surfaceType": "Liso (invertido)",
+      "technology": "Esponja de carbono blanda (Tensor)",
+      "summary": "Goma blanda orientada al control y al efecto, ideal para un estilo europeo equilibrado y fácil de manejar.",
+      "description": "Vega Europe es el modelo más blando y orientado al control de la serie Vega. Su esponja de carbono blanda busca un gran efecto y control, equilibrando el estilo europeo con mayor comodidad de uso. Ofrece excelente control y buena generación de spin con una sensación suave, ideal para jugadores que priorizan la seguridad y la colocación sobre la máxima velocidad.",
+      "pros": [
+        "Control muy alto (9,1/10)",
+        "Buen efecto y facilidad de uso",
+        "Esponja suave y cómoda",
+        "Ideal para revés y juego de seguridad"
+      ],
+      "cons": [
+        "Menos velocidad punta",
+        "Durabilidad algo menor"
+      ],
+      "imageUrl": "https://revspin.net/images/rubber/xiom-vega-europe.jpg",
+      "sourceUrl": "https://revspin.net/rubber/xiom-vega-europe.html",
+      "sourceName": "Revspin (valoraciones de usuarios) + Megaspin.net (ficha del fabricante)",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "8.7",
+        "spin": "8.9",
+        "control": "9.1",
+        "thickness": "2.0 / 2.2 mm",
+        "hardness": "Media-suave (≈2.8/10)",
+        "weight": "Peso medio-ligero (3.4/10)",
+        "color": "Rojo / Negro",
+        "tackiness": "Ligeramente adherente",
+        "surfaceType": "Liso (invertido)",
+        "technology": "Esponja de carbono blanda (Tensor)"
+      },
+      "scale": {
+        "speed": "Alta"
+      }
+    },
+    {
+      "name": "Xiom Omega VII Pro",
+      "brand": "Xiom",
+      "speed": 9.2,
+      "speedScale": "Muy alta",
+      "spin": 9.1,
+      "control": 8.7,
+      "thickness": "2.0 / 2.2 mm",
+      "hardness": "Dura (media-alta, ≈6.2/10)",
+      "weight": "Peso medio (4.3/10)",
+      "color": "Rojo / Negro",
+      "tackiness": "Ligeramente adherente",
+      "surfaceType": "Liso (invertido)",
+      "technology": "Elasto Futura + Cycloid + Dynamic Friction + Carbo Sponge",
+      "summary": "Goma profesional de máxima agresión: agarre firme sobre la bola de plástico y dinámica de efecto mejorada.",
+      "description": "Omega VII Pro ofrece un agarre firme y sólido sobre la bola de plástico, con efecto y dinámica mejorados. La generación Elasto Futura con tecnología Cycloid supone un gran avance técnico: la Fricción Dinámica evoluciona para sincronizarse mejor con la Carbo Sponge, dando una ventaja extremadamente potente en el juego ofensivo. Un nuevo ratio de spin por distancia crea el equilibrio definitivo entre velocidad y control: la 'Agressión Profesional' real.",
+      "pros": [
+        "Velocidad y efecto muy altos (9,2/9,1)",
+        "Agarre firme sobre bolas de plástico",
+        "Fricción dinámica y potencia ofensiva",
+        "Tecnología de nivel profesional"
+      ],
+      "cons": [
+        "Requiere técnica avanzada",
+        "Control algo menor en juego corto"
+      ],
+      "imageUrl": "https://revspin.net/images/rubber/xiom-omega-vii-pro.jpg",
+      "sourceUrl": "https://revspin.net/rubber/xiom-omega-vii-pro.html",
+      "sourceName": "Revspin (valoraciones de usuarios) + Megaspin.net (ficha del fabricante)",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "9.2",
+        "spin": "9.1",
+        "control": "8.7",
+        "thickness": "2.0 / 2.2 mm",
+        "hardness": "Dura (media-alta, ≈6.2/10)",
+        "weight": "Peso medio (4.3/10)",
+        "color": "Rojo / Negro",
+        "tackiness": "Ligeramente adherente",
+        "surfaceType": "Liso (invertido)",
+        "technology": "Elasto Futura + Cycloid + Dynamic Friction + Carbo Sponge"
+      },
+      "scale": {
+        "speed": "Muy alta"
+      }
+    },
+    {
+      "name": "Xiom Omega VII Asia",
+      "brand": "Xiom",
+      "speed": 9.1,
+      "speedScale": "Muy alta",
+      "spin": 9.3,
+      "control": 8.5,
+      "thickness": "2.0 / 2.2 mm",
+      "hardness": "Media-alta/firme (≈7.9/10)",
+      "weight": "Medio-pesado (6.1/10)",
+      "color": "Rojo / Negro",
+      "tackiness": "Ligeramente adherente",
+      "surfaceType": "Liso (invertido)",
+      "technology": "Elasto Futura + Cycloid + Dynamic Friction + Carbo Sponge",
+      "summary": "Versión firme y pesada de la serie Omega VII, con el máximo efecto de la gama y dinámica ofensiva agresiva.",
+      "description": "Omega VII Asia comparte la plataforma Elasto Futura con Cycloid y la Fricción Dinámica sincronizada con la Carbo Sponge. Es la versión más firme y pesada de la serie, orientada al máximo efecto y a un juego ofensivo agresivo. Su esponja dura exige fuerza, pero recompensa con un potencial de spin y potencia muy elevado para jugadores de alto nivel.",
+      "pros": [
+        "Efecto extremo (9,3/10)",
+        "Alta potencia ofensiva",
+        "Agarre firme sobre bola de plástico",
+        "Tecnología profesional Cycloid"
+      ],
+      "cons": [
+        "Esponja dura y goma pesada",
+        "Control exigente; poco indulgente"
+      ],
+      "imageUrl": "https://revspin.net/images/rubber/xiom-omega-vii-asia.jpg",
+      "sourceUrl": "https://revspin.net/rubber/xiom-omega-vii-asia.html",
+      "sourceName": "Revspin (valoraciones de usuarios) + Megaspin.net (ficha del fabricante)",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "9.1",
+        "spin": "9.3",
+        "control": "8.5",
+        "thickness": "2.0 / 2.2 mm",
+        "hardness": "Media-alta/firme (≈7.9/10)",
+        "weight": "Medio-pesado (6.1/10)",
+        "color": "Rojo / Negro",
+        "tackiness": "Ligeramente adherente",
+        "surfaceType": "Liso (invertido)",
+        "technology": "Elasto Futura + Cycloid + Dynamic Friction + Carbo Sponge"
+      },
+      "scale": {
+        "speed": "Muy alta"
+      }
+    },
+    {
+      "name": "Xiom Omega VII Europe",
+      "brand": "Xiom",
+      "speed": 9.0,
+      "speedScale": "Muy alta",
+      "spin": 8.9,
+      "control": 9.1,
+      "thickness": "2.0 / 2.2 mm",
+      "hardness": "Media (≈4.1/10)",
+      "weight": "Peso ligero (2.8/10)",
+      "color": "Rojo / Negro",
+      "tackiness": "Ligeramente adherente",
+      "surfaceType": "Liso (invertido)",
+      "technology": "Elasto Futura + Cycloid + Dynamic Friction + Carbo Sponge",
+      "summary": "Versión ligera de Omega VII, con excelente control y gran spin para un juego ofensivo controlado.",
+      "description": "Omega VII Europe es la versión más ligera y controlable de la serie Omega VII. Conserva la plataforma Elasto Futura con Cycloid y la Fricción Dinámica, pero con un comportamiento más equilibrado y controlable. Aporta un excelente control (9,1) y se adapta bien a un estilo ofensivo que busca seguridad y colocación sin renunciar a la potencia.",
+      "pros": [
+        "Excelente control (9,1/10)",
+        "Goma ligera",
+        "Buen efecto y dinámica profesional",
+        "Equilibrio ofensivo controlado"
+      ],
+      "cons": [
+        "Velocidad algo menor que Pro/Asia",
+        "Durabilidad media"
+      ],
+      "imageUrl": "https://revspin.net/images/rubber/xiom-omega-vii-euro.jpg",
+      "sourceUrl": "https://revspin.net/rubber/xiom-omega-vii-euro.html",
+      "sourceName": "Revspin (valoraciones de usuarios) + Megaspin.net (ficha del fabricante)",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "9.0",
+        "spin": "8.9",
+        "control": "9.1",
+        "thickness": "2.0 / 2.2 mm",
+        "hardness": "Media (≈4.1/10)",
+        "weight": "Peso ligero (2.8/10)",
+        "color": "Rojo / Negro",
+        "tackiness": "Ligeramente adherente",
+        "surfaceType": "Liso (invertido)",
+        "technology": "Elasto Futura + Cycloid + Dynamic Friction + Carbo Sponge"
+      },
+      "scale": {
+        "speed": "Muy alta"
+      }
+    },
+    {
+      "name": "Xiom Vega Tour",
+      "brand": "Xiom",
+      "speed": 8.9,
+      "speedScale": "Alta",
+      "spin": 8.9,
+      "control": 8.8,
+      "thickness": "2.0 / 2.2 mm",
+      "hardness": "Media-alta (47,5°)",
+      "weight": "Peso medio (3.8/10)",
+      "color": "Rojo / Negro",
+      "tackiness": "Ligeramente adherente",
+      "surfaceType": "Liso (invertido)",
+      "technology": "Esponja de alta tensión (Carbo), diseño de buceo (brush looping)",
+      "summary": "La goma más rápida de la serie Vega, con gran velocidad y spin; trayectoria plana y rápida para topspin.",
+      "description": "Vega Tour es la goma más rápida de la serie Vega. Ofrece alta velocidad y un spin asombroso, con especial énfasis en el 'brush looping' (buceo con fricción). Su trayectoria es más plana y rápida sin sacrificar el efecto ni la amplia zona segura característica de las Vega. Con esponja de 47,5°, rivaliza en potencia y spin con gomas profesionales de gama alta.",
+      "pros": [
+        "La más rápida de la serie Vega",
+        "Alto spin combinado con velocidad",
+        "Trayectoria plana y rápida",
+        "Tecnología de esponja de alta tensión"
+      ],
+      "cons": [
+        "Arco más plano que otras Vega",
+        "Sensación firme que exige técnica"
+      ],
+      "imageUrl": "https://revspin.net/images/rubber/xiom-vega-tour.jpg",
+      "sourceUrl": "https://revspin.net/rubber/xiom-vega-tour.html",
+      "sourceName": "Revspin (valoraciones de usuarios) + Megaspin.net (ficha del fabricante)",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "8.9",
+        "spin": "8.9",
+        "control": "8.8",
+        "thickness": "2.0 / 2.2 mm",
+        "hardness": "Media-alta (47,5°)",
+        "weight": "Peso medio (3.8/10)",
+        "color": "Rojo / Negro",
+        "tackiness": "Ligeramente adherente",
+        "surfaceType": "Liso (invertido)",
+        "technology": "Esponja de alta tensión (Carbo), diseño de buceo (brush looping)"
+      },
+      "scale": {
+        "speed": "Alta"
+      }
+    },
+    {
+      "name": "Xiom Vega Japan",
+      "brand": "Xiom",
+      "speed": 9.0,
+      "speedScale": "Muy alta",
+      "spin": 8.9,
+      "control": 8.8,
+      "thickness": "2.0 / 2.2 mm",
+      "hardness": "Media (≈5.3/10)",
+      "weight": "Medio-pesado (5.2/10)",
+      "color": "Rojo / Negro",
+      "tackiness": "Ligeramente adherente",
+      "surfaceType": "Liso (invertido)",
+      "technology": "Hyper Elasto IMB + Carbo Sponge",
+      "summary": "Goma afinada para generar más energía de spin con control flexible; potentes golpes cargados de efecto.",
+      "description": "Vega Japan está afinada para hacer más fácil la generación de energía de spin. Combina la tecnología Hyper Elasto IMB con la esponja Carbo Sponge, produciendo golpes cargados de potencia con una sensación de control superior. Las devoluciones de saque y los ataques de topspin son más precisos y naturales, dando mayor confianza y ventaja en el juego.",
+      "pros": [
+        "Alta generación de spin",
+        "Control flexible y cómodo",
+        "Devoluciones de saque precisas",
+        "Top de alta gama Hyper Elasto IMB"
+      ],
+      "cons": [
+        "Goma algo más pesada",
+        "Exige buena técnica para sacar todo su potencial"
+      ],
+      "imageUrl": "https://revspin.net/images/rubber/xiom-vega-japan.jpg",
+      "sourceUrl": "https://revspin.net/rubber/xiom-vega-japan.html",
+      "sourceName": "Revspin (valoraciones de usuarios) + Megaspin.net (ficha del fabricante)",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "9.0",
+        "spin": "8.9",
+        "control": "8.8",
+        "thickness": "2.0 / 2.2 mm",
+        "hardness": "Media (≈5.3/10)",
+        "weight": "Medio-pesado (5.2/10)",
+        "color": "Rojo / Negro",
+        "tackiness": "Ligeramente adherente",
+        "surfaceType": "Liso (invertido)",
+        "technology": "Hyper Elasto IMB + Carbo Sponge"
+      },
+      "scale": {
+        "speed": "Muy alta"
+      }
+    },
+    {
+      "name": "Xiom Omega V Pro",
+      "brand": "Xiom",
+      "speed": 9.0,
+      "speedScale": "Muy alta",
+      "spin": 9.1,
+      "control": 9.1,
+      "thickness": "2.0 / 2.2 mm",
+      "hardness": "Media-alta (≈6.3/10)",
+      "weight": "Medio-pesado (5.5/10)",
+      "color": "Rojo / Negro",
+      "tackiness": "Ligeramente adherente",
+      "surfaceType": "Liso (invertido)",
+      "technology": "Nueva dinámica de potencia (phased power dynamics)",
+      "summary": "Goma profesional equilibrada entre spin y velocidad, con control excelente y gran agarre en juego corto.",
+      "description": "Omega V Pro introduce una nueva dinámica de transferencia de energía entre bola y goma, afinada para la velocidad de swing profesional: vuelo energizado, rebote cargado y precisión extra en golpes pasivos y ofensivos. Ofrece un equilibrio muy alto entre spin y velocidad con un control excelente en juego corto, lo que lo convierte en una goma muy completa para jugadores intermedios y avanzados.",
+      "pros": [
+        "Equilibrio sobresaliente spin/velocidad",
+        "Excelente control en juego corto",
+        "Drive potente y estable desde cualquier posición",
+        "Tecnología de dinámica profesional"
+      ],
+      "cons": [
+        "Material duro que exige técnica",
+        "Durabilidad relativamente corta"
+      ],
+      "imageUrl": "https://revspin.net/images/rubber/xiom-omega-v-pro.jpg",
+      "sourceUrl": "https://revspin.net/rubber/xiom-omega-v-pro.html",
+      "sourceName": "Revspin (valoraciones de usuarios) + Megaspin.net (ficha del fabricante)",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "9.0",
+        "spin": "9.1",
+        "control": "9.1",
+        "thickness": "2.0 / 2.2 mm",
+        "hardness": "Media-alta (≈6.3/10)",
+        "weight": "Medio-pesado (5.5/10)",
+        "color": "Rojo / Negro",
+        "tackiness": "Ligeramente adherente",
+        "surfaceType": "Liso (invertido)",
+        "technology": "Nueva dinámica de potencia (phased power dynamics)"
+      },
+      "scale": {
+        "speed": "Muy alta"
+      }
+    },
+    {
+      "name": "Xiom Musa III",
+      "brand": "Xiom",
+      "speed": 7.5,
+      "speedScale": "Media-alta",
+      "spin": 8.5,
+      "control": 8.8,
+      "thickness": "2.0 / 2.2 mm",
+      "hardness": "Media-suave (≈3.0/10)",
+      "weight": "Peso medio (4.5/10)",
+      "color": "Rojo / Negro",
+      "tackiness": "Ligeramente adherente",
+      "surfaceType": "Liso (invertido)",
+      "technology": "Hyper Elasto + Green Bios (ecológica, sin tóxicos)",
+      "summary": "Goma allround de control y precisión con tecnología ecológica Green Bios; reduce los errores no forzados.",
+      "description": "Musa III se basa en la plataforma tecnológica Hyper Elasto, con la que Xiom busca aumentar la probabilidad de ganar el punto. Su mecanismo de carga de spin crea una trayectoria agresiva pero segura, aumentando el éxito en el rally. Incorpora tecnología ecológica Green Bios: sin tóxicos y sin olor. Control y precisión mejorados reducen los errores no forzados y permiten dominar el ritmo del juego.",
+      "pros": [
+        "Control y precisión altos",
+        "Reducción de errores no forzados",
+        "Ecológica (Green Bios, sin tóxicos)",
+        "Fácil de usar, ideal allround"
+      ],
+      "cons": [
+        "Velocidad máxima menor que gomas ofensivas puras",
+        "Menos potente en golpes muy rápidos"
+      ],
+      "imageUrl": "https://revspin.net/images/rubber/xiom-musa-iii.jpg",
+      "sourceUrl": "https://revspin.net/rubber/xiom-musa-iii.html",
+      "sourceName": "Revspin (valoraciones de usuarios) + Megaspin.net (ficha del fabricante)",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "7.5",
+        "spin": "8.5",
+        "control": "8.8",
+        "thickness": "2.0 / 2.2 mm",
+        "hardness": "Media-suave (≈3.0/10)",
+        "weight": "Peso medio (4.5/10)",
+        "color": "Rojo / Negro",
+        "tackiness": "Ligeramente adherente",
+        "surfaceType": "Liso (invertido)",
+        "technology": "Hyper Elasto + Green Bios (ecológica, sin tóxicos)"
+      },
+      "scale": {
+        "speed": "Media-alta"
+      }
+    },
+    {
+      "name": "Xiom Musa II",
+      "brand": "Xiom",
+      "speed": 8.0,
+      "speedScale": "Media-alta",
+      "spin": 8.5,
+      "control": 9.1,
+      "thickness": "2.0 / 2.2 mm",
+      "hardness": "Media (≈4.6/10)",
+      "weight": "Peso medio (4.4/10)",
+      "color": "Rojo / Negro",
+      "tackiness": "Ligeramente adherente",
+      "surfaceType": "Liso (invertido)",
+      "technology": "Esponja clásica de alta calidad (no tensor)",
+      "summary": "Goma de control excepcional con buen spin, muy versátil para revés y juego de colocación.",
+      "description": "Musa II es una goma de tipo clásico (no tensor) que destaca por su control excepcional (9,1/10) y su buen efecto. Su esponja media ofrece un equilibrio de velocidad y control, ideal para revés y para jugadores que priorizan la consistencia y la colocación. Al no ser tensor, exige un poco de potencia en golpes de baja velocidad, pero ofrece una sensación estable y predecible. Su excelente relación calidad-precio la hace muy popular.",
+      "pros": [
+        "Control excepcional (9,1/10)",
+        "Gran versatilidad para revés y drive",
+        "Muy consistente y predecible",
+        "Excelente relación calidad-precio"
+      ],
+      "cons": [
+        "No es tensor: falta algo de dinamismo en golpes cortos",
+        "Genera menos spin que gomas tensor en flicks"
+      ],
+      "imageUrl": "https://revspin.net/images/rubber/xiom-musa-ii.jpg",
+      "sourceUrl": "https://revspin.net/rubber/xiom-musa-ii.html",
+      "sourceName": "Revspin (valoraciones de usuarios) + Megaspin.net (ficha del fabricante)",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "8.0",
+        "spin": "8.5",
+        "control": "9.1",
+        "thickness": "2.0 / 2.2 mm",
+        "hardness": "Media (≈4.6/10)",
+        "weight": "Peso medio (4.4/10)",
+        "color": "Rojo / Negro",
+        "tackiness": "Ligeramente adherente",
+        "surfaceType": "Liso (invertido)",
+        "technology": "Esponja clásica de alta calidad (no tensor)"
+      },
+      "scale": {
+        "speed": "Media-alta"
+      }
+    },
+    {
+      "name": "Rhyzer Pro 50",
+      "brand": "Joola",
+      "speed": 89,
+      "speedScale": "RubberMetrics (0-100)",
+      "spin": 87,
+      "control": 62,
+      "thickness": null,
+      "hardness": "50° (Joola)",
+      "weight": null,
+      "color": "Rojo / Negro",
+      "tackiness": "No pegajosa (grippy)",
+      "surfaceType": "Inverted (lisa)",
+      "technology": "Capa superior muy delgada y extremadamente adherente bajo alta tensión; esponja dinámica rosa de 50° con poros medianos.",
+      "summary": "Goma ofensiva de gama alta de Joola con dureza 50°, máxima velocidad y efecto para jugadores agresivos que buscan un golpe directo y dinámico.",
+      "description": "El Rhyzer Pro 50 es la goma de mayor dureza de la serie Rhyzer Pro. Combina una capa superior muy delgada y con enorme agarre, mantenida bajo tensión, con una esponja dinámica rosa de 50°. La geometría de sus picos, más anchos y dispuestos más juntos, maximiza la generación de velocidad y efecto. Ideal para drives rápidos y bucles potentes.",
+      "pros": [
+        "Velocidad y efecto máximos",
+        "golpe directo y explosivo",
+        "ideal para ataque agresivo y contra-topspin."
+      ],
+      "cons": [
+        "Dureza y reactividad altas",
+        "exige buena técnica",
+        "control más limitado en juego corto para jugadores de nivel medio."
+      ],
+      "imageUrl": "https://joola.com/cdn/shop/files/rubberRhyzerPro50.png?v=1729706010",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=j-rhyzer-pro-50",
+      "sourceName": "Megaspin",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "89",
+        "spin": "87",
+        "control": "62",
+        "hardness": "50° (Joola)",
+        "color": "Rojo / Negro",
+        "tackiness": "No pegajosa (grippy)",
+        "surfaceType": "Inverted (lisa)",
+        "technology": "Capa superior muy delgada y extremadamente adherente bajo alta tensión; esponja dinámica rosa de 50° con poros medianos."
+      },
+      "scale": {
+        "speed": "RubberMetrics (0-100)"
+      }
+    },
+    {
+      "name": "Rhyzer 43",
+      "brand": "Joola",
+      "speed": 8.9,
+      "speedScale": "Revspin (0-10)",
+      "spin": 9.1,
+      "control": 8.7,
+      "thickness": "2.0 mm / Max",
+      "hardness": "43° (Joola)",
+      "weight": "~66 g (sin cortar)",
+      "color": "Rojo / Negro",
+      "tackiness": "No pegajosa (completamente)",
+      "surfaceType": "Inverted (lisa)",
+      "technology": "Esponja Tensor rosa de poros grandes y dureza media (43°); variante Powermax añade más dinámica; picos flexibles que alargan el tiempo de contacto.",
+      "summary": "Goma ofensiva de dureza media-baja (43°) orientada al juego con efecto, versátil y controlable, excelente para revés y juego cerca de la mesa.",
+      "description": "El Rhyzer 43 tiene una esponja medio-dura de 43° muy adecuada para el juego con efecto, variado y cercano a la mesa y a media distancia. Ofrece una sensación de golpe suave, gran feedback y una trayectoria arqueada del balón. Sus picos flexibles alargan el tiempo de contacto para un efecto excelente, mientras que la esponja rosada de poros grandes aporta potencia y control.",
+      "pros": [
+        "Buen equilibrio velocidad/control",
+        "excelente para revés",
+        "efecto alto",
+        "poco sensible al efecto entrante en juego corto."
+      ],
+      "cons": [
+        "Para jugadores de alto nivel puede resultar algo blanda en derecha y a media distancia",
+        "menos adecuada para el corte defensivo."
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom_j-rhyzer-43.jpg",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=j-rhyzer-43",
+      "sourceName": "Megaspin",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "8.9",
+        "spin": "9.1",
+        "control": "8.7",
+        "thickness": "2.0 mm / Max",
+        "hardness": "43° (Joola)",
+        "weight": "~66 g (sin cortar)",
+        "color": "Rojo / Negro",
+        "tackiness": "No pegajosa (completamente)",
+        "surfaceType": "Inverted (lisa)",
+        "technology": "Esponja Tensor rosa de poros grandes y dureza media (43°); variante Powermax añade más dinámica; picos flexibles que alargan el tiempo de contacto."
+      },
+      "scale": {
+        "speed": "Revspin (0-10)"
+      }
+    },
+    {
+      "name": "Rhyzer Pro 45",
+      "brand": "Joola",
+      "speed": 8.5,
+      "speedScale": "Joola (1-11); control Revspin (0-10)",
+      "spin": 9.0,
+      "control": 9.1,
+      "thickness": null,
+      "hardness": "45° (Joola)",
+      "weight": null,
+      "color": "Rojo / Negro",
+      "tackiness": "Casi no pegajosa (ligera)",
+      "surfaceType": "Inverted (lisa)",
+      "technology": "Esponja Momentum de poros medios con tecnología Tensor; superficie Advanced Traction; geometría de picos del Rhyzer Pro que aporta potencia.",
+      "summary": "Goma ofensiva de dureza media-alta (45°) que equilibra efecto y velocidad con buen control, pensada para jugadores ofensivos que valoran sensación agradable.",
+      "description": "El Rhyzer Pro 45 usa una esponja Momentum de dureza media (45°) con tecnología Tensor para optimizar velocidad y efecto. Su capa superior más delgada emplea la tecnología Advanced Traction Surface para mayor agarre, y la geometría única de picos aporta más potencia y rotación. Es ideal para jugadores ofensivos que buscan alto efecto y velocidad con un toque agradable.",
+      "pros": [
+        "Excelente equilibrio efecto/velocidad/control",
+        "toque agradable",
+        "buena potencia en topspin",
+        "versátil para derecha y revés."
+      ],
+      "cons": [
+        "Menos velocidad punta que la versión de 50°",
+        "requiere generar el efecto para explotar su potencial."
+      ],
+      "imageUrl": "https://joola.com/cdn/shop/files/rhyzerPro45rubber_01-1.png?v=1712310487",
+      "sourceUrl": "https://joola.com/products/rhyzer-pro-45-table-tennis-rubber",
+      "sourceName": "Joola",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "8.5",
+        "spin": "9.0",
+        "control": "9.1",
+        "hardness": "45° (Joola)",
+        "color": "Rojo / Negro",
+        "tackiness": "Casi no pegajosa (ligera)",
+        "surfaceType": "Inverted (lisa)",
+        "technology": "Esponja Momentum de poros medios con tecnología Tensor; superficie Advanced Traction; geometría de picos del Rhyzer Pro que aporta potencia."
+      },
+      "scale": {
+        "speed": "Joola (1-11); control Revspin (0-10)"
+      }
+    },
+    {
+      "name": "Dynaryz ACC",
+      "brand": "Joola",
+      "speed": 10,
+      "speedScale": "Joola (1-11)",
+      "spin": 10,
+      "control": null,
+      "thickness": "2.0 mm / Max",
+      "hardness": "47.5° ESN (medio-dura)",
+      "weight": null,
+      "color": "Rojo / Negro",
+      "tackiness": "No pegajosa (alta adherencia)",
+      "surfaceType": "Inverted (lisa)",
+      "technology": "Esponja Hyper Bounce de color púrpura (medio-dura); superficie Advanced Traction para máximo agarre y rotación.",
+      "summary": "Goma premium ofensiva de Joola con más velocidad y efecto sin perder control, gracias a la esponja Hyper Bounce y la superficie Advanced Traction.",
+      "description": "El Dynaryz ACC es una goma premium diseñada para combinar velocidad, efecto y precisión. Su esponja Hyper Bounce de dureza media aporta dinámica y rebote, mientras que la Advanced Traction Surface genera alta fricción y calidad de rotación. Lanzada en 2020, es una opción equilibrada y precisa para jugadores ofensivos modernos.",
+      "pros": [
+        "Gran combinación de velocidad, efecto y control",
+        "preciso y dinámico",
+        "esponja reactiva y fácil de activar."
+      ],
+      "cons": [
+        "Gama premium de precio alto",
+        "menos velocidad punta que variantes más duras de la familia Dynaryz."
+      ],
+      "imageUrl": "https://joola.com/cdn/shop/files/dynaryzACCrubber_01-3.png?v=1712310661",
+      "sourceUrl": "https://joola.com/products/dynaryz-acc-table-tennis-rubber",
+      "sourceName": "Joola",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "10",
+        "spin": "10",
+        "thickness": "2.0 mm / Max",
+        "hardness": "47.5° ESN (medio-dura)",
+        "color": "Rojo / Negro",
+        "tackiness": "No pegajosa (alta adherencia)",
+        "surfaceType": "Inverted (lisa)",
+        "technology": "Esponja Hyper Bounce de color púrpura (medio-dura); superficie Advanced Traction para máximo agarre y rotación."
+      },
+      "scale": {
+        "speed": "Joola (1-11)"
+      }
+    },
+    {
+      "name": "Dynaryz ZGR",
+      "brand": "Joola",
+      "speed": 10,
+      "speedScale": "Joola (1-11); control Revspin (0-10)",
+      "spin": 10.5,
+      "control": 9.2,
+      "thickness": null,
+      "hardness": "~56° (Hyper Bounce dura)",
+      "weight": null,
+      "color": "Rojo / Negro",
+      "tackiness": "Pegajosa / ligeramente pegajosa (tacky)",
+      "surfaceType": "Inverted (lisa)",
+      "technology": "Superficie Hyper Traction (la más pegajosa de Joola) combinada con esponja Hyper Bounce dura (~56-57°).",
+      "summary": "Goma premium híbrida de Joola con superficie pegajosa tipo china y esponja dura europea, pensada para el máximo efecto y potencia con golpe directo.",
+      "description": "El Dynaryz ZGR combina la superficie Hyper Traction, ligeramente pegajosa, con una esponja Hyper Bounce especialmente dura (~56°), lo que recuerda a las gomas chinas pero con la potencia de un Tensor europeo. Ofrece una sensación de impacto directo, trayectoria plana y un enorme potencial de efecto, ideal para jugadores avanzados que atacan con mucho efecto y exigen control y pegada.",
+      "pros": [
+        "Máximo potencial de efecto",
+        "potencia y pegada elevadas",
+        "superficie pegajosa",
+        "buen control para su dureza."
+      ],
+      "cons": [
+        "Esponja muy dura que exige mucha potencia para activarla",
+        "menos accesible para niveles medios",
+        "demanda buena técnica."
+      ],
+      "imageUrl": "https://joola.com/cdn/shop/files/dynaryzZGRrubber_01.png?v=1712311173",
+      "sourceUrl": "https://joola.com/products/dynaryz-zgr-table-tennis-rubber",
+      "sourceName": "Joola",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "10",
+        "spin": "10.5",
+        "control": "9.2",
+        "hardness": "~56° (Hyper Bounce dura)",
+        "color": "Rojo / Negro",
+        "tackiness": "Pegajosa / ligeramente pegajosa (tacky)",
+        "surfaceType": "Inverted (lisa)",
+        "technology": "Superficie Hyper Traction (la más pegajosa de Joola) combinada con esponja Hyper Bounce dura (~56-57°)."
+      },
+      "scale": {
+        "speed": "Joola (1-11); control Revspin (0-10)"
+      }
+    },
+    {
+      "name": "Dynaryz CMD",
+      "brand": "Joola",
+      "speed": 8,
+      "speedScale": "Joola (1-11)",
+      "spin": 10,
+      "control": null,
+      "thickness": null,
+      "hardness": "~45 ESN (medio)",
+      "weight": null,
+      "color": "Rojo / Negro",
+      "tackiness": "No pegajosa (alta adherencia)",
+      "surfaceType": "Inverted (lisa)",
+      "technology": "Esponja Hyper Bounce de dureza media (~45 ESN) y superficie Advanced Traction; enfocada al control y precisión.",
+      "summary": "Goma premium de Joola orientada al control y la precisión: toque, control y efecto con la tecnología Hyper Bounce y Advanced Traction.",
+      "description": "El Dynaryz CMD ofrece el toque, control y precisión de una goma medio-blanda con el rendimiento de la tecnología Hyper Bounce y la Advanced Traction Surface. A diferencia de las versiones AGR y ZGR (más rápidas y duras), el CMD está afinado para el toque, el control y un efecto constante, resultando atractivo para jugadores atacantes de todos los niveles.",
+      "pros": [
+        "Excelente control y precisión",
+        "toque fino y sensación agradable",
+        "buen efecto",
+        "versátil para juego táctico."
+      ],
+      "cons": [
+        "Menos velocidad punta que las variantes ACC/ZGR/AGR",
+        "requiere generar la velocidad con el propio golpe."
+      ],
+      "imageUrl": "https://joola.com/cdn/shop/files/dynaryzCMDrubber_01.png?v=1712311166",
+      "sourceUrl": "https://joola.com/products/dynaryz-cmd-table-tennis-rubber",
+      "sourceName": "Joola",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "8",
+        "spin": "10",
+        "hardness": "~45 ESN (medio)",
+        "color": "Rojo / Negro",
+        "tackiness": "No pegajosa (alta adherencia)",
+        "surfaceType": "Inverted (lisa)",
+        "technology": "Esponja Hyper Bounce de dureza media (~45 ESN) y superficie Advanced Traction; enfocada al control y precisión."
+      },
+      "scale": {
+        "speed": "Joola (1-11)"
+      }
+    },
+    {
+      "name": "Rhyzen CMD",
+      "brand": "Joola",
+      "speed": 6,
+      "speedScale": "Joola (1-11); control Revspin (0-10)",
+      "spin": 8.5,
+      "control": 9.3,
+      "thickness": null,
+      "hardness": "Medio (Balance sponge)",
+      "weight": null,
+      "color": "Rojo / Negro",
+      "tackiness": "Media (ligeramente pegajosa)",
+      "surfaceType": "Inverted (lisa)",
+      "technology": "Esponja Balance de poros pequeños y superficie Enhanced Traction; control y dinámica ofensiva equilibrados.",
+      "summary": "Goma de la serie Rhyzen orientada al control con alta dinámica ofensiva: control excelente, buen efecto y juego corto fiable para jugadores all-round.",
+      "description": "El Rhyzen CMD ofrece un control excelente (9.3), alto efecto (8.7) y adherencia media. Está diseñado para jugadores all-round que buscan consistencia y precisión. Su velocidad controlada lo hace apto para topspin, bloqueos y juego corto, ofreciendo una trayectoria estable y tolerante, ideal para jugadores que valoran la regularidad táctica.",
+      "pros": [
+        "Control excelente",
+        "juego corto fiable",
+        "consistente y tolerante",
+        "buena dinámica ofensiva para su control."
+      ],
+      "cons": [
+        "Velocidad limitada para jugadores muy ofensivos",
+        "necesita generar el efecto propio para atacar con fuerza."
+      ],
+      "imageUrl": "https://joola.com/cdn/shop/files/rhyzenCMDrubber_01.png?v=1712311158",
+      "sourceUrl": "https://joola.com/products/rhyzen-cmd-table-tennis-rubber",
+      "sourceName": "Joola",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "6",
+        "spin": "8.5",
+        "control": "9.3",
+        "hardness": "Medio (Balance sponge)",
+        "color": "Rojo / Negro",
+        "tackiness": "Media (ligeramente pegajosa)",
+        "surfaceType": "Inverted (lisa)",
+        "technology": "Esponja Balance de poros pequeños y superficie Enhanced Traction; control y dinámica ofensiva equilibrados."
+      },
+      "scale": {
+        "speed": "Joola (1-11); control Revspin (0-10)"
+      }
+    },
+    {
+      "name": "Golden Tango",
+      "brand": "Joola",
+      "speed": 8.8,
+      "speedScale": "Revspin (0-10)",
+      "spin": 9.4,
+      "control": 9.1,
+      "thickness": null,
+      "hardness": "50° (Joola)",
+      "weight": null,
+      "color": "Rojo / Negro",
+      "tackiness": "Pegajosa (tacky)",
+      "surfaceType": "Inverted (lisa)",
+      "technology": "Goma híbrida fabricada en Alemania: capa superior pegajosa tipo china con esponja Tensor europea muy elástica.",
+      "summary": "Goma híbrida de Joola que combina la adherencia pegajosa tipo china con la elasticidad y velocidad de una esponja Tensor europea.",
+      "description": "El Golden Tango, fabricado en Alemania, mezcla la adherencia de una capa superior pegajosa (típica de las gomas chinas) con la elasticidad y velocidad de una esponja Tensor europea de 50°. Produce una rotación increíble y una trayectoria arqueada, con reservas de velocidad para responder a ataques con efecto inesperados. Apta tanto para juego ofensivo como defensivo con efecto.",
+      "pros": [
+        "Alto efecto y rotación",
+        "toque pegajoso tipo chino",
+        "buena elasticidad y reserva de velocidad",
+        "versátil."
+      ],
+      "cons": [
+        "Requiere generar el efecto con esfuerzo propio (poco spin fácil)",
+        "dureza 50° exigente",
+        "menos dinámica que tensores puros."
+      ],
+      "imageUrl": "https://revspin.net/images/rubbers/joola-tango-gold.jpg",
+      "sourceUrl": "https://revspin.net/rubber/joola-golden-tango.html",
+      "sourceName": "Revspin",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "8.8",
+        "spin": "9.4",
+        "control": "9.1",
+        "hardness": "50° (Joola)",
+        "color": "Rojo / Negro",
+        "tackiness": "Pegajosa (tacky)",
+        "surfaceType": "Inverted (lisa)",
+        "technology": "Goma híbrida fabricada en Alemania: capa superior pegajosa tipo china con esponja Tensor europea muy elástica."
+      },
+      "scale": {
+        "speed": "Revspin (0-10)"
+      }
+    },
+    {
+      "name": "X-Plode Sensitive",
+      "brand": "Joola",
+      "speed": 8.5,
+      "speedScale": "Revspin (0-10)",
+      "spin": 8.7,
+      "control": 8.7,
+      "thickness": "2.0 mm / Max",
+      "hardness": "40° (Joola)",
+      "weight": "~43 g (2.0 mm cortado)",
+      "color": "Rojo / Negro",
+      "tackiness": "No pegajosa (grippy)",
+      "surfaceType": "Inverted (lisa)",
+      "technology": "Versión más blanda del X-Plode con tecnología Green Power: efecto de 'pegamento de velocidad' incorporado, esponja medio-blanda y superficie de alta fricción.",
+      "summary": "Versión blanda y 'sensible' del X-Plode: toque fino y control en el primer contacto con catapulta explosiva en el despegue del balón.",
+      "description": "El X-Plode Sensitive es la versión más blanda del X-Plode. Su esponja medio-blanda (40°) y su superficie de alta fricción alargan el tiempo de contacto para un control superior en aperturas y juego corto. En el despegue, la tecnología Green Power aporta un efecto de pegamento de velocidad incorporado que catapulta el balón con potencia. Optimizada para la era de la bola 40+.",
+      "pros": [
+        "Excelente control y toque sensible",
+        "tiempo de contacto amplio",
+        "buen efecto",
+        "catapulta explosiva en el despegue."
+      ],
+      "cons": [
+        "Menos velocidad punta que el X-Plode original",
+        "requiere generar velocidad con el propio golpe."
+      ],
+      "imageUrl": "https://revspin.net/images/rubbers/joola-x-plode-sensitive.jpg",
+      "sourceUrl": "https://revspin.net/rubber/joola-x-plode-sensitive.html",
+      "sourceName": "Revspin",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "8.5",
+        "spin": "8.7",
+        "control": "8.7",
+        "thickness": "2.0 mm / Max",
+        "hardness": "40° (Joola)",
+        "weight": "~43 g (2.0 mm cortado)",
+        "color": "Rojo / Negro",
+        "tackiness": "No pegajosa (grippy)",
+        "surfaceType": "Inverted (lisa)",
+        "technology": "Versión más blanda del X-Plode con tecnología Green Power: efecto de 'pegamento de velocidad' incorporado, esponja medio-blanda y superficie de alta fricción."
+      },
+      "scale": {
+        "speed": "Revspin (0-10)"
+      }
+    },
+    {
+      "name": "Mantra S",
+      "brand": "Stiga",
+      "speed": 146,
+      "speedScale": "0-160 (escala Stiga)",
+      "spin": 132,
+      "control": 84,
+      "thickness": 2.1,
+      "hardness": "Blanda (soft)",
+      "weight": null,
+      "color": "Rojo / Negro",
+      "tackiness": "Grippy (baja pegajosidad)",
+      "surfaceType": "Tensor invertido",
+      "technology": "OCS (Oxygen Capsule System), TTS (Tension Tensor System)",
+      "summary": "Goma tensor japonesa de la serie Mantra con esponja blanda, enfocada en spin y control con un característico efecto catapulta.",
+      "description": "La Stiga Mantra S es una goma tensor fabricada en Japón con una mezcla de caucho sintético y natural. Combina una esponja blanda con un buen rendimiento de control (84), velocidad (146) y spin (132) en la escala Stiga. Su sistema OCS (Oxygen Capsule System) aporta un efecto catapulta estable y consistente, ideal para juego versátil con gran control en saques y devoluciones.",
+      "pros": [
+        "Alto control en el juego corto",
+        "Buena generación de spin",
+        "Efecto catapulta estable (OCS)",
+        "Hecha en Japón"
+      ],
+      "cons": [
+        "Menor velocidad que las variantes duras",
+        "Menos adecuada para un juego muy agresivo lejos de la mesa"
+      ],
+      "imageUrl": "https://www.sportswing.in/cdn/shop/files/StigaMantraSTableTennisRubbers.png?v=1694691926",
+      "sourceUrl": "https://www.sportswing.in/products/stiga-mantra-s-table-tennis-rubbers",
+      "sourceName": "Sportswing.in / especificaciones oficiales Stiga",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "146",
+        "spin": "132",
+        "control": "84",
+        "thickness": "2.1",
+        "hardness": "Blanda (soft)",
+        "color": "Rojo / Negro",
+        "tackiness": "Grippy (baja pegajosidad)",
+        "surfaceType": "Tensor invertido",
+        "technology": "OCS (Oxygen Capsule System), TTS (Tension Tensor System)"
+      },
+      "scale": {
+        "speed": "0-160 (escala Stiga)"
+      }
+    },
+    {
+      "name": "Mantra Pro",
+      "brand": "Stiga",
+      "speed": 148,
+      "speedScale": "0-160 (escala Stiga)",
+      "spin": 135,
+      "control": 85,
+      "thickness": 2.1,
+      "hardness": "Media-dura (47°/47.5°)",
+      "weight": null,
+      "color": "Negro / Rojo / Azul",
+      "tackiness": "Grippy (baja pegajosidad)",
+      "surfaceType": "Tensor invertido",
+      "technology": "OCS (Oxygen Capsule System)",
+      "summary": "Tensor ofensivo japonés con esponja media-dura de 47° y tecnología OCS, para jugadores modernos que buscan potencia y spin.",
+      "description": "La Mantra Pro (variante M, esponja media-dura de 47°) está fabricada en Japón y diseñada en Suecia. Pensada para un juego ofensivo moderno, ofrece un buen equilibrio entre velocidad (148), spin (135) y control (85) en la escala Stiga. Su tecnología OCS y la combinación de caucho natural y sintético aportan mayor durabilidad y un sonido nítido en cada golpe.",
+      "pros": [
+        "Alta potencia y spin",
+        "Geometría única para jugadores ofensivos",
+        "Buena durabilidad",
+        "Desarrollada con la colaboración de jugadores chinos"
+      ],
+      "cons": [
+        "Esponja media-dura exigente",
+        "Requiere buena técnica ofensiva"
+      ],
+      "imageUrl": "https://stigasports.centracdn.net/client/dynamic/images/4849_6dabbbd2f9-mantra-pro-m-1-square.jpg",
+      "sourceUrl": "https://www.stigasports.com/en/product/mantra-pro-m",
+      "sourceName": "STIGA Sports",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "148",
+        "spin": "135",
+        "control": "85",
+        "thickness": "2.1",
+        "hardness": "Media-dura (47°/47.5°)",
+        "color": "Negro / Rojo / Azul",
+        "tackiness": "Grippy (baja pegajosidad)",
+        "surfaceType": "Tensor invertido",
+        "technology": "OCS (Oxygen Capsule System)"
+      },
+      "scale": {
+        "speed": "0-160 (escala Stiga)"
+      }
+    },
+    {
+      "name": "DNA Dragon Grip",
+      "brand": "Stiga",
+      "speed": 85,
+      "speedScale": "0-100",
+      "spin": 94,
+      "control": 70,
+      "thickness": null,
+      "hardness": "Extra dura (55° ESN; también 52.5° y 57.5°)",
+      "weight": null,
+      "color": "Rojo / Negro",
+      "tackiness": "Pegajosa (sticky, híbrida)",
+      "surfaceType": "Invertida híbrida",
+      "technology": "C-Touch Tensor",
+      "summary": "Goma híbrida alemana con superficie pegajosa y esponja extra dura de 55°, enfocada en máximo spin y control.",
+      "description": "La DNA Dragon Grip es una goma híbrida fabricada en Alemania con tecnología C-Touch Tensor y una superficie pegajosa que ofrece un agarre excepcional, generando spin potente y arcos altos. Está disponible en durezas de esponja de 52.5°, 55° y 57.5°. Desarrollada con ayuda de IA y con el feedback de jugadores de élite.",
+      "pros": [
+        "Agarre y spin excepcionales",
+        "Excelente control en saques y devoluciones",
+        "Arcos altos y potentes",
+        "Desarrollada con IA y jugadores de élite"
+      ],
+      "cons": [
+        "Esponja muy dura y exigente",
+        "Requiere técnica avanzada",
+        "Vida útil relativamente corta según reseñas"
+      ],
+      "imageUrl": "https://stigasports.centracdn.net/client/dynamic/images/4379_6e56244043-dna-dragon-grip-55-1-square.jpg",
+      "sourceUrl": "https://www.stigasports.com/en/product/dna-dragon-grip-55",
+      "sourceName": "STIGA Sports / RubberMetrics",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "85",
+        "spin": "94",
+        "control": "70",
+        "hardness": "Extra dura (55° ESN; también 52.5° y 57.5°)",
+        "color": "Rojo / Negro",
+        "tackiness": "Pegajosa (sticky, híbrida)",
+        "surfaceType": "Invertida híbrida",
+        "technology": "C-Touch Tensor"
+      },
+      "scale": {
+        "speed": "0-100"
+      }
+    },
+    {
+      "name": "DNA M",
+      "brand": "Stiga",
+      "speed": 9.0,
+      "speedScale": "0-10 (revspin)",
+      "spin": 9.4,
+      "control": 9.0,
+      "thickness": 2.1,
+      "hardness": "Media (47.5° ESN)",
+      "weight": null,
+      "color": "Rojo / Negro",
+      "tackiness": "No pegajosa (grippy)",
+      "surfaceType": "Tensor invertido",
+      "technology": "ESC (Enlarged Sponge Cell), ESN (fabricada en Alemania)",
+      "summary": "Tensor ESN alemán de dureza media (47.5°) de la serie DNA Pro, versátil entre velocidad, spin y control.",
+      "description": "La DNA M (variante media de la serie DNA Pro) es una goma tensor fabricada en Alemania con esponja de 47.5 grados. Ofrece un excelente equilibrio entre velocidad y control, con gran spin y efecto catapulta gracias a sus celdas de esponja agrandadas (ESC). Diseñada en colaboración con miembros del equipo nacional chino y optimizada para la bola ABS. Velocidad 9.0, spin 9.4 y control 9.0 (escala 0-10).",
+      "pros": [
+        "Excelente equilibrio velocidad/control",
+        "Gran spin",
+        "Catapulta y arco alto",
+        "Fabricada en Alemania"
+      ],
+      "cons": [
+        "Puede resultar rápida para principiantes",
+        "Peso medio-alto"
+      ],
+      "imageUrl": "https://www.ppongsuper.com/wp-content/uploads/2025/09/%E4%B8%BB%E5%9B%BE03-1.jpg",
+      "sourceUrl": "https://revspin.net/rubber/stiga-dna-pro-m.html",
+      "sourceName": "Revspin / PPongsuper",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "9.0",
+        "spin": "9.4",
+        "control": "9.0",
+        "thickness": "2.1",
+        "hardness": "Media (47.5° ESN)",
+        "color": "Rojo / Negro",
+        "tackiness": "No pegajosa (grippy)",
+        "surfaceType": "Tensor invertido",
+        "technology": "ESC (Enlarged Sponge Cell), ESN (fabricada en Alemania)"
+      },
+      "scale": {
+        "speed": "0-10 (revspin)"
+      }
+    },
+    {
+      "name": "DNA S",
+      "brand": "Stiga",
+      "speed": 8.1,
+      "speedScale": "0-10 (revspin)",
+      "spin": 8.5,
+      "control": 8.5,
+      "thickness": 2.1,
+      "hardness": "Blanda (42.5° ESN)",
+      "weight": null,
+      "color": "Rojo / Negro",
+      "tackiness": "No pegajosa (grippy)",
+      "surfaceType": "Tensor invertido",
+      "technology": "ESC (Enlarged Sponge Cell), ESN (fabricada en Alemania)",
+      "summary": "Tensor ESN alemán de esponja blanda (42.5°) de la serie DNA Pro, orientado a spin y control con gran dwell time.",
+      "description": "La DNA S (variante blanda de la serie DNA Pro) es una goma tensor alemana con esponja de 42.5 grados, la más suave y controlable de la serie DNA Pro. Ofrece máximo tiempo de contacto (dwell time), excelente control y spin, siendo ideal para jugadores de estilo de giro y all-round. Velocidad 8.1, spin 8.5 y control 8.5 (escala 0-10).",
+      "pros": [
+        "Excelente control y dwell time",
+        "Alto spin",
+        "Más indulgente que las variantes duras",
+        "Ideal para estilo all-round"
+      ],
+      "cons": [
+        "Menor velocidad máxima",
+        "Menos potencia en golpes fuertes"
+      ],
+      "imageUrl": "https://www.ppongsuper.com/wp-content/uploads/2025/09/%E4%B8%BB%E5%9B%BE04-1.jpg",
+      "sourceUrl": "https://revspin.net/rubber/stiga-dna-pro-s.html",
+      "sourceName": "Revspin / PPongsuper",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "8.1",
+        "spin": "8.5",
+        "control": "8.5",
+        "thickness": "2.1",
+        "hardness": "Blanda (42.5° ESN)",
+        "color": "Rojo / Negro",
+        "tackiness": "No pegajosa (grippy)",
+        "surfaceType": "Tensor invertido",
+        "technology": "ESC (Enlarged Sponge Cell), ESN (fabricada en Alemania)"
+      },
+      "scale": {
+        "speed": "0-10 (revspin)"
+      }
+    },
+    {
+      "name": "DNA Platinum M",
+      "brand": "Stiga",
+      "speed": 9.3,
+      "speedScale": "0-10",
+      "spin": 9.0,
+      "control": 8.8,
+      "thickness": 2.3,
+      "hardness": "Media-dura (47.5° ESN)",
+      "weight": null,
+      "color": "Rojo / Negro",
+      "tackiness": "No pegajosa (grippy)",
+      "surfaceType": "Tensor invertido",
+      "technology": "PSC (Power Sponge Cells), ESN (fabricada en Alemania)",
+      "summary": "Tensor ESN alemán de gama alta con esponja media-dura (47.5°) y tecnología PSC, para ataque agresivo.",
+      "description": "La DNA Platinum M es una goma tensor de gama alta fabricada en Alemania y desarrollada con la colaboración del equipo nacional chino. Su esponja media-dura de 47.5 grados y la tecnología PSC (Power Sponge Cells) aportan gran efecto catapulta, arco agresivo y un sonido nítido. Su topsheet fino permite una esponja de hasta 2.3 mm para más velocidad y potencia.",
+      "pros": [
+        "Alta velocidad y spin",
+        "Catapulta y arco agresivo",
+        "Disponible hasta 2.3 mm de espesor",
+        "Gran durabilidad"
+      ],
+      "cons": [
+        "Rápida y exigente",
+        "Menor control en el juego corto"
+      ],
+      "imageUrl": "https://stigasports.centracdn.net/client/dynamic/images/4374_a2e0c8cf26-dna-paltinum-m-1-square.jpg",
+      "sourceUrl": "https://www.stigasports.com/en/product/dna-platinum-m",
+      "sourceName": "STIGA Sports / MatrixTT",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "9.3",
+        "spin": "9.0",
+        "control": "8.8",
+        "thickness": "2.3",
+        "hardness": "Media-dura (47.5° ESN)",
+        "color": "Rojo / Negro",
+        "tackiness": "No pegajosa (grippy)",
+        "surfaceType": "Tensor invertido",
+        "technology": "PSC (Power Sponge Cells), ESN (fabricada en Alemania)"
+      },
+      "scale": {
+        "speed": "0-10"
+      }
+    },
+    {
+      "name": "Calibra Tour M",
+      "brand": "Stiga",
+      "speed": 9.5,
+      "speedScale": "0-10 (revspin)",
+      "spin": 9.3,
+      "control": 9.0,
+      "thickness": 2.1,
+      "hardness": "Media-dura",
+      "weight": null,
+      "color": "Rojo / Negro",
+      "tackiness": "No pegajosa",
+      "surfaceType": "Tensor invertido",
+      "technology": "APS (efecto speed-glue)",
+      "summary": "Tensor invertido de ataque con esponja media-dura y tecnología APS, muy versátil entre velocidad y control.",
+      "description": "La Calibra Tour M es una goma tensor invertida con esponja media-dura y tecnología APS (que aporta un efecto speed-glue). Ofrece muy alta velocidad (9.5) y spin (9.3) con excelente control (9.0) en escala 0-10, siendo una opción versátil para juego ofensivo cerca y lejos de la mesa.",
+      "pros": [
+        "Muy rápida y versátil",
+        "Alto spin",
+        "Excelente control",
+        "Efecto speed-glue"
+      ],
+      "cons": [
+        "Superficie no pegajosa",
+        "Requiere golpe activo para máxima velocidad"
+      ],
+      "imageUrl": "https://tabletennisstore.us/cdn/shop/files/stiga-calibra-tour-m-inverted-attack.png",
+      "sourceUrl": "https://tabletennisstore.us/products/stiga-calibra-tour-m-inverted-attack-rubber",
+      "sourceName": "Table Tennis Store US / Revspin",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "9.5",
+        "spin": "9.3",
+        "control": "9.0",
+        "thickness": "2.1",
+        "hardness": "Media-dura",
+        "color": "Rojo / Negro",
+        "tackiness": "No pegajosa",
+        "surfaceType": "Tensor invertido",
+        "technology": "APS (efecto speed-glue)"
+      },
+      "scale": {
+        "speed": "0-10 (revspin)"
+      }
+    },
+    {
+      "name": "Calibra Tour H",
+      "brand": "Stiga",
+      "speed": 9.3,
+      "speedScale": "0-10 (revspin)",
+      "spin": 8.5,
+      "control": 8.7,
+      "thickness": 2.1,
+      "hardness": "Dura",
+      "weight": null,
+      "color": "Rojo / Negro",
+      "tackiness": "No pegajosa",
+      "surfaceType": "Tensor invertido",
+      "technology": "APS (efecto speed-glue)",
+      "summary": "Tensor invertido de ataque con esponja dura y tecnología APS, orientado a velocidad alta.",
+      "description": "La Calibra Tour H es una goma tensor invertida con esponja dura y tecnología APS. Ofrece muy alta velocidad (149 en la escala Stiga, ~9.3/10) y un buen spin, con un control de 8.7/10. Diseñada para jugadores ofensivos que buscan potencia y consistencia en golpes rápidos.",
+      "pros": [
+        "Alta velocidad",
+        "Buen spin",
+        "Efecto speed-glue",
+        "Buena consistencia"
+      ],
+      "cons": [
+        "Esponja dura y exigente",
+        "Menor dwell time"
+      ],
+      "imageUrl": "https://tabletennisstore.us/cdn/shop/files/stiga-calibra-tour-h-inverted-attack.png",
+      "sourceUrl": "https://tabletennisstore.us/products/stiga-calibra-tour-h-inverted-attack-rubber",
+      "sourceName": "Table Tennis Store US / Revspin",
+      "price": null,
+      "spinScale": null,
+      "controlScale": null,
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "9.3",
+        "spin": "8.5",
+        "control": "8.7",
+        "thickness": "2.1",
+        "hardness": "Dura",
+        "color": "Rojo / Negro",
+        "tackiness": "No pegajosa",
+        "surfaceType": "Tensor invertido",
+        "technology": "APS (efecto speed-glue)"
+      },
+      "scale": {
+        "speed": "0-10 (revspin)"
+      }
     }
   ]
 }
