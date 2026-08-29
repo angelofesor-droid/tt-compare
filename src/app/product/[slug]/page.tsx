@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Gallery from "@/components/product/Gallery";
 import ProductCard from "@/components/product/ProductCard";
+import ReviewsSection from "@/components/product/ReviewsSection";
 import { getPublishedProductBySlug } from "@/lib/services/product.service";
 import { getRelatedProducts } from "@/lib/services/catalog.service";
 
@@ -213,6 +214,9 @@ export default async function ProductPage({ params }: PageProps) {
           </div>
         </aside>
       </div>
+
+      {/* Comentarios de usuarios */}
+      <ReviewsSection productId={product.id} />
 
       {/* Relacionados */}
       {related.length > 0 && (

@@ -129,6 +129,7 @@ model Product {
   sources    ProductSource[]
   prosCons   ProductProsCons[]
   prices     ProductPrice[]
+  reviews    ProductReview[]
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -207,6 +208,26 @@ model ProductPrice {
   currency  String   @default("CLP")
   source    String?
   updatedAt DateTime @default(now())
+
+  product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@index([productId])
+}
+
+// ─────────────────────────── Reviews de usuarios ───────────────────────────
+// Comentarios de la comunidad citados de fuentes públicas (ej. RevSpin) o
+// redacciones editoriales marcadas. NUNCA se inventan autores reales.
+model ProductReview {
+  id               String   @id @default(uuid())
+  productId        String
+  author           String // nombre/username citado de la fuente
+  rating           Int // valoración general 1-5
+  durabilityRating Int? // durabilidad según el usuario 1-10
+  title            String?
+  comment          String
+  source           String? // URL pública de la review
+  isEditorial      Boolean  @default(false) // true = redacción propia marcada como tal
+  createdAt        DateTime @default(now())
 
   product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
 

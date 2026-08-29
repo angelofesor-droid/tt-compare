@@ -86,3 +86,8 @@ export type ProductProsCons = Prisma.ProductProsConsModel
  * 
  */
 export type ProductPrice = Prisma.ProductPriceModel
+/**
+ * Model ProductReview
+ * 
+ */
+export type ProductReview = Prisma.ProductReviewModel
