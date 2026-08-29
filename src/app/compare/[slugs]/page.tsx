@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { CompareError, getCompareProducts, unionAttributes } from "@/lib/services/compare.service";
+import RadarComparison, { type RadarRow, type RadarProduct } from "@/components/compare/RadarComparison";
 
 export const dynamic = "force-dynamic";
 
@@ -51,6 +52,7 @@ export default async function CompareDetailPage({ params }: PageProps) {
 
   const { categoryName, products } = data;
   const attributes = unionAttributes(products);
+  const { rows: radarRows, radarProducts } = buildRadarData(products);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -105,6 +107,11 @@ export default async function CompareDetailPage({ params }: PageProps) {
             {p.price && <p className="mt-1 text-sm font-bold tabular-nums text-ink">{formatPrice(p.price)}</p>}
           </Link>
         ))}
+      </div>
+
+      {/* Gráfico de radar comparativo (entre imágenes y matriz) */}
+      <div className="mt-10">
+        <RadarComparison rows={radarRows} products={radarProducts} />
       </div>
 
       {/* Matriz de análisis (desktop) */}
@@ -213,6 +220,57 @@ export default async function CompareDetailPage({ params }: PageProps) {
 function valuesDiffer(values: (string | null)[]): boolean {
   const seen = new Set(values.filter(Boolean));
   return seen.size > 1;
+}
+
+/** Construye los datos del radar: solo atributos numéricos con la misma escala entre productos */
+function buildRadarData(products: Awaited<ReturnType<typeof getCompareProducts>>["products"]): {
+  rows: RadarRow[];
+  radarProducts: RadarProduct[];
+} {
+  const palette = ["#e87b3f", "#5aa7d6", "#7bc98d", "#c08ad9"];
+  const radarProducts: RadarProduct[] = products.map((p, i) => ({
+    slug: p.slug,
+    name: p.name,
+    color: palette[i % palette.length],
+  }));
+
+  // Reunir todos los atributos numéricos presentes
+  const byKey = new Map<string, { name: string; entries: { slug: string; raw: number; unit: string | null; scale: string | null }[] }>();
+  for (const p of products) {
+    for (const a of p.attributes) {
+      const raw = Number.parseFloat(String(a.value).replace(",", "."));
+      if (Number.isNaN(raw)) continue;
+      const entry = byKey.get(a.key) ?? { name: a.name, entries: [] };
+      entry.entries.push({ slug: p.slug, raw, unit: a.unit, scale: a.scale });
+      byKey.set(a.key, entry);
+    }
+  }
+
+  const rows: RadarRow[] = [];
+  for (const [key, group] of byKey) {
+    if (group.entries.length < 2) continue;
+    // Escala coincidente entre los productos que tienen el atributo
+    const scales = new Set(group.entries.map((e) => e.scale ?? ""));
+    if (scales.size > 1) continue; // no mezclar escalas de fabricantes distintos
+    const values = group.entries.map((e) => e.raw);
+    const max = Math.max(...values);
+    if (max <= 0) continue;
+    rows.push({
+      key,
+      name: group.name,
+      max,
+      points: group.entries.map((e) => ({
+        slug: e.slug,
+        value: (e.raw / max) * 100,
+        raw: e.raw,
+        label: `${e.raw}${e.unit ? ` ${e.unit}` : ""}${e.scale ? ` (${e.scale})` : ""}`,
+        unit: e.unit,
+        scale: e.scale,
+      })),
+    });
+  }
+
+  return { rows, radarProducts };
 }
 
 /** Fila de la matriz con indicador discreto de diferencias */
