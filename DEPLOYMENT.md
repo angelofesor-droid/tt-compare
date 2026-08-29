@@ -48,36 +48,30 @@ git push -u origin main
 
 ## 4. Migrar la base de datos (tablas) en Supabase
 
-Desde el proyecto local, apuntando a Supabase:
+Las migraciones y la carga de datos usan la **conexión directa** de Supabase (no el pooler).
+Desde el proyecto local:
 
 ```bash
 cd C:\Users\fesor\workspace\tt-compare
-set DATABASE_URL=<TU_POOLER_URL>& set DIRECT_URL=<TU_URL_DIRECTA>& npx prisma migrate deploy
+# apuntar el .env local a la conexión DIRECTA de Supabase (port 5432)
+#   DATABASE_URL=postgresql://postgres.xxxx:[PASSWORD]@aws-0-...pooler.supabase.com:5432/postgres
+npx prisma migrate deploy   # crea las tablas
+npx prisma db seed          # categorías, marcas, atributos
 ```
 
-Esto crea las tablas. Luego el seed base (categorías, marcas, atributos):
-
-```bash
-set DATABASE_URL=<TU_POOLER_URL>& set DIRECT_URL=<TU_URL_DIRECTA>& npx prisma db seed
-```
+> El **pooler** (port 6543) se usa SOLO como `DATABASE_URL` en el entorno de Netlify
+> (la app en producción). Para migraciones/seed/carga local se usa la conexión directa.
 
 ## 5. Cargar el catálogo real (167 productos + reviews)
 
-Los scripts de carga leen de `prisma/real-catalog.json` y `prisma/reviews.json` y escriben en la
-`DATABASE_URL` del `.env`. Para poblar Supabase, apunta el `.env` a la BD remota y ejecútalos
-(con `DIRECT_URL` también seteada):
+Con el `.env` apuntando a la conexión directa de Supabase, ejecuta los scripts de carga
+(leen de `prisma/real-catalog.json` y `prisma/reviews.json`):
 
 ```bash
 cd C:\Users\fesor\workspace\tt-compare
-# 1. tablas + seed base (categorías, marcas, atributos)
-set DATABASE_URL=<POOLER>& set DIRECT_URL=<DIRECTA>& npx prisma migrate deploy
-set DATABASE_URL=<POOLER>& set DIRECT_URL=<DIRECTA>& npx prisma db seed
-# 2. productos del catálogo real
-set DATABASE_URL=<POOLER>& npx tsx scripts/load-real-catalog.ts
-# 3. durabilidad editorial de las gomas
-set DATABASE_URL=<POOLER>& npx tsx scripts/set-durability.ts
-# 4. reviews reales de usuarios
-set DATABASE_URL=<POOLER>& npx tsx scripts/load-reviews.ts
+npx tsx scripts/load-real-catalog.ts   # productos del catálogo real
+npx tsx scripts/set-durability.ts      # durabilidad editorial de las gomas
+npx tsx scripts/load-reviews.ts        # reviews reales de usuarios
 ```
 
 ## Verificación
