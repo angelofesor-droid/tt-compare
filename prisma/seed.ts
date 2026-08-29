@@ -85,6 +85,7 @@ const attributesByCategory: Record<string, Attr[]> = {
     { key: "color", name: "Color", valueType: "ENUM", options: ["Rojo", "Negro"], sortOrder: 8 },
     { key: "technology", name: "Tecnología", valueType: "TEXT", sortOrder: 9 },
     { key: "surfaceType", name: "Tipo de superficie", valueType: "ENUM", options: ["Lisa", "Grano corto", "Grano largo", "Antispin"], filterable: true, sortOrder: 10 },
+    { key: "durability", name: "Durabilidad", valueType: "NUMBER", unit: "", scaleName: "Valoración editorial Zona Tenis de Mesa (1-10)", filterable: true, comparable: true, sortOrder: 11 },
   ],
   BLADE: [
     { key: "weight", name: "Peso", valueType: "NUMBER", unit: "g", filterable: true, showOnCard: true, sortOrder: 1 },

@@ -222,7 +222,9 @@ function valuesDiffer(values: (string | null)[]): boolean {
   return seen.size > 1;
 }
 
-/** Construye los datos del radar: solo atributos numéricos con la misma escala entre productos */
+/** Construye los datos del radar: atributos numéricos normalizados por escala del fabricante.
+ *  No asume equivalencia entre escalas: cada atributo se normaliza dentro de su propia escala
+ *  (rango declarado en scaleName) o, si no hay escala, al máximo del conjunto comparado. */
 function buildRadarData(products: Awaited<ReturnType<typeof getCompareProducts>>["products"]): {
   rows: RadarRow[];
   radarProducts: RadarProduct[];
@@ -234,7 +236,14 @@ function buildRadarData(products: Awaited<ReturnType<typeof getCompareProducts>>
     color: palette[i % palette.length],
   }));
 
-  // Reunir todos los atributos numéricos presentes
+  // Extrae el máximo de una escala declarada, ej. "escala 1-10" → 10
+  function parseScaleMax(scale: string | null | undefined): number | null {
+    if (!scale) return null;
+    const m = scale.match(/(\d+)\s*[-–—]\s*(\d+)/);
+    if (!m) return null;
+    return Math.max(Number(m[1]), Number(m[2]));
+  }
+
   const byKey = new Map<string, { name: string; entries: { slug: string; raw: number; unit: string | null; scale: string | null }[] }>();
   for (const p of products) {
     for (const a of p.attributes) {
@@ -249,19 +258,22 @@ function buildRadarData(products: Awaited<ReturnType<typeof getCompareProducts>>
   const rows: RadarRow[] = [];
   for (const [key, group] of byKey) {
     if (group.entries.length < 2) continue;
-    // Escala coincidente entre los productos que tienen el atributo
-    const scales = new Set(group.entries.map((e) => e.scale ?? ""));
-    if (scales.size > 1) continue; // no mezclar escalas de fabricantes distintos
     const values = group.entries.map((e) => e.raw);
-    const max = Math.max(...values);
-    if (max <= 0) continue;
+    const maxSet = Math.max(...values);
+    if (maxSet <= 0) continue;
+
+    // Escala declarada común (si todos la tienen con el mismo rango)
+    const scaleMaxes = group.entries.map((e) => parseScaleMax(e.scale));
+    const commonScaleMax = scaleMaxes.every((s) => s !== null) && new Set(scaleMaxes).size === 1 ? scaleMaxes[0]! : null;
+    const normMax = commonScaleMax ?? maxSet;
+
     rows.push({
       key,
       name: group.name,
-      max,
+      max: normMax,
       points: group.entries.map((e) => ({
         slug: e.slug,
-        value: (e.raw / max) * 100,
+        value: Math.max(0, Math.min(100, (e.raw / normMax) * 100)),
         raw: e.raw,
         label: `${e.raw}${e.unit ? ` ${e.unit}` : ""}${e.scale ? ` (${e.scale})` : ""}`,
         unit: e.unit,

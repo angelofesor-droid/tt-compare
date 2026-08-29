@@ -39,7 +39,7 @@ export default function RadarComparison({
   if (rows.length < 3 || products.length < 2) {
     return (
       <div className="panel p-6 text-center text-sm text-ink-low">
-        No hay suficientes atributos numéricos con la misma escala para dibujar el gráfico de radar.
+        No hay suficientes atributos numéricos para dibujar el gráfico de radar.
       </div>
     );
   }
@@ -77,7 +77,8 @@ export default function RadarComparison({
       <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
         <h2 className="sec-label">Análisis comparativo</h2>
         <p className="text-xs text-ink-faint">
-          Valores normalizados al máximo de la comparación. Cada atributo conserva su escala original en la tabla.
+          Forma normalizada dentro de la escala de cada fabricante (o al máximo de la comparación).
+          Las escalas no son equivalentes entre marcas; los valores originales están en la leyenda y la tabla.
         </p>
       </div>
 
