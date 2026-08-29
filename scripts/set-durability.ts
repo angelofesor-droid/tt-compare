@@ -23,6 +23,13 @@ const ratings: Record<string, number> = {
   "Tibhar Hybrid K3": 6,
   "Donic Bluefire M2": 5,
   "Yasaka Rakza 7": 7, // reconocida por su durabilidad
+  "Butterfly Dignics 09C": 5, // superficie premium delicada (tacky)
+  "Butterfly Tenergy 19": 5, // tensor delicado, similar a Tenergy 05
+  "DHS Hurricane 8": 8, // caucho duro chino, muy duradero
+  "Stiga DNA Pro H": 6,
+  "Joola Rhyzer 48": 6,
+  "Andro Hexer Powergrip": 6,
+  "Tibhar Evolution MX-P": 7,
 };
 
 async function main() {

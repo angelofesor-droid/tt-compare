@@ -762,6 +762,630 @@
       "sourceUrl": "https://shop.butterflyonline.com/centrefold-25-table",
       "sourceName": "Butterfly Online (tienda oficial)",
       "price": null
+    },
+    {
+      "name": "Butterfly Dignics 09C",
+      "brand": "Butterfly",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "79",
+        "spin": "96",
+        "thickness": "2.1 / 1.9 mm",
+        "hardness": "44 (escala Butterfly)",
+        "color": "Rojo, negro",
+        "tackiness": "Adherente (tacky) — híbrida",
+        "surfaceType": "Inverted (liso)",
+        "technology": "High Tension + Spring Sponge X"
+      },
+      "scale": {
+        "speed": "Índice Butterfly 0-100 (revisado feb 2023)"
+      },
+      "summary": "Goma híbrida de alta fricción con esponja dura Spring Sponge X: combina agarre tipo tacky con rebote alto. Usada por Fan Zhendong.",
+      "description": "La sinergia entre su top sheet original de alta fricción y una esponja Spring Sponge X más dura que la Tenergy 05 Hard logra un rebote alto manteniendo la sensación de una goma adherente. Los pímes código No. 209 entregan topspin y juego defensivo con mucho efecto, además de facilidad en juego de mesa y contra-topspin. Tipo High friction High Tension pimples-in, fabricada en Japón. Butterfly publica Speed 79 / Spin 96 / Arc 96 (no publica índice de control).",
+      "pros": [
+        "Efecto enorme (Spin 96/100) con arco muy alto (Arc 96)",
+        "Sensación híbrida adherente sin sacrificar rebote",
+        "Excelente en juego corto, saques y contra-topspin"
+      ],
+      "cons": [
+        "Precio muy alto (gama premium)",
+        "Esponja dura que exige potencia y buena técnica",
+        "Superficie delicada: requiere film protector"
+      ],
+      "imageUrl": "https://www.butterfly-global.com/en/products/item/06070_01.jpg",
+      "imageAlt": "Butterfly Dignics 09C",
+      "imageSource": "Butterfly Global",
+      "sourceUrl": "https://www.butterfly-global.com/en/products/detail/06070.html",
+      "sourceName": "Butterfly Global",
+      "price": null
+    },
+    {
+      "name": "Butterfly Tenergy 19",
+      "brand": "Butterfly",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "84",
+        "spin": "75",
+        "thickness": "2.1 / 1.9 / 1.7 mm",
+        "hardness": "36 (escala Butterfly)",
+        "color": "Rojo, negro",
+        "tackiness": "No adherente (grippy)",
+        "surfaceType": "Inverted (liso)",
+        "technology": "High Tension + Spring Sponge"
+      },
+      "scale": {
+        "speed": "Índice Butterfly 0-100 (revisado feb 2023)"
+      },
+      "summary": "La Tenergy con mayor efecto de la serie: top sheet de pímes densos (No.219) y más dwell time, con buen desempeño también en bloqueo.",
+      "description": "Pímes densamente distribuidos (código No.219) que no ceden ante el ataque rival, combinados con Spring Sponge para lograr una mayor sensación de agarre, especialmente en golpes fuertes y precisos. Genera más velocidad y efecto que la Tenergy 05 según Butterfly, y rinde tanto en golpes activos como pasivos ante devoluciones potentes. Fabricada en Japón; Butterfly publica Speed 84 / Spin 75 / Arc 78.",
+      "pros": [
+        "La más efectosa de la línea Tenergy (Spin 75/100)",
+        "Mayor dwell time y sensación de agarre en el impacto",
+        "Muy estable en bloqueo y juego pasivo ante bolas fuertes"
+      ],
+      "cons": [
+        "Según la mayoría de reseñas, algo más lenta que Tenergy 05",
+        "Precio premium (gama Tenergy)",
+        "Superficie delicada: requiere film protector"
+      ],
+      "imageUrl": "https://www.butterfly-global.com/en/products/item/06090_01.jpg",
+      "imageAlt": "Butterfly Tenergy 19",
+      "imageSource": "Butterfly Global",
+      "sourceUrl": "https://www.butterfly-global.com/en/products/detail/06090.html",
+      "sourceName": "Butterfly Global",
+      "price": null
+    },
+    {
+      "name": "DHS Hurricane 8",
+      "brand": "DHS",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "89",
+        "spin": "97",
+        "control": "74",
+        "thickness": "2.15 / 2.2 mm",
+        "hardness": "39 / 40 / 41 (escala DHS)",
+        "color": "Negro, rojo",
+        "tackiness": "Adherente (sticky)",
+        "surfaceType": "Inverted (liso)",
+        "technology": "Esponja de alta densidad MARCO-CELL + High-Elasticity Particle Osmosis"
+      },
+      "scale": {
+        "speed": "Escala DHS 0-100 (vía Megaspin)"
+      },
+      "summary": "Goma china 'sticky-speed' de nueva generación: esponja de alta densidad 15% más elástica, diseñada para la bola 40+.",
+      "description": "La Hurricane 8 mantiene el equilibrio entre flexibilidad y elasticidad con una nueva esponja de alta densidad y las tecnologías MARCO-CELL y High-Elasticity Particle Osmosis, que elevan su elasticidad un 15%. Esto permite alta velocidad de tiro incluso con ataques débiles. Ofrece efecto único y arco impredecible, pensada para potenciar el efecto y la velocidad de la bola plástica sin celuloide (40+). Juego recomendado: Control/Loop.",
+      "pros": [
+        "Velocidad y potencia superiores a la Hurricane clásica (Speed 89/100)",
+        "Efecto pegajoso muy alto (Spin 97/100) con arco bajo e impredecible",
+        "Precio accesible frente a tensores premium"
+      ],
+      "cons": [
+        "Exige técnica de golpe chino (corto y rápido)",
+        "Muchos jugadores la boostean para máximo rendimiento",
+        "Menos catapulta que los tensores europeos"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_dhs-h-80-mid.jpg",
+      "imageAlt": "DHS Hurricane 8",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=dhs-h-80-mid",
+      "sourceName": "Megaspin",
+      "price": null
+    },
+    {
+      "name": "Stiga DNA Pro H",
+      "brand": "Stiga",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "160",
+        "spin": "134",
+        "control": "76",
+        "thickness": "1.9 / 2.1 mm (según variante)",
+        "hardness": "50 (escala Stiga; serie: S 42.5 / M 47.5 / H 50)",
+        "color": "Negro, rojo",
+        "tackiness": "No adherente (grippy)",
+        "surfaceType": "Inverted (liso)",
+        "technology": "ESC (Enlarged Sponge Cells) + mezcla de caucho natural y sintético"
+      },
+      "scale": {
+        "speed": "Índice STIGA propio (Speed/Spin/Control)"
+      },
+      "summary": "Tensor alemán de gama profesional para juego ofensivo potente: tecnología ESC con efecto catapulta y arco alto en topspin.",
+      "description": "Goma fabricada en Alemania, desarrollada en colaboración con miembros de las selecciones sueca y china para el estilo ofensivo moderno. La tecnología ESC (Enlarged Sponge Cells) utiliza poros más grandes que generan catapulta y un arco más alto en los rallyes de topspin, reforzando además el contacto con la pala. La mezcla de caucho natural y sintético aumenta su durabilidad; su esponja naranja de 50 grados entrega potencia y velocidad en golpes eficientes. Usada por Truls Möregårdh e Ioannis Sgouropoulos.",
+      "pros": [
+        "Potencia y velocidad de primer nivel (Speed 160)",
+        "Arco alto y efecto catapulta gracias a la tecnología ESC",
+        "Buena durabilidad por la mezcla de cauchos"
+      ],
+      "cons": [
+        "Control exigente (76) en la versión dura",
+        "Requiere buena técnica y potencia de ataque",
+        "Descontinuada por Stiga en favor de la serie DNA Platinum"
+      ],
+      "imageUrl": "https://stigasports.centracdn.net/client/dynamic/images/4371_3f87661c44-1712-0305-xx-dna-pro-h-red-1000x0.jpg",
+      "imageAlt": "Stiga DNA Pro H",
+      "imageSource": "Stiga Sports (página oficial archivada)",
+      "sourceUrl": "https://web.archive.org/web/20230529224606/https://www.stigasports.com/en-gb/product/dna-pro-h",
+      "sourceName": "Stiga Sports (página oficial archivada)",
+      "price": null
+    },
+    {
+      "name": "Joola Rhyzer 48",
+      "brand": "Joola",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "8.5",
+        "spin": "9",
+        "control": "7.5",
+        "hardness": "48 (escala Joola, categoría Medium+)",
+        "color": "Negro, rojo",
+        "tackiness": "No adherente (grippy)",
+        "surfaceType": "Inverted (liso)",
+        "technology": "Tensor + esponja Tensity de poro grande + Advanced Traction Surface"
+      },
+      "scale": {
+        "speed": "Escala JOOLA 0-10+ (Speed/Spin/Control/Arc)"
+      },
+      "summary": "Tensor ofensivo de la línea Professional de JOOLA: top sheet de pímes finos sobre esponja Tensity para catapulta potente y gran efecto.",
+      "description": "El top sheet de la Rhyzer 48 usa pímes finos con mayor separación, permitiendo que la bola penetre más profundo en la esponja Tensity de poro grande. La esponja con tecnología Tensor crea un efecto catapulta con elevación adicional, y la Advanced Traction Surface aporta gran generación de efecto en todos los golpes de ataque, desde saques hasta loops potentes. Orientada al jugador ofensivo moderno de cerca de la mesa y media distancia (estilo OFF).",
+      "pros": [
+        "Gran generación de efecto y trayectoria pronunciada",
+        "Catapulta potente de la esponja Tensity",
+        "Equilibrio velocidad/efecto ideal para ataque moderno"
+      ],
+      "cons": [
+        "Control medio (7.5/10) que exige buena técnica",
+        "Poca disponibilidad en tiendas chilenas",
+        "Menos dwell time que las gomas híbridas adherentes"
+      ],
+      "imageUrl": "https://joola.com/cdn/shop/files/rubberRhyzer48.png",
+      "imageAlt": "Joola Rhyzer 48",
+      "imageSource": "JOOLA USA",
+      "sourceUrl": "https://joola.com/products/rhyzer-48-table-tennis-rubber",
+      "sourceName": "JOOLA USA",
+      "price": {
+        "amount": 42000.0,
+        "currency": "CLP",
+        "source": "Precio referencial"
+      }
+    },
+    {
+      "name": "Andro Hexer Powergrip",
+      "brand": "Andro",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "94",
+        "spin": "92",
+        "control": "71",
+        "thickness": "1.7 / 1.9 / 2.1 mm",
+        "hardness": "47.5 (escala ESN)",
+        "color": "Negro, rojo, verde",
+        "tackiness": "No adherente (grippy)",
+        "surfaceType": "Inverted (liso)",
+        "technology": "Tensor + top sheet de 100% caucho natural"
+      },
+      "scale": {
+        "speed": "Escala Andro (vía Megaspin)"
+      },
+      "summary": "Tensor alemán con top sheet 100% caucho natural y esponja dura de poro grande: efecto excepcional, constancia y precisión.",
+      "description": "La esponja dura de 47.5° con poros grandes crea catapulta y potencia para golpes con gran variedad de efecto y tempo. Su top sheet avanzado de 100% caucho natural, diseñado para la bola plástica, maximiza el efecto y las trayectorias. Esponja y superficie están perfectamente emparejadas para constancia y precisión, ideal para jugadores que basan su topspin moderno en el efecto y la colocación. Disponible en negro, rojo y el característico verde Andro.",
+      "pros": [
+        "Efecto excepcional y trayectorias curvas ('magical spin')",
+        "Constancia y control altos para un tensor duro",
+        "Colores llamativos: negro, rojo y verde"
+      ],
+      "cons": [
+        "Top sheet de caucho natural blando se daña con facilidad",
+        "Menos velocidad punta que Rasanter o Tenergy",
+        "Pesada en versiones 2.1 mm"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_andro-hexer-pg.jpg",
+      "imageAlt": "Andro Hexer Powergrip",
+      "imageSource": "Andro",
+      "sourceUrl": "https://www.andro.de/en/hexer-powergrip",
+      "sourceName": "Andro",
+      "price": {
+        "amount": 42000.0,
+        "currency": "CLP",
+        "source": "Precio referencial"
+      }
+    },
+    {
+      "name": "Tibhar Evolution MX-P",
+      "brand": "Tibhar",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "125",
+        "spin": "120",
+        "control": "80",
+        "thickness": "1.5-1.6 / 1.7-1.8 / 1.9-2.0 / 2.1-2.2 mm",
+        "hardness": "45.7-47.7 (escala ESN)",
+        "color": "Negro, rojo",
+        "tackiness": "No adherente (grippy)",
+        "surfaceType": "Inverted (liso)",
+        "technology": "Evolution (tensor) con geometría de pímes optimizada"
+      },
+      "scale": {
+        "speed": "Escala Tibhar (Speed/Spin/Control)"
+      },
+      "summary": "El tensor ofensivo de referencia de Tibhar (estrategia OFF+): dinámica máxima y tiempo de contacto prolongado pese a su esponja dura.",
+      "description": "Desde su lanzamiento, la MX-P está entre las gomas de ataque clásicas: el ajuste perfecto de la geometría de sus pímes entrega más energía en todos los golpes ofensivos. El tiempo de contacto bola-pala prolongado otorga más sensación para una goma de esponja dura. Es la elegida por la mayoría de los jugadores de topspin que buscan la presión necesaria de sus golpes en la mesa y a media distancia; usada por profesionales como Vladimir Samsonov y Paul Drinkhall.",
+      "pros": [
+        "Velocidad alta (125) y dinámica ofensiva OFF+",
+        "Sensación y dwell time destacados para una esponja dura",
+        "Referencia probada a nivel profesional"
+      ],
+      "cons": [
+        "Control exigente (80) para jugadores avanzados",
+        "Goma pesada",
+        "Poco apta para principiantes o juego defensivo"
+      ],
+      "imageUrl": "https://tibhar.info/wp-content/uploads/2022/09/evolution_MXP-600x600.jpg",
+      "imageAlt": "Tibhar Evolution MX-P",
+      "imageSource": "Tibhar",
+      "sourceUrl": "https://tibhar.info/en/shop/evolution-mx-p/",
+      "sourceName": "Tibhar",
+      "price": {
+        "amount": 45000.0,
+        "currency": "CLP",
+        "source": "Precio referencial"
+      }
+    },
+    {
+      "name": "Butterfly Innerforce Layer ALC",
+      "brand": "Butterfly",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "85 g",
+        "layers": "5 + 2",
+        "composition": "5-ply madera + 2 capas Arylate-Carbon (Innerfiber™)",
+        "handle": "FL / ST / AN",
+        "speed": "10.7",
+        "control": "9.4",
+        "flexibility": "Flexible (toque suave gracias a la fibra interna)",
+        "balance": "Equilibrado",
+        "thickness": "6.0 mm",
+        "technology": "Innerfiber™: las capas de Arylate-Carbon (ALC) se ubican cerca del núcleo, lo que entrega un toque más suave, mayor tiempo de contacto con la bola y facilidad para generar efecto."
+      },
+      "scale": {
+        "speed": "Reaction (escala oficial Butterfly)",
+        "control": "Vibration (escala oficial Butterfly)"
+      },
+      "summary": "Madero ofensivo de fibra interna (ALC) con toque suave y gran control, ideal para ataque de cerca y media distancia.",
+      "description": "Combina Arylate-Carbon con estructura Innerfiber™ para ofrecer una sensación de 'sostener la bola' sin perder potencia. Butterfly oficial: Reacción 10.7, Vibración 9.4, estructura 5-ply + 2 ALC [Innerfiber], 6.0 mm, cabeza 157×150 mm, fabricado en Japón, mangos FL/ST/AN.",
+      "pros": [
+        "Toque suave y sensación de control ('holding the ball')",
+        "Facilidad para generar efecto y colocación precisa",
+        "Buen equilibrio entre potencia y usabilidad"
+      ],
+      "cons": [
+        "Menos velocidad que maderos con fibra en posición exterior (Reacción 10.7)",
+        "Precio premium de gama alta Butterfly"
+      ],
+      "imageUrl": "https://www.butterfly-global.com/en/products/item/36701.jpg",
+      "imageAlt": "Butterfly Innerforce Layer ALC",
+      "imageSource": "Butterfly Global Site",
+      "sourceUrl": "https://www.butterfly-global.com/en/products/detail/36701.html",
+      "sourceName": "Butterfly Global Site",
+      "price": null
+    },
+    {
+      "name": "Butterfly Primorac",
+      "brand": "Butterfly",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "84 g",
+        "layers": "5",
+        "composition": "5-ply madera (madera africana)",
+        "handle": "FL",
+        "speed": "9.7",
+        "control": "7.6",
+        "flexibility": "Media (toque suave que retiene la bola)",
+        "balance": "Versátil",
+        "thickness": "5.5 mm",
+        "technology": "Madero all-wood de 5 capas; la madera africana permite que la bola permanezca más tiempo en la pala, mejorando feel y control."
+      },
+      "scale": {
+        "speed": "Reaction (escala oficial Butterfly)",
+        "control": "Vibration (escala oficial Butterfly)"
+      },
+      "summary": "Clásico madero all-wood de Butterfly, extremadamente versátil y uno de los más vendidos de la marca.",
+      "description": "Uno de los maderos más vendidos de Butterfly: muy versátil, apoya todos los estilos de juego y, según las gomas elegidas, funciona igual de bien para juego ofensivo o defensivo. Butterfly oficial: Reacción 9.7, Vibración 7.6, 5 capas de madera, 5.5 mm, cabeza 157×150 mm, Japón.",
+      "pros": [
+        "Versatilidad total (ofensivo o defensivo según gomas)",
+        "Gran sensación y control gracias a la madera africana",
+        "Probado por décadas como best-seller de Butterfly"
+      ],
+      "cons": [
+        "Velocidad moderada (clase OFF-/OFF)",
+        "Disponible oficialmente solo en mango FL"
+      ],
+      "imageUrl": "https://www.butterfly-global.com/en/products/item/30551.jpg",
+      "imageAlt": "Butterfly Primorac",
+      "imageSource": "Butterfly Global Site",
+      "sourceUrl": "https://www.butterfly-global.com/en/products/detail/30551.html",
+      "sourceName": "Butterfly Global Site",
+      "price": null
+    },
+    {
+      "name": "Stiga Offensive Classic",
+      "brand": "Stiga",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "75-90 g (rango oficial)",
+        "layers": "5",
+        "composition": "5 capas de madera (superficie Limba)",
+        "handle": "ST (Classic) / FL (Master)",
+        "speed": "7.1",
+        "control": "6.0",
+        "technology": "Construcción clásica de 5 capas fabricada a mano en Suecia desde 1976; más de un millón de unidades vendidas."
+      },
+      "scale": {
+        "speed": "STIGA (sitio oficial)",
+        "control": "STIGA (sitio oficial)"
+      },
+      "summary": "Madero clásico de 5 capas de STIGA, famoso por su feel único y por acompañar el desarrollo de jugadores desde 1976.",
+      "description": "Lanzado en 1976, con más de un millón de unidades vendidas. Look clásico STIGA y sensación inconfundible: velocidad 7.1 y control 6.0 (escala oficial STIGA), superficie Limba, 5 capas y peso de 75-90 g.",
+      "pros": [
+        "Feel clásico e inconfundible de madera natural",
+        "Ideal para desarrollar técnica y carrera deportiva",
+        "Control 6.0 y peso ligero (75-90 g)"
+      ],
+      "cons": [
+        "Velocidad moderada para el juego actual con bola plástica 40+",
+        "Flexible y delgado: menos potencia que maderos compuestos"
+      ],
+      "imageUrl": "https://stigasports.centracdn.net/client/dynamic/images/4281_044de19e6b-1030-35-offensive-classic-1.jpg",
+      "imageAlt": "Stiga Offensive Classic",
+      "imageSource": "STIGA Sports",
+      "sourceUrl": "https://www.stigasports.com/en/product/offensive-classic",
+      "sourceName": "STIGA Sports",
+      "price": null
+    },
+    {
+      "name": "Stiga Carbonado 145",
+      "brand": "Stiga",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "87 g",
+        "layers": "5 + 2",
+        "composition": "5+2: plies exteriores de Limba + 2 capas TeXtreme™ carbono (45°) + plies interiores de Ayous sobre núcleo de Ayous",
+        "handle": "FL (Master / Legend wide)",
+        "flexibility": "Media-alta (carbono unidireccional)",
+        "thickness": "5.7 mm",
+        "technology": "TeXtreme™ Spread Tow Carbon en ángulo de 45°: carbono flexible en una sola dirección que permite ajustar trayectoria y velocidad. En la matriz oficial STIGA figura en nivel 4/5 de velocidad (sección TOP)."
+      },
+      "scale": null,
+      "summary": "Madero OFF+ con carbono TeXtreme™ a 45°: velocidad y estabilidad con toque de madera natural.",
+      "description": "Construcción 5+2 con plies exteriores de Limba, dos capas de TeXtreme™ Spread Tow Carbon a 45° y plies interiores de Ayous sobre núcleo central de Ayous. Según Tabletennis11: clase OFF+, 87 g, 5.7 mm de grosor.",
+      "pros": [
+        "Alta velocidad (clase OFF+) con estabilidad en golpes descentrados",
+        "Tecnología TeXtreme™ que ajusta la trayectoria según el estilo de juego",
+        "Toque de madera combinado con potencia de carbono"
+      ],
+      "cons": [
+        "Sin rating numérico oficial de velocidad/control publicado por el fabricante",
+        "Exige swing activo para aprovechar toda su potencia"
+      ],
+      "imageUrl": "https://static.tabletennis11.com/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/4/5/4582_Carbonado-145_jpg.jpg",
+      "imageAlt": "Stiga Carbonado 145",
+      "imageSource": "Tabletennis11",
+      "sourceUrl": "https://tabletennis11.com/en/stiga-carbonado-145",
+      "sourceName": "Tabletennis11",
+      "price": null
+    },
+    {
+      "name": "Tibhar Stratus Power Wood",
+      "brand": "Tibhar",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "85 g",
+        "layers": "5",
+        "composition": "5 capas de madera natural (all-wood)",
+        "handle": "FL (concave) / AN (anatomic) / ST (straight)",
+        "speed": "90",
+        "control": "68",
+        "flexibility": "Alta (flexibilidad ilimitada, según Tibhar)",
+        "thickness": "6.2 mm",
+        "technology": "All-wood de 5 capas con flexibilidad ilimitada: desde el flip duro hasta el topspin fino con mucho giro (Tibhar: Speed 9, Control 7+, OFF-)."
+      },
+      "scale": {
+        "speed": "0-100 (Megaspin)",
+        "control": "0-100 (Megaspin)"
+      },
+      "summary": "Madero ofensivo all-wood de Tibhar con flexibilidad excepcional para topspin y juego variado.",
+      "description": "Madero ofensivo de 5 capas de madera pura caracterizado por su flexibilidad ilimitada: permite desde flips duros hasta topspin fino con mucho efecto. 85 g y 6.2 mm; Megaspin lo puntúa 90/100 en velocidad y 68/100 en control.",
+      "pros": [
+        "Flexibilidad excepcional para topspin con mucho efecto",
+        "Sensación pura y feedback de madera natural",
+        "Peso equilibrado de 85 g"
+      ],
+      "cons": [
+        "Velocidad media (clase OFF-)",
+        "Menos potencia que maderos con fibra o carbono"
+      ],
+      "imageUrl": "https://tibhar.info/wp-content/uploads/2022/11/Stratus_Powerwood_RD24-600x600.jpg",
+      "imageAlt": "Tibhar Stratus Power Wood",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=t-stratus-power-wood",
+      "sourceName": "Megaspin",
+      "price": null
+    },
+    {
+      "name": "Yasaka Sweden Extra",
+      "brand": "Yasaka",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "85 g",
+        "layers": "5",
+        "composition": "5 capas de madera natural (all-wood; maderas específicas no publicadas oficialmente)",
+        "handle": "FL / AN / ST / CS",
+        "speed": "70",
+        "control": "77",
+        "flexibility": "Media",
+        "thickness": "5.7 mm",
+        "technology": "All-wood de 5 capas fabricado en Suecia; feedback/vibración alta y capa exterior media (Megaspin). Clase ALL+ según Tabletennis11."
+      },
+      "scale": {
+        "speed": "0-100 (Megaspin)",
+        "control": "0-100 (Megaspin)"
+      },
+      "summary": "Madero all-wood de control sobresaliente, referente mundial para desarrollar técnica y consistencia.",
+      "description": "Clásico de 5 capas de madera fabricado en Suecia, muy valorado por su feel y dwell time. Megaspin: velocidad 70/100, control 77/100, 85 g y 5.7 mm; Tabletennis11 lo clasifica como ALL+ (82 g, 5.8 mm aprox.).",
+      "pros": [
+        "Control excelente (77/100) y gran sensación de bola",
+        "Ideal para construir técnica y mejorar la consistencia",
+        "Referente mundial de maderos all-wood"
+      ],
+      "cons": [
+        "Velocidad baja-media (70/100, clase ALL+)",
+        "Poca potencia para juego ofensivo de élite"
+      ],
+      "imageUrl": "https://static.tabletennis11.com/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/3/3/3323_3323_5dfc6397cab040_39423288_SAM02425-sweden-extra_jpg_2.jpg",
+      "imageAlt": "Yasaka Sweden Extra",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=y-sweden-ex",
+      "sourceName": "Megaspin",
+      "price": null
+    },
+    {
+      "name": "STIGA Premium Compact",
+      "brand": "STIGA",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274.3 x 152.4 x 76.2",
+        "thickness": "25",
+        "surface": "Tablero de 25 mm lijado y sellado UV con múltiples capas de pintura especial y acabado transparente en azul torneo",
+        "weight": "136.1",
+        "indoorOutdoor": "Indoor",
+        "foldable": "Sí",
+        "wheels": "Sí",
+        "storage": "152.4 x 55.9 x 157.5 cm (60\" L x 22\" W x 62\" H)",
+        "certification": "ITTF (tablero y set de red/postes aprobados ITTF)"
+      },
+      "scale": null,
+      "summary": "Mesa indoor premium de 25 mm aprobada ITTF con el almacenamiento más compacto de STIGA (solo 56 cm de profundidad), pistones comerciales y ruedas de 5\". Se entrega 100% ensamblada.",
+      "description": "Viene 100% pre-ensamblada y se abre con pistones de grado comercial en un solo movimiento por una sola persona. Base de acero de calibre pesado con niveladores en las cuatro esquinas, delantal de acero perfilado de 2.4\" y ruedas de 5\" con rodamientos de bolas. Incluye set de red y postes Premium con aprobación ITTF.",
+      "pros": [
+        "Aprobada ITTF con tablero de 25 mm",
+        "Almacenamiento más compacto de la línea (22\" de profundidad)",
+        "Se entrega 100% ensamblada con apertura asistida por pistones"
+      ],
+      "cons": [
+        "Muy pesada: 300 lbs (136 kg)",
+        "Precio alto del segmento premium (USD 1.999,99)",
+        "Solo para uso indoor"
+      ],
+      "imageUrl": "https://www.stigaus.com/cdn/shop/files/batch-1-stiga-premium-compact-table-tennis-table__t8513_1_800x.png",
+      "imageAlt": "STIGA Premium Compact",
+      "imageSource": "STIGA US (stigaus.com)",
+      "sourceUrl": "https://www.stigaus.com/products/stiga-premium-compact-table-tennis-table",
+      "sourceName": "STIGA US (stigaus.com)",
+      "price": null
+    },
+    {
+      "name": "JOOLA J500X Outdoor",
+      "brand": "JOOLA",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152.5 x 76",
+        "thickness": "12",
+        "surface": "Superficie CMF de 12 mm resistente a la intemperie",
+        "weight": "117.5",
+        "indoorOutdoor": "Outdoor",
+        "foldable": "Sí",
+        "wheels": "Sí",
+        "brakes": "Sí"
+      },
+      "scale": null,
+      "summary": "Mesa outdoor de competición con superficie CMF de 12 mm, 8 ruedas bloqueables de 15 cm y patas regulables en altura para nivelar el tablero en terrenos irregulares.",
+      "description": "Construcción weatherproof con marco y base de acero pintado en polvo. Las mitades plegables permiten almacenamiento compacto y modo de entrenamiento individual (playback). Las patas ajustables en altura compensan pisos irregulares y 8 ruedas grandes bloqueables facilitan el transporte. Incluye red y materiales de juego resistentes a la intemperie.",
+      "pros": [
+        "Superficie de 12 mm resistente a la intemperie",
+        "8 ruedas grandes (15 cm) bloqueables para fácil movilidad",
+        "Patas regulables en altura para nivelar en exteriores"
+      ],
+      "cons": [
+        "Muy pesada: 117-118 kg",
+        "Sin certificación ITTF declarada",
+        "Temporalmente agotada en tienda oficial (USD 749,95)"
+      ],
+      "imageUrl": "https://joola.com/cdn/shop/files/j500X_02_0000_3000x_119a69a3-8afb-45c1-8463-d8ce5884f6af.webp",
+      "imageAlt": "JOOLA J500X Outdoor",
+      "imageSource": "JOOLA USA (joola.com)",
+      "sourceUrl": "https://joola.com/products/joola-j500x-outdoor-table-tennis-table",
+      "sourceName": "JOOLA USA (joola.com)",
+      "price": null
+    },
+    {
+      "name": "Butterfly Easifold Outdoor Melamine",
+      "brand": "Butterfly",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274.3 x 152.4 x 76.2",
+        "thickness": "5",
+        "surface": "Laminado sintético de 5 mm resistente a la intemperie",
+        "weight": "102.1",
+        "indoorOutdoor": "Ambas",
+        "foldable": "Sí",
+        "wheels": "Sí",
+        "brakes": "Sí",
+        "storage": "160 x 160 x 63.5 cm (63\" x 63\" x 25\")"
+      },
+      "scale": null,
+      "summary": "Mesa rodante indoor/outdoor de tamaño reglamentario con tapa de laminado sintético de 5 mm resistente al clima, garantía de 10 años en el tablero y ensamblaje en pocos minutos.",
+      "description": "Tamaño reglamentario 9' x 5' x 2'6\" reforzado con riel de acero que asegura un bote consistente en toda la superficie. Patas de acero pintadas en polvo con tornillos de ajuste de nivel en cada pata y refuerzo transversal metálico soldado. Ruedas de goma de 2¾\" bloqueables, modo playback plegando una mitad y perfil de almacenamiento estrecho. Incluye set de red reglamentario con abrazaderas acolchadas.",
+      "pros": [
+        "Tapa weatherproof de 5 mm con 10 años de garantía",
+        "Ruedas bloqueables y modo playback",
+        "Rápida de armar y fácil de maniobrar"
+      ],
+      "cons": [
+        "Tapa delgada (5 mm): bote inferior a mesas de 25 mm",
+        "Sin aprobación ITTF",
+        "Precio USD 999,59; sin precio disponible en Chile"
+      ],
+      "imageUrl": "https://shop.butterflyonline.com/Item%20Images/TEFODM.media.Blue.01.jpg?resizeid=5&resizeh=1200&resizew=1200",
+      "imageAlt": "Butterfly Easifold Outdoor Melamine",
+      "imageSource": "Butterfly Online – Bowmar Sports (shop.butterflyonline.com)",
+      "sourceUrl": "https://shop.butterflyonline.com/easifold-outdoor-melamine-TEFODM",
+      "sourceName": "Butterfly Online – Bowmar Sports (shop.butterflyonline.com)",
+      "price": null
+    },
+    {
+      "name": "STIGA Optimum 30",
+      "brand": "STIGA",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274.3 x 152.4 x 76.2",
+        "thickness": "30",
+        "surface": "Tablero de 30 mm, el más grueso del mercado, con acabado profesional de alta calidad",
+        "weight": "113.4",
+        "indoorOutdoor": "Indoor",
+        "foldable": "Sí",
+        "wheels": "Sí",
+        "storage": "152.4 x 63.5 x 157.5 cm (60\" x 25\" x 62\" H)",
+        "certification": "ITTF (aprobada ITTF)"
+      },
+      "scale": null,
+      "summary": "Mesa indoor premium aprobada ITTF con el tablero de 30 mm más grueso del mercado, chasis de acero pesado, ruedas de 4\" e incluye el set de red Premium VM usado en Mundiales y Juegos Olímpicos.",
+      "description": "El primer tablero de 30 mm del mundo entrega consistencia de bote y respuesta al efecto excepcionales. Mitades independientes con bases de ruedas anidadas permiten transporte y almacenamiento compacto; ruedas de 4\" de grado máquina y niveladores ajustables. Incluye el set de red y postes STIGA Premium VM, usado en Campeonatos del Mundo y Juegos Olímpicos.",
+      "pros": [
+        "Tablero de 30 mm, único en el mercado",
+        "Aprobación ITTF con red Premium VM de nivel olímpico",
+        "Chasis de acero pesado con gran rigidez y estabilidad"
+      ],
+      "cons": [
+        "Muy pesada (250 lbs) y voluminosa",
+        "Precio premium (USD 1.599,99)",
+        "Solo uso indoor"
+      ],
+      "imageUrl": "https://www.stigaus.com/cdn/shop/files/1_1__T8508GRAY.jpg",
+      "imageAlt": "STIGA Optimum 30",
+      "imageSource": "STIGA US (stigaus.com)",
+      "sourceUrl": "https://www.stigaus.com/products/stiga-optimum-30-table-tennis-table",
+      "sourceName": "STIGA US (stigaus.com)",
+      "price": null
     }
   ]
 }
