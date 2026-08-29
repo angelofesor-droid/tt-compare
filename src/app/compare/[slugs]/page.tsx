@@ -52,7 +52,6 @@ export default async function CompareDetailPage({ params }: PageProps) {
   const { categoryName, products } = data;
   const attributes = unionAttributes(products);
 
-  // Schema.org ItemList
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
@@ -70,175 +69,191 @@ export default async function CompareDetailPage({ params }: PageProps) {
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-      <nav aria-label="Miga de pan" className="mb-4 text-xs text-slate-500">
-        <Link href="/" className="hover:text-primary">Inicio</Link>
-        <span className="mx-1">/</span>
-        <Link href="/compare" className="hover:text-primary">Comparar</Link>
-        <span className="mx-1">/</span>
-        <span className="text-slate-700">Comparación de {categoryName.toLowerCase()}s</span>
+      <nav aria-label="Miga de pan" className="mb-6 text-xs text-ink-low">
+        <Link href="/" className="transition hover:text-ink">Inicio</Link>
+        <span className="mx-1.5 text-ink-faint">/</span>
+        <Link href="/compare" className="transition hover:text-ink">Comparar</Link>
+        <span className="mx-1.5 text-ink-faint">/</span>
+        <span className="text-ink-mid">Análisis de {categoryName.toLowerCase()}s</span>
       </nav>
 
-      <h1 className="text-2xl font-bold sm:text-3xl">
-        {categoryName} vs {categoryName}
+      <p className="sec-label mb-2">Panel de análisis</p>
+      <h1 className="text-2xl font-bold tracking-tight text-ink sm:text-3xl">
+        Comparación de {categoryName.toLowerCase()}s
       </h1>
-      <p className="mt-1 text-sm text-slate-600">
-        Comparación de {products.length} {categoryName.toLowerCase()}s. Las escalas corresponden a cada fabricante.
+      <p className="mt-2 text-sm text-ink-low">
+        {products.length} {categoryName.toLowerCase()}s alineados. Las escalas corresponden a cada fabricante.
       </p>
 
-      {/* Encabezado de productos (imagen + nombre, clickeables) */}
+      {/* Cabecera: productos alineados (imagen + nombre clickeables) */}
       <div className={`mt-8 grid gap-4 ${products.length === 2 ? "sm:grid-cols-2" : products.length === 3 ? "sm:grid-cols-3" : "sm:grid-cols-4"}`}>
         {products.map((p) => (
           <Link
             key={p.id}
             href={`/product/${p.slug}`}
-            className="group rounded-xl border border-slate-200 bg-white p-4 text-center transition hover:border-primary/40 hover:shadow-md"
+            className="object-card group flex flex-col items-center p-4 text-center"
           >
-            <div className="relative mx-auto aspect-square w-full max-w-[160px] overflow-hidden rounded-lg bg-slate-100">
+            <div className="relative aspect-square w-full max-w-[170px] overflow-hidden rounded-lg bg-deep shadow-[inset_0_1px_0_rgba(255,255,255,0.04)]">
               {p.image ? (
-                <Image src={p.image.url} alt={p.image.alt ?? p.name} fill sizes="160px" className="object-cover transition group-hover:scale-105" />
+                <Image src={p.image.url} alt={p.image.alt ?? p.name} fill sizes="170px" className="object-contain p-2 transition duration-300 group-hover:scale-[1.03]" />
               ) : (
-                <span className="flex h-full items-center justify-center text-xs text-slate-400">Sin imagen</span>
+                <span className="flex h-full items-center justify-center text-xs text-ink-faint">Sin imagen</span>
               )}
             </div>
-            <p className="mt-3 text-xs font-semibold uppercase tracking-wide text-accent">{p.brand}</p>
-            <p className="mt-0.5 text-sm font-semibold text-slate-900 group-hover:text-primary">{p.name}</p>
-            {p.price && <p className="mt-1 text-sm font-bold">{formatPrice(p.price)}</p>}
+            <p className="mt-3 text-[11px] font-bold uppercase tracking-[0.14em] text-accent">{p.brand}</p>
+            <p className="mt-0.5 text-sm font-semibold text-ink transition group-hover:text-accent-hi">{p.name}</p>
+            {p.price && <p className="mt-1 text-sm font-bold tabular-nums text-ink">{formatPrice(p.price)}</p>}
           </Link>
         ))}
       </div>
 
-      {/* Tabla de comparación (desktop) */}
-      <div className="mt-10 hidden overflow-hidden rounded-xl border border-slate-200 bg-white md:block">
-        <table className="w-full text-sm">
-          <caption className="sr-only">Tabla comparativa de características</caption>
-          <thead>
-            <tr className="border-b border-slate-200 bg-slate-50 text-left">
-              <th scope="col" className="w-48 px-4 py-3 font-semibold text-slate-500">Característica</th>
-              {products.map((p) => (
-                <th key={p.id} scope="col" className="px-4 py-3 font-semibold text-slate-900">
-                  {p.name}
-                </th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            <tr className="border-b border-slate-100">
-              <th scope="row" className="px-4 py-2.5 font-medium text-slate-600">Marca</th>
-              {products.map((p) => (
-                <td key={p.id} className="px-4 py-2.5">{p.brand}</td>
-              ))}
-            </tr>
-            <tr className="border-b border-slate-100 bg-slate-50/50">
-              <th scope="row" className="px-4 py-2.5 font-medium text-slate-600">Precio</th>
-              {products.map((p) => (
-                <td key={p.id} className="px-4 py-2.5">{formatPrice(p.price)}</td>
-              ))}
-            </tr>
-            {attributes.map((attr) => (
-              <tr key={attr.key} className="border-b border-slate-100">
-                <th scope="row" className="px-4 py-2.5 font-medium text-slate-600">{attr.name}</th>
-                {products.map((p) => {
-                  const found = p.attributes.find((a) => a.key === attr.key);
-                  return (
-                    <td key={p.id} className="px-4 py-2.5">
-                      {found ? (
-                        <>
-                          {found.value}
-                          {found.unit ? ` ${found.unit}` : ""}
-                          {found.scale && <span className="ml-1 text-xs text-slate-400">({found.scale})</span>}
-                        </>
-                      ) : (
-                        <span className="text-slate-400">No disponible</span>
-                      )}
-                    </td>
-                  );
-                })}
-              </tr>
-            ))}
-            {/* Pros/Contras */}
-            <tr className="border-b border-slate-100">
-              <th scope="row" className="align-top px-4 py-2.5 font-medium text-slate-600">Ventajas</th>
-              {products.map((p) => (
-                <td key={p.id} className="px-4 py-2.5">
-                  {p.pros.length > 0 ? (
-                    <ul className="space-y-1">
-                      {p.pros.map((t, i) => (
-                        <li key={i} className="flex gap-1.5 text-green-800"><span aria-hidden>✓</span>{t}</li>
-                      ))}
-                    </ul>
-                  ) : (
-                    <span className="text-slate-400">No disponible</span>
-                  )}
-                </td>
-              ))}
-            </tr>
-            <tr>
-              <th scope="row" className="align-top px-4 py-2.5 font-medium text-slate-600">Desventajas</th>
-              {products.map((p) => (
-                <td key={p.id} className="px-4 py-2.5">
-                  {p.cons.length > 0 ? (
-                    <ul className="space-y-1">
-                      {p.cons.map((t, i) => (
-                        <li key={i} className="flex gap-1.5 text-red-800"><span aria-hidden>✗</span>{t}</li>
-                      ))}
-                    </ul>
-                  ) : (
-                    <span className="text-slate-400">No disponible</span>
-                  )}
-                </td>
-              ))}
-            </tr>
-          </tbody>
-        </table>
+      {/* Matriz de análisis (desktop) */}
+      <div className="spec-plate mt-10 hidden md:block">
+        <div className="grid" style={{ gridTemplateColumns: `180px repeat(${products.length}, 1fr)` }}>
+          {/* Encabezado */}
+          <div className="border-b border-metal/70 bg-deep/40 px-4 py-3">
+            <span className="spec-label">Característica</span>
+          </div>
+          {products.map((p) => (
+            <div key={p.id} className="border-b border-l border-metal/70 bg-deep/40 px-4 py-3">
+              <span className="text-sm font-semibold text-ink">{p.name}</span>
+            </div>
+          ))}
+
+          {/* Marca */}
+          <Row values={products.map((p) => p.brand)} label="Marca" products={products} />
+
+          {/* Precio */}
+          <Row values={products.map((p) => p.price)} label="Precio" products={products} />
+
+          {/* Atributos */}
+          {attributes.map((attr) => (
+            <Row
+              key={attr.key}
+              label={attr.name}
+              products={products}
+              values={products.map((p) => {
+                const found = p.attributes.find((a) => a.key === attr.key);
+                if (!found) return null;
+                return `${found.value}${found.unit ? ` ${found.unit}` : ""}${found.scale ? ` (${found.scale})` : ""}`;
+              })}
+            />
+          ))}
+
+          {/* Ventajas */}
+          <Row
+            label="Ventajas"
+            products={products}
+            values={products.map((p) => (p.pros.length > 0 ? p.pros.join(" · ") : null))}
+            kind="pros"
+          />
+
+          {/* Desventajas */}
+          <Row
+            label="Desventajas"
+            products={products}
+            values={products.map((p) => (p.cons.length > 0 ? p.cons.join(" · ") : null))}
+            kind="cons"
+          />
+        </div>
       </div>
 
-      {/* Vista móvil: tarjetas apiladas producto a producto */}
+      {/* Vista móvil: tarjetas apiladas */}
       <div className="mt-8 space-y-6 md:hidden">
         {products.map((p) => (
-          <div key={p.id} className="rounded-xl border border-slate-200 bg-white p-4">
+          <div key={p.id} className="panel p-4">
             <Link href={`/product/${p.slug}`} className="flex items-center gap-3">
-              <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-lg bg-slate-100">
+              <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-lg bg-deep">
                 {p.image ? (
-                  <Image src={p.image.url} alt={p.image.alt ?? p.name} fill sizes="56px" className="object-cover" />
+                  <Image src={p.image.url} alt={p.image.alt ?? p.name} fill sizes="56px" className="object-contain p-1" />
                 ) : (
-                  <span className="flex h-full items-center justify-center text-[10px] text-slate-400">Sin img</span>
+                  <span className="flex h-full items-center justify-center text-[10px] text-ink-faint">Sin img</span>
                 )}
               </div>
               <div>
-                <p className="text-xs font-semibold uppercase tracking-wide text-accent">{p.brand}</p>
-                <p className="text-sm font-semibold text-slate-900">{p.name}</p>
-                <p className="text-xs text-slate-500">{formatPrice(p.price)}</p>
+                <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-accent">{p.brand}</p>
+                <p className="text-sm font-semibold text-ink">{p.name}</p>
+                <p className="text-xs text-ink-low">{formatPrice(p.price)}</p>
               </div>
             </Link>
-            <dl className="mt-3 space-y-1.5 border-t border-slate-100 pt-3">
+            <div className="mt-3 space-y-1.5 border-t border-metal/60 pt-3">
               {attributes.map((attr) => {
                 const found = p.attributes.find((a) => a.key === attr.key);
                 return (
                   <div key={attr.key} className="flex justify-between gap-3 text-sm">
-                    <dt className="text-slate-500">{attr.name}</dt>
-                    <dd className="text-right font-medium">
+                    <span className="spec-label">{attr.name}</span>
+                    <span className="spec-value">
                       {found ? (
                         <>
                           {found.value}
                           {found.unit ? ` ${found.unit}` : ""}
                         </>
                       ) : (
-                        <span className="text-slate-400">—</span>
+                        <span className="font-normal text-ink-faint">—</span>
                       )}
-                    </dd>
+                    </span>
                   </div>
                 );
               })}
-            </dl>
+            </div>
           </div>
         ))}
       </div>
 
-      <div className="mt-8 text-center">
-        <Link href="/compare" className="text-sm font-medium text-primary hover:underline">
+      <div className="mt-10 text-center">
+        <Link href="/compare" className="ctl ctl-ghost rounded-lg px-5 py-2.5 text-sm">
           ← Elegir otros productos
         </Link>
       </div>
     </div>
+  );
+}
+
+/** Detección de diferencias: si hay ≥2 valores distintos en la fila */
+function valuesDiffer(values: (string | null)[]): boolean {
+  const seen = new Set(values.filter(Boolean));
+  return seen.size > 1;
+}
+
+/** Fila de la matriz con indicador discreto de diferencias */
+function Row({
+  label,
+  values,
+  products,
+  kind,
+}: {
+  label: string;
+  values: (string | null)[];
+  products: { id: string }[];
+  kind?: "pros" | "cons";
+}) {
+  const differs = valuesDiffer(values);
+  return (
+    <>
+      <div className={`flex items-center gap-2 border-b border-metal/40 px-4 py-3 ${differs ? "bg-accent-wash/40" : ""}`}>
+        {differs && (
+          <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-accent" aria-hidden title="Valores diferentes" />
+        )}
+        <span className="spec-label">{label}</span>
+      </div>
+      {products.map((p, i) => {
+        const value = values[i];
+        return (
+          <div key={p.id} className={`border-b border-l border-metal/40 px-4 py-3 ${differs ? "bg-accent-wash/40" : ""}`}>
+            {value ? (
+              <span
+                className={`text-sm ${kind === "pros" ? "text-ok" : kind === "cons" ? "text-danger" : "text-ink"} ${
+                  kind ? "leading-relaxed" : "font-medium tabular-nums"
+                }`}
+              >
+                {value}
+              </span>
+            ) : (
+              <span className="text-sm text-ink-faint">No disponible</span>
+            )}
+          </div>
+        );
+      })}
+    </>
   );
 }

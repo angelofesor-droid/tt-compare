@@ -15,7 +15,7 @@ export default function Gallery({ images, name }: { images: GalleryImage[]; name
 
   if (images.length === 0) {
     return (
-      <div className="flex aspect-square items-center justify-center rounded-xl border border-slate-200 bg-slate-100 text-sm text-slate-400">
+      <div className="panel flex aspect-square items-center justify-center text-sm text-ink-faint">
         Sin imagen
       </div>
     );
@@ -25,13 +25,14 @@ export default function Gallery({ images, name }: { images: GalleryImage[]; name
 
   return (
     <div className="space-y-3">
-      <div className="relative aspect-square overflow-hidden rounded-xl border border-slate-200 bg-white">
+      {/* Zona de imagen: estudio fotográfico */}
+      <div className="relative aspect-square overflow-hidden rounded-xl border border-metal bg-gradient-to-b from-graphite to-deep shadow-[inset_0_1px_0_rgba(255,255,255,0.04),0_4px_16px_rgba(0,0,0,0.4)]">
         <Image
           src={current.url}
           alt={current.alt ?? name}
           fill
           sizes="(max-width: 768px) 100vw, 50vw"
-          className="object-contain"
+          className="object-contain p-6"
           priority={active === 0}
         />
       </div>
@@ -45,11 +46,13 @@ export default function Gallery({ images, name }: { images: GalleryImage[]; name
               aria-selected={idx === active}
               aria-label={`Ver imagen ${idx + 1}`}
               onClick={() => setActive(idx)}
-              className={`relative h-16 w-16 shrink-0 overflow-hidden rounded-md border-2 transition ${
-                idx === active ? "border-primary" : "border-transparent opacity-70 hover:opacity-100"
-              }`}
+              className={`relative h-16 w-16 shrink-0 overflow-hidden rounded-lg border transition ${
+                idx === active
+                  ? "border-accent shadow-[0_0_0_3px_rgba(232,123,63,0.15)]"
+                  : "border-metal opacity-60 hover:opacity-100"
+              } bg-deep`}
             >
-              <Image src={img.url} alt={img.alt ?? `${name} imagen ${idx + 1}`} fill sizes="64px" className="object-cover" />
+              <Image src={img.url} alt={img.alt ?? `${name} imagen ${idx + 1}`} fill sizes="64px" className="object-contain p-1" />
             </button>
           ))}
         </div>

@@ -26,9 +26,10 @@ export default async function ComparePage() {
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
-      <h1 className="text-2xl font-bold sm:text-3xl">Comparar productos</h1>
-      <p className="mt-1 max-w-2xl text-sm text-slate-600">
-        Elige entre 2 y 4 productos de la misma categoría. Al terminar, verás una tabla con
+      <p className="sec-label mb-2">Panel de análisis</p>
+      <h1 className="text-3xl font-bold tracking-tight text-ink">Comparar productos</h1>
+      <p className="mt-2 max-w-2xl text-sm text-ink-mid">
+        Elige entre 2 y 4 productos de la misma categoría. Al terminar, verás una matriz con
         sus características, ventajas y desventajas.
       </p>
 

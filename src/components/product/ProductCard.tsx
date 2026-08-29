@@ -25,43 +25,45 @@ export default function ProductCard({ product, showCategory = false }: { product
   const specs = (product.attributes ?? []).slice(0, 3);
 
   return (
-    <article className="group flex flex-col overflow-hidden rounded-xl border border-slate-200 bg-white transition hover:border-primary/40 hover:shadow-md">
-      <Link href={href} className="relative block aspect-square overflow-hidden bg-slate-100" aria-label={product.name}>
+    <article className="object-card group flex flex-col overflow-hidden">
+      {/* Imagen: objeto colocado físicamente sobre la superficie */}
+      <Link
+        href={href}
+        className="relative m-2.5 block aspect-square overflow-hidden rounded-lg bg-deep shadow-[inset_0_1px_0_rgba(255,255,255,0.04),0_2px_6px_rgba(0,0,0,0.45)]"
+        aria-label={product.name}
+      >
         {product.image ? (
           <Image
             src={product.image.url}
             alt={product.image.alt ?? product.name}
             fill
             sizes="(max-width: 640px) 50vw, 25vw"
-            className="object-cover transition duration-300 group-hover:scale-105"
+            className="object-contain p-2 transition duration-300 group-hover:scale-[1.03]"
           />
         ) : (
-          <div className="flex h-full items-center justify-center text-xs text-slate-400">
+          <div className="flex h-full items-center justify-center text-xs text-ink-faint">
             Sin imagen
           </div>
         )}
       </Link>
 
-      <div className="flex flex-1 flex-col gap-1.5 p-4">
-        <p className="text-xs font-semibold uppercase tracking-wide text-accent">
+      <div className="flex flex-1 flex-col gap-1.5 px-4 pb-4">
+        <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-accent">
           {product.brand.name}
         </p>
-        <h3 className="text-sm font-semibold leading-snug text-slate-900">
-          <Link href={href} className="hover:text-primary">
+        <h3 className="text-sm font-semibold leading-snug text-ink">
+          <Link href={href} className="transition hover:text-accent-hi">
             {product.name}
           </Link>
         </h3>
         {showCategory && product.category && (
-          <p className="text-xs text-slate-500">{product.category.name}</p>
+          <p className="text-xs text-ink-low">{product.category.name}</p>
         )}
 
         {specs.length > 0 && (
           <ul className="mt-1 flex flex-wrap gap-1">
             {specs.map((s) => (
-              <li
-                key={s.key}
-                className="rounded-full bg-slate-100 px-2 py-0.5 text-[11px] text-slate-600"
-              >
+              <li key={s.key} className="tag">
                 {s.value}
                 {s.unit ? ` ${s.unit}` : ""}
               </li>
@@ -69,17 +71,17 @@ export default function ProductCard({ product, showCategory = false }: { product
           </ul>
         )}
 
-        <div className="mt-auto flex items-center justify-between pt-3">
+        <div className="mt-auto flex items-center justify-between gap-2 pt-3">
           {product.price ? (
-            <span className="text-sm font-semibold text-slate-900">
+            <span className="text-sm font-bold tabular-nums text-ink">
               {formatPrice(product.price.amount, product.price.currency)}
             </span>
           ) : (
-            <span className="text-xs text-slate-400">Precio no disponible</span>
+            <span className="text-xs text-ink-faint">Precio no disponible</span>
           )}
           <Link
             href={`/compare?a=${product.slug}`}
-            className="rounded-md border border-slate-300 px-2.5 py-1 text-xs font-medium text-slate-700 transition hover:border-primary hover:text-primary"
+            className="ctl ctl-compare rounded-full px-3 py-1.5 text-xs"
           >
             Comparar
           </Link>

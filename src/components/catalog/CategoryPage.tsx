@@ -18,7 +18,6 @@ export default async function CategoryPage({ categoryKey, title, description, se
     return Array.isArray(v) ? v : [v];
   };
 
-  // parsear filtros de la URL
   const brands = toArray(sp.brands)[0]?.split(",").filter(Boolean) ?? [];
   const attributes: Record<string, string[]> = {};
   for (const [key, value] of Object.entries(sp)) {
@@ -36,21 +35,35 @@ export default async function CategoryPage({ categoryKey, title, description, se
     Math.min(catalog.totalPages, catalog.page + 2),
   );
 
+  const qsOf = (patch: Record<string, string>) => {
+    const params = new URLSearchParams();
+    for (const [k, v] of Object.entries(sp)) {
+      if (typeof v === "string" && k !== "page") params.set(k, v);
+    }
+    for (const [k, v] of Object.entries(patch)) {
+      if (v) params.set(k, v);
+      else params.delete(k);
+    }
+    const qs = params.toString();
+    return qs ? `?${qs}` : "";
+  };
+
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
       {/* Header de categoría */}
-      <div className="mb-6">
-        <nav aria-label="Miga de pan" className="mb-2 text-xs text-slate-500">
-          <Link href="/" className="hover:text-primary">Inicio</Link>
-          <span className="mx-1">/</span>
-          <span className="text-slate-700">{title}</span>
+      <div className="mb-8">
+        <nav aria-label="Miga de pan" className="mb-3 text-xs text-ink-low">
+          <Link href="/" className="transition hover:text-ink">Inicio</Link>
+          <span className="mx-1.5 text-ink-faint">/</span>
+          <span className="text-ink-mid">{title}</span>
         </nav>
-        <h1 className="text-2xl font-bold sm:text-3xl">{title}</h1>
-        <p className="mt-1 max-w-2xl text-sm text-slate-600">{description}</p>
+        <p className="sec-label mb-2">{categoryKey}</p>
+        <h1 className="text-3xl font-bold tracking-tight text-ink sm:text-4xl">{title}</h1>
+        <p className="mt-2 max-w-2xl text-sm leading-relaxed text-ink-mid">{description}</p>
       </div>
 
-      <div className="grid grid-cols-1 gap-6 lg:grid-cols-[260px_1fr]">
-        {/* Filtros (sticky en desktop) */}
+      <div className="grid grid-cols-1 gap-6 lg:grid-cols-[280px_1fr]">
+        {/* Filtros */}
         <div className="lg:sticky lg:top-20 lg:self-start">
           <CategoryFilters
             brands={catalog.filters.brands}
@@ -61,14 +74,14 @@ export default async function CategoryPage({ categoryKey, title, description, se
 
         {/* Grid de productos */}
         <div>
-          <p className="mb-4 text-sm text-slate-500">
+          <p className="mb-4 text-sm tabular-nums text-ink-low">
             {catalog.total} {catalog.total === 1 ? "producto" : "productos"}
           </p>
 
           {catalog.items.length === 0 ? (
-            <div className="rounded-xl border border-dashed border-slate-300 bg-white p-10 text-center">
-              <p className="text-base font-medium text-slate-700">Sin resultados</p>
-              <p className="mt-1 text-sm text-slate-500">
+            <div className="panel flex flex-col items-center justify-center p-12 text-center">
+              <p className="text-base font-semibold text-ink">Sin resultados</p>
+              <p className="mt-1 text-sm text-ink-low">
                 Prueba ajustando o limpiando los filtros.
               </p>
             </div>
@@ -82,34 +95,26 @@ export default async function CategoryPage({ categoryKey, title, description, se
 
           {/* Paginación */}
           {catalog.totalPages > 1 && (
-            <nav className="mt-8 flex items-center justify-center gap-1" aria-label="Paginación">
+            <nav className="mt-8 flex items-center justify-center gap-1.5" aria-label="Paginación">
               {catalog.page > 1 && (
-                <Link
-                  href={`?${new URLSearchParams({ ...Object.fromEntries(Object.entries(sp).filter(([, v]) => typeof v === "string")), page: String(catalog.page - 1) })}`}
-                  className="rounded-md border border-slate-300 px-3 py-1.5 text-sm hover:border-primary"
-                >
+                <Link href={qsOf({ page: String(catalog.page - 1) })} className="ctl ctl-ghost h-9 w-9 rounded-lg text-sm" aria-label="Página anterior">
                   ←
                 </Link>
               )}
               {pageNumbers.map((n) => (
                 <Link
                   key={n}
-                  href={`?${new URLSearchParams({ ...Object.fromEntries(Object.entries(sp).filter(([, v]) => typeof v === "string")), page: String(n) })}`}
+                  href={qsOf({ page: String(n) })}
                   aria-current={n === catalog.page ? "page" : undefined}
-                  className={`rounded-md px-3 py-1.5 text-sm ${
-                    n === catalog.page
-                      ? "bg-primary font-semibold text-white"
-                      : "border border-slate-300 hover:border-primary"
+                  className={`ctl h-9 w-9 rounded-lg text-sm ${
+                    n === catalog.page ? "ctl-primary" : "ctl-ghost"
                   }`}
                 >
                   {n}
                 </Link>
               ))}
               {catalog.page < catalog.totalPages && (
-                <Link
-                  href={`?${new URLSearchParams({ ...Object.fromEntries(Object.entries(sp).filter(([, v]) => typeof v === "string")), page: String(catalog.page + 1) })}`}
-                  className="rounded-md border border-slate-300 px-3 py-1.5 text-sm hover:border-primary"
-                >
+                <Link href={qsOf({ page: String(catalog.page + 1) })} className="ctl ctl-ghost h-9 w-9 rounded-lg text-sm" aria-label="Página siguiente">
                   →
                 </Link>
               )}

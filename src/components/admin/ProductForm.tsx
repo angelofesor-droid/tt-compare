@@ -62,7 +62,7 @@ function SubmitButton({ label }: { label: string }) {
     <button
       type="submit"
       disabled={pending}
-      className="rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-white transition enabled:hover:bg-primary-soft disabled:opacity-50"
+      className="ctl ctl-primary rounded-lg px-5 py-2.5 text-sm disabled:opacity-50"
     >
       {pending ? "Guardando…" : label}
     </button>
@@ -101,7 +101,6 @@ export default function ProductForm({
   function updateImage(idx: number, patch: Partial<ImageInput>) {
     setImages((prev) => {
       const next = prev.map((img, i) => (i === idx ? { ...img, ...patch } : img));
-      // si marcan esta como principal, desmarcan las demás
       if (patch.isPrimary) {
         return next.map((img, i) => ({ ...img, isPrimary: i === idx }));
       }
@@ -114,34 +113,35 @@ export default function ProductForm({
   }
 
   const inputCls =
-    "w-full rounded-md border border-slate-300 bg-white px-3 py-2 text-sm focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20";
+    "w-full rounded-md border border-metal bg-surface-inset px-3 py-2 text-sm text-ink shadow-[inset_0_2px_4px_rgba(0,0,0,0.4)] placeholder:text-ink-faint focus:border-accent-line focus:outline-none focus:ring-2 focus:ring-accent/15";
+  const selectCls = "ctl-select w-full";
 
   return (
     <form action={action} className="space-y-8">
       <input type="hidden" name="id" value={initial?.id ?? ""} />
 
       {formState.error && (
-        <div role="alert" className="rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800">
+        <div role="alert" className="rounded-lg border border-danger/50 bg-danger/10 px-4 py-3 text-sm text-danger">
           {formState.error}
         </div>
       )}
       {formState.success && (
-        <div role="status" className="rounded-lg border border-green-200 bg-green-50 px-4 py-3 text-sm text-green-800">
+        <div role="status" className="rounded-lg border border-ok/50 bg-ok/10 px-4 py-3 text-sm text-ok">
           Producto guardado correctamente.
         </div>
       )}
 
       {/* Información básica */}
-      <section className="rounded-xl border border-slate-200 bg-white p-5">
-        <h2 className="mb-4 text-base font-bold">Información básica</h2>
+      <section className="panel p-5">
+        <h2 className="sec-label mb-4">Información básica</h2>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
           <div className="sm:col-span-2">
-            <label htmlFor="name" className="mb-1 block text-sm font-medium">Nombre *</label>
+            <label htmlFor="name" className="spec-label mb-1.5 block">Nombre *</label>
             <input id="name" name="name" required defaultValue={initial?.name ?? ""} className={inputCls} placeholder="Butterfly Dignics 05" />
           </div>
           <div>
-            <label htmlFor="brandId" className="mb-1 block text-sm font-medium">Marca *</label>
-            <select id="brandId" name="brandId" required defaultValue={initial?.brandId ?? ""} className={inputCls}>
+            <label htmlFor="brandId" className="spec-label mb-1.5 block">Marca *</label>
+            <select id="brandId" name="brandId" required defaultValue={initial?.brandId ?? ""} className={selectCls}>
               <option value="">Selecciona…</option>
               {brands.map((b) => (
                 <option key={b.id} value={b.id}>{b.name}</option>
@@ -149,14 +149,14 @@ export default function ProductForm({
             </select>
           </div>
           <div>
-            <label htmlFor="categoryId" className="mb-1 block text-sm font-medium">Categoría *</label>
+            <label htmlFor="categoryId" className="spec-label mb-1.5 block">Categoría *</label>
             <select
               id="categoryId"
               name="categoryId"
               required
               value={categoryId}
               onChange={(e) => setCategoryId(e.target.value)}
-              className={inputCls}
+              className={selectCls}
             >
               {categories.map((c) => (
                 <option key={c.id} value={c.id}>{c.name}</option>
@@ -164,38 +164,38 @@ export default function ProductForm({
             </select>
           </div>
           <div>
-            <label htmlFor="slug" className="mb-1 block text-sm font-medium">
-              Slug <span className="text-xs text-slate-400">(vacío = automático)</span>
+            <label htmlFor="slug" className="spec-label mb-1.5 block">
+              Slug <span className="text-ink-faint">(vacío = automático)</span>
             </label>
             <input id="slug" name="slug" defaultValue={initial?.slug ?? ""} className={inputCls} placeholder="butterfly-dignics-05" />
           </div>
           <div>
-            <label htmlFor="status" className="mb-1 block text-sm font-medium">Estado</label>
-            <select id="status" name="status" defaultValue={initial?.status ?? "DRAFT"} className={inputCls}>
+            <label htmlFor="status" className="spec-label mb-1.5 block">Estado</label>
+            <select id="status" name="status" defaultValue={initial?.status ?? "DRAFT"} className={selectCls}>
               <option value="DRAFT">Borrador</option>
               <option value="PUBLISHED">Publicado</option>
               <option value="ARCHIVED">Archivado</option>
             </select>
           </div>
           <div className="sm:col-span-2">
-            <label htmlFor="summary" className="mb-1 block text-sm font-medium">Resumen corto</label>
+            <label htmlFor="summary" className="spec-label mb-1.5 block">Resumen corto</label>
             <input id="summary" name="summary" defaultValue={initial?.summary ?? ""} className={inputCls} placeholder="Goma de alta velocidad con gran control…" maxLength={300} />
           </div>
           <div className="sm:col-span-2">
-            <label htmlFor="description" className="mb-1 block text-sm font-medium">Descripción completa</label>
+            <label htmlFor="description" className="spec-label mb-1.5 block">Descripción completa</label>
             <textarea id="description" name="description" rows={5} defaultValue={initial?.description ?? ""} className={inputCls} />
           </div>
-          <label className="flex items-center gap-2 text-sm">
-            <input type="checkbox" name="featured" defaultChecked={initial?.featured ?? false} className="h-4 w-4 text-primary" />
+          <label className="flex items-center gap-2 text-sm text-ink-mid">
+            <input type="checkbox" name="featured" defaultChecked={initial?.featured ?? false} className="ctl-check" />
             Destacado en homepage
           </label>
         </div>
       </section>
 
       {/* Atributos dinámicos por categoría */}
-      <section className="rounded-xl border border-slate-200 bg-white p-5">
-        <h2 className="mb-1 text-base font-bold">Especificaciones — {activeCategory?.name}</h2>
-        <p className="mb-4 text-xs text-slate-500">
+      <section className="panel p-5">
+        <h2 className="sec-label mb-1">Especificaciones — {activeCategory?.name}</h2>
+        <p className="mb-4 text-xs text-ink-low">
           Los campos cambian según la categoría. Si el fabricante no publica un dato, déjalo vacío (se muestra «No disponible»).
         </p>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
@@ -203,13 +203,13 @@ export default function ProductForm({
             const current = attrValues.get(attr.key);
             return (
               <div key={attr.key}>
-                <label htmlFor={`attr_${attr.key}`} className="mb-1 block text-sm font-medium">
+                <label htmlFor={`attr_${attr.key}`} className="spec-label mb-1.5 block">
                   {attr.name}
-                  {attr.unit ? <span className="ml-1 text-xs text-slate-400">({attr.unit})</span> : null}
-                  {attr.scaleName ? <span className="ml-1 text-xs text-slate-400">— {attr.scaleName}</span> : null}
+                  {attr.unit ? <span className="ml-1 text-ink-faint">({attr.unit})</span> : null}
+                  {attr.scaleName ? <span className="ml-1 text-ink-faint">— {attr.scaleName}</span> : null}
                 </label>
                 {attr.valueType === "ENUM" && attr.options ? (
-                  <select id={`attr_${attr.key}`} name={`attr_${attr.key}`} defaultValue={current?.value ?? ""} className={inputCls}>
+                  <select id={`attr_${attr.key}`} name={`attr_${attr.key}`} defaultValue={current?.value ?? ""} className={selectCls}>
                     <option value="">No disponible</option>
                     {attr.options.map((o) => (
                       <option key={o} value={o}>{o}</option>
@@ -241,22 +241,22 @@ export default function ProductForm({
           })}
         </div>
         {activeAttrs.length === 0 && (
-          <p className="text-sm text-slate-400">Esta categoría aún no tiene atributos definidos.</p>
+          <p className="text-sm text-ink-faint">Esta categoría aún no tiene atributos definidos.</p>
         )}
       </section>
 
       {/* Imágenes */}
-      <section className="rounded-xl border border-slate-200 bg-white p-5">
-        <h2 className="mb-1 text-base font-bold">Imágenes *</h2>
-        <p className="mb-4 text-xs text-slate-500">
+      <section className="panel p-5">
+        <h2 className="sec-label mb-1">Imágenes *</h2>
+        <p className="mb-4 text-xs text-ink-low">
           La imagen debe corresponder EXACTAMENTE al producto. Marca una como principal (obligatoria para publicar).
         </p>
         <div className="space-y-4">
           {images.map((img, idx) => (
-            <div key={idx} className="rounded-lg border border-slate-200 bg-slate-50 p-3">
+            <div key={idx} className="rounded-lg border border-metal bg-deep/50 p-3">
               <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                 <div className="sm:col-span-2">
-                  <label htmlFor={`image_url_${idx}`} className="mb-1 block text-xs font-medium text-slate-600">URL de la imagen *</label>
+                  <label htmlFor={`image_url_${idx}`} className="spec-label mb-1 block">URL de la imagen *</label>
                   <input
                     id={`image_url_${idx}`}
                     name={`image_url_${idx}`}
@@ -268,7 +268,7 @@ export default function ProductForm({
                   />
                 </div>
                 <div>
-                  <label htmlFor={`image_alt_${idx}`} className="mb-1 block text-xs font-medium text-slate-600">Texto alternativo (alt)</label>
+                  <label htmlFor={`image_alt_${idx}`} className="spec-label mb-1 block">Texto alternativo (alt)</label>
                   <input
                     id={`image_alt_${idx}`}
                     name={`image_alt_${idx}`}
@@ -278,7 +278,7 @@ export default function ProductForm({
                   />
                 </div>
                 <div>
-                  <label htmlFor={`image_source_${idx}`} className="mb-1 block text-xs font-medium text-slate-600">Fuente de la imagen</label>
+                  <label htmlFor={`image_source_${idx}`} className="spec-label mb-1 block">Fuente de la imagen</label>
                   <input
                     id={`image_source_${idx}`}
                     name={`image_source_${idx}`}
@@ -289,7 +289,7 @@ export default function ProductForm({
                   />
                 </div>
                 <div>
-                  <label htmlFor={`image_sourceUrl_${idx}`} className="mb-1 block text-xs font-medium text-slate-600">URL de la fuente</label>
+                  <label htmlFor={`image_sourceUrl_${idx}`} className="spec-label mb-1 block">URL de la fuente</label>
                   <input
                     id={`image_sourceUrl_${idx}`}
                     name={`image_sourceUrl_${idx}`}
@@ -299,13 +299,13 @@ export default function ProductForm({
                   />
                 </div>
                 <div className="flex items-end gap-3">
-                  <label className="flex items-center gap-2 text-sm">
+                  <label className="flex items-center gap-2 text-sm text-ink-mid">
                     <input
                       type="checkbox"
                       name={`image_primary_${idx}`}
                       checked={img.isPrimary}
                       onChange={(e) => updateImage(idx, { isPrimary: e.target.checked })}
-                      className="h-4 w-4 text-primary"
+                      className="ctl-check"
                     />
                     Imagen principal
                   </label>
@@ -313,7 +313,7 @@ export default function ProductForm({
                     <button
                       type="button"
                       onClick={() => setImages((prev) => prev.filter((_, i) => i !== idx))}
-                      className="text-xs text-red-600 hover:underline"
+                      className="text-xs text-danger hover:underline"
                     >
                       Quitar
                     </button>
@@ -323,15 +323,15 @@ export default function ProductForm({
             </div>
           ))}
         </div>
-        <button type="button" onClick={addImage} className="mt-3 rounded-md border border-slate-300 px-3 py-1.5 text-sm font-medium hover:border-primary hover:text-primary">
+        <button type="button" onClick={addImage} className="ctl ctl-ghost mt-3 rounded-lg px-3 py-1.5 text-sm">
           + Añadir imagen
         </button>
       </section>
 
       {/* Fuentes */}
-      <section className="rounded-xl border border-slate-200 bg-white p-5">
-        <h2 className="mb-1 text-base font-bold">Fuentes *</h2>
-        <p className="mb-4 text-xs text-slate-500">URL real de donde se obtuvo la información. Nunca inventar.</p>
+      <section className="panel p-5">
+        <h2 className="sec-label mb-1">Fuentes *</h2>
+        <p className="mb-4 text-xs text-ink-low">URL real de donde se obtuvo la información. Nunca inventar.</p>
         <div className="space-y-3">
           {sources.map((src, idx) => (
             <div key={idx} className="grid grid-cols-1 gap-3 sm:grid-cols-[1fr_2fr_auto]">
@@ -352,7 +352,7 @@ export default function ProductForm({
                 <button
                   type="button"
                   onClick={() => setSources((prev) => prev.filter((_, i) => i !== idx))}
-                  className="text-sm text-red-600 hover:underline"
+                  className="text-sm text-danger hover:underline"
                 >
                   Quitar
                 </button>
@@ -360,71 +360,71 @@ export default function ProductForm({
             </div>
           ))}
         </div>
-        <button type="button" onClick={() => setSources((prev) => [...prev, { url: "", name: "" }])} className="mt-3 rounded-md border border-slate-300 px-3 py-1.5 text-sm font-medium hover:border-primary hover:text-primary">
+        <button type="button" onClick={() => setSources((prev) => [...prev, { url: "", name: "" }])} className="ctl ctl-ghost mt-3 rounded-lg px-3 py-1.5 text-sm">
           + Añadir fuente
         </button>
       </section>
 
       {/* Pros / Contras */}
       <section className="grid grid-cols-1 gap-6 lg:grid-cols-2">
-        <div className="rounded-xl border border-slate-200 bg-white p-5">
-          <h2 className="mb-3 text-base font-bold text-green-800">Ventajas</h2>
+        <div className="panel p-5">
+          <h2 className="spec-label mb-3 text-ok">Ventajas</h2>
           <div className="space-y-2">
             {pros.map((p, idx) => (
               <input key={idx} name={`pro_${idx}`} defaultValue={p} className={inputCls} placeholder="Ventaja…" />
             ))}
           </div>
-          <button type="button" onClick={() => setPros((prev) => [...prev, ""])} className="mt-3 text-sm font-medium text-primary hover:underline">
+          <button type="button" onClick={() => setPros((prev) => [...prev, ""])} className="mt-3 text-sm font-medium text-accent hover:underline">
             + Añadir ventaja
           </button>
         </div>
-        <div className="rounded-xl border border-slate-200 bg-white p-5">
-          <h2 className="mb-3 text-base font-bold text-red-800">Desventajas</h2>
+        <div className="panel p-5">
+          <h2 className="spec-label mb-3 text-danger">Desventajas</h2>
           <div className="space-y-2">
             {cons.map((c, idx) => (
               <input key={idx} name={`con_${idx}`} defaultValue={c} className={inputCls} placeholder="Desventaja…" />
             ))}
           </div>
-          <button type="button" onClick={() => setCons((prev) => [...prev, ""])} className="mt-3 text-sm font-medium text-primary hover:underline">
+          <button type="button" onClick={() => setCons((prev) => [...prev, ""])} className="mt-3 text-sm font-medium text-accent hover:underline">
             + Añadir desventaja
           </button>
         </div>
       </section>
 
       {/* Precio (manual, MVP) */}
-      <section className="rounded-xl border border-slate-200 bg-white p-5">
-        <h2 className="mb-1 text-base font-bold">Precio referencial (opcional)</h2>
-        <p className="mb-4 text-xs text-slate-500">Precio manual, no se actualiza automáticamente en el MVP.</p>
+      <section className="panel p-5">
+        <h2 className="sec-label mb-1">Precio referencial (opcional)</h2>
+        <p className="mb-4 text-xs text-ink-low">Precio manual, no se actualiza automáticamente en el MVP.</p>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
           <div>
-            <label htmlFor="price_amount" className="mb-1 block text-sm font-medium">Monto</label>
+            <label htmlFor="price_amount" className="spec-label mb-1.5 block">Monto</label>
             <input id="price_amount" name="price_amount" type="number" step="0.01" min="0" defaultValue={initial?.price?.amount ?? ""} className={inputCls} />
           </div>
           <div>
-            <label htmlFor="price_currency" className="mb-1 block text-sm font-medium">Moneda</label>
-            <select id="price_currency" name="price_currency" defaultValue={initial?.price?.currency ?? "CLP"} className={inputCls}>
+            <label htmlFor="price_currency" className="spec-label mb-1.5 block">Moneda</label>
+            <select id="price_currency" name="price_currency" defaultValue={initial?.price?.currency ?? "CLP"} className={selectCls}>
               <option value="CLP">CLP — Peso chileno</option>
               <option value="USD">USD — Dólar</option>
               <option value="EUR">EUR — Euro</option>
             </select>
           </div>
           <div>
-            <label htmlFor="price_source" className="mb-1 block text-sm font-medium">Fuente del precio</label>
+            <label htmlFor="price_source" className="spec-label mb-1.5 block">Fuente del precio</label>
             <input id="price_source" name="price_source" defaultValue={initial?.price?.source ?? ""} className={inputCls} placeholder="Precio referencial" />
           </div>
         </div>
       </section>
 
       {/* SEO */}
-      <section className="rounded-xl border border-slate-200 bg-white p-5">
-        <h2 className="mb-4 text-base font-bold">SEO</h2>
+      <section className="panel p-5">
+        <h2 className="sec-label mb-4">SEO</h2>
         <div className="grid grid-cols-1 gap-4">
           <div>
-            <label htmlFor="seoTitle" className="mb-1 block text-sm font-medium">Title (máx. 70)</label>
+            <label htmlFor="seoTitle" className="spec-label mb-1.5 block">Title (máx. 70)</label>
             <input id="seoTitle" name="seoTitle" defaultValue={initial?.seoTitle ?? ""} className={inputCls} maxLength={70} />
           </div>
           <div>
-            <label htmlFor="seoDescription" className="mb-1 block text-sm font-medium">Meta description (máx. 160)</label>
+            <label htmlFor="seoDescription" className="spec-label mb-1.5 block">Meta description (máx. 160)</label>
             <textarea id="seoDescription" name="seoDescription" rows={2} defaultValue={initial?.seoDescription ?? ""} className={inputCls} maxLength={160} />
           </div>
         </div>
@@ -432,7 +432,7 @@ export default function ProductForm({
 
       <div className="flex items-center gap-3">
         <SubmitButton label={isEdit ? "Guardar cambios" : "Crear producto"} />
-        <Link href="/admin/products" className="text-sm text-slate-500 hover:text-slate-700">
+        <Link href="/admin/products" className="text-sm text-ink-low transition hover:text-ink">
           Cancelar
         </Link>
       </div>

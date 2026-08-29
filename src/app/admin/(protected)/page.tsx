@@ -20,11 +20,8 @@ export default async function AdminDashboard() {
   return (
     <div>
       <div className="mb-6 flex items-center justify-between">
-        <h1 className="text-xl font-bold">Dashboard</h1>
-        <Link
-          href="/admin/products/new"
-          className="rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white transition hover:bg-primary-soft"
-        >
+        <h1 className="text-xl font-bold text-ink">Dashboard</h1>
+        <Link href="/admin/products/new" className="ctl ctl-primary rounded-lg px-4 py-2 text-sm">
           + Añadir producto
         </Link>
       </div>
@@ -34,10 +31,10 @@ export default async function AdminDashboard() {
           <Link
             key={c.key}
             href={c.href}
-            className="rounded-xl border border-slate-200 bg-white p-4 transition hover:border-primary/40 hover:shadow-sm"
+            className="object-card p-4"
           >
-            <p className="text-2xl font-bold">{stats[c.key as keyof typeof stats]}</p>
-            <p className="mt-1 text-xs text-slate-500">{c.label}</p>
+            <p className="text-2xl font-bold tabular-nums text-ink">{stats[c.key as keyof typeof stats]}</p>
+            <p className="mt-1 text-xs text-ink-low">{c.label}</p>
           </Link>
         ))}
       </div>

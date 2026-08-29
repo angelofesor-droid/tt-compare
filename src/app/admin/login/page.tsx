@@ -14,35 +14,35 @@ export default async function AdminLoginPage({ searchParams }: PageProps) {
 
   return (
     <div className="flex min-h-[60vh] items-center justify-center px-4">
-      <div className="w-full max-w-sm rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-        <h1 className="text-lg font-bold">Panel de administración</h1>
-        <p className="mt-1 text-sm text-slate-500">Introduce la contraseña de administrador.</p>
+      <div className="panel w-full max-w-sm p-6">
+        <p className="text-xs font-bold uppercase tracking-[0.18em] text-accent">Zona Tenis de Mesa</p>
+        <h1 className="mt-2 text-lg font-bold text-ink">Panel de administración</h1>
+        <p className="mt-1 text-sm text-ink-low">Introduce la contraseña de administrador.</p>
 
         {error && (
-          <p role="alert" className="mt-3 rounded-md border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-800">
+          <p role="alert" className="mt-3 rounded-md border border-danger/50 bg-danger/10 px-3 py-2 text-sm text-danger">
             Contraseña incorrecta.
           </p>
         )}
 
-        <form action="/api/admin/login" method="POST" className="mt-4 space-y-3">
+        <form action="/api/admin/login" method="POST" className="mt-5 space-y-3">
           <input type="hidden" name="next" value={next ?? "/admin"} />
           <div>
-            <label htmlFor="password" className="mb-1 block text-sm font-medium">
+            <label htmlFor="password" className="spec-label mb-1.5 block">
               Contraseña
             </label>
-            <input
-              id="password"
-              name="password"
-              type="password"
-              required
-              autoFocus
-              className="w-full rounded-md border border-slate-300 px-3 py-2 text-sm focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20"
-            />
+            <div className="well flex items-center">
+              <input
+                id="password"
+                name="password"
+                type="password"
+                required
+                autoFocus
+                className="well-input rounded-[10px]"
+              />
+            </div>
           </div>
-          <button
-            type="submit"
-            className="w-full rounded-md bg-primary px-4 py-2 text-sm font-semibold text-white transition hover:bg-primary-soft"
-          >
+          <button type="submit" className="ctl ctl-primary w-full rounded-lg px-4 py-2 text-sm">
             Entrar
           </button>
         </form>

@@ -16,14 +16,25 @@ export default function SearchBar() {
 
   return (
     <form onSubmit={onSubmit} role="search" className="relative">
-      <input
-        type="search"
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-        placeholder="Buscar producto, marca…"
-        aria-label="Buscar en el catálogo"
-        className="w-40 rounded-full border border-slate-300 bg-white px-4 py-1.5 text-sm text-slate-800 placeholder:text-slate-400 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 sm:w-56"
-      />
+      <div className="well flex items-center">
+        <svg
+          className="ml-3 h-4 w-4 shrink-0 text-ink-low"
+          viewBox="0 0 20 20"
+          fill="none"
+          aria-hidden
+        >
+          <circle cx="9" cy="9" r="5.5" stroke="currentColor" strokeWidth="1.6" />
+          <path d="M13.5 13.5L17 17" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+        </svg>
+        <input
+          type="search"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="Buscar producto, marca…"
+          aria-label="Buscar en el catálogo"
+          className="well-input w-36 rounded-r-[10px] sm:w-52"
+        />
+      </div>
     </form>
   );
 }

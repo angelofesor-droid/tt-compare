@@ -16,13 +16,10 @@ export default async function ProtectedAdminLayout({ children }: { children: Rea
 
   return (
     <div>
-      <header className="mb-6 flex items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-3">
-        <p className="text-sm font-semibold">Panel de administración</p>
+      <header className="panel mb-6 flex items-center justify-between px-4 py-3">
+        <p className="text-xs font-bold uppercase tracking-[0.16em] text-ink">Panel de administración</p>
         <form action="/api/admin/logout" method="POST">
-          <button
-            type="submit"
-            className="rounded-md border border-slate-300 px-3 py-1.5 text-xs font-medium text-slate-600 transition hover:border-red-300 hover:text-red-600"
-          >
+          <button type="submit" className="ctl ctl-ghost rounded-lg px-3 py-1.5 text-xs">
             Cerrar sesión
           </button>
         </form>

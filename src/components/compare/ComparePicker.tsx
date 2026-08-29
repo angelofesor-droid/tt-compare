@@ -31,7 +31,6 @@ export default function ComparePicker({ products }: { products: PickableProduct[
         return prev;
       }
       const next = [...prev, slug];
-      // Regla: solo misma categoría
       const cats = new Set(next.map((s) => bySlug.get(s)?.categoryKey));
       if (cats.size > 1) {
         setError("Solo puedes comparar productos de la misma categoría: gomas con gomas, maderos con maderos o mesas con mesas.");
@@ -53,22 +52,22 @@ export default function ComparePicker({ products }: { products: PickableProduct[
   return (
     <div>
       {error && (
-        <div role="alert" className="mb-4 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800">
+        <div role="alert" className="mb-4 rounded-lg border border-danger/50 bg-danger/10 px-4 py-3 text-sm text-danger">
           {error}
         </div>
       )}
 
-      {/* Barra de selección */}
-      <div className="sticky top-16 z-30 mb-6 flex flex-wrap items-center gap-3 rounded-xl border border-slate-200 bg-white/95 p-3 shadow-sm backdrop-blur">
-        <span className="text-sm font-semibold">
+      {/* Barra de selección: panel técnico */}
+      <div className="panel sticky top-20 z-30 mb-6 flex flex-wrap items-center gap-3 p-3">
+        <span className="text-sm font-semibold tabular-nums text-ink">
           {selectedProducts.length} / 4 seleccionados
         </span>
         {selectedProducts.length > 0 && (
           <div className="flex flex-wrap items-center gap-2">
             {selectedProducts.map((p) => (
-              <span key={p.slug} className="inline-flex items-center gap-1 rounded-full bg-primary/10 px-3 py-1 text-xs font-medium text-primary">
+              <span key={p.slug} className="tag border-accent-line text-accent-hi">
                 {p.name}
-                <button onClick={() => toggle(p.slug)} aria-label={`Quitar ${p.name}`} className="ml-1 text-primary hover:text-red-600">
+                <button onClick={() => toggle(p.slug)} aria-label={`Quitar ${p.name}`} className="ml-0.5 text-accent transition hover:text-danger">
                   ×
                 </button>
               </span>
@@ -78,7 +77,7 @@ export default function ComparePicker({ products }: { products: PickableProduct[
         <button
           onClick={compare}
           disabled={selected.length < 2}
-          className="ml-auto rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white transition enabled:hover:bg-primary-soft disabled:cursor-not-allowed disabled:opacity-40"
+          className="ctl ctl-primary ml-auto rounded-lg px-4 py-2 text-sm disabled:cursor-not-allowed"
         >
           Comparar ahora
         </button>
@@ -93,26 +92,26 @@ export default function ComparePicker({ products }: { products: PickableProduct[
               key={p.id}
               onClick={() => toggle(p.slug)}
               aria-pressed={isSelected}
-              className={`group relative overflow-hidden rounded-xl border-2 bg-white text-left transition ${
-                isSelected ? "border-primary ring-2 ring-primary/20" : "border-slate-200 hover:border-primary/40"
+              className={`object-card group relative overflow-hidden text-left transition ${
+                isSelected ? "border-accent-line shadow-[0_0_0_1px_rgba(232,123,63,0.35)]" : ""
               }`}
             >
-              <div className="relative aspect-square overflow-hidden bg-slate-100">
+              <div className="relative m-2 aspect-square overflow-hidden rounded-lg bg-deep shadow-[inset_0_1px_0_rgba(255,255,255,0.04)]">
                 {p.image ? (
-                  <Image src={p.image.url} alt={p.image.alt ?? p.name} fill sizes="(max-width: 640px) 50vw, 25vw" className="object-cover" />
+                  <Image src={p.image.url} alt={p.image.alt ?? p.name} fill sizes="(max-width: 640px) 50vw, 25vw" className="object-contain p-2" />
                 ) : (
-                  <span className="flex h-full items-center justify-center text-xs text-slate-400">Sin imagen</span>
+                  <span className="flex h-full items-center justify-center text-xs text-ink-faint">Sin imagen</span>
                 )}
                 {isSelected && (
-                  <span className="absolute right-2 top-2 flex h-6 w-6 items-center justify-center rounded-full bg-primary text-xs font-bold text-white">
+                  <span className="absolute right-2 top-2 flex h-6 w-6 items-center justify-center rounded-full bg-accent text-xs font-bold text-deep shadow">
                     ✓
                   </span>
                 )}
               </div>
-              <div className="p-3">
-                <p className="text-xs font-semibold uppercase tracking-wide text-accent">{p.brand}</p>
-                <p className="text-sm font-medium leading-snug text-slate-900">{p.name}</p>
-                <p className="mt-0.5 text-xs text-slate-400">{p.categoryName}</p>
+              <div className="px-3 pb-3">
+                <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-accent">{p.brand}</p>
+                <p className="text-sm font-medium leading-snug text-ink">{p.name}</p>
+                <p className="mt-0.5 text-xs text-ink-faint">{p.categoryName}</p>
               </div>
             </button>
           );
@@ -120,14 +119,13 @@ export default function ComparePicker({ products }: { products: PickableProduct[
       </div>
 
       {products.length === 0 && (
-        <p className="rounded-xl border border-dashed border-slate-300 bg-white p-8 text-center text-sm text-slate-500">
+        <p className="panel p-8 text-center text-sm text-ink-low">
           Aún no hay productos publicados para comparar.
         </p>
       )}
 
-      <p className="mt-6 text-xs text-slate-500">
-        Consejo: los productos se comparan dentro de la misma categoría. Cada ficha mantiene su propia escala de fabricante.
-        También puedes ir directo desde cualquier tarjeta con el botón <span className="font-medium">Comparar</span>.
+      <p className="mt-6 text-xs text-ink-faint">
+        Los productos se comparan dentro de la misma categoría. Cada ficha mantiene su propia escala de fabricante.
       </p>
     </div>
   );

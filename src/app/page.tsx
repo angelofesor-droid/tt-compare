@@ -4,78 +4,76 @@ import { getHomepageProducts } from "@/lib/services/catalog.service";
 
 export const dynamic = "force-dynamic";
 
-const categoryIcons: Record<string, string> = {
-  RUBBER: "🖐️",
-  BLADE: "🏓",
-  TABLE: "🏆",
+const categoryMeta: Record<string, { label: string; desc: string; accent: string }> = {
+  RUBBER: {
+    label: "Gomas",
+    desc: "Velocidad, spin y control. Lisas, antispin y granos.",
+    accent: "text-accent",
+  },
+  BLADE: {
+    label: "Maderos",
+    desc: "Composición, capas y mango. La base de tu juego.",
+    accent: "text-ink-mid",
+  },
+  TABLE: {
+    label: "Mesas",
+    desc: "Indoor y outdoor, plegables, con certificación ITTF.",
+    accent: "text-ink-mid",
+  },
 };
 
 export default async function HomePage() {
   const { featured, recent, categories } = await getHomepageProducts();
 
+  // Módulos de categoría: GOMAS | MADEROS / MESAS (grid modernista responsive)
+  const catModules = categories.slice(0, 3);
+
   return (
     <div>
-      {/* Hero */}
-      <section className="hero-grid bg-primary text-white">
-        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20">
-          <p className="mb-3 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs font-medium uppercase tracking-wider">
-            Catálogo · Base de datos · Comparador · Guía de compra
-          </p>
-          <h1 className="max-w-2xl text-3xl font-bold leading-tight sm:text-5xl">
-            Elige tu equipamiento de tenis de mesa con datos, no con suerte.
+      {/* Composición editorial de entrada */}
+      <section className="relative overflow-hidden border-b border-metal">
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(900px_420px_at_70%_-10%,rgba(232,123,63,0.08),transparent_60%)]" />
+        <div className="mx-auto max-w-7xl px-4 pb-10 pt-14 sm:px-6 sm:pt-20">
+          <p className="sec-label mb-6">Catálogo técnico · Base de datos · Comparador</p>
+          <h1 className="max-w-3xl text-4xl font-bold leading-[1.05] tracking-tight text-ink sm:text-6xl">
+            Zona Tenis de Mesa
           </h1>
-          <p className="mt-4 max-w-xl text-sm leading-relaxed text-white/70 sm:text-base">
-            Gomas, maderos y mesas con características verificadas contra fuentes oficiales.
-            Filtra, compara y decide con confianza.
+          <p className="mt-5 max-w-xl text-base leading-relaxed text-ink-mid sm:text-lg">
+            Compara el equipamiento que realmente necesitas. Gomas, maderos y mesas
+            con características verificadas contra fuentes oficiales.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <Link
-              href="/rubbers"
-              className="rounded-lg bg-accent px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-accent/90"
-            >
-              Explorar gomas
-            </Link>
-            <Link
-              href="/compare"
-              className="rounded-lg border border-white/30 bg-white/10 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-white/20"
-            >
+            <Link href="/compare" className="ctl ctl-primary px-5 py-2.5 text-sm">
               Comparar productos
+            </Link>
+            <Link href="/rubbers" className="ctl ctl-ghost px-5 py-2.5 text-sm">
+              Explorar el catálogo
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Categorías */}
+      {/* Módulos de categoría (cuadrícula modernista) */}
       <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6">
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-          {categories.map((cat) => (
-            <Link
-              key={cat.id}
-              href={`/${cat.slug}`}
-              className="group flex items-center justify-between rounded-xl border border-slate-200 bg-white p-5 transition hover:border-primary/40 hover:shadow-md"
-            >
-              <div>
-                <p className="text-2xl">{categoryIcons[cat.key] ?? "🏓"}</p>
-                <h2 className="mt-2 text-lg font-semibold">{cat.namePlural}</h2>
-                <p className="text-xs text-slate-500">
-                  {cat._count.products} {cat._count.products === 1 ? "producto" : "productos"}
-                </p>
-              </div>
-              <span className="text-sm font-medium text-primary opacity-0 transition group-hover:opacity-100">
-                Ver →
-              </span>
-            </Link>
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+          {catModules.slice(0, 2).map((cat) => (
+            <CategoryModule key={cat.id} cat={cat} />
           ))}
         </div>
+        {catModules[2] && (
+          <div className="mt-4">
+            <CategoryModule cat={catModules[2]} />
+          </div>
+        )}
       </section>
 
       {/* Destacados */}
       {featured.length > 0 && (
         <section className="mx-auto max-w-7xl px-4 pb-10 sm:px-6">
-          <div className="mb-4 flex items-end justify-between">
-            <h2 className="text-xl font-bold">Destacados</h2>
-            <Link href="/rubbers" className="text-sm font-medium text-primary hover:underline">
-              Ver todo
+          <div className="mb-5 flex items-end justify-between">
+            <h2 className="sec-label">Destacados</h2>
+            <Link href="/rubbers" className="text-sm font-medium text-accent transition hover:text-accent-hi">
+              Ver todo →
             </Link>
           </div>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
@@ -88,9 +86,9 @@ export default async function HomePage() {
 
       {/* Recientes */}
       {recent.length > 0 && (
-        <section className="border-t border-slate-200 bg-white">
+        <section className="border-t border-metal bg-graphite/40">
           <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6">
-            <h2 className="mb-4 text-xl font-bold">Agregados recientemente</h2>
+            <h2 className="sec-label mb-5">Agregados recientemente</h2>
             <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
               {recent.map((p) => (
                 <ProductCard key={p.id} product={p} />
@@ -102,28 +100,54 @@ export default async function HomePage() {
 
       {/* Propuesta de valor */}
       <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6">
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
           {[
             {
               title: "Datos verificados",
-              text: "Cada especificación conserva su fuente y escala original del fabricante. No inventamos números.",
+              text: "Cada especificación conserva su fuente y su escala original del fabricante. No inventamos números.",
             },
             {
               title: "Comparación real",
-              text: "Compara solo productos de la misma categoría, con las características que importan.",
+              text: "Compara solo productos de la misma categoría, con las características que importan para decidir.",
             },
             {
               title: "Imágenes correctas",
               text: "La imagen de cada producto corresponde al modelo exacto, con su fuente registrada.",
             },
           ].map((v) => (
-            <div key={v.title} className="rounded-xl border border-slate-200 bg-white p-5">
-              <h3 className="text-base font-semibold">{v.title}</h3>
-              <p className="mt-1 text-sm leading-relaxed text-slate-600">{v.text}</p>
+            <div key={v.title} className="panel p-5">
+              <h3 className="text-sm font-bold uppercase tracking-[0.08em] text-ink">{v.title}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-ink-mid">{v.text}</p>
             </div>
           ))}
         </div>
       </section>
     </div>
+  );
+}
+
+async function CategoryModule({ cat }: { cat: { id: string; key: string; namePlural: string; slug: string; description: string | null; _count: { products: number } } }) {
+  const meta = categoryMeta[cat.key] ?? { label: cat.namePlural, desc: cat.description ?? "", accent: "text-ink-mid" };
+  return (
+    <Link
+      href={`/${cat.slug}`}
+      className="object-card group relative flex min-h-36 flex-col justify-between overflow-hidden p-6"
+    >
+      <div className="pointer-events-none absolute -right-8 -top-8 h-36 w-36 rounded-full bg-[radial-gradient(circle,rgba(255,255,255,0.04),transparent_70%)]" />
+      <div>
+        <p className={`text-2xl font-bold uppercase tracking-[0.1em] sm:text-3xl ${meta.accent}`}>
+          {meta.label}
+        </p>
+        <p className="mt-2 max-w-md text-sm leading-relaxed text-ink-low">{meta.desc}</p>
+      </div>
+      <div className="mt-4 flex items-center justify-between">
+        <span className="tag">
+          {cat._count.products} {cat._count.products === 1 ? "producto" : "productos"}
+        </span>
+        <span className="text-sm font-semibold text-ink-low transition group-hover:translate-x-0.5 group-hover:text-accent">
+          Ver →
+        </span>
+      </div>
+    </Link>
   );
 }

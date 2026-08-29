@@ -20,7 +20,7 @@ export interface FiltersProps {
   priceRange: { min: number | null; max: number | null };
 }
 
-export default function CategoryFilters({ brands, attributes, priceRange }: FiltersProps) {
+export default function CategoryFilters({ brands, attributes }: FiltersProps) {
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -80,26 +80,26 @@ export default function CategoryFilters({ brands, attributes, priceRange }: Filt
     router.push("?", { scroll: false });
   }
 
-  const hasActiveFilters = selectedBrands.length > 0 || Object.keys(selectedAttrs).length > 0 || (priceRange.min !== null && priceRange.max !== null && (searchParams.get("min") || searchParams.get("max")));
+  const hasActiveFilters = selectedBrands.length > 0 || Object.keys(selectedAttrs).length > 0;
 
   return (
-    <aside className="space-y-6 rounded-xl border border-slate-200 bg-white p-4">
-      <div className="flex items-center justify-between">
-        <h2 className="text-sm font-semibold uppercase tracking-wide text-slate-500">Filtros</h2>
+    <aside className="panel p-4">
+      <div className="mb-4 flex items-center justify-between">
+        <h2 className="text-xs font-bold uppercase tracking-[0.16em] text-ink-low">Filtros</h2>
         {hasActiveFilters && (
-          <button onClick={clearAll} className="text-xs font-medium text-accent hover:underline">
+          <button onClick={clearAll} className="text-xs font-medium text-accent transition hover:text-accent-hi">
             Limpiar
           </button>
         )}
       </div>
 
       {/* Orden */}
-      <div>
-        <h3 className="mb-2 text-sm font-semibold">Ordenar</h3>
+      <div className="mb-5">
+        <h3 className="spec-label mb-2">Ordenar</h3>
         <select
           value={sort}
           onChange={(e) => changeSort(e.target.value)}
-          className="w-full rounded-md border border-slate-300 bg-white px-3 py-2 text-sm focus:border-primary focus:outline-none"
+          className="ctl-select w-full"
           aria-label="Ordenar resultados"
         >
           <option value="recent">Más recientes</option>
@@ -107,22 +107,24 @@ export default function CategoryFilters({ brands, attributes, priceRange }: Filt
         </select>
       </div>
 
+      <hr className="metal-divider mb-5" />
+
       {/* Marcas */}
       {brands.length > 0 && (
-        <div>
-          <h3 className="mb-2 text-sm font-semibold">Marca</h3>
-          <ul className="space-y-1.5">
+        <div className="mb-5">
+          <h3 className="spec-label mb-2.5">Marca</h3>
+          <ul className="space-y-2">
             {brands.map((b) => (
               <li key={b.id}>
-                <label className="flex cursor-pointer items-center gap-2 text-sm text-slate-700">
+                <label className="flex cursor-pointer items-center gap-2.5 text-sm text-ink-mid transition hover:text-ink">
                   <input
                     type="checkbox"
                     checked={selectedBrands.includes(b.name)}
                     onChange={() => toggleBrand(b.name)}
-                    className="h-4 w-4 rounded border-slate-300 text-primary focus:ring-primary"
+                    className="ctl-check"
                   />
                   <span className="flex-1">{b.name}</span>
-                  <span className="text-xs text-slate-400">{b.count}</span>
+                  <span className="text-xs tabular-nums text-ink-faint">{b.count}</span>
                 </label>
               </li>
             ))}
@@ -132,22 +134,22 @@ export default function CategoryFilters({ brands, attributes, priceRange }: Filt
 
       {/* Atributos dinámicos */}
       {attributes.map((group) => (
-        <div key={group.key}>
-          <h3 className="mb-2 text-sm font-semibold">{group.name}</h3>
-          <ul className="space-y-1.5">
+        <div key={group.key} className="mb-5">
+          <h3 className="spec-label mb-2.5">{group.name}</h3>
+          <ul className="space-y-2">
             {group.options.map((opt) => {
               const checked = selectedAttrs[group.key]?.includes(opt.value) ?? false;
               return (
                 <li key={opt.value}>
-                  <label className="flex cursor-pointer items-center gap-2 text-sm text-slate-700">
+                  <label className="flex cursor-pointer items-center gap-2.5 text-sm text-ink-mid transition hover:text-ink">
                     <input
                       type="checkbox"
                       checked={checked}
                       onChange={() => toggleAttr(group.key, opt.value)}
-                      className="h-4 w-4 rounded border-slate-300 text-primary focus:ring-primary"
+                      className="ctl-check"
                     />
                     <span className="flex-1">{opt.value}</span>
-                    <span className="text-xs text-slate-400">{opt.count}</span>
+                    <span className="text-xs tabular-nums text-ink-faint">{opt.count}</span>
                   </label>
                 </li>
               );

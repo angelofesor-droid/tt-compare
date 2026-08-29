@@ -27,24 +27,24 @@ export default async function EditProductPage({ params, searchParams }: PageProp
   return (
     <div className="mx-auto max-w-3xl">
       <div className="mb-4 flex items-center justify-between">
-        <h1 className="text-xl font-bold">Editar: {product.name}</h1>
+        <h1 className="text-xl font-bold text-ink">Editar: {product.name}</h1>
         <div className="flex gap-2">
-          <Link href={`/admin/products/${product.id}/preview`} className="rounded-md border border-slate-300 px-3 py-1.5 text-sm font-medium hover:border-primary hover:text-primary">
+          <Link href={`/admin/products/${product.id}/preview`} className="ctl ctl-ghost rounded-lg px-3 py-1.5 text-sm">
             Vista previa
           </Link>
-          <Link href={`/product/${product.slug}`} target="_blank" className="rounded-md border border-slate-300 px-3 py-1.5 text-sm font-medium hover:border-primary hover:text-primary">
+          <Link href={`/product/${product.slug}`} target="_blank" className="ctl ctl-ghost rounded-lg px-3 py-1.5 text-sm">
             Ver público ↗
           </Link>
         </div>
       </div>
 
       {created && (
-        <div role="status" className="mb-4 rounded-lg border border-green-200 bg-green-50 px-4 py-3 text-sm text-green-800">
+        <div role="status" className="mb-4 rounded-lg border border-ok/50 bg-ok/10 px-4 py-3 text-sm text-ok">
           Producto creado. Completa los datos y publícalo cuando esté listo.
         </div>
       )}
       {duplicated && (
-        <div role="status" className="mb-4 rounded-lg border border-blue-200 bg-blue-50 px-4 py-3 text-sm text-blue-800">
+        <div role="status" className="mb-4 rounded-lg border border-accent-line bg-accent-wash px-4 py-3 text-sm text-accent-hi">
           Producto duplicado como borrador. Edítalo y publícalo cuando quieras.
         </div>
       )}

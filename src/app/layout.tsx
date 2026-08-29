@@ -16,14 +16,14 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "TT Compare — Comparador de equipamiento de tenis de mesa",
-    template: "%s | TT Compare",
+    default: "Zona Tenis de Mesa — Comparador de equipamiento de tenis de mesa",
+    template: "%s | Zona Tenis de Mesa",
   },
   description:
-    "Catálogo y comparador de gomas, maderos y mesas de tenis de mesa. Características verificadas, fuentes oficiales y comparaciones útiles para elegir tu equipo.",
+    "Catálogo y comparador de gomas, maderos y mesas de tenis de mesa. Características verificadas contra fuentes oficiales, fichas técnicas y comparaciones para elegir tu equipo.",
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
   openGraph: {
-    title: "TT Compare",
+    title: "Zona Tenis de Mesa",
     description: "Comparador de equipamiento de tenis de mesa: gomas, maderos y mesas.",
     type: "website",
     locale: "es_CL",
@@ -33,9 +33,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="es" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col">
+      <body className="relative flex min-h-full flex-col">
         <Header />
-        <main className="flex-1">{children}</main>
+        <main className="relative z-10 flex-1">{children}</main>
         <Footer />
       </body>
     </html>
