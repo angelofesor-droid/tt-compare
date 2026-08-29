@@ -6746,6 +6746,32 @@
       "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=b-harimoto-if-alc",
       "sourceName": "Megaspin",
       "price": null
+    },
+    {
+      "name": "Franziska Innerforce ZLC",
+      "brand": "Butterfly",
+      "category": "BLADE",
+      "attributes": {
+        "technology": "Innerfiber + ZL Carbon (fibra interna)"
+      },
+      "scale": null,
+      "summary": "Madero ofensivo de fibra interna ZL Carbon usado por el alemán Patrick Franziska: alta velocidad con sensación de sostener la bola.",
+      "description": "Construido con especificaciones Innerfiber y ZL Carbon, es el madero que usa Patrick Franziska. Ofrece alta velocidad y la sensación de 'sostener la bola' (dwell time), recomendado para jugadores que buscan ataques potentes y estables.",
+      "pros": [
+        "Alta velocidad con buen control",
+        "Sensación de sostener la bola (dwell time)",
+        "Usado por el profesional Patrick Franziska"
+      ],
+      "cons": [
+        "Precio de gama alta",
+        "Requiere nivel técnico para aprovecharlo"
+      ],
+      "imageUrl": "https://butterflyaustralia.com/cdn/shop/files/37121-01-_1.jpg",
+      "imageAlt": "Franziska Innerforce ZLC",
+      "imageSource": "Butterfly Australia (distribuidor oficial)",
+      "sourceUrl": "https://butterflyaustralia.com/products/franziska-innerforce-alc",
+      "sourceName": "Butterfly Australia (distribuidor oficial)",
+      "price": null
     }
   ]
 }
