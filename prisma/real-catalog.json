@@ -1,0 +1,767 @@
+{
+  "products": [
+    {
+      "name": "Butterfly Tenergy 05",
+      "brand": "Butterfly",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "83",
+        "spin": "76",
+        "thickness": "2.1 (también 1.9 y 1.7)",
+        "hardness": "36 (dureza de esponja, índice oficial Butterfly)",
+        "color": "Rojo / negro",
+        "tackiness": "No pegajosa (tensor)",
+        "surfaceType": "Lisa",
+        "technology": "High Tension + Spring Sponge (pimples código 05)"
+      },
+      "scale": {
+        "speed": "Escala de índice de rendimiento oficial Butterfly (revisada en febrero 2023; velocidad y efecto sobre 100, sin valor de control publicado)"
+      },
+      "summary": "La goma tensor de alta gama más famosa del mundo: referencia absoluta en topspin con máximo efecto y arco alto.",
+      "description": "Combina la tecnología High Tension con la esponja Spring Sponge y los pimples de código 05, lo que permite impartir gran cantidad de efecto y desarrollar un juego de topspin completo. Fabricada en Japón. Su superficie es delicada: se recomienda pegamento base de agua y film protector.",
+      "pros": [
+        "Efecto y arco superiores, referencia mundial para topspin",
+        "Tecnología High Tension + Spring Sponge",
+        "Usada por jugadores de élite mundial"
+      ],
+      "cons": [
+        "Precio alto",
+        "Superficie delicada que se daña con facilidad",
+        "Exigente en control para jugadores intermedios"
+      ],
+      "imageUrl": "https://www.butterfly-global.com/en/products/item/05800_01.jpg",
+      "imageAlt": "Butterfly Tenergy 05",
+      "imageSource": "Butterfly Global (sitio oficial)",
+      "sourceUrl": "https://www.butterfly-global.com/en/products/detail/05800.html",
+      "sourceName": "Butterfly Global (sitio oficial)",
+      "price": null
+    },
+    {
+      "name": "DHS Hurricane 3 NEO",
+      "brand": "DHS",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "120",
+        "spin": "120",
+        "control": "100",
+        "thickness": "2.15 / 2.2",
+        "hardness": "39 / 40 / 41 (escala DHS)",
+        "weight": "≈59 g sin cortar (2.2 mm, negro; medición de Tabletennis11)",
+        "color": "Rojo / negro",
+        "tackiness": "Muy pegajosa (tacky)",
+        "surfaceType": "Lisa",
+        "technology": "Esponja NEO pre-boosted + topsheet pegajosa Hurricane 3"
+      },
+      "scale": {
+        "speed": "Escala Megaspin (valores publicados por Megaspin.net; DHS no publica valores numéricos en su sitio oficial)"
+      },
+      "summary": "La goma china pegajosa por excelencia: topsheet muy adherente con esponja NEO potenciada para topspin rápido y con fuerte efecto.",
+      "description": "La combinación de la esponja NEO (con tratamiento de boost de fábrica) y la clásica topsheet Hurricane 3 permite ataques estables y de alta velocidad, con un bucle rápido bajo y arco cambiante. DHS la recomienda para estrategia ofensiva (OFF) y juego de control/loop.",
+      "pros": [
+        "Efecto extremo y arco cambiante",
+        "Esponja NEO con más rebote que la Hurricane 3 original",
+        "Gran control en juego corto y saques"
+      ],
+      "cons": [
+        "Requiere buena técnica y golpe activo",
+        "Menos velocidad que los tensores europeos",
+        "Topsheet muy sensible a la humedad"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_dhs-h3-neo-40.jpg",
+      "imageAlt": "DHS Hurricane 3 NEO",
+      "imageSource": "Megaspin + DHS (sitio oficial en.dhs-sports.com)",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=dhs-h3-neo-40",
+      "sourceName": "Megaspin + DHS (sitio oficial en.dhs-sports.com)",
+      "price": null
+    },
+    {
+      "name": "Stiga Mantra M",
+      "brand": "Stiga",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "155",
+        "spin": "132",
+        "control": "84",
+        "hardness": "Media (esponja medio de la serie Mantra)",
+        "color": "Rojo / negro",
+        "tackiness": "Ligeramente pegajosa (1.6/10 'slightly tacky' según usuarios RevSpin)",
+        "surfaceType": "Lisa",
+        "technology": "Sistema Oxygen Capsule (microburbujas de aire en la esponja), fabricada en Japón"
+      },
+      "scale": {
+        "speed": "Escala oficial Stiga (especificaciones de fabricante, publicadas vía Tabletennis Reference)"
+      },
+      "summary": "Tensor equilibrado de esponja media con gran potencia de golpe, alta velocidad y sensación estable a media distancia.",
+      "description": "La serie Mantra usa la última tecnología japonesa de gomas: la mezcla de caucho sintético y natural genera tensión entre topsheet y esponja, produciendo un notable efecto catapulta. La versión M (esponja media) ofrece mucha potencia, buen efecto en topspin y una sensación muy consistente desde media distancia.",
+      "pros": [
+        "Equilibrio velocidad/control para juego ofensivo",
+        "Alto efecto en topspin y saques",
+        "Buena relación precio/rendimiento"
+      ],
+      "cons": [
+        "Menos explosiva que tensores duros tipo MX-P",
+        "Efecto promedio en golpes planos según usuarios",
+        "Serie discontinuada: disponibilidad limitada"
+      ],
+      "imageUrl": "https://tabletennis-reference.com/images/rubber/533_1_450.jpg",
+      "imageAlt": "Stiga Mantra M",
+      "imageSource": "Tabletennis Reference (specs de fabricante STIGA)",
+      "sourceUrl": "https://tabletennis-reference.com/rubber/detail/533/month",
+      "sourceName": "Tabletennis Reference (specs de fabricante STIGA)",
+      "price": null
+    },
+    {
+      "name": "Joola Dynaryz AGR",
+      "brand": "Joola",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "11",
+        "spin": "10",
+        "control": "8",
+        "thickness": "2.0 (max+)",
+        "hardness": "50° (esponja Hyper Bounce dura, color violeta)",
+        "weight": "72 g (peso neto según ficha oficial joola.de)",
+        "color": "Rojo / negro",
+        "tackiness": "No pegajosa (topsheet Advanced Traction de alto agarre)",
+        "surfaceType": "Lisa",
+        "technology": "Esponja Hyper Bounce 50° + Advanced Traction Surface"
+      },
+      "scale": {
+        "speed": "Escala oficial JOOLA (índice de rendimiento publicado en joola.de: velocidad 11, efecto 10, precisión 8)"
+      },
+      "summary": "Goma ofensiva europea agresiva: esponja dura de 50° con potente catapulta y topsheet de alto agarre para jugar el topspin definitivo.",
+      "description": "La esponja Hyper Bounce de 50° es dura pero muy dinámica: su marcado efecto catapulta aumenta la velocidad de los golpes de ataque, mientras la topsheet Advanced Traction compensa la pérdida de efecto de la bola plástica 40+. Trayectoria de vuelo alta y juego flexible para atacantes con brazada completa.",
+      "pros": [
+        "Velocidad y potencia de ataque máximas",
+        "Gran agarre y efecto con bola 40+",
+        "Sensación viva pese a la esponja dura"
+      ],
+      "cons": [
+        "Exigente: requiere buena técnica y brazada completa",
+        "Menos control en juego pasivo",
+        "Peso elevado (≈72 g)"
+      ],
+      "imageUrl": "https://joola.de/cdn/shop/files/70511_JOOLA_Dynaryz-AGR_01_web.png?v=1746621635",
+      "imageAlt": "Joola Dynaryz AGR",
+      "imageSource": "JOOLA (sitio oficial joola.de)",
+      "sourceUrl": "https://joola.de/en-eu/products/joola-rubber-dynaryz-agr",
+      "sourceName": "JOOLA (sitio oficial joola.de)",
+      "price": null
+    },
+    {
+      "name": "Andro Rasanter R47",
+      "brand": "Andro",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "96",
+        "spin": "96",
+        "control": "68",
+        "thickness": "2.3 (Ultramax; el espesor estándar no está publicado por Andro)",
+        "hardness": "47° (ESN)",
+        "color": "Rojo / negro",
+        "tackiness": "Ligeramente pegajosa (brillo 'sticky glow' oficial)",
+        "surfaceType": "Lisa",
+        "technology": "TENSOR made in Germany; topsheet R (Rotation) con sticky glow + esponja Ultramax de 2.3 mm"
+      },
+      "scale": {
+        "speed": "Escala Megaspin (valores publicados por Megaspin.net; Andro no publica valores numéricos por modelo en su sitio oficial)"
+      },
+      "summary": "La opción más popular de la familia Rasanter: potencia, velocidad, efecto y comodidad en todos los golpes de ataque.",
+      "description": "La topsheet de alto brillo (sticky glow) compensa la pérdida de rotación de la bola 40+, y con su esponja de 47° entrega velocidad alta y ángulo de salida medio con rebote. Pensada para jugadores atacantes que quieren mantener potencia a todas las distancias; su esponja Ultramax de 2.3 mm es la más gruesa de la generación TENSOR moderna.",
+      "pros": [
+        "Excelente combinación de velocidad y efecto",
+        "Muy popular entre jugadores ofensivos",
+        "Tecnología TENSOR alemana con esponja Ultramax 2.3 mm"
+      ],
+      "cons": [
+        "Requiere técnica para dominar su potencia",
+        "Menos indulgente en golpes pasivos",
+        "Peso medio-alto en versión Ultramax"
+      ],
+      "imageUrl": "https://www.andro.de/sites/default/files/media_image/Thumbnails_rubber_Rasanter_R47_383x383.jpg",
+      "imageAlt": "Andro Rasanter R47",
+      "imageSource": "Megaspin + Andro (sitio oficial andro.de)",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=andro-rasanter-r47",
+      "sourceName": "Megaspin + Andro (sitio oficial andro.de)",
+      "price": null
+    },
+    {
+      "name": "Tibhar Hybrid K3",
+      "brand": "Tibhar",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "118",
+        "spin": "130",
+        "control": "100",
+        "thickness": "2.0 (máx.)",
+        "hardness": "53°",
+        "color": "Negro / rojo",
+        "tackiness": "Pegajosa (tacky)",
+        "surfaceType": "Lisa",
+        "technology": "Híbrido: topsheet muy pegajosa + esponja dura altamente potenciada (efecto catapulta)"
+      },
+      "scale": {
+        "speed": "Escala oficial TIBHAR (valores de velocidad/control/efecto publicados en tibhar.info)"
+      },
+      "summary": "Híbrido de nivel profesional que une una topsheet enormemente pegajosa con esponja dura: máximo efecto con potente catapulta y control.",
+      "description": "HYBRID K3 combina características aparentemente incompatibles: una adherencia enorme con una dinámica muy alta y un potente efecto catapulta, base de sus altas velocidades. Su respuesta permite contraatacar de inmediato topspins cargados de efecto y bolas cortadas; estrategia recomendada OFF+.",
+      "pros": [
+        "Efecto y catapulta de nivel profesional",
+        "Buen control y colocación pese a la velocidad",
+        "Contraataque fácil sobre topspin y cortadas"
+      ],
+      "cons": [
+        "Precio alto (gama profesional)",
+        "Dureza de 53° exigente para intermedios",
+        "Peso considerable"
+      ],
+      "imageUrl": "https://tibhar.info/wp-content/uploads/2022/09/Hybrid_K3-600x600.jpg",
+      "imageAlt": "Tibhar Hybrid K3",
+      "imageSource": "TIBHAR (sitio oficial tibhar.info)",
+      "sourceUrl": "https://tibhar.info/en/shop/hybrid-k3/",
+      "sourceName": "TIBHAR (sitio oficial tibhar.info)",
+      "price": null
+    },
+    {
+      "name": "Donic Bluefire M2",
+      "brand": "Donic",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "91",
+        "spin": "94",
+        "control": "70",
+        "thickness": "2.0 (también 1.8 y max)",
+        "hardness": "45°",
+        "color": "Rojo / negro / azul",
+        "tackiness": "No pegajosa (grippy)",
+        "surfaceType": "Lisa",
+        "technology": "Bluesponge (esponja azul de poro grande e hiperelástica) + topsheet con geometría de pimples optimizada"
+      },
+      "scale": {
+        "speed": "Escala Megaspin (valores publicados por Megaspin.net; Donic publica categorías cualitativas: velocidad media, efecto alto, control alto)"
+      },
+      "summary": "Allround-ofensiva con el legendario Bluesponge azul: equilibrio perfecto entre dinámica, catapulta y feedback de bola.",
+      "description": "La esponja azul de poro grande y paredes muy finas es hiperelástica: la bola penetra profundamente y sale catapultada con más velocidad y una trayectoria más larga y curva. La M2 (45°) ofrece un feedback excelente en bloqueos, contraataques y juego corto, ideal para jugadores allround y ofensivos orientados al efecto.",
+      "pros": [
+        "Excelente feedback y sensación de bola",
+        "Catapulta potente y arco alto en topspin",
+        "Versátil para estilos ALL+ a OFF"
+      ],
+      "cons": [
+        "Menos velocidad pura que las M1 y M1 Turbo",
+        "Durabilidad media del topsheet",
+        "Peso moderado-alto"
+      ],
+      "imageUrl": "https://www.donic.com/media/74/9e/0b/1782209045/donic-rubber-bluefire-m2-3d-diagonal.jpg?ts=1786716511",
+      "imageAlt": "Donic Bluefire M2",
+      "imageSource": "DONIC (sitio oficial donic.com)",
+      "sourceUrl": "https://www.donic.com/en/DONIC-Bluefire-M2/000295118",
+      "sourceName": "DONIC (sitio oficial donic.com)",
+      "price": null
+    },
+    {
+      "name": "Yasaka Rakza 7",
+      "brand": "Yasaka",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "92",
+        "spin": "94",
+        "control": "70",
+        "thickness": "2.0 (también 1.8 y max)",
+        "hardness": "45° (medio-dura)",
+        "color": "Rojo / negro",
+        "tackiness": "No pegajosa (topsheet de alto agarre)",
+        "surfaceType": "Lisa",
+        "technology": "Power Sponge + topsheet de alto caucho natural (tecnología Hybrid Energy)"
+      },
+      "scale": {
+        "speed": "Escala Megaspin (valores publicados por Megaspin.net; Yasaka no publica valores numéricos en su sitio oficial actual)"
+      },
+      "summary": "Goma ofensiva muy equilibrada: combina efecto, velocidad y control con gran durabilidad gracias al alto contenido de caucho natural.",
+      "description": "La topsheet con alto porcentaje de caucho natural mejora drásticamente el agarre y la potencia de efecto, y en sinergia con la Power Sponge genera la tecnología 'Hybrid Energy'. Saques y devoluciones cortas muy afilados, colocación precisa en dirección y longitud, y mayor durabilidad.",
+      "pros": [
+        "Equilibrio efecto/velocidad/control",
+        "Saque y juego corto muy afilados",
+        "Gran durabilidad por el alto caucho natural"
+      ],
+      "cons": [
+        "Menos velocidad que gomas más duras",
+        "Control limitado en golpes de máxima potencia",
+        "Efecto no extremo frente a híbridos pegajosos"
+      ],
+      "imageUrl": "https://bunny-wp-pullzone-2n5sdzke4o.b-cdn.net/wp-content/uploads/2024/09/Rubber-Rakza-7-HR-1.jpg",
+      "imageAlt": "Yasaka Rakza 7",
+      "imageSource": "Yasaka (sitio oficial yasakatabletennis.com)",
+      "sourceUrl": "https://yasakatabletennis.com/product/rakza-7/",
+      "sourceName": "Yasaka (sitio oficial yasakatabletennis.com)",
+      "price": null
+    },
+    {
+      "name": "Viscaria",
+      "brand": "Butterfly",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "86",
+        "layers": "7",
+        "composition": "5 maderas + 2 capas Arylate-Carbon (ALC): limba exterior, capa ALC, limba intermedia y núcleo de kiri",
+        "handle": "FL / ST",
+        "speed": "11.8",
+        "control": "10.3",
+        "thickness": "5.8",
+        "technology": "ALC (Arylate-Carbon): combina la ligereza, flexibilidad y absorción de impactos del arylate con la alta elasticidad del carbono"
+      },
+      "scale": {
+        "speed": "Propiedad de reacción (escala oficial Butterfly; reaction = velocidad base de la hoja)",
+        "control": "Propiedad de vibración (escala oficial Butterfly; vibración = sensación al impacto)"
+      },
+      "summary": "Ícono mundial de las maderas ofensivas ALC: equilibrio excepcional entre velocidad, control y efecto.",
+      "description": "La Viscaria combina fibras de Arylate y Carbono para una pala ofensiva (OFF) con excelente equilibrio entre flexibilidad y rebote. Su cabeza compacta (157×150 mm) la hace ideal para re-looping rápido de la bola. Base de muchas maderas ALC de Butterfly, usada por campeones mundiales como Zhang Jike; sigue siendo una de las maderas más valoradas del mercado.",
+      "pros": [
+        "Equilibrio sobresaliente entre velocidad, control y efecto",
+        "Fibras ALC: ligereza, flexibilidad y absorción de impactos",
+        "Referencia mundial entre maderas ofensivas con fibra"
+      ],
+      "cons": [
+        "Precio elevado (gama alta)",
+        "Requiere nivel de juego avanzado para aprovecharla",
+        "Peso promedio 86 g con variación de hasta ±7 g por unidad"
+      ],
+      "imageUrl": "https://www.butterfly-global.com/en/products/item/30041_01.jpg",
+      "imageAlt": "Viscaria",
+      "imageSource": "Butterfly Global Site",
+      "sourceUrl": "https://www.butterfly-global.com/en/products/detail/30041.html",
+      "sourceName": "Butterfly Global Site",
+      "price": null
+    },
+    {
+      "name": "Timo Boll ALC",
+      "brand": "Butterfly",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "86",
+        "layers": "7",
+        "composition": "5 maderas + 2 capas Arylate-Carbon (ALC) en el interior",
+        "handle": "FL / ST / AN",
+        "speed": "11.8",
+        "control": "10.3",
+        "thickness": "5.8",
+        "technology": "ALC (Arylate-Carbon) aplicado en el interior de la hoja"
+      },
+      "scale": {
+        "speed": "Propiedad de reacción (escala oficial Butterfly; reaction = velocidad base de la hoja)",
+        "control": "Propiedad de vibración (escala oficial Butterfly; vibración = sensación al impacto)"
+      },
+      "summary": "Madera firma de Timo Boll: ALC que suma velocidad al control, pensada para topspin pesado.",
+      "description": "Diseñada junto a Timo Boll y sus técnicos, ofrece un punto más de velocidad que su modelo anterior sin renunciar al control, permitiendo los topspins pesados que caracterizan al ex número 1 del mundo. Clásica de la línea Butterfly, fabricada en Japón con cabeza 157×150 mm.",
+      "pros": [
+        "Máximo equilibrio entre velocidad, efecto y control",
+        "Diseñada en colaboración con Timo Boll",
+        "Calidad y acabado japonés"
+      ],
+      "cons": [
+        "Gama alta: precio elevado",
+        "Exige buena técnica para controlar su velocidad",
+        "Peso promedio 86 g con variación por unidad"
+      ],
+      "imageUrl": "https://www.butterfly-global.com/en/products/item/35861_01.jpg",
+      "imageAlt": "Timo Boll ALC",
+      "imageSource": "Butterfly Global Site",
+      "sourceUrl": "https://www.butterfly-global.com/en/products/detail/35861.html",
+      "sourceName": "Butterfly Global Site",
+      "price": null
+    },
+    {
+      "name": "Clipper Wood",
+      "brand": "Stiga",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "90",
+        "layers": "7",
+        "composition": "7 plies de madera natural: limba exterior y ayous interior (3 plies interiores duros y rápidos, 4 plies exteriores blandos)",
+        "handle": "ST (Classic) / FL (Master)",
+        "speed": "8.2",
+        "control": "4.9",
+        "technology": "7 plies all-wood; construcción simétrica Limba/Ayous"
+      },
+      "scale": {
+        "speed": "Escala oficial STIGA (1-10, stigasports.com)",
+        "control": "Escala oficial STIGA (1-10, stigasports.com)"
+      },
+      "summary": "Leyenda de 7 plies desde 1981: madera ofensiva rígida y potente con tacto de madera pura.",
+      "description": "Lanzada en 1981 y con más de un millón de unidades vendidas, la Clipper Wood es una pala ofensiva de 7 plies de madera natural que ofrece rigidez, potencia y respuesta lineal característica. Usada por Liu Guoliang; ideal para jugadores de potencia tradicionales que buscan bloqueo y drive con gran control.",
+      "pros": [
+        "Potencia de madera rígida con tacto natural",
+        "Control excelente en bloqueo y drive",
+        "Más de 40 años de éxito y millones de unidades vendidas"
+      ],
+      "cons": [
+        "Peso elevado (90 g ±5)",
+        "No apta para principiantes: exige técnica",
+        "Rígida: menos tiempo de contacto que maderas flexibles"
+      ],
+      "imageUrl": "https://stigasports.centracdn.net/client/dynamic/images/4279_7eb6239139-1020-35-clipper-wood-1-1-full.jpg",
+      "imageAlt": "Clipper Wood",
+      "imageSource": "STIGA Sports (sitio oficial)",
+      "sourceUrl": "https://www.stigasports.com/en/product/clipper-wood",
+      "sourceName": "STIGA Sports (sitio oficial)",
+      "price": null
+    },
+    {
+      "name": "Hurricane Long 5",
+      "brand": "DHS",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "89",
+        "layers": "7",
+        "composition": "5 maderas + 2 ALC interno: limba exterior, ayous y capas de arylate-carbono (AC) a ambos lados del núcleo",
+        "handle": "FL / CS",
+        "thickness": "5.9",
+        "technology": "Fibras ALC internas (Inner ALC) + tecnología Pith-Film de DHS que refuerza el núcleo"
+      },
+      "scale": null,
+      "summary": "Madera firma de Ma Long: ALC interno con Pith-Film para potencia explosiva y control fino en juego corto.",
+      "description": "La Hurricane Long 5 es la madera con la que Ma Long ganó el Mundial 2015. Su estructura 5+2 con arylate-carbono interno (junto al núcleo) entrega tacto delicado y mínimo rebote en juego corto, y potencia sólida a máxima fuerza. La tecnología Pith-Film refuerza el núcleo para mayor estabilidad y poder (blade type: Offensive Max, 5.9 mm ±0.1, 89 g ±3).",
+      "pros": [
+        "Control sobresaliente en juego corto y recepción",
+        "Potencia explosiva a golpe pleno",
+        "Tecnología Pith-Film y construcción Inner ALC"
+      ],
+      "cons": [
+        "Gama premium: precio elevado",
+        "Exige nivel de juego avanzado",
+        "Peso 89 g ±3 con variación por unidad"
+      ],
+      "imageUrl": "https://dhssportsusa.com/cdn/shop/files/00_beaf6adf-56d9-4e43-8a1f-254ee4cbac6f.png?v=1765323188",
+      "imageAlt": "Hurricane Long 5",
+      "imageSource": "DHS Sports USA (distribuidor oficial DHS)",
+      "sourceUrl": "https://dhssportsusa.com/products/dhs-hurricane-long-5-table-tennis-blade",
+      "sourceName": "DHS Sports USA (distribuidor oficial DHS)",
+      "price": null
+    },
+    {
+      "name": "Rosskopf Emotion",
+      "brand": "Joola",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "86",
+        "layers": "7",
+        "composition": "5+2 plies: Hinoki – Koto – 3K-C – Ayous – 3K-C – Koto – Hinoki (núcleo de carbono 3K-C)",
+        "handle": "FL / ST / AN",
+        "speed": "4.0",
+        "control": "4.5",
+        "flexibility": "3.5 (escala oficial JOOLA)",
+        "thickness": "5.9",
+        "technology": "Núcleo de carbono 3K-C (3.000 filamentos de carbono por hilo): reduce vibraciones, amplía el sweet spot y da trayectoria plana"
+      },
+      "scale": {
+        "speed": "Escala oficial JOOLA (tabla Blade Specifications de joola.com)",
+        "control": "Escala oficial JOOLA (tabla Blade Specifications de joola.com)"
+      },
+      "summary": "Pala compuesta 5+2 con núcleo de carbono y exteriores de hinoki: control excepcional y sensación suave.",
+      "description": "Desarrollada con Jörg Rosskopf, la Rossi Emotion combina capas exteriores de hinoki (más dwell, efecto y control) con un núcleo de carbono 3K-C que amplía el punto dulce y aporta potencia directa. Ofrece el mejor equilibrio entre sensación en juego pasivo y velocidad en juego activo; ideal para el jugador ofensivo-allround de media distancia.",
+      "pros": [
+        "Control y sensación suave gracias al hinoki",
+        "Sweet spot ampliado por el núcleo de carbono 3K-C",
+        "Excelente equilibrio entre juego pasivo y activo"
+      ],
+      "cons": [
+        "Modelo discontinuado (sucedido por Rossi Emotion PBO-c)",
+        "Velocidad moderada frente a ALC/ZLC modernas",
+        "Peso aproximado 86 g, varía por unidad"
+      ],
+      "imageUrl": "https://onlytabletennis.com/cdn/shop/files/joola_rosskopf_emotion_19095.jpg?v=1732043988",
+      "imageAlt": "Rosskopf Emotion",
+      "imageSource": "JOOLA USA (sitio oficial)",
+      "sourceUrl": "https://joola.com/pages/blade-specifications",
+      "sourceName": "JOOLA USA (sitio oficial)",
+      "price": null
+    },
+    {
+      "name": "Samsonov Force Pro",
+      "brand": "Tibhar",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "85",
+        "layers": "7",
+        "composition": "7 plies all-wood: capas exteriores de limba, capas medias y central orientadas al control",
+        "handle": "FL (concave) / AN / ST",
+        "speed": "9",
+        "control": "7",
+        "thickness": "6.4",
+        "technology": "7 plies de madera natural con capas exteriores de limba"
+      },
+      "scale": {
+        "speed": "Escala oficial TIBHAR (1-10; valor publicado: 9-)",
+        "control": "Escala oficial TIBHAR (1-10)"
+      },
+      "summary": "Madera firma de Vladimir Samsonov: 7 plies de madera con reservas de velocidad variables y control excelente.",
+      "description": "La madera del múltiple campeón europeo y ganador de la Copa del Mundo impresiona por sus reservas de velocidad variables. Las capas exteriores de limba aportan potencia perceptible, mientras que las capas medias y centrales permiten un control excelente para presionar al rival. Muy sensible y favorable al efecto, tanto en golpes suaves como duros.",
+      "pros": [
+        "Gran sensibilidad y alto potencial de efecto",
+        "Reservas de velocidad variables (potente incluso en golpes suaves)",
+        "Control excelente gracias a capas medias y centrales"
+      ],
+      "cons": [
+        "Menos explosiva que maderas con fibra",
+        "Peso promedio 85 g con variación por unidad",
+        "Pierde potencia lejos de la mesa"
+      ],
+      "imageUrl": "https://tibhar.info/wp-content/uploads/2022/11/force_pro_RD24_01-600x600.jpg",
+      "imageAlt": "Samsonov Force Pro",
+      "imageSource": "TIBHAR (sitio oficial)",
+      "sourceUrl": "https://tibhar.info/en/shop/samsonov-force-pro/",
+      "sourceName": "TIBHAR (sitio oficial)",
+      "price": null
+    },
+    {
+      "name": "Waldner Senso Carbon",
+      "brand": "Donic",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "85",
+        "layers": "7",
+        "composition": "7 capas: abachi (núcleo), carbono (capas 2+4), anegré (capas 3+5) y limba (exterior)",
+        "handle": "FL / ST / AN",
+        "speed": "Media",
+        "control": "Media",
+        "technology": "Tecnología SENSO (mango hueco) para mayor sensación de la bola; 2 capas de carbono que rodean el núcleo (clase ALL+, OFF-)"
+      },
+      "scale": {
+        "speed": "Escala oficial DONIC (cualitativa: baja / media / alta)",
+        "control": "Escala oficial DONIC (cualitativa: baja / media / alta)"
+      },
+      "summary": "Clásico de Donic: 7 capas con dos láminas de carbono y mango SENSO, perfectamente balanceada para ataque y allround.",
+      "description": "Basada en la legendaria ALLPLAY, la Waldner Senso Carbon añade dos capas de carbono que rodean el núcleo de abachi, combinadas con la tecnología de mango SENSO. Para jugadores ofensivos y allround que gustan de atacar: rápida, con control increíble y una gran sensación de la bola.",
+      "pros": [
+        "Excelente relación velocidad-control",
+        "Tecnología SENSO: gran sensación de la bola",
+        "Versátil: apta para ofensivos y allround (ALL+, OFF-)"
+      ],
+      "cons": [
+        "Velocidad media frente a maderas más rápidas",
+        "Puede vibrar con gomas duras o pesadas",
+        "Rango de peso amplio (80-90 g según Donic)"
+      ],
+      "imageUrl": "https://www.donic.com/media/b7/d6/bd/1669040790/donic-blade_waldner_senso_carbon-web.jpg?ts=1697464405",
+      "imageAlt": "Waldner Senso Carbon",
+      "imageSource": "DONIC (sitio oficial)",
+      "sourceUrl": "https://www.donic.com/en/DONIC-WALDNER-SENSO-CARBON/100219010",
+      "sourceName": "DONIC (sitio oficial)",
+      "price": null
+    },
+    {
+      "name": "Ma Lin Extra Offensive",
+      "brand": "Yasaka",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "84",
+        "layers": "5",
+        "composition": "5 plies all-wood: nogal (walnut) exterior muy duro, pino escandinavo interior y núcleo central grueso de ayous semiblando",
+        "handle": "FL / ST / AN / CS",
+        "speed": "89",
+        "control": "67",
+        "thickness": "5.9",
+        "technology": "5 plies de madera natural; superficie lacada de fábrica para mayor velocidad y durabilidad; fabricada en Tranås, Suecia"
+      },
+      "scale": {
+        "speed": "Escala 1-100 publicada por tiendas especializadas (Megaspin y Paddle Palace)",
+        "control": "Escala 1-100 publicada por tiendas especializadas (Megaspin y Paddle Palace)"
+      },
+      "summary": "Madera ofensiva de 5 plies usada por Ma Lin (oro olímpico 2008): nogal duro, gran sweet spot y tacto clásico sueco.",
+      "description": "Desarrollada junto a Ma Lin y fabricada en la fábrica de Tranås (Suecia), la Ma Lin Extra Offensive combina capas exteriores de nogal muy duro con pino escandinavo seleccionado y un núcleo central grueso y semiblando que aporta gran sensación de la bola. Rápida dentro de su categoría (OFF), con gran sweet spot y comportamiento lineal; ideal para ataque de cerca y media distancia.",
+      "pros": [
+        "Tacto y sensación de madera clásica sueca",
+        "Nogal exterior: potencia directa y bloqueos firmes",
+        "Gran sweet spot para jugar cerca de la mesa"
+      ],
+      "cons": [
+        "Sin efecto catapulta lejos de la mesa (no tiene fibras)",
+        "Madera dura: exige buena técnica",
+        "Peso promedio 84 g, varía por unidad"
+      ],
+      "imageUrl": "https://www.paddlepalace.com/cdn/shop/files/SYMAE-yasaka-ma-lin-extra-off.jpg?v=1776288581",
+      "imageAlt": "Ma Lin Extra Offensive",
+      "imageSource": "Paddle Palace",
+      "sourceUrl": "https://www.paddlepalace.com/products/yasaka-ma-lin-extra-offensive-shakehand-blade",
+      "sourceName": "Paddle Palace",
+      "price": null
+    },
+    {
+      "name": "STIGA Advantage",
+      "brand": "Stiga",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152.5 x 76 cm",
+        "thickness": "16",
+        "surface": "Tablero multicapa de 5/8 in (aprox. 16 mm) con recubrimiento en múltiples capas y líneas serigrafiadas",
+        "weight": "90",
+        "indoorOutdoor": "Indoor",
+        "foldable": "Sí",
+        "wheels": "Sí",
+        "brakes": "Sí",
+        "storage": "Dos mitades independientes plegables; almacenamiento en 71 x 152,5 x 162,5 cm (28 x 60 x 64 in)"
+      },
+      "scale": null,
+      "summary": "Mesa de interior de tamaño reglamentario con tablero de 5/8 pulgadas, mitades plegables independientes y ruedas de 3 pulgadas con freno.",
+      "description": "La STIGA Advantage es una mesa de competición para interiores con tablero multicapa de 5/8 in (aprox. 16 mm), acabado de recubrimiento múltiple y líneas serigrafiadas. Llega 95% preensamblada con diseño QuickPlay de 10 minutos, incluye red de 72 pulgadas con postes de pinza y se desplaza con ruedas de 3 pulgadas bloqueables. Su chasis independiente permite plegar cada mitad por separado y practicar en modo playback.",
+      "pros": [
+        "Tamaño reglamentario (274 x 152,5 x 76 cm) con buen rebote",
+        "Llega 95% preensamblada: lista para jugar en ~10 minutos",
+        "Ruedas de 3 pulgadas con freno y mitades plegables independientes con modo playback"
+      ],
+      "cons": [
+        "Sin certificación ITTF",
+        "Tablero de 16 mm: menor rendimiento que mesas de 19-25 mm",
+        "Peso elevado (198 lb / aprox. 90 kg)"
+      ],
+      "imageUrl": "https://www.stigaus.com/cdn/shop/files/batch-1-stiga-advantage-table-tennis-table__t8580w_1_1024x.jpg?v=1760536942",
+      "imageAlt": "STIGA Advantage",
+      "imageSource": "STIGA US (sitio oficial)",
+      "sourceUrl": "https://www.stigaus.com/products/stiga-advantage-table-tennis-table",
+      "sourceName": "STIGA US (sitio oficial)",
+      "price": null
+    },
+    {
+      "name": "DHS T1223",
+      "brand": "DHS",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152.5 x 76 cm",
+        "thickness": "25",
+        "weight": "140",
+        "indoorOutdoor": "Indoor",
+        "foldable": "Sí",
+        "wheels": "Sí",
+        "brakes": "Sí",
+        "storage": "Cada mitad de mesa se pliega de forma independiente; empaque 164 x 149 x 26 cm",
+        "certification": "ITTF"
+      },
+      "scale": null,
+      "summary": "Mesa de competición profesional de 25 mm aprobada ITTF, utilizada en campeonatos mundiales y como mesa oficial de los Juegos Olímpicos de 2008.",
+      "description": "La DHS T1223 es la mesa de competición insignia de DHS, la más usada por la marca en torneos internacionales (W.T.T.C.) y mesa oficial de los Juegos Olímpicos de Pekín 2008. Tablero de 25 mm, patas metálicas de tubo cuadrado de 50 mm con superficie lacada, ruedas interiores de 125 mm con freno y ajuste de altura tipo vernier en las patas exteriores. Cada mitad de la mesa se pliega de forma independiente.",
+      "pros": [
+        "Nivel de competición internacional: aprobada ITTF y mesa oficial de JJ.OO. 2008",
+        "Tablero de 25 mm con rebote sólido y uniforme",
+        "Ruedas interiores de 125 mm con freno y patas con ajuste fino de altura"
+      ],
+      "cons": [
+        "Muy pesada (140 kg) y de alto costo",
+        "Orientada a clubes y competiciones, no a uso doméstico",
+        "Requiere espacio amplio y personal para su manipulación"
+      ],
+      "imageUrl": "https://dhs-tt.uk/wp-content/uploads/2020/11/T1223-1-600x600.jpg",
+      "imageAlt": "DHS T1223",
+      "imageSource": "DHS TT UK (distribuidor oficial DHS)",
+      "sourceUrl": "https://dhs-tt.uk/product/t1223-competition-table-25mm/",
+      "sourceName": "DHS TT UK (distribuidor oficial DHS)",
+      "price": null
+    },
+    {
+      "name": "Butterfly Europa 25",
+      "brand": "Butterfly",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152.5 x 76 cm",
+        "thickness": "25",
+        "surface": "Perfect Grip 25+ (tablero de madera de 1 in, antideslizante y a prueba de rayones, con canto de PVC y riel de acero de 2 in)",
+        "weight": "122.5",
+        "indoorOutdoor": "Indoor",
+        "foldable": "Sí",
+        "wheels": "No",
+        "brakes": "No",
+        "storage": "Cada mitad se separa, pliega e inclina sobre ruedas fijas para guardarse contra la pared; plegada mide 152,4 x 139,7 x 15,2 cm (ocupa solo ~6 in de profundidad)",
+        "certification": "ITTF"
+      },
+      "scale": null,
+      "summary": "Mesa de competición aprobada ITTF con tablero Perfect Grip de 25 mm, diseño estacionario que se pliega en dos mitades y ocupa solo ~15 cm de profundidad al almacenarse.",
+      "description": "La Butterfly Europa 25 es la mesa insignia estacionaria de Butterfly, oficial del U.S. Open y los U.S. Nationals 2022-2026. Su tablero de 25 mm con superficie Perfect Grip 25+ ofrece rebote consistente, está reforzado con riel de acero y protegido con canto de PVC. Llega completamente ensamblada, incluye red profesional National League y tiene garantía de 5 años. Cada mitad es independiente: se pliega, se inclina sobre sus ruedas fijas y se guarda ocupando solo 6 pulgadas.",
+      "pros": [
+        "Aprobada ITTF con tablero Perfect Grip de 25 mm",
+        "Llega ensamblada: lista para jugar en minutos",
+        "Almacenamiento ultracompacto (~15 cm de profundidad)"
+      ],
+      "cons": [
+        "Muy pesada (270 lb / 122,5 kg): requiere dos personas",
+        "No tiene modo playback ni porta-pelotas/raquetas",
+        "Es estacionaria: no es una mesa rollaway"
+      ],
+      "imageUrl": "https://shop.butterflyonline.com/Item%20Images/TEU25.media.01.jpg?fcts=20250814113709&resizeid=5&resizeh=1200&resizew=1200",
+      "imageAlt": "Butterfly Europa 25",
+      "imageSource": "Butterfly Online (tienda oficial)",
+      "sourceUrl": "https://shop.butterflyonline.com/europa-25-stationary-table",
+      "sourceName": "Butterfly Online (tienda oficial)",
+      "price": null
+    },
+    {
+      "name": "JOOLA Inside J18",
+      "brand": "Joola",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152.5 x 76 cm",
+        "thickness": "18",
+        "surface": "Tablero de MDF antracita de 18 mm",
+        "weight": "83.7",
+        "indoorOutdoor": "Indoor",
+        "foldable": "Sí",
+        "wheels": "Sí",
+        "brakes": "Sí",
+        "storage": "Mitades plegables; almacenamiento 160 x 68 x 164 cm"
+      },
+      "scale": null,
+      "summary": "Mesa de interior de 18 mm para hobby, clubes y colegios, con mitades plegables, 8 ruedas con freno y montaje en ~15 minutos.",
+      "description": "La JOOLA Inside J18 es el bestseller de JOOLA para aficionados, clubes y escuelas. Tiene tablero de MDF antracita de 18 mm, marco de acero pintado al polvo de 40 mm, mitades plegables con doble bloqueo antivuelco y patas regulables en altura. Incluye 8 ruedas de 3 pulgadas (7,62 cm) con freno y red incluida. Dimensiones de almacenamiento: 160 x 68 x 164 cm; peso neto 83,7 kg.",
+      "pros": [
+        "Buen equilibrio calidad-precio con tablero de 18 mm",
+        "8 ruedas con freno y mitades plegables con bloqueo de seguridad",
+        "Versátil para hobby, club y uso escolar"
+      ],
+      "cons": [
+        "No certificada ITTF",
+        "Tablero de 18 mm por debajo del estándar de competición (25 mm)",
+        "Peso neto de 83,7 kg: requiere esfuerzo para moverla"
+      ],
+      "imageUrl": "https://joola.it/cdn/shop/files/11246_JOOLA_Inside-J18_01_web.png?v=1751881318",
+      "imageAlt": "JOOLA Inside J18",
+      "imageSource": "JOOLA (sitio oficial europeo)",
+      "sourceUrl": "https://joola.it/en/products/joola-table-tennis-table-inside-j18",
+      "sourceName": "JOOLA (sitio oficial europeo)",
+      "price": null
+    },
+    {
+      "name": "Butterfly Centrefold 25",
+      "brand": "Butterfly",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152.5 x 76 cm",
+        "thickness": "25",
+        "surface": "Perfect Grip 25+ (tablero de 1 in, antideslizante, con canto de PVC y riel de acero de 2 in)",
+        "weight": "127",
+        "indoorOutdoor": "Indoor",
+        "foldable": "Sí",
+        "wheels": "Sí",
+        "brakes": "Sí",
+        "storage": "Plegado central en una pieza; plegada mide 152,4 x 160 x 48,3 cm (60 x 63 x 19 in) y rueda hasta su lugar de almacenamiento",
+        "certification": "ITTF"
+      },
+      "scale": null,
+      "summary": "Mesa rodante de competición aprobada ITTF con tablero Perfect Grip de 25 mm, plegado central en una pieza y ruedas de goma de 5 pulgadas con freno.",
+      "description": "La Butterfly Centrefold 25 es la mesa más vendida de Butterfly, oficial del U.S. Open y los U.S. Nationals 2022-2026 y usada en clubes y torneos de todo el mundo. Tablero de 25 mm Perfect Grip 25+ con refuerzo de acero, patas de acero cuadrado de 2 pulgadas con ajuste de nivel, diseño plegable de una pieza con ruedas de goma de 5 pulgadas (dos con freno) y mecanismo de bloqueo de seguridad. Viene ensamblada, incluye red Europa aprobada ITTF y es accesible en silla de ruedas (patas 400 mm hacia adentro). Hecha en Alemania con garantía de 5 años.",
+      "pros": [
+        "Aprobada ITTF y apta para competición en silla de ruedas",
+        "Plegado central en una pieza con ruedas de 5 pulgadas con freno",
+        "Llega ensamblada: lista para jugar"
+      ],
+      "cons": [
+        "Muy pesada (280 lb / 127 kg)",
+        "No tiene modo playback ni porta-accesorios",
+        "Precio alto, orientada a clubes y competición"
+      ],
+      "imageUrl": "https://shop.butterflyonline.com/Item%20Images/TCF25.media.Blue.01.jpg?resizeid=5&resizeh=1200&resizew=1200",
+      "imageAlt": "Butterfly Centrefold 25",
+      "imageSource": "Butterfly Online (tienda oficial)",
+      "sourceUrl": "https://shop.butterflyonline.com/centrefold-25-table",
+      "sourceName": "Butterfly Online (tienda oficial)",
+      "price": null
+    }
+  ]
+}
