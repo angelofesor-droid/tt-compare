@@ -52,6 +52,7 @@ const brands = [
   { name: "Tibhar", slug: "tibhar", country: "Alemania", website: "https://www.tibhar.com" },
   { name: "Donic", slug: "donic", country: "Alemania", website: "https://www.donic.com" },
   { name: "Yasaka", slug: "yasaka", country: "Suecia/Japón", website: "https://www.yasaka.se" },
+  { name: "Xiom", slug: "xiom", country: "Corea del Sur", website: "https://www.xiomglobal.com" },
 ] as const;
 
 // ─────────────────────────── Atributos por categoría ───────────────────────────
