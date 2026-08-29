@@ -177,6 +177,27 @@ interna, se agrega una columna `valueNormalized` **separada**, documentada como 
 MVP: solo precio manual. El esquema ya permite migrar a múltiples ofertas por tienda
 (Fase futura) sin romper nada.
 
+### 3.10 ProductReview (comentarios de usuarios — añadido por decisión del usuario)
+
+| Campo | Tipo | Notas |
+|---|---|---|
+| id | UUID PK | |
+| productId | FK Product | |
+| author | TEXT | Autor/username citado de la fuente pública |
+| rating | INT | Valoración general 1-5 |
+| durabilityRating | INT NULL | Durabilidad según el usuario 1-10 (gomas) |
+| title | TEXT NULL | Título opcional |
+| comment | TEXT | Comentario literal |
+| source | TEXT NULL | URL pública de la review (RevSpin, etc.) |
+| isEditorial | BOOLEAN | `true` = redacción propia marcada como editorial |
+| createdAt | TIMESTAMPTZ | |
+
+Reglas:
+- **Nunca se inventan autores ni comentarios**: se citan reviews públicas reales con su URL.
+- La UI muestra media general (1-5), media de durabilidad según usuarios (1-10, solo si existe)
+  y distribución de estrellas. La valoración editorial de durabilidad (atributo `durability`
+  con escala "Valoración editorial") se muestra separada de la de los usuarios.
+
 ## 4. Índices
 
 | Índice | Justificación |

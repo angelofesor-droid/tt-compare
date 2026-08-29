@@ -95,6 +95,11 @@ Construir primero un producto **pequeño pero excelente**:
 - [x] Fase 12: testing — Vitest 20 tests (unit + integración): slug, validación, creación, comparación (2026-08-29)
 - [x] Fase 13: optimización — imágenes optimizadas, índices, paginación, componentes reutilizables, build de producción OK (2026-08-29)
 
-Pendiente (no bloqueante para el MVP): seed de catálogo real con información verificable
-(30 productos perfectamente documentados), E2E Playwright, revisión de accesibilidad con
+Pendiente (no bloqueante para el MVP): E2E Playwright, revisión de accesibilidad con
 herramientas externas, deploy. Ver DEPLOYMENT.md.
+
+> **Ampliación por decisión del usuario (2026-08-29):** se incorporaron al MVP
+> (a) comentarios de usuarios con media y durabilidad según usuarios (ProductReview,
+> 96 reviews reales citadas de RevSpin en 16 fichas) y (b) atributo `durability`
+> (valoración editorial 1-10) en gomas. El catálogo real cuenta con 38 productos
+> verificados (15 gomas, 14 maderos, 9 mesas).
