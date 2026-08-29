@@ -5969,6 +5969,783 @@
       "sourceUrl": "https://revspin.net/blade/butterfly-maze.html",
       "sourceName": "Revspin",
       "price": null
+    },
+    {
+      "name": "Butterfly Compact 19",
+      "brand": "Butterfly",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152.5 x 76 cm",
+        "thickness": "19",
+        "surface": "Tablero de madera de 19 mm",
+        "weight": "75.7",
+        "indoorOutdoor": "Indoor",
+        "foldable": "Sí",
+        "wheels": "Sí",
+        "brakes": "No",
+        "storage": "Se pliega casi plano; almacenado 60 x 66 x 48 pulgadas (~152 x 168 x 122 cm)",
+        "certification": "Aprobada USATT"
+      },
+      "scale": null,
+      "summary": "Mesa de tenis de mesa Butterfly para hogar con tablero de madera de 19 mm que se pliega casi plana para almacenar en muy poco espacio.",
+      "description": "La Compact 19 es la versión de 19 mm de la popular familia Compact. Se divide en dos mitades cuyas patas se pliegan contra el tablero y, plegada, ocupa apenas unos 4 a 5 cm de grosor. Cuenta con ruedas de 2 pulgadas para desplazarla fácilmente y es aprobada USATT para juego reglamentario.",
+      "pros": [
+        "Se pliega casi plana (ocupa muy poco espacio)",
+        "Tablero de 19 mm con buen rebote",
+        "Aprobada USATT y lista para usar al llegar"
+      ],
+      "cons": [
+        "Sin playback (posición de práctica individual)",
+        "Sin frenos en las ruedas",
+        "Cubierta y red no incluidas (clip net opcional)"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom_b-compact-blue.jpg",
+      "imageAlt": "Butterfly Compact 19",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=b-compact-blue",
+      "sourceName": "Megaspin",
+      "price": null
+    },
+    {
+      "name": "Butterfly Compact 16",
+      "brand": "Butterfly",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152.5 x 76 cm",
+        "thickness": "16",
+        "surface": "Tablero de madera de 16 mm (5/8 pulgada)",
+        "weight": "59.9",
+        "indoorOutdoor": "Indoor",
+        "foldable": "Sí",
+        "wheels": "Sí",
+        "brakes": "No",
+        "storage": "Al plegar queda solo ~3 pulgadas (~7,6 cm) de ancho en almacenado",
+        "certification": "Aprobada USATT"
+      },
+      "scale": null,
+      "summary": "Versión de 16 mm de la Compact: ligera, plegable ultra fina y con posición playback, ideal para espacios reducidos.",
+      "description": "La Compact 16 se divide en dos mitades; cada mitad tiene patas que se pliegan contra el tablero y dos ruedas centrales para facilitar el desplazamiento. Al guardarse ocupa solo unos 7,6 cm de ancho. Incluye red de clip y set de postes, y ofrece posición playback para práctica individual.",
+      "pros": [
+        "Almacenamiento ultra compacto (~7,6 cm plegada)",
+        "Incluye red de clip y postes",
+        "Incluye playback para entrenar solo"
+      ],
+      "cons": [
+        "Tablero de 16 mm más fino (rebote algo menor)",
+        "Sin frenos en las ruedas",
+        "Apta para uso hogareño, no competición"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom_b-compact-16-green.jpg",
+      "imageAlt": "Butterfly Compact 16",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=b-compact-16-green",
+      "sourceName": "Megaspin",
+      "price": null
+    },
+    {
+      "name": "Butterfly Nippon 22",
+      "brand": "Butterfly",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152.5 x 76 cm",
+        "thickness": "22",
+        "surface": "Tablero de madera de 7/8 pulgada (~22 mm)",
+        "weight": "120.2",
+        "indoorOutdoor": "Indoor",
+        "foldable": "Sí",
+        "wheels": "Sí",
+        "brakes": "Sí",
+        "storage": "Plegada: 60 x 73 x 30 pulgadas (~152 x 185 x 76 cm); tipo rollaway con playback",
+        "certification": "Aprobada USATT"
+      },
+      "scale": null,
+      "summary": "Mesa rollaway institucional Butterfly con tablero de madera de 22 mm, rieles de acero y robustas ruedas de bloqueo de 5 pulgadas.",
+      "description": "La Nippon 22 es una mesa rollaway de alta durabilidad pensada para instituciones y clubes. Combina tablero de madera de 22 mm con rieles de acero y patas cuadradas de madera, ruedas de goma de 5 pulgadas con bloqueo y mecanismo de liberación de seguridad. Incluye red National League y posición playback.",
+      "pros": [
+        "Tablero de 22 mm robusto y estable",
+        "Ruedas grandes de 5 pulgadas con bloqueo",
+        "Marco de acero resistente para uso institucional"
+      ],
+      "cons": [
+        "Muy pesada (≈120 kg), difícil de mover sola",
+        "No es aprobada ITTF",
+        "Precio elevado"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom_b-nippon.jpg",
+      "imageAlt": "Butterfly Nippon 22",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=b-nippon",
+      "sourceName": "Megaspin",
+      "price": null
+    },
+    {
+      "name": "Butterfly Aspire 16",
+      "brand": "Butterfly",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152.5 x 76 cm",
+        "thickness": "16",
+        "surface": "Tablero MDF de 16 mm",
+        "weight": "76.2",
+        "indoorOutdoor": "Indoor",
+        "foldable": "Sí",
+        "wheels": "Sí",
+        "brakes": "Sí",
+        "storage": "Almacenado 60 x 66 x 48 pulgadas (~152 x 168 x 122 cm); tipo rollaway con playback",
+        "certification": "Aprobada USATT"
+      },
+      "scale": null,
+      "summary": "Mesa rollaway Butterfly para hogar con tablero MDF de 16 mm, patas nivelables y posición playback a un precio accesible.",
+      "description": "La Aspire 16 ofrece un tablero MDF de 16 mm con acabado antirreflejo y patas con niveladores para una superficie siempre estable. Cuenta con ruedas de 3 pulgadas (2 con bloqueo), posición playback y montaje rápido. Aprobada USATT para juego reglamentario.",
+      "pros": [
+        "Patas nivelables para superficie estable",
+        "Incluye playback para práctica individual",
+        "Precio accesible y buena relación calidad-precio"
+      ],
+      "cons": [
+        "Tablero de 16 mm menos rígido que modelos de 19-22 mm",
+        "Ensamblaje requiere algo de tiempo",
+        "Acabado MDF menos premium que la madera maciza"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom_b-aspire-16.jpg",
+      "imageAlt": "Butterfly Aspire 16",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=b-aspire-16",
+      "sourceName": "Megaspin",
+      "price": null
+    },
+    {
+      "name": "Stiga Master ST3100",
+      "brand": "Stiga",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152,5 x 76 cm (en juego); almacenamiento: 152 x 76 x 157 cm",
+        "thickness": "19",
+        "surface": "Tablero compuesto de madera de 19 mm, anti-reflejo, con líneas serigrafiadas",
+        "weight": "88",
+        "indoorOutdoor": "Indoor",
+        "foldable": "Sí",
+        "wheels": "Sí",
+        "storage": "Se pliega en dos mitades para almacenamiento compacto; incluye delantal con almacenamiento para 24 pelotas (12 por lado)"
+      },
+      "scale": null,
+      "summary": "Mesa de competición de Stiga para interior con tablero de 19 mm, almacenamiento integrado de pelotas y modo de práctica individual.",
+      "description": "La Stiga Master ST3100 (referencia T8733) es una mesa de tenis de mesa de interior orientada a la competición. Destaca por su tablero de 19 mm con rebote superior, estructura de chasis rígida con delantal que almacena hasta 24 pelotas (12 por lado) e incluye red y postes. Gracias a su modo de práctica (playback) se puede plegar una mitad para entrenar en solitario, o plegar por completo para un almacenamiento compacto.",
+      "pros": [
+        "Tablero de 19 mm con buen rebote",
+        "Almacenamiento integrado de pelotas",
+        "Modo de práctica individual (playback)",
+        "Se pliega compacto para guardar"
+      ],
+      "cons": [
+        "Peso elevado (88 kg), requiere dos personas para mover/desplegar",
+        "Sin aprobación ITTF oficial documentada",
+        "Solo uso interior"
+      ],
+      "imageUrl": "https://www.stigaus.com/cdn/shop/files/batch-1-stiga-st3100-indoor-table-tennis-table__t8733_1.jpg?v=1760557477",
+      "imageAlt": "Stiga Master ST3100",
+      "imageSource": "STIGA US (fabricante)",
+      "sourceUrl": "https://www.stigaus.com/products/stiga-st3100-indoor-table-tennis-table",
+      "sourceName": "STIGA US (fabricante)",
+      "price": null
+    },
+    {
+      "name": "Stiga Gold Star",
+      "brand": "Stiga",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152,5 x 76 cm (en juego); almacenamiento plegado: 78 x 137 x 22 cm aprox.",
+        "thickness": "15",
+        "surface": "Tablero MDF de 15 mm con líneas serigrafiadas",
+        "weight": "72",
+        "indoorOutdoor": "Indoor",
+        "foldable": "Sí",
+        "wheels": "Sí",
+        "storage": "Diseño plegable de 4 piezas con bisagras que ocupa 85% menos espacio al plegarse; se guarda plana"
+      },
+      "scale": null,
+      "summary": "Mesa plegable de Stiga con diseño de 4 piezas y bisagras que se pliega ocupando 85% menos espacio; sin herramientas y fácil de transportar.",
+      "description": "La Stiga Gold Star es una mesa de tenis de mesa de interior de tamaño reglamentario (regulación 274 x 152,5 x 76 cm) con un diseño plegable de 4 piezas con bisagras, pensado para reducir en un 85% el espacio de almacenamiento respecto a mesas tradicionales. Incluye ruedas y asas para facilitar el transporte, almacenamiento de pelotas integrado y se arma en minutos sin herramientas (diseño QuickPlay). Incluye red y postes.",
+      "pros": [
+        "Diseño plegable de 4 piezas que ocupa poco espacio",
+        "Montaje rápido sin herramientas (QuickPlay)",
+        "Almacenamiento de pelotas integrado",
+        "Ruedas para transporte"
+      ],
+      "cons": [
+        "Tablero de 15 mm (rebote más limitado que mesas de 19-25 mm)",
+        "Solo uso interior",
+        "Sin aprobación ITTF documentada"
+      ],
+      "imageUrl": "https://www.stigaus.com/cdn/shop/files/batch-1-stiga-goldstar-table-tennis-table__t8725w_1.jpg?v=1744895789",
+      "imageAlt": "Stiga Gold Star",
+      "imageSource": "STIGA US (fabricante)",
+      "sourceUrl": "https://www.stigaus.com/products/stiga-goldstar-table-tennis-table",
+      "sourceName": "STIGA US (fabricante)",
+      "price": null
+    },
+    {
+      "name": "Stiga Action Roller 16mm",
+      "brand": "Stiga",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152,5 x 76 cm (en juego); almacenamiento: 184 x 66,5 x 187 cm",
+        "thickness": "16",
+        "surface": "Tablero de fibra (fibreboard) de 16 mm",
+        "weight": "70",
+        "indoorOutdoor": "Indoor",
+        "foldable": "Sí",
+        "wheels": "Sí",
+        "storage": "Mitades plegables con ruedas para almacenamiento compacto; almacenamiento 184 x 66,5 x 187 cm",
+        "certification": "EN 14468-1 Clase D"
+      },
+      "scale": null,
+      "summary": "Mesa interior de Stiga de 16 mm con base de acero y excelente relación precio-calidad; incluye red y postes.",
+      "description": "La Stiga Action Roller 16mm es una mesa de tenis de mesa de interior de tamaño completo con tablero de fibra de 16 mm que garantiza rebotes perfectos. Cuenta con base de acero, ruedas para transporte, mitades plegables para almacenamiento compacto e incluye red y postes. Cumple la norma de seguridad EN 14468-1 Clase D.",
+      "pros": [
+        "Excelente relación precio-calidad",
+        "Base de acero estable",
+        "Incluye red y postes",
+        "Norma de seguridad EN 14468-1 Clase D"
+      ],
+      "cons": [
+        "Tablero de 16 mm (rebote medio, apto más para recreativo)",
+        "Solo uso interior",
+        "Peso de 70 kg"
+      ],
+      "imageUrl": "https://www.tennisnuts.com/images/product/main/7168-05.jpg?98",
+      "imageAlt": "Stiga Action Roller 16mm",
+      "imageSource": "TennisNuts (tienda especializada)",
+      "sourceUrl": "https://www.tennisnuts.com/stiga-action-roller-16mm-indoor-table-tennis-table-blue-1457646.html",
+      "sourceName": "TennisNuts (tienda especializada)",
+      "price": null
+    },
+    {
+      "name": "Stiga XTR Outdoor",
+      "brand": "Stiga",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152,5 x 76 cm (en juego); almacenamiento: 152 x 58 x 163 cm",
+        "thickness": "6",
+        "surface": "Tablero compuesto de aluminio de 6 mm con delantal de acero tubular de 1,5 pulgadas",
+        "weight": "75",
+        "indoorOutdoor": "Ambas",
+        "foldable": "Sí",
+        "wheels": "Sí",
+        "storage": "Mesa plegable con ruedas de 3 pulgadas y almacenamiento compacto (60 x 23 x 64 in); incluye modo de práctica individual"
+      },
+      "scale": null,
+      "summary": "Mesa outdoor todo clima de Stiga con tablero de aluminio de 6 mm, resistente al agua y a la oxidación; incluye red y se arma en 10 minutos.",
+      "description": "La Stiga XTR es una mesa de tenis de mesa outdoor todo clima, diseñada para resistir la intemperie: tablero de aluminio compuesto de 6 mm, recubrimiento en polvo de grado exterior y acero galvanizado que evita la oxidación y el daño por sol. Incluye red y postes resistentes al clima, ruedas de 3 pulgadas para transporte, modo de práctica individual (playback) y llega 90% preensamblada para armar en menos de 10 minutos.",
+      "pros": [
+        "Tablero de aluminio resistente al agua y la intemperie",
+        "Apto para exterior todo el año",
+        "Rápido montaje (10 minutos, 90% preensamblada)",
+        "Modo de práctica individual incluido"
+      ],
+      "cons": [
+        "Superficie de solo 6 mm (rebote más limitado que mesas de interior gruesas)",
+        "Requiere guardarla plegada en zonas de viento fuerte",
+        "Sin aprobación ITTF documentada"
+      ],
+      "imageUrl": "https://www.stigaus.com/cdn/shop/files/batch-1-stiga-xtr-outdoor-table-tennis-table__t8575w_1.jpg?v=1772480477",
+      "imageAlt": "Stiga XTR Outdoor",
+      "imageSource": "STIGA US (fabricante)",
+      "sourceUrl": "https://www.stigaus.com/products/stiga-xtr-outdoor-table-tennis-table",
+      "sourceName": "STIGA US (fabricante)",
+      "price": null
+    },
+    {
+      "name": "Joola Outdoor Pro",
+      "brand": "Joola",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152,5 x 76 cm (en juego)",
+        "thickness": "8",
+        "surface": "Tablero compuesto de aluminio-plástico de 8 mm, totalmente a prueba de clima",
+        "weight": "73",
+        "indoorOutdoor": "Ambas",
+        "foldable": "Sí",
+        "wheels": "Sí",
+        "brakes": "Sí",
+        "storage": "Mitades plegables con modo de práctica individual (playback) y ruedas de 3 pulgadas bloqueables"
+      },
+      "scale": null,
+      "summary": "Mesa outdoor de Joola con tablero compuesto de aluminio de 8 mm a prueba de clima, apta para interior y exterior, con ruedas bloqueables.",
+      "description": "La Joola Outdoor Pro es una mesa de tenis de mesa de tamaño de torneo (9x5 pies, 274 x 152,5 x 76 cm) diseñada para uso exterior e interior. Su tablero compuesto de aluminio-plástico de 8 mm es totalmente a prueba de clima, resistente al agua y a la deformación. Incluye red y postes, patas de acero de 1,6 pulgadas, ruedas de 3 pulgadas bloqueables y modo de práctica individual (playback) plegando una mitad.",
+      "pros": [
+        "Superficie a prueba de clima para uso exterior e interior",
+        "Tablero de 8 mm resistente a la deformación",
+        "Ruedas bloqueables para seguridad",
+        "Tamaño de torneo reglamentario"
+      ],
+      "cons": [
+        "Peso alto (73 kg), se recomienda desplegarla entre dos personas",
+        "Superficie outdoor de 8 mm (rebote menor que mesas indoor de 19-25 mm)",
+        "Debe guardarse resguardada del viento cuando está plegada"
+      ],
+      "imageUrl": "https://www.pingpongtablereviews.com/wp-content/uploads/2012/07/JOOLA-OutdoorPro.jpg",
+      "imageAlt": "Joola Outdoor Pro",
+      "imageSource": "PingPongTableReviews (revisión especializada)",
+      "sourceUrl": "https://www.pingpongtablereviews.com/joola-outdoor-pro/",
+      "sourceName": "PingPongTableReviews (revisión especializada)",
+      "price": null
+    },
+    {
+      "name": "Joola Inside 25",
+      "brand": "Joola",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152,5 x 76 cm (en juego); almacenamiento anidado: 157 x 56 x 170 cm aprox.",
+        "thickness": "25",
+        "surface": "Tablero MDF de 25 mm con pintura multicapa",
+        "weight": "108",
+        "indoorOutdoor": "Indoor",
+        "foldable": "Sí",
+        "wheels": "Sí",
+        "brakes": "Sí",
+        "storage": "Dos mitades independientes que se anidan para almacenamiento compacto; 8 ruedas de 4 pulgadas (4 por mitad) con freno",
+        "certification": "USATT Approved"
+      },
+      "scale": null,
+      "summary": "Mesa profesional de Joola con tablero de 25 mm, aprobada USATT, almacenamiento anidado compacto y ruedas con freno.",
+      "description": "La Joola Inside 25 es una mesa de tenis de mesa de interior de grado profesional con tablero MDF de 25 mm (1 pulgada), el grosor usado por jugadores profesionales, que ofrece un rebote consistente y duradero. Aprobada USATT, cuenta con sistema de almacenamiento anidado: dos mitades independientes sobre carritos con 4 ruedas bloqueables cada uno se unen para ocupar poco espacio. Incluye red y postes de tornillo, niveladores de patas, sistema anti-vuelco automático y modo de práctica individual.",
+      "pros": [
+        "Tablero de 25 mm de calidad profesional",
+        "Aprobada USATT",
+        "Almacenamiento anidado muy compacto",
+        "Ruedas con freno y sistema anti-vuelco"
+      ],
+      "cons": [
+        "Muy pesada (más de 100 kg), requiere dos personas",
+        "Solo uso interior",
+        "Precio más alto dentro de la gama Inside"
+      ],
+      "imageUrl": "https://www.gameroomshop.com/cdn/shop/products/JOOLA-INSIDE-25-Table-Tennis-Table-25mm_600x600.png?v=1662482739",
+      "imageAlt": "Joola Inside 25",
+      "imageSource": "Game Room Shop (tienda especializada)",
+      "sourceUrl": "https://www.gameroomshop.com/products/joola-inside-25-table-tennis-table-25mm",
+      "sourceName": "Game Room Shop (tienda especializada)",
+      "price": null
+    },
+    {
+      "name": "Joola Inside J15",
+      "brand": "Joola",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152,5 x 76 cm (en juego); almacenamiento: 160 x 65 x 164 cm",
+        "thickness": "15",
+        "surface": "Tablero MDF de 15 mm",
+        "weight": "72",
+        "indoorOutdoor": "Indoor",
+        "foldable": "Sí",
+        "wheels": "Sí",
+        "brakes": "Sí",
+        "storage": "Mitades plegables con ruedas bloqueables para transporte y almacenamiento; modo de práctica individual"
+      },
+      "scale": null,
+      "summary": "Mesa interior de Joola con tablero de 15 mm, mitades plegables, ruedas bloqueables y diseño elegante para jugadores recreativos.",
+      "description": "La Joola Inside J15 es una mesa de tenis de mesa de interior de tamaño completo con tablero MDF de 15 mm que ofrece rebote consistente y óptimas condiciones de juego para jugadores recreativos. Cuenta con dos mitades plegables que permiten el modo de práctica individual (playback) y almacenamiento compacto, doble seguro anti-vuelco, patas con altura regulable y ruedas bloqueables. Incluye red y postes.",
+      "pros": [
+        "Precio accesible para juego recreativo",
+        "Ruedas bloqueables y patas regulables",
+        "Modo de práctica individual",
+        "Incluye red y postes"
+      ],
+      "cons": [
+        "Tablero de 15 mm (rebote medio, no apto para competición)",
+        "Solo uso interior",
+        "Sin aprobación ITTF documentada"
+      ],
+      "imageUrl": "https://joola.de/cdn/shop/files/11241_JOOLA_Inside-J15_01_web.png?v=1751881403&width=1024",
+      "imageAlt": "Joola Inside J15",
+      "imageSource": "JOOLA (fabricante)",
+      "sourceUrl": "https://joola.de/en/products/joola-table-tennis-table-inside-j15",
+      "sourceName": "JOOLA (fabricante)",
+      "price": null
+    },
+    {
+      "name": "DHS T2828",
+      "brand": "DHS",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152.5 x 76",
+        "thickness": "18",
+        "surface": "Tablero de fibra de alta densidad (HDF) con chapa de melamina, acabado anti-reflejo",
+        "weight": "120",
+        "indoorOutdoor": "Indoor",
+        "foldable": "Sí",
+        "certification": "ITTF (aprobada para competición y torneos)"
+      },
+      "scale": null,
+      "summary": "Mesa de competición premium de DHS con estructura curva de arco, tablero de 18 mm y dobleces múltiples.",
+      "description": "La DHS T2828 es una mesa de tenis de mesa de nivel competición del fabricante chino Double Happiness (proveedor oficial de los Juegos Olímpicos y del Campeonato Mundial). Su estructura curva de arco aporta estabilidad y seguridad extra, mientras que el tablero de 18 mm sobre HDF ofrece un bote de pelota preciso (220–250 mm), baja reflectividad y resistencia a la humedad y a la grasa. Es plegable en múltiples posiciones y la mitad se puede plegar y desplazar empujándola; incluye esquinas protectoras y patas de acero cuadrado con altura regulable.",
+      "pros": [
+        "Tablero de 18 mm de calidad de competición",
+        "Estructura de arco estable y segura",
+        "Aprobada ITTF para torneos",
+        "Múltiples posiciones de plegado y altura ajustable",
+        "Esquinas protectoras incluidas"
+      ],
+      "cons": [
+        "Muy pesada (120 kg), difícil de mover por una sola persona",
+        "Uso exclusivo en interiores",
+        "No incluye ruedas con freno confirmadas"
+      ],
+      "imageUrl": "https://clareca.com/cdn/shop/files/dhs-dhs-t2828-pingpong-table-7300216.jpg",
+      "imageAlt": "DHS T2828",
+      "imageSource": "dhssport.com",
+      "sourceUrl": "https://dhssport.com/en/spd/DHS_T2828_table/DHS-T2828",
+      "sourceName": "dhssport.com",
+      "price": null
+    },
+    {
+      "name": "DHS T2023",
+      "brand": "DHS",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152.5 x 76.5",
+        "thickness": "18",
+        "surface": "Tablero de fibra de alta densidad (HDF) con recubrimiento múltiple anti-huella",
+        "weight": "102",
+        "indoorOutdoor": "Indoor",
+        "foldable": "Sí",
+        "wheels": "Sí",
+        "brakes": "Sí"
+      },
+      "scale": null,
+      "summary": "Mesa plegable de interior de 18 mm con ruedas de 75 mm con freno, ideal para hogar y entrenamiento escolar.",
+      "description": "La DHS T2023 es una mesa de tenis de mesa de calidad superior pensada para uso doméstico y entrenamiento. Destaca por su tablero de 18 mm de fibra de alta densidad (HDF) con múltiples capas de recubrimiento y líneas serigrafiadas, lo que proporciona un bote de pelota regular. Cuenta con patas externas de tubo cuadrado de 40 mm y ruedas de 75 mm de alta calidad con sistema de freno metálico, lo que facilita el desplazamiento y la fijación segura durante el juego. La mitad de la mesa puede plegarse en posición vertical para ahorrar espacio.",
+      "pros": [
+        "Tablero de 18 mm de buena calidad",
+        "Ruedas de 75 mm con freno metálico",
+        "Plegable y fácil de almacenar",
+        "Adecuada para hogar, escuela y entrenamiento",
+        "Acabado anti-huellas y resistente a rayones"
+      ],
+      "cons": [
+        "Uso exclusivo en interiores",
+        "No certificada para competición ITTF",
+        "Requiere dos personas para plegarla por el peso"
+      ],
+      "imageUrl": "https://clareca.com/cdn/shop/files/dhs-dhs-t2023-pingpong-table-4543570.jpg?v=1768106382",
+      "imageAlt": "DHS T2023",
+      "imageSource": "clareca.com",
+      "sourceUrl": "https://clareca.com/products/dhs-t2023-pingpong-table",
+      "sourceName": "clareca.com",
+      "price": null
+    },
+    {
+      "name": "Tibhar 9000W",
+      "brand": "Tibhar",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152 x 76",
+        "thickness": "10",
+        "surface": "Resina de melamina de 10 mm gris, superficie anti-reflejo",
+        "weight": "113",
+        "indoorOutdoor": "Ambas",
+        "foldable": "Sí",
+        "wheels": "Sí",
+        "brakes": "Sí",
+        "storage": "Compartimentos laterales para raquetas y pelotas"
+      },
+      "scale": null,
+      "summary": "Mesa de referencia para exterior/interior fabricada en Alemania, con superficie de melamina de 10 mm y ruedas giratorias de 125 mm.",
+      "description": "La TIBHAR 9000W es la mesa de referencia del sector recreativo y de exterior. Su superficie de resina de melamina de 10 mm genera un bote de pelota muy similar al de las mesas de competición, y su estructura es apta tanto para interior como para exterior, resistente a condiciones climáticas adversas. Fabricada en Alemania, incluye perfil de marco de acero de 60 x 20 mm, esquinas protectoras, ruedas giratorias de alta calidad de 125 mm con bloqueo, patas de altura regulable y red ajustable integrada. Los paneles laterales ofrecen espacio de almacenamiento para raquetas y pelotas.",
+      "pros": [
+        "Superficie de melamina de 10 mm con bote similar al de competición",
+        "Apta para interior y exterior",
+        "Ruedas giratorias de 125 mm con bloqueo",
+        "Almacenamiento lateral para raquetas y pelotas",
+        "Fabricada en Alemania, componentes de acero inoxidable"
+      ],
+      "cons": [
+        "Peso elevado (113 kg)",
+        "Precio alto frente a mesas de interior simples",
+        "Montaje requerido"
+      ],
+      "imageUrl": "https://tibhar.info/wp-content/uploads/2023/06/9000W_1-600x600.jpg",
+      "imageAlt": "Tibhar 9000W",
+      "imageSource": "tibhar.info",
+      "sourceUrl": "https://tibhar.info/en/shop/9000w/",
+      "sourceName": "tibhar.info",
+      "price": null
+    },
+    {
+      "name": "Tibhar 4000W",
+      "brand": "Tibhar",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152.5 x 76",
+        "thickness": "5",
+        "surface": "Resina de melamina resistente al clima (5 mm)",
+        "indoorOutdoor": "Ambas",
+        "foldable": "Sí",
+        "certification": "EN 14468-1 (norma europea para mesas de tenis de mesa)"
+      },
+      "scale": null,
+      "summary": "Mesa todo clima TIBHAR 4000W con superficie de melamina de 5 mm, bastidor con recubrimiento epóxico y posición de juego de rebote.",
+      "description": "La TIBHAR 4000W es una mesa de tenis de mesa de alta calidad apta para uso interior y exterior. Cuenta con superficies de juego de resina de melamina resistente a la intemperie (5 mm) y un subchasis recubierto de polvo epóxico que soporta las condiciones climáticas adversas. Incluye red ajustable y soporta la posición de juego de rebote (playback) para práctica en solitario. Cumple la norma europea EN 14468-1 para mesas de exterior.",
+      "pros": [
+        "Apta para interior y exterior (resistente al clima)",
+        "Superficie de melamina resistente a la intemperie",
+        "Posición de juego de rebote (playback)",
+        "Incluye red ajustable",
+        "Cumple la norma europea EN 14468-1"
+      ],
+      "cons": [
+        "Superficie más fina (5 mm) frente a modelos de competición",
+        "Peso no especificado por el fabricante",
+        "Revisar características de ruedas/frenos según versión"
+      ],
+      "imageUrl": "https://tibhar.info/wp-content/uploads/2022/12/4000w_playing-600x600.jpg",
+      "imageAlt": "Tibhar 4000W",
+      "imageSource": "tibhar.info",
+      "sourceUrl": "https://tibhar.info/en/shop/4000-w/",
+      "sourceName": "tibhar.info",
+      "price": null
+    },
+    {
+      "name": "Andro TT-Table Outside",
+      "brand": "Andro",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152.5 x 76",
+        "thickness": "6",
+        "surface": "Resina de melamina de 6 mm resistente al clima",
+        "indoorOutdoor": "Outdoor",
+        "foldable": "Sí",
+        "wheels": "Sí",
+        "certification": "EN 14468-1 (norma europea para mesas de exterior)"
+      },
+      "scale": null,
+      "summary": "Mesa de exterior Andro con superficie de melamina de 6 mm, marco metálico de 40x45 mm y 4 ruedas dobles de 125 mm.",
+      "description": "La Andro TT-Table Outside es una mesa de tenis de mesa para exterior (todo clima) fabricada según la norma europea EN 14468-1. Cuenta con una superficie de juego de resina de melamina de 6 mm, marco metálico preensamblado de 40 x 45 mm y subchasis de acero cuadrado de 30 x 30 mm con recubrimiento en polvo. Incluye 4 ruedas dobles pesadas y maniobrables de 125 mm de diámetro y un juego de red estacionario con ajuste de altura. Incorpora el sistema de seguridad SMS (Smart Manual System) para un plegado seguro.",
+      "pros": [
+        "Diseñada para exterior (todo clima)",
+        "Superficie de melamina de 6 mm resistente",
+        "4 ruedas dobles de 125 mm maniobrables",
+        "Red estacionaria con ajuste de altura incluida",
+        "Cumple la norma europea EN 14468-1"
+      ],
+      "cons": [
+        "Uso exclusivo en exterior recomendado",
+        "Peso no especificado por el fabricante",
+        "Revisar sistema de frenado según versión"
+      ],
+      "imageUrl": "https://www.andro.de/sites/default/files/media_image/andro_Tisch_outside_blau_1267x614.jpg",
+      "imageAlt": "Andro TT-Table Outside",
+      "imageSource": "andro.de",
+      "sourceUrl": "https://www.andro.de/en/tt-tisch-outside",
+      "sourceName": "andro.de",
+      "price": null
+    },
+    {
+      "name": "Andro TT-Table Inside",
+      "brand": "Andro",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152.5 x 76",
+        "indoorOutdoor": "Indoor",
+        "foldable": "Sí",
+        "certification": "EN 14468-1 (norma europea para mesas de tenis de mesa)"
+      },
+      "scale": null,
+      "summary": "Mesa de interior Andro con red estacionaria de altura ajustable y sistema de seguridad SMS, para jugadores exigentes.",
+      "description": "La Andro TT-Table Inside es una mesa de tenis de mesa de interior diseñada para jugadores con ambición. Incluye un juego de red estacionario con ajuste de altura y el sistema de seguridad SMS (Smart Manual System) para un plegado y desplazamiento seguros. No es resistente a la intemperie: solo apta para estancias secas dentro de un edificio, sin exposición a calor, frío, luz solar directa ni humedad elevada. Cumple la norma europea EN 14468-1.",
+      "pros": [
+        "Diseñada para jugadores exigentes",
+        "Red estacionaria con ajuste de altura incluida",
+        "Sistema de seguridad SMS (Smart Manual System)",
+        "Cumple la norma europea EN 14468-1",
+        "Plegable para ahorrar espacio"
+      ],
+      "cons": [
+        "Solo para uso en interiores (no resistente a la intemperie)",
+        "Especificaciones de espesor y peso no publicadas por el fabricante",
+        "Requiere ambiente seco y controlado"
+      ],
+      "imageUrl": "https://www.andro.de/sites/default/files/media_image/andro_Tisch_Inside_1267x614.jpg",
+      "imageAlt": "Andro TT-Table Inside",
+      "imageSource": "andro.de",
+      "sourceUrl": "https://www.andro.de/en/tt-table-inside",
+      "sourceName": "andro.de",
+      "price": null
+    },
+    {
+      "name": "DONIC Outdoor Roller 1000",
+      "brand": "Donic",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152,5 x 76 cm",
+        "thickness": "6",
+        "surface": "Tablero de melamina resistente a la intemperie de 6 mm (solo azul)",
+        "weight": "70",
+        "indoorOutdoor": "Outdoor",
+        "foldable": "Sí",
+        "wheels": "Sí",
+        "brakes": "Sí",
+        "storage": "Plegable compacto; posición de estacionamiento 152,5 x 69,5 x 155 cm",
+        "certification": "DIN EN 14468-1 clase B (deporte escolar y de club)"
+      },
+      "scale": null,
+      "summary": "Mesa de exterior robusta de Donic, fabricada en Alemania, con tablero de melamina de 6 mm resistente a la intemperie y marco metálico de 50 mm para un rebote alto y auténtico.",
+      "description": "Mesa de hobby de exterior con tecnología compacta, fabricada en Alemania. Tablero de melamina impermeable de 6 mm firmemente pegado a un bastidor metálico, con marco de acero de 50 mm que mejora la estabilidad. Bastidor inferior de tubo cuadrado de acero 50x30 mm pintado al horno, patas reforzadas con soporte metálico frontal. Incluye red y postes fijos, soportes para raquetas y pelotas, y ruedas de goma dobles de 128 mm para estabilidad y fácil manejo incluso en terrenos irregulares. Posición de juego individual (playback) disponible.",
+      "pros": [
+        "Tablero de melamina impermeable de 6 mm resistente a la intemperie",
+        "Ruedas de goma dobles de 128 mm para estabilidad y movilidad en exteriores",
+        "Posición de juego individual (playback)",
+        "Incluye red fija y soportes para raquetas y pelotas",
+        "Fabricada en Alemania"
+      ],
+      "cons": [
+        "Tablero de solo 6 mm, no apta para juego de competición",
+        "Peso elevado de aprox. 70 kg",
+        "Se entrega parcialmente ensamblada y sin raquetas ni pelotas"
+      ],
+      "imageUrl": "https://www.donic.com/media/18/4c/af/1691564956/od-1000-blau-startbild-1920px.jpg",
+      "imageAlt": "DONIC Outdoor Roller 1000",
+      "imageSource": "DONIC (fabricante)",
+      "sourceUrl": "https://www.donic.com/en/DONIC-Outdoor-ROLLER-1000/230291140",
+      "sourceName": "DONIC (fabricante)",
+      "price": null
+    },
+    {
+      "name": "DONIC Outdoor Roller 800-5",
+      "brand": "Donic",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152,5 x 76 cm",
+        "thickness": "5",
+        "surface": "Tablero de melamina resistente a la intemperie de 5 mm (solo azul)",
+        "weight": "55",
+        "indoorOutdoor": "Outdoor",
+        "foldable": "Sí",
+        "wheels": "Sí",
+        "brakes": "Sí",
+        "storage": "Plegable compacto; posición de estacionamiento 152,5 x 69 x 163 cm",
+        "certification": "DIN EN 14468-1"
+      },
+      "scale": null,
+      "summary": "Mesa de exterior sólida y resistente a la intemperie de Donic, fabricada en Alemania, con tablero de melamina de 5 mm, sistema de bloqueo de seguridad y posición de juego individual.",
+      "description": "Mesa de hobby de exterior con tecnología compacta fabricada en Alemania. Tablero de melamina impermeable de 5 mm para un buen y auténtico rebote de la bola, con marco metálico de 36 mm alrededor que garantiza una buena estabilidad. Bastidor inferior de tubo cuadrado de acero 25x25 mm pintado al horno, patas reforzadas con 2 soportes metálicos frontales. Incluye red y postes fijos y lugar de almacenamiento para raquetas y pelotas. Grandes ruedas de goma de 128 mm que proporcionan estabilidad y fácil manejo incluso en terrenos irregulares. Posición de juego individual (playback) disponible.",
+      "pros": [
+        "Resistente a la intemperie, ideal para exteriores",
+        "Sistema de bloqueo de seguridad con bloqueo automático",
+        "Posición de juego individual (playback)",
+        "Ruedas de goma de 128 mm para estabilidad en terrenos irregulares",
+        "Fabricada en Alemania"
+      ],
+      "cons": [
+        "Tablero de solo 5 mm, para uso recreativo/hobby",
+        "Peso de aprox. 55-60 kg",
+        "Sin raquetas ni pelotas incluidas"
+      ],
+      "imageUrl": "https://www.donic.com/media/2a/07/9c/1691564957/od-800-blau-startbild-1920pxl3r1joanrjk9n.jpg",
+      "imageAlt": "DONIC Outdoor Roller 800-5",
+      "imageSource": "DONIC (fabricante)",
+      "sourceUrl": "https://www.donic.com/en/DONIC-Outdoor-Roller-800-5/230296140",
+      "sourceName": "DONIC (fabricante)",
+      "price": null
+    },
+    {
+      "name": "XIOM S-33",
+      "brand": "Xiom",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152,5 x 76 cm (estándar ITTF)",
+        "thickness": "25",
+        "surface": "Tablero de alta densidad (PB alemán) de 25 mm con acabado de 4 capas y superficie micro-dinámica",
+        "indoorOutdoor": "Indoor",
+        "foldable": "Sí",
+        "wheels": "Sí",
+        "storage": "Plegable; apta para hogar y oficina"
+      },
+      "scale": null,
+      "summary": "Mesa de interior de Xiom, modelo económico más vendido durante décadas, con tablero de 25 mm fabricado en Italia y ruedas de plástico sin ruido de 4 pulgadas.",
+      "description": "Modelo económico más vendido durante décadas de Xiom, con tablero de 25 mm de alta densidad fabricado en Alemania y acabado de 4 capas fabricado en Italia que garantiza rebote, uniformidad y precisión de giro. Superficie con partículas cónicas (micro dinámica) para un giro consistente. Líneas permanentes impresas bajo la capa superior que no se borran. Tolerancia de +/-0,14% para rebote uniforme en toda la superficie. Bloqueo de cuña para una instalación estable y ruedas de plástico de 4 pulgadas sin ruido.",
+      "pros": [
+        "Tablero de 25 mm de alta densidad para buen rebote",
+        "Líneas permanentes que no se borran",
+        "Ruedas de plástico sin ruido de 4 pulgadas",
+        "Bloqueo de cuña para instalación estable",
+        "Apta para hogar y oficina"
+      ],
+      "cons": [
+        "Uso interior, no apta para exteriores",
+        "Peso y dimensiones de almacenamiento no especificados por el fabricante",
+        "Sin certificación ITTF declarada por el fabricante"
+      ],
+      "imageUrl": "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7BgwUMvjJrKXnH2YG2WJsCAYIA2mk4JhJ0+xujgi6CAWw==/_/web/product/big/202607/3500a621a2313e5c539b2ec8f888fade.jpg",
+      "imageAlt": "XIOM S-33",
+      "imageSource": "XIOM (fabricante)",
+      "sourceUrl": "https://xiom.global/product/s-33/384/category/128/display/1/",
+      "sourceName": "XIOM (fabricante)",
+      "price": null
+    },
+    {
+      "name": "Nittaku Crest 25",
+      "brand": "Nittaku",
+      "category": "TABLE",
+      "attributes": {
+        "dimensions": "274 x 152,5 x 76 cm (estándar ITTF) / 25"
+      },
+      "scale": null,
+      "summary": "Mesa de competición Nittaku aprobada por la ITTF, con tablero MDF de 25 mm, construcción de 2 piezas con plegado simple y 8 ruedas de 75 mm para fácil almacenamiento.",
+      "description": "Mesa de competición de Nittaku aprobada por la ITTF con tablero azul de 25 mm (MDF) para un rebote perfecto de la bola. Construcción de 2 piezas con plegado simple que permite un almacenamiento compacto y fácil desplazamiento. Estructura de acero rectangular de 50 mm, 8 ruedas giratorias de 75 mm con goma dura y ajustadores de altura. Se incluye el juego de red ITTF Nittaku I.N. Recomendada para clubes, colegios y jugadores de competición.",
+      "pros": [
+        "Aprobada por la ITTF, apta para torneos",
+        "Tablero MDF de 25 mm con rebote perfecto",
+        "Construcción de 2 piezas con plegado simple para fácil almacenamiento",
+        "8 ruedas con reguladores de altura incluidos",
+        "Incluye red y juego de red ITTF"
+      ],
+      "cons": [
+        "Peso no especificado",
+        "Hecha en China (no en Japón)",
+        "Precio en tienda chilena no disponible"
+      ],
+      "imageUrl": "https://www.nittaku.com/wp-content/uploads/2021/06/8606a3c296e6bf0a03834ea2b1c6ab96-768x768.jpg",
+      "imageAlt": "Nittaku Crest 25",
+      "imageSource": "eTableTennis (tienda especializada)",
+      "sourceUrl": "https://www.etabletennis.com/products/nittaku-crest-25-ittf-approved-table-tennis-table",
+      "sourceName": "eTableTennis (tienda especializada)",
+      "price": null
+    },
+    {
+      "name": "Mizutani Jun ZLC",
+      "brand": "Butterfly",
+      "category": "BLADE",
+      "attributes": {},
+      "scale": null,
+      "summary": null,
+      "description": null,
+      "pros": [],
+      "cons": [],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom_b-mizutani-j-zlc.jpg",
+      "imageAlt": "Mizutani Jun ZLC",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=b-mizutani-j-zlc",
+      "sourceName": "Megaspin",
+      "price": null
+    },
+    {
+      "name": "Harimoto Tomokazu Innerforce ALC",
+      "brand": "Butterfly",
+      "category": "BLADE",
+      "attributes": {},
+      "scale": null,
+      "summary": null,
+      "description": null,
+      "pros": [],
+      "cons": [],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom_b-harimoto-if-alc.jpg",
+      "imageAlt": "Harimoto Tomokazu Innerforce ALC",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=b-harimoto-if-alc",
+      "sourceName": "Megaspin",
+      "price": null
     }
   ]
 }

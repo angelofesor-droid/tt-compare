@@ -101,6 +101,6 @@ herramientas externas, deploy. Ver DEPLOYMENT.md.
 > **Ampliación por decisión del usuario (2026-08-29):** se incorporaron al MVP
 > (a) comentarios de usuarios con media y durabilidad según usuarios (ProductReview,
 > 96 reviews reales citadas de RevSpin en 16 fichas) y (b) atributo `durability`
-> (valoración editorial 1-10) en gomas. El catálogo real cuenta con 143 productos
-> verificados (82 gomas, 52 maderos, 9 mesas). Marcas: 11 (Butterfly, DHS, Stiga, Joola,
+> (valoración editorial 1-10) en gomas. El catálogo real cuenta con 166 productos
+> verificados (82 gomas, 54 maderos, 30 mesas). Marcas: 11 (Butterfly, DHS, Stiga, Joola,
 > Andro, Tibhar, Donic, Yasaka, Xiom, Yinhe, Nittaku).
