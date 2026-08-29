@@ -1,0 +1,14 @@
+# Netlify — deploy de Next.js 16 (App Router)
+# El plugin @netlify/plugin-nextjs (OpenNext) se detecta automáticamente.
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Las variables de entorno se configuran en el dashboard de Netlify:
+#   DATABASE_URL       → pooler de Supabase (Supavisor, puerto 6543)
+#   DIRECT_URL         → conexión directa de Supabase (puerto 5432, para migraciones)
+#   ADMIN_PASSWORD     → secreto del panel admin
+#   NEXT_PUBLIC_SITE_URL → https://tu-dominio.netlify.app
