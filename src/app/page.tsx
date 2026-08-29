@@ -25,6 +25,24 @@ const categoryMeta: Record<string, { label: string; desc: string; accent: string
 export default async function HomePage() {
   const { featured, recent, categories } = await getHomepageProducts();
 
+  // ProductCard espera { image } (singular) y { price }; getHomepageProducts devuelve
+  // objetos Prisma con { images[] } y { prices[] }. Se mapea a la forma de la tarjeta.
+  const toCard = (p: {
+    id: string;
+    name: string;
+    slug: string;
+    brand: { name: string; slug: string };
+    images: { url: string; alt: string | null }[];
+    prices: { amount: unknown; currency: string }[];
+  }) => ({
+    id: p.id,
+    name: p.name,
+    slug: p.slug,
+    brand: { name: p.brand.name, slug: p.brand.slug },
+    image: p.images[0] ? { url: p.images[0].url, alt: p.images[0].alt } : null,
+    price: p.prices[0] ? { amount: Number(p.prices[0].amount), currency: p.prices[0].currency } : null,
+  });
+
   // Módulos de categoría: GOMAS | MADEROS / MESAS (grid modernista responsive)
   const catModules = categories.slice(0, 3);
 
@@ -78,7 +96,7 @@ export default async function HomePage() {
           </div>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
             {featured.map((p) => (
-              <ProductCard key={p.id} product={p} />
+              <ProductCard key={p.id} product={toCard(p)} />
             ))}
           </div>
         </section>
@@ -91,7 +109,7 @@ export default async function HomePage() {
             <h2 className="sec-label mb-5">Agregados recientemente</h2>
             <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
               {recent.map((p) => (
-                <ProductCard key={p.id} product={p} />
+                <ProductCard key={p.id} product={toCard(p)} />
               ))}
             </div>
           </div>
