@@ -4567,6 +4567,1408 @@
       "scale": {
         "speed": "0-10 (revspin)"
       }
+    },
+    {
+      "name": "Stiga Clipper CR",
+      "brand": "Stiga",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "90",
+        "layers": "7",
+        "composition": "7 capas de madera: núcleo de ayous y chapas externas de limba",
+        "handle": "Master (Flared) / Classic (Straight)",
+        "speed": "89",
+        "control": "67",
+        "stiffness": "Media-alta",
+        "flexibility": "Media",
+        "technology": "Sistema CR: acabado UV/cristal en la superficie que aumenta la velocidad (~21%) respecto a una pala convencional"
+      },
+      "scale": null,
+      "summary": "Pala ofensiva de 7 capas de madera, famosa mundialmente por su velocidad y potencia. El acabado CR añade velocidad extra manteniendo el tacto característico de Stiga.",
+      "description": "La Clipper CR es una de las series de palas más populares de STIGA, usada por numerosos jugadores de élite mundial. Es una pala ofensiva de 7 capas construida para quienes buscan potencia extra en cada golpe. El sistema CR (acabado UV/cristal en la parte frontal) incrementa la velocidad de salida de la bola al menos un 21% respecto a una pala convencional, manteniendo a la vez el característico 'tacto Stiga'.",
+      "pros": [
+        "Gran velocidad y potencia ofensiva",
+        "Tacto firme y buena respuesta en cada golpe",
+        "Superficie CR facilita despegar las gomas"
+      ],
+      "cons": [
+        "Control moderado (requiere técnica)",
+        "Peso relativamente alto (~90g)"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_s-clipper-cr.jpg",
+      "imageAlt": "Stiga Clipper CR",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=s-clipper-cr",
+      "sourceName": "Megaspin",
+      "price": null
+    },
+    {
+      "name": "Stiga Allround Classic",
+      "brand": "Stiga",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "76",
+        "layers": "5",
+        "composition": "5 capas de madera",
+        "handle": "Master (Flared) / Winner (Anatomic) / Classic (Straight) / Chinese Penhold",
+        "speed": "73",
+        "control": "83",
+        "stiffness": "Media",
+        "flexibility": "Alta",
+        "balance": "Equilibrada",
+        "thickness": "5.1"
+      },
+      "scale": null,
+      "summary": "Pala todoterreno de 5 capas, un verdadero clásico. Destaca por su excelente control y un perfecto equilibrio entre velocidad, peso y sensación.",
+      "description": "La Allround Classic es un clásico de STIGA, ideal para el jugador todoterreno (allround). Ofrece un gran control y un ataque versátil para un juego polivalente. Detrás de su enorme popularidad entre jugadores de competición está el equilibrio perfecto entre velocidad, peso y sensación de juego.",
+      "pros": [
+        "Excelente control",
+        "Ligera (76g)",
+        "Gran versatilidad y sensación clásica"
+      ],
+      "cons": [
+        "Velocidad limitada para juego ofensivo de alto nivel"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_s-all-classic.jpg",
+      "imageAlt": "Stiga Allround Classic",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=s-all-classic",
+      "sourceName": "Megaspin",
+      "price": null
+    },
+    {
+      "name": "Stiga Infinity VPS V",
+      "brand": "Stiga",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "83",
+        "layers": "5",
+        "composition": "5 capas de madera",
+        "handle": "Master (Flared) / Winner (Anatomic) / Classic (Straight) / Chinese Penhold",
+        "speed": "88",
+        "control": "65",
+        "stiffness": "Media",
+        "flexibility": "Media",
+        "balance": "Equilibrada",
+        "thickness": "6.0",
+        "technology": "VPS (Veneer Precision System) + Diamond Touch (acabado extra duro y liso)"
+      },
+      "scale": null,
+      "summary": "Pala ofensiva ligera de 5 capas con tecnología VPS y Diamond Touch. Tácto sólido y feedback excepcional para recepciones agresivas y topspin potente.",
+      "description": "La Infinity VPS V incorpora la tecnología VPS (Veneer Precision System): dos chapas centrales seleccionadas a mano, tratadas con un preciso proceso de calentamiento y enfriamiento. La tecnología Diamond Touch aporta dureza extra a las chapas externas y un acabado increíblemente liso. El resultado es una pala ofensiva ligera con tácto sólido y feedback, desarrollada junto a jugadores del equipo nacional chino. Permite dominar los elementos clave del juego moderno: recepciones agresivas y topspin potente.",
+      "pros": [
+        "Ligera y ofensiva",
+        "Gran tácto y feedback",
+        "Excelente para recepciones agresivas y topspin"
+      ],
+      "cons": [
+        "Control moderado para jugadores avanzados",
+        "Requiere buena técnica de ataque"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_s-infinity-vps-v-dt.jpg",
+      "imageAlt": "Stiga Infinity VPS V",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=s-infinity-vps-v-dt",
+      "sourceName": "Megaspin",
+      "price": null
+    },
+    {
+      "name": "Stiga Cybershape Carbon",
+      "brand": "Stiga",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "85",
+        "layers": "7",
+        "composition": "5 capas de madera + 2 capas de carbono",
+        "handle": "Master (Flared) / Classic (Straight)",
+        "speed": "96",
+        "control": "61",
+        "stiffness": "Alta",
+        "flexibility": "Baja",
+        "balance": "Top-weighted (desplazada hacia la parte superior)",
+        "technology": "Forma hexagonal Cybershape con área de golpeo optimizada + capas de carbono"
+      },
+      "scale": null,
+      "summary": "Pala de forma hexagonal única con área de golpeo hasta un 11% mayor que una pala tradicional. Muy rápida (OFF+), diseñada para juego ofensivo moderno.",
+      "description": "La Cybershape Carbon es un tipo de pala completamente nuevo con una forma única y una mayor área de golpeo. Estudios muestran que, para la mayoría de jugadores, la zona óptima de golpeo está en la parte superior de la pala; por eso Stiga optimizó el área hasta un 11% mayor para el agarre shakehand y un 9% para el penhold. Su construcción de madera y carbono aporta una velocidad muy alta. En las recepciones, el área de golpeo queda hasta 6,5 cm más cerca de la mesa que con una pala redonda.",
+      "pros": [
+        "Área de golpeo ampliada y más cercana a la mesa",
+        "Velocidad muy alta",
+        "Forma ergonómica innovadora"
+      ],
+      "cons": [
+        "Control exigente",
+        "Forma inusual puede requerir adaptación"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_s-cybershape-c.jpg",
+      "imageAlt": "Stiga Cybershape Carbon",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=s-cybershape-c",
+      "sourceName": "Megaspin",
+      "price": null
+    },
+    {
+      "name": "Stiga Rosewood NCT V",
+      "brand": "Stiga",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "90",
+        "layers": "5",
+        "composition": "5 capas: palisandro (rosewood) exterior, pícea (spruce) y núcleo de ayous",
+        "handle": "Master (Flared) / Classic (Straight) / Chinese Penhold",
+        "speed": "99",
+        "control": "65",
+        "stiffness": "Alta (rígida)",
+        "flexibility": "Baja",
+        "balance": "Equilibrada",
+        "thickness": "6.0",
+        "technology": "NCT (Nano Composite Technology) sobre las chapas de palisandro"
+      },
+      "scale": null,
+      "summary": "Pala ofensiva de 5 capas con chapas de palisandro y tecnología NCT. Alta velocidad y sensación de madera pura, ideal para el juego de ataque moderno.",
+      "description": "La Rosewood NCT V está diseñada para el juego de ataque moderno, ideal para jugadores agresivos que dependen de alta velocidad de raqueta y trayectoria larga para tomar ventaja. Esta pala de 5 capas ofrece un equilibrio excepcional entre velocidad, peso, control y trayectoria. El palisandro seleccionado a mano, combinado con la ingeniería científica de STIGA y la tecnología NCT (tratamiento de superficie que aumenta el sweet spot y la velocidad), une lo mejor de la ciencia y la naturaleza.",
+      "pros": [
+        "Alta velocidad para una pala de madera",
+        "Sensación natural de madera",
+        "Excelente para topspin y ataques rápidos"
+      ],
+      "cons": [
+        "Rigidez que exige buena técnica",
+        "Menos control que palas más blandas"
+      ],
+      "imageUrl": "https://cdn.ttsensei.com/blades/stiga-rosewood-nct-v-thumb.webp",
+      "imageAlt": "Stiga Rosewood NCT V",
+      "imageSource": "PingPongOnline",
+      "sourceUrl": "https://www.pingpongonline.com/blades-composite-blade-composite-off-c-970_973/stiga-rosewood-nct-v",
+      "sourceName": "PingPongOnline",
+      "price": null
+    },
+    {
+      "name": "Stiga Emerald VPS V",
+      "brand": "Stiga",
+      "category": "BLADE",
+      "attributes": {
+        "layers": "5",
+        "composition": "5 capas: ebenholz (ébano) verde exterior, pícea (spruce) y núcleo de ayous",
+        "handle": "Master (Flared) / Classic (Straight) / Chinese Penhold",
+        "stiffness": "Alta (rígida)",
+        "flexibility": "Baja",
+        "balance": "Equilibrada",
+        "thickness": "6.3",
+        "technology": "VPS (Veneer Precision System) + acabado Diamond Touch"
+      },
+      "scale": null,
+      "summary": "Pala ofensiva premium de 5 capas con chapas de ebenholz y tecnología VPS. Velocidad OFF+/OFF con gran sweet spot y sensación natural de madera, pensada para atacantes que giran desde media distancia.",
+      "description": "La Emerald VPS V es una pala insignia de madera totalmente ofensiva dentro de la serie VPS de Stiga, por encima de la Infinity VPS V en velocidad. Su construcción de 5 capas une chapas externas de ebenholz (ébano) verde sobre dos chapas centrales tratadas con el sistema VPS (Veneer Precision System). Ofrece velocidad OFF+ según muchos jugadores, un sweet spot amplio y la sensación natural de la madera. La superficie externa dura exige una técnica limpia, pero recompensa con potentes topspin y contra-topspin a media y larga distancia.",
+      "pros": [
+        "Alta velocidad para madera pura (OFF+)",
+        "Sweet spot amplio y estable",
+        "Gran arco de giro para topspin"
+      ],
+      "cons": [
+        "Superficie dura y exigente",
+        "Requiere técnica avanzada para domarla"
+      ],
+      "imageUrl": "https://ultraspin.org/images/products/stiga-emerald-vps-v.jpg",
+      "imageAlt": "Stiga Emerald VPS V",
+      "imageSource": "UltraSpin",
+      "sourceUrl": "https://ultraspin.org/reviews/stiga-emerald-vps-v-review/",
+      "sourceName": "UltraSpin",
+      "price": null
+    },
+    {
+      "name": "Fever",
+      "brand": "Joola",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "85",
+        "layers": "7",
+        "composition": "Limba - Meliorate Carbon - Ayous - Kiri - Ayous - Meliorate Carbon - Limba (5 madera + 2 carbono)",
+        "handle": "Flared, Straight, Anatomical",
+        "speed": "8.8",
+        "control": "8.9",
+        "stiffness": "6.0",
+        "flexibility": "Rígido",
+        "balance": "Equilibrado, cabeza media",
+        "technology": "Meliorate Carbon, núcleo de Kiri"
+      },
+      "scale": {
+        "speed": "8.8/10",
+        "control": "8.9/10"
+      },
+      "summary": "Madero híbrido ofensivo 5+2 de Joola que combina madera de Limba, Ayous y Kiri con dos capas de carbono Meliorate, orientado a jugadores de ataque que buscan un punto dulce amplio.",
+      "description": "La Joola Fever es un madero híbrido ofensivo (OFF/fast) construido con cinco capas de madera (Limba, Ayous y Kiri) y dos capas de fibra Meliorate Carbon. Su combinación de madera blanda y carbono entrega un punto dulce amplio que favorece la consistencia y el control sin renunciar a la velocidad. Es versátil para topspin agresivo y golpes precisos, con una sensación de contacto sólida.",
+      "pros": [
+        "Punto dulce amplio y consistente",
+        "Buen equilibrio velocidad/control",
+        "Gran control para su categoría ofensiva",
+        "Muy consistente en producción"
+      ],
+      "cons": [
+        "Sensación rígida (stiff)",
+        "Dureza media-alta que exige técnica",
+        "Velocidad algo menor que maderos carbono extremos"
+      ],
+      "imageUrl": "https://revspin.net/images/blade/joola-fever.jpg",
+      "imageAlt": "Fever",
+      "imageSource": "Revspin",
+      "sourceUrl": "https://revspin.net/blade/joola-fever.html",
+      "sourceName": "Revspin",
+      "price": null
+    },
+    {
+      "name": "Rossi Viva",
+      "brand": "Joola",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "88",
+        "layers": "7",
+        "composition": "7 capas de madera (Limba, Samba)",
+        "handle": "Shakehand FL, Penhold",
+        "speed": "10",
+        "control": "9",
+        "flexibility": "Semi-rígido",
+        "balance": "Excelentemente equilibrado",
+        "technology": "7 pliegues de madera (remake del legendario Rossi Viva)"
+      },
+      "scale": {
+        "speed": "10/10",
+        "control": "9/10"
+      },
+      "summary": "Versión remake del legendario madero ofensivo Joola Rossi Viva, de 7 capas de madera, con excelente equilibrio y giro extraordinario.",
+      "description": "La Joola Rossi Viva es un madero ofensivo de 7 capas de madera (Limba y Samba), remake del legendario modelo del mismo nombre. Bien equilibrado y construido con 7 pliegues para un giro extraordinario, es una gran opción ofensiva a un precio accesible, con un comportamiento similar al Stiga Clipper. Clasificado como Fast/Loop.",
+      "pros": [
+        "Giro extraordinario gracias a las 7 capas",
+        "Excelente equilibrio",
+        "Gran ofensiva a precio accesible",
+        "Similar al Stiga Clipper"
+      ],
+      "cons": [
+        "Madera pura, sin carbono",
+        "Requiere buena técnica para sacar todo su potencial",
+        "Peso algo alto (~88g)"
+      ],
+      "imageUrl": "https://www.tabletennishub.net/cdn/shop/products/Joola-Rossi-Viva-7-Ply-Blade_1024x1024.jpg?v=1744312526",
+      "imageAlt": "Rossi Viva",
+      "imageSource": "Table Tennis Hub",
+      "sourceUrl": "https://www.tabletennishub.net/products/joola-rossi-viva-7-ply-blade",
+      "sourceName": "Table Tennis Hub",
+      "price": null
+    },
+    {
+      "name": "K5",
+      "brand": "Joola",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "85",
+        "layers": "5",
+        "composition": "5 capas de madera (Samba, Limba)",
+        "handle": "Flared, Straight, Anatomical",
+        "speed": "7.7",
+        "control": "8.6",
+        "stiffness": "3.2",
+        "flexibility": "Flexible",
+        "balance": "Equilibrado",
+        "technology": "5 pliegues de madera (Samba, Limba)"
+      },
+      "scale": {
+        "speed": "7.7/10",
+        "control": "8.6/10"
+      },
+      "summary": "Madero de 5 capas de madera (Samba y Limba) de Joola, clasificado como rápido (fast), con flexibilidad y dureza media-blanda.",
+      "description": "La Joola K5 es un madero de 5 capas de madera (Samba y Limba) de la categoría fast. Presenta una flexibilidad notable (some flex) y dureza media-blanda, lo que ofrece buen tacto y tiempo de contacto. Es una opción clásica de madera pura para jugadores de ataque que prefieren sensación natural sin fibras compuestas.",
+      "pros": [
+        "Flexibilidad que favorece el giro",
+        "Dureza media-blanda cómoda",
+        "Buen control (8.6/10)",
+        "Sensación natural de madera pura"
+      ],
+      "cons": [
+        "Menor velocidad que maderos con fibra",
+        "Consistencia de producción variable (5.7/10)",
+        "Stiffness bajo que puede limitar golpes planos potentes"
+      ],
+      "imageUrl": "https://revspin.net/images/blade/joola-k5.jpg",
+      "imageAlt": "K5",
+      "imageSource": "Revspin",
+      "sourceUrl": "https://revspin.net/blade/joola-k5.html",
+      "sourceName": "Revspin",
+      "price": null
+    },
+    {
+      "name": "Wing Medium",
+      "brand": "Joola",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "80",
+        "layers": "5",
+        "composition": "Koto (exterior) - Ayous - Kiri (centro)",
+        "handle": "Flared, Straight, Anatomical",
+        "speed": "7.6",
+        "control": "8.9",
+        "stiffness": "5.0",
+        "flexibility": "Media (Average)",
+        "balance": "Ligero y equilibrado",
+        "technology": "5 pliegues de madera (Koto, Ayous, Kiri)"
+      },
+      "scale": {
+        "speed": "7.6/10",
+        "control": "8.9/10"
+      },
+      "summary": "Madero de 5 capas de madera pura (Koto exterior, Ayous y centro de Kiri) de Joola, clasificado como medio (medium) y ligero (~80g).",
+      "description": "La Joola Wing Medium es un madero de 5 capas de madera pura con exterior de Koto, capa intermedia de Ayous y centro de Kiri. Es ligero (aprox. 80g) y está clasificado como medium, ofreciendo muy alto control (8.9/10) con rigidez y dureza medias. Es una opción equilibrada y consistente, adecuada para jugadores que buscan control y versatilidad.",
+      "pros": [
+        "Muy alto control (8.9/10)",
+        "Ligero (~80g)",
+        "Muy consistente (10.0/10)",
+        "Rigidez y dureza medias cómodas"
+      ],
+      "cons": [
+        "Velocidad media, no para ofensiva extrema",
+        "Madera pura sin refuerzos de fibra",
+        "Menor potencia en golpes planos"
+      ],
+      "imageUrl": "https://revspin.net/images/blade/joola-wing-medium.jpg",
+      "imageAlt": "Wing Medium",
+      "imageSource": "Revspin",
+      "sourceUrl": "https://revspin.net/blade/joola-wing-medium.html",
+      "sourceName": "Revspin",
+      "price": null
+    },
+    {
+      "name": "MC-1",
+      "brand": "Joola",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "80",
+        "composition": "Koto y Balsa",
+        "handle": "Flared",
+        "speed": "9.6",
+        "control": "8.8",
+        "stiffness": "6.2",
+        "flexibility": "Rígido",
+        "balance": "Ligero",
+        "technology": "Koto y Balsa"
+      },
+      "scale": {
+        "speed": "9.6/10",
+        "control": "8.8/10"
+      },
+      "summary": "Madero ofensivo muy rápido de Joola (MC-1), de construcción ligera en Koto y Balsa, con velocidad 9.6/10.",
+      "description": "La Joola MC-1 es un madero de la línea MC de Joola, construido en madera de Koto y Balsa, lo que le otorga un peso ligero (~80g) pese a su alta velocidad ofensiva (9.6/10). Es rígido y con dureza media-alta, diseñado para jugadores de ataque que buscan un rebote rápido y directo.",
+      "pros": [
+        "Muy alta velocidad (9.6/10)",
+        "Ligero (~80g) gracias a la Balsa",
+        "Buen control para su velocidad (8.8/10)"
+      ],
+      "cons": [
+        "Rígido (stiff 6.2)",
+        "Dureza media-alta que exige técnica",
+        "Menos dwell time para giro en topspin"
+      ],
+      "imageUrl": "https://revspin.net/images/blade/joola-mc1.jpg",
+      "imageAlt": "MC-1",
+      "imageSource": "Revspin",
+      "sourceUrl": "https://revspin.net/blade/joola-mc1.html",
+      "sourceName": "Revspin",
+      "price": null
+    },
+    {
+      "name": "Zetro Quad",
+      "brand": "Xiom",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "92",
+        "layers": "9",
+        "composition": "9 plies: Kiso Hinoki (exterior grueso) + 4 capas de Zylon Carbon",
+        "speed": "90",
+        "control": "63",
+        "stiffness": "Media-rígida (stiffness 5.9/10 en Revspin)",
+        "flexibility": "Media (mayor dwell time gracias al hinoki grueso)",
+        "thickness": "7.0",
+        "technology": "4 plies de Zylon Carbon; capa exterior gruesa de Kiso Hinoki para tacto suave tipo madera"
+      },
+      "scale": {
+        "speed": "Muy rápida (Very Fast / Off+)",
+        "control": "Media (equilibrada)"
+      },
+      "summary": "Blade compuesto muy rápido con capa exterior gruesa de Kiso Hinoki que aporta tacto suave, dwell time y mucho control en el juego corto, pese a su gran velocidad.",
+      "description": "El Xiom Zetro Quad es una pala compuesta con construcción 3+2 que integra capas de Zylon y carbono. A pesar de su naturaleza compuesta, ofrece un tacto suave parecido a la madera gracias a sus gruesas capas exteriores de Kiso-hinoki, que generan dwell time y una excelente sensibilidad para el juego corto. Responde de forma nítida y sólida en golpes de alto impacto, manteniendo una vibración que permite un feedback táctil fiable. Sus 7.0 mm de grosor y 92 g la convierten en una pala rápida y de sensaciones premium, apta para jugadores agresivos de topspin.",
+      "pros": [
+        "Muy rápida y potente en ataque",
+        "Tacto suave y buen dwell time gracias al Kiso Hinoki",
+        "Excelente sensibilidad para el juego corto",
+        "Respuesta sólida y nítida en golpes de alto impacto"
+      ],
+      "cons": [
+        "Sensibilidad alta a la rotación del rival (puede ser complicada ante topspin con mucho giro)",
+        "Exigente para jugadores no avanzados",
+        "Modelo discontinuado"
+      ],
+      "imageUrl": "https://revspin.net/images/blade/xiom-zetro-quad.jpg",
+      "imageAlt": "Zetro Quad",
+      "imageSource": "Revspin",
+      "sourceUrl": "https://revspin.net/blade/xiom-zetro-quad.html",
+      "sourceName": "Revspin",
+      "price": null
+    },
+    {
+      "name": "Vega Tour",
+      "brand": "Xiom",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "85",
+        "layers": "7",
+        "composition": "Hinoki / Carbon (Zephylium-XCarbon) / Ayous / Kiri / Ayous / Carbon (Zephylium-XCarbon) / Hinoki",
+        "speed": "94",
+        "control": "72",
+        "stiffness": "Rígida (stiffness 6.7/10 en Revspin)",
+        "flexibility": "Baja-media (sensación rígida con buen control)",
+        "balance": "Balanceado, cabeza estándar",
+        "thickness": "5.8",
+        "technology": "Chapa exterior japonesa de Hinoki + fibra Zephylium mezclada con XCarbon (carbono)"
+      },
+      "scale": {
+        "speed": "Muy rápida (Off+)",
+        "control": "Media-alta"
+      },
+      "summary": "Blade compuesto Off+ con chapa exterior de Hinoki que combina velocidad y buen control; 5.8 mm y 85 g con gran sweet spot.",
+      "description": "El Xiom Vega Tour es una pala compuesta (3+2) con dos capas exteriores de Hinoki japonés, diseñadas para ofrecer velocidad y buen tacto. Sus capas internas de carbono (Zephylium mezclado con XCarbon, un super-carbono) aportan potencia y un lanzamiento vivo, siendo sensible a la pelota plástica. Ofrece un sweet spot generoso y un control destacable en el juego corto, con una sensación suave y nítida al contacto. Es una pala Off+ recomendada para jugadores experimentados que buscan velocidad con control; su superficie de Hinoki es delicada y conviene sellarla antes de pegar las gomas.",
+      "pros": [
+        "Excelente combinación de velocidad y control (Off+)",
+        "Gran sweet spot",
+        "Tacto suave y nítido del Hinoki",
+        "Buen rendimiento con la pelota plástica"
+      ],
+      "cons": [
+        "Superficie de Hinoki delicada (puede astillarse; sellar la cara)",
+        "Velocidad que puede resultar exigente para principiantes",
+        "Puede vibrar según la sensibilidad del jugador"
+      ],
+      "imageUrl": "https://revspin.net/images/blade/xiom-vega-tour.jpeg",
+      "imageAlt": "Vega Tour",
+      "imageSource": "Revspin",
+      "sourceUrl": "https://revspin.net/blade/xiom-vega-tour.html",
+      "sourceName": "Revspin",
+      "price": null
+    },
+    {
+      "name": "Hugo Calderano HAL",
+      "brand": "Xiom",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "85",
+        "layers": "7",
+        "composition": "5+2: Koto / Hyper Axylium / Limba / Kiri / Limba / Hyper Axylium / Koto",
+        "stiffness": "Flexible (stiffness 3.4/10 en Revspin, 'some flex')",
+        "flexibility": "Alta (flexible, buen dwell time)",
+        "thickness": "5.8",
+        "technology": "Hyper Axylium: arylate naranja de alta calidad desarrollado por Xiom (sin fibra de carbono)"
+      },
+      "scale": null,
+      "summary": "Pala ofensiva/allround del jugador Hugo Calderano, construida con la fibra Hyper Axylium (arylate sin carbono) que ofrece tacto claro, mayor repulsión y rendimiento equilibrado.",
+      "description": "El Xiom Hugo Calderano HAL es la pala usada por el brasileño Hugo Calderano, top mundial. Su construcción 5+2 emplea Hyper Axylium, un arylate de color naranja desarrollado por Xiom que no incluye fibra de carbono, otorgando un tacto claro, mayor poder de repulsión y un rendimiento muy equilibrado. Su carácter flexible la hace ideal para jugadores con movimientos amplios, permitiendo guiar la bola en la dirección deseada. Ofrece un altísimo nivel de control para su velocidad, combinando sensación 'madera' con potencia ofensiva; apta tanto para amateurs como para profesionales. Pesa ~85 g y mide 5.8 mm.",
+      "pros": [
+        "Excelente control (valorado 9.5/10 en Revspin)",
+        "Tacto flexible con buena sensación de madera",
+        "Muy ligera y manejable (~85 g)",
+        "Rendimiento equilibrado para Off/allround"
+      ],
+      "cons": [
+        "Menos velocidad que palas con carbono",
+        "Velocidad moderada para jugadores muy agresivos"
+      ],
+      "imageUrl": "https://revspin.net/images/blade/xiom-hugo-calderano-hal.png",
+      "imageAlt": "Hugo Calderano HAL",
+      "imageSource": "Tabletennis11",
+      "sourceUrl": "https://tabletennis11.com/en/xiom-hugo-calderano-hal",
+      "sourceName": "Tabletennis11",
+      "price": null
+    },
+    {
+      "name": "Strato",
+      "brand": "Xiom",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "88",
+        "layers": "5",
+        "composition": "3+2: 3 plies de Kiso Hinoki + 2 plies de Energy Carbon",
+        "speed": "99",
+        "stiffness": "Rígida (stiffness 6.8/10 en Revspin)",
+        "flexibility": "Baja (rígida, buen control y golpes directos)",
+        "thickness": "7.0",
+        "technology": "Energy Carbon (nuevo carbono desarrollado por Xiom) sobre base de palas clásicas SPEED OFF++ / POWER OFF+"
+      },
+      "scale": {
+        "speed": "Muy rápida (Off+)"
+      },
+      "summary": "Pala Hinoki-Carbono de 7.0 mm con Energy Carbon: alta potencia, tacto cómodo y capacidad all-round; velocidad Off+.",
+      "description": "El Xiom Strato es una pala mejorada Hinoki-Carbono de 7.0 mm de grosor, basada en la construcción de las clásicas SPEED OFF++ y POWER OFF+, pero con el nuevo Energy Carbon que reduce la amortiguación y hace los golpes más potentes manteniendo el control. Las capas exteriores de Kiso Hinoki aportan un tacto cómodo y rico en dwell time, mientras que el carbono interno inyecta potencia y rigidez. Es una pala Off+ muy rápida, con topspin estable y una trayectoria muy afinada, de peso equilibrado (88 g), fabricada en China.",
+      "pros": [
+        "Alta potencia (velocidad Off+)",
+        "Excelente control pese a la velocidad",
+        "Tacto cómodo del Kiso Hinoki",
+        "Capacidad all-round con topspin estable"
+      ],
+      "cons": [
+        "Requiere adaptación por su alta velocidad",
+        "Con gomas muy rápidas puede costar controlar"
+      ],
+      "imageUrl": "https://revspin.net/images/blade/xiom-strato.jpg",
+      "imageAlt": "Strato",
+      "imageSource": "Revspin",
+      "sourceUrl": "https://revspin.net/blade/xiom-strato.html",
+      "sourceName": "Revspin",
+      "price": null
+    },
+    {
+      "name": "Speed",
+      "brand": "Xiom",
+      "category": "BLADE",
+      "attributes": {
+        "layers": "5",
+        "composition": "Kiso Hinoki / Energy Carbon / Kiri / Energy Carbon / Kiso Hinoki",
+        "speed": "92",
+        "control": "68",
+        "stiffness": "Media (stiffness 5.0/10 en Revspin)",
+        "flexibility": "Media",
+        "thickness": "6.8",
+        "technology": "Energy Carbon con capa exterior de Kiso Hinoki; empuñadura con diseño que absorbe vibraciones"
+      },
+      "scale": {
+        "speed": "Muy rápida (Off+)",
+        "control": "Media"
+      },
+      "summary": "Pala compuesta Off+ que combina Energy Carbon y Kiso Hinoki en construcción de 6.8 mm y 5 capas, ofreciendo potencia y precisión en juego agresivo cerca de la mesa.",
+      "description": "El Xiom Speed es una pala compuesta de 5 capas y 6.8 mm que combina una capa exterior de Kiso Hinoki más gruesa con Energy Carbon, diseñada para el juego agresivo cerca de la mesa con topspin rápido y smash potente. Su empuñadura incorpora un diseño que absorbe vibraciones, y la combinación de madera y carbono ofrece una mezcla armoniosa de potencia y precisión (velocidad 9.2 y control 8.9 según Revspin). Es una pala de clase Off+ adecuada para jugadores ofensivos que buscan velocidad y un tacto de madera.",
+      "pros": [
+        "Alta velocidad (Off+)",
+        "Buen control para su velocidad",
+        "Tacto suave del Kiso Hinoki",
+        "Empuñadura que absorbe vibraciones"
+      ],
+      "cons": [
+        "Menos datos públicos de peso",
+        "Pala enfocada a juego ofensivo avanzado"
+      ],
+      "imageUrl": "https://revspin.net/images/blade/xiom-speed.jpg",
+      "imageAlt": "Speed",
+      "imageSource": "Revspin",
+      "sourceUrl": "https://revspin.net/blade/xiom-speed.html",
+      "sourceName": "Revspin",
+      "price": null
+    },
+    {
+      "name": "Pro 01",
+      "brand": "Yinhe",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "90",
+        "layers": "5+2",
+        "composition": "Koto / ALC (Arylate-Carbon) / Ayous / Kiri",
+        "handle": "FL, ST, CS",
+        "speed": "Off+",
+        "control": "Off",
+        "stiffness": "Media (stiff)",
+        "thickness": "5.7",
+        "technology": "ALC (Arylate-Carbon)"
+      },
+      "scale": null,
+      "summary": "Madero compuesto ALC profesional, alternativa económica a la Butterfly Viscaria, avalado por el jugador chino Zhu Yi.",
+      "description": "El Yinhe Pro 01 es un madero ofensivo de construcción 5+2 con capas externas de Koto y dos capas de Arylate-Carbon (ALC). Combina alta velocidad con un control fiable para su nivel, tacto nítido, gran zona dulce y buena respuesta de potencia. Es muy reactivo (bouncy), por lo que exige técnica disciplinada en el juego corto. Rendimiento estable con gomas chinas y tensionadas.",
+      "pros": [
+        "Muy rápido y potente",
+        "Control fiable para su velocidad",
+        "Tacto nítido y gran zona dulce",
+        "Excelente relación calidad-precio frente a la Viscaria",
+        "Versátil con gomas tacky y tensionadas"
+      ],
+      "cons": [
+        "Muy reactivo, difícil para principiantes",
+        "Mango más grueso que la media",
+        "Exige disciplina en el juego corto"
+      ],
+      "imageUrl": "https://static.tabletennis11.com/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/3/2/32565_32565_68ab6cb997a5f4_92952515_Pro-01_jpg.jpg",
+      "imageAlt": "Pro 01",
+      "imageSource": "TableTennis11 (TT11)",
+      "sourceUrl": "https://tabletennis11.com/en/yinhe-pro-01",
+      "sourceName": "TableTennis11 (TT11)",
+      "price": null
+    },
+    {
+      "name": "Pro 05",
+      "brand": "Yinhe",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "90",
+        "layers": "5+2",
+        "composition": "Limba / KLC (Kevlar-Carbon) interior / Ayous",
+        "handle": "FL, ST, CS",
+        "speed": "Off+",
+        "control": "Off",
+        "stiffness": "Media (flexible)",
+        "flexibility": "Flexible",
+        "thickness": "5.9",
+        "technology": "KLC (Kevlar-Carbon) interior"
+      },
+      "scale": null,
+      "summary": "Madero profesional 5+2 con Kevlar-Carbono interior que ofrece sensación 'como madera' y amplio dwell time para efectos.",
+      "description": "El Yinhe Pro 05 es un madero ofensivo 5+2 que ubica sus capas de KLC (Kevlar-Carbon) cerca del núcleo, lo que aporta un dwell time amplio y una sensación orgánica tipo madera con potencia compuesta. Con veneers externos de Limba y núcleo de Ayous, favorece el topspin y la generación de rotación, manteniendo un rendimiento equilibrado.",
+      "pros": [
+        "Sensación suave tipo madera con potencia compuesta",
+        "Buen dwell time para efectos",
+        "Ideal para loop y topspin",
+        "Acabado y construcción de alta calidad"
+      ],
+      "cons": [
+        "Velocidad alta, menos control que un todo madera",
+        "Exigente para jugadores menos avanzados"
+      ],
+      "imageUrl": "https://static.tabletennis11.com/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/3/2/32567_32567_68ab6ce34b2dd5_40094154_Pro-05_jpg_2.jpg",
+      "imageAlt": "Pro 05",
+      "imageSource": "TableTennis11 (TT11)",
+      "sourceUrl": "https://tabletennis11.com/en/yinhe-pro-05",
+      "sourceName": "TableTennis11 (TT11)",
+      "price": null
+    },
+    {
+      "name": "V-14 Pro",
+      "brand": "Yinhe",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "87",
+        "layers": "5+2",
+        "composition": "Madera + ALC (Arylate-Carbon)",
+        "handle": "FL, ST, CS",
+        "speed": "Off+",
+        "control": "Off",
+        "stiffness": "Alta (stiff)",
+        "thickness": "5.9",
+        "technology": "ALC (Arylate-Carbon)"
+      },
+      "scale": null,
+      "summary": "Madero compuesto ALC de gama alta, similar a la Butterfly Viscaria, eficaz para juego ofensivo agresivo.",
+      "description": "El Yinhe V-14 Pro combina capas de madera y Arylate-Carbon (ALC) para ofrecer un rendimiento equilibrado con velocidad, potencia y tacto mejorados. Es especialmente eficaz para looping, bloqueo y smash, apto para estilos de juego agresivos de jugadores avanzados. Más grueso y rígido que la Viscaria para un peso similar, es el madero Yinhe más cercano a la Viscaria.",
+      "pros": [
+        "Rápido y potente",
+        "Buen control relativo a su velocidad",
+        "Muy eficaz en loop, bloqueo y smash",
+        "Alternativa a la Viscaria a menor precio"
+      ],
+      "cons": [
+        "Exigente para principiantes",
+        "Más rígido y rápido que la Viscaria"
+      ],
+      "imageUrl": "https://static.tabletennis11.com/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/3/2/32471_32471_68ab7018eda8b3_00485940_V-14-PRO_jpg.jpg",
+      "imageAlt": "V-14 Pro",
+      "imageSource": "TableTennis11 (TT11)",
+      "sourceUrl": "https://tabletennis11.com/eu/yinhe-v-14-pro",
+      "sourceName": "TableTennis11 (TT11)",
+      "price": null
+    },
+    {
+      "name": "N9S",
+      "brand": "Yinhe",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "86",
+        "layers": "5",
+        "composition": "Koto / Basswood / Abachi (núcleo)",
+        "handle": "FL, ST, CS",
+        "speed": "Off",
+        "control": "All+",
+        "stiffness": "Media",
+        "flexibility": "Ligera flex",
+        "technology": "Todo madera 5 capas"
+      },
+      "scale": null,
+      "summary": "Madero ofensivo 5-ply de madera, equilibrado, lineal y muy asequible, ideal para jugadores de todos los niveles.",
+      "description": "El Yinhe N9S es un madero ofensivo de 5 capas 100% madera con capas externas de Koto, secundarias de Basswood y núcleo de Abachi/Meranti. Ofrece un rendimiento lineal, estable y predecible con buen feedback y amplia zona dulce. Su baja reactividad a bajas velocidades facilita el juego corto, el control y las dejadas, mientras conserva suficiente potencia para el ataque ofensivo.",
+      "pros": [
+        "Muy asequible",
+        "Equilibrado entre velocidad y control",
+        "Comportamiento lineal, estable y predecible",
+        "Buen feedback y amplia zona dulce",
+        "Apto para principiantes y jugadores ofensivos"
+      ],
+      "cons": [
+        "Menos velocidad que los maderos compuestos",
+        "Núcleo grueso algo rígido",
+        "Construcción simple"
+      ],
+      "imageUrl": "https://www.ppongsuper.com/wp-content/uploads/2025/02/SKU01_%E9%A2%9C%E8%89%B2%E5%88%86%E7%B1%BBN9S%E6%A8%AA%E6%9D%BF.png",
+      "imageAlt": "N9S",
+      "imageSource": "BladeRubber.net",
+      "sourceUrl": "https://bladerubber.net/blades/yinhe/n-9s",
+      "sourceName": "BladeRubber.net",
+      "price": null
+    },
+    {
+      "name": "T-4",
+      "brand": "Yinhe",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "85",
+        "layers": "7",
+        "composition": "Ciprés (Cypress) + Carbono",
+        "handle": "FL, ST, CS",
+        "speed": "Off+",
+        "control": "Off",
+        "stiffness": "Alta (muy rígido)",
+        "thickness": "6.0",
+        "technology": "Ciprés + Capas de Carbono"
+      },
+      "scale": null,
+      "summary": "Madero OFF+ de ciprés y carbono, muy rápido, rígido y potente, diseñado para juego ofensivo agresivo.",
+      "description": "El Yinhe T-4 es un madero OFF+ construido con capas de ciprés (cypress) y carbono que prioriza la máxima velocidad y potencia. Destaca en golpes planos agresivos, smashes y bloqueos rápidos gracias a su rigidez y potencia en el rango alto de juego. Es una opción accesible para jugadores con un estilo ofensivo activo, aunque exige dominio técnico por su escaso dwell time.",
+      "pros": [
+        "Muy rápido y potente",
+        "Rígido y estable para smash y bloqueo",
+        "Alto rendimiento ofensivo",
+        "Precio accesible"
+      ],
+      "cons": [
+        "Control limitado",
+        "Poco dwell time",
+        "Exigente en juego corto y efectos"
+      ],
+      "imageUrl": "https://revspin.net/images/blade/galaxy-t4.jpg",
+      "imageAlt": "T-4",
+      "imageSource": "Revspin",
+      "sourceUrl": "https://revspin.net/blade/galaxy-t4.html",
+      "sourceName": "Revspin",
+      "price": null
+    },
+    {
+      "name": "Nittaku Acoustic",
+      "brand": "Nittaku",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "88",
+        "layers": "5",
+        "composition": "Madera maciza (all-wood), 5 capas; núcleo grueso de madera de Tung",
+        "handle": "Flared (FL) / Straight (ST)",
+        "speed": "86",
+        "control": "67",
+        "stiffness": "Flexible",
+        "flexibility": "Alta",
+        "balance": "Equilibrado y muy controlado",
+        "thickness": "5.7",
+        "technology": "Tecnología de laminación de madera inspirada en la fabricación de instrumentos de cuerda"
+      },
+      "scale": {
+        "speed": "OFF",
+        "control": "Alto"
+      },
+      "summary": "Madero ofensivo de 5 capas 100% madera, con núcleo grueso de Tung que aporta una sensación sólida y un control excepcional.",
+      "description": "El Acoustic es un madero de 5 capas de madera maciza (all-wood) que usa una tecnología de laminación especial, originalmente aplicada a la producción de instrumentos de cuerda. Su núcleo grueso de madera de Tung produce una sensación sólida y un buen toque para el juego ofensivo cerca de la mesa, con una flexibilidad que favorece la generación de efecto.",
+      "pros": [
+        "Sensación (feel) excelente y flexible, muy buena para topspin",
+        "Control y precisión de colocación altos",
+        "Madera de alta calidad fabricada en Japón"
+      ],
+      "cons": [
+        "Menos potencia bruta que los maderos con carbono",
+        "Peso relativamente elevado (88g)"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_nittaku-acoustic.jpg",
+      "imageAlt": "Nittaku Acoustic",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=nittaku-acoustic",
+      "sourceName": "Megaspin",
+      "price": null
+    },
+    {
+      "name": "Nittaku Barwell Fleet",
+      "brand": "Nittaku",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "88",
+        "layers": "9",
+        "composition": "Nogal (Walnut) exterior con fibra de vidrio (glass fibre) en el interior, 9 capas",
+        "speed": "91",
+        "control": "94",
+        "stiffness": "Rígido",
+        "flexibility": "Media",
+        "balance": "Muy equilibrado entre velocidad y control",
+        "thickness": "6.1",
+        "technology": "Fibra de vidrio (glass fibre) integrada en la construcción de madera"
+      },
+      "scale": {
+        "speed": "OFF",
+        "control": "Muy alto"
+      },
+      "summary": "Madero de 9 capas con capas exteriores de nogal y fibra de vidrio interna; combina gran velocidad con un control excelente y equilibrio.",
+      "description": "El Barwell Fleet es un madero de 9 capas construido con capas exteriores de nogal (walnut) y fibra de vidrio (glass fibre) en el interior. Ofrece una combinación muy equilibrada de velocidad y control, siendo rígido pero con buena sensación. Es apreciado por jugadores que buscan potencia sin sacrificar el control y la consistencia.",
+      "pros": [
+        "Equilibrio sobresaliente entre velocidad y control",
+        "Sensación consistente y buen toque",
+        "Buen rendimiento en bloqueo y topspin"
+      ],
+      "cons": [
+        "Menos velocidad que maderos de carbono puro",
+        "Rigidez que exige buena técnica para control total"
+      ],
+      "imageUrl": "https://revspin.net/images/blade/nittaku-barwell-fleet.jpg",
+      "imageAlt": "Nittaku Barwell Fleet",
+      "imageSource": "Revspin",
+      "sourceUrl": "https://revspin.net/blade/nittaku-barwell-fleet.html",
+      "sourceName": "Revspin",
+      "price": null
+    },
+    {
+      "name": "Nittaku Tenor",
+      "brand": "Nittaku",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "94",
+        "layers": "5",
+        "composition": "5 capas de madera (all-wood)",
+        "speed": "92",
+        "control": "67",
+        "stiffness": "Rígido",
+        "flexibility": "Media",
+        "balance": "Orientado a la ofensiva",
+        "thickness": "6.0",
+        "technology": "Fabricado con tecnología de instrumentos de cuerda; el más rápido de la serie Instrument"
+      },
+      "scale": {
+        "speed": "OFF",
+        "control": "Alto"
+      },
+      "summary": "Madero ofensivo all-wood, el más rápido de la serie Instrument de Nittaku; rígido y pesado, ideal para topspin agresivo y remates.",
+      "description": "El Tenor es el madero más veloz de la serie Instrument de Nittaku, fabricado con madera de máxima calidad y la misma tecnología de cuidado usada en instrumentos de cuerda. Su construcción rígida de 5 capas (all-wood) y su mayor grosor lo hacen ideal para jugadores ofensivos que ejecutan topspin, contraataques y golpes con sensación especial y buena potencia.",
+      "pros": [
+        "Alta velocidad y potencia ofensiva",
+        "Sensación especial en topspin y contraataques",
+        "Construcción robusta y duradera"
+      ],
+      "cons": [
+        "Peso elevado (94g)",
+        "Menos control que maderos más flexibles"
+      ],
+      "imageUrl": "https://revspin.net/images/blade/nittaku-tenor.jpg",
+      "imageAlt": "Nittaku Tenor",
+      "imageSource": "Revspin",
+      "sourceUrl": "https://revspin.net/blade/nittaku-tenor.html",
+      "sourceName": "Revspin",
+      "price": null
+    },
+    {
+      "name": "Nittaku Rutis",
+      "brand": "Nittaku",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "85",
+        "layers": "5",
+        "composition": "Walnut / G-Carbon (fibra de carbono con vidrio) / Kiri / G-Carbon / Walnut",
+        "speed": "89",
+        "control": "72",
+        "stiffness": "Medio",
+        "flexibility": "Media",
+        "balance": "Orientado a la ofensiva",
+        "thickness": "5.5",
+        "technology": "G-Carbon: dos capas de fibra de carbono con vidrio (G-Carbon) en construcción de 5 capas"
+      },
+      "scale": {
+        "speed": "OFF",
+        "control": "Alto"
+      },
+      "summary": "Madero de 5 capas con dos capas de G-Carbon (fibra de carbono con vidrio), que combina velocidad ofensiva y buen control en un peso liviano.",
+      "description": "El Rutis es un madero de 5 capas que incorpora dos capas de G-Carbon (fibra de carbono reforzada con vidrio), con capas exteriores de nogal (walnut) y núcleo de Kiri. Logra un equilibrio entre 'rebote' y flexión, entregando velocidad de clase OFF con buen control. Su construcción y peso liviano (85g) lo hacen manejable y versátil para distintos niveles de juego.",
+      "pros": [
+        "Buen equilibrio entre velocidad y control",
+        "Peso liviano (85g) y manejable",
+        "Sensación viva con la fibra G-Carbon"
+      ],
+      "cons": [
+        "Potencia inferior a maderos con más capas de carbono",
+        "Tacto algo duro (hardness media-alta)"
+      ],
+      "imageUrl": "https://revspin.net/images/blade/nittaku-rutis.jpg",
+      "imageAlt": "Nittaku Rutis",
+      "imageSource": "Revspin",
+      "sourceUrl": "https://revspin.net/blade/nittaku-rutis.html",
+      "sourceName": "Revspin",
+      "price": null
+    },
+    {
+      "name": "Nittaku Latika",
+      "brand": "Nittaku",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "88",
+        "layers": "5",
+        "composition": "5 capas de madera (all-wood)",
+        "speed": "86",
+        "control": "78",
+        "stiffness": "Flexible",
+        "flexibility": "Alta",
+        "balance": "Equilibrado",
+        "thickness": "5.8",
+        "technology": "Madera maciza (all-wood) de 5 capas con construcción clásica japonesa"
+      },
+      "scale": {
+        "speed": "Off",
+        "control": "Alto"
+      },
+      "summary": "Madero ofensivo clásico de 5 capas de madera maciza, flexible y controlado; una opción popular comparable al Korbel de Butterfly.",
+      "description": "El Latika es un madero de 5 capas de madera maciza (all-wood) con características ofensivas pero muy controlables. Su flexibilidad y sensación natural lo hacen una opción muy apreciada, a menudo comparada con el Butterfly Korbel. Es ideal para jugadores que buscan un madero clásico con buen toque, efecto y control, manteniendo suficiente velocidad ofensiva.",
+      "pros": [
+        "Excelente control y sensación natural",
+        "Flexible, ideal para generar efecto",
+        "Madero clásico muy apreciado, similar al Korbel"
+      ],
+      "cons": [
+        "Velocidad moderada para juego ofensivo extremo",
+        "Requiere potencia propia del jugador"
+      ],
+      "imageUrl": "https://revspin.net/images/blade/nittaku-latika.jpg",
+      "imageAlt": "Nittaku Latika",
+      "imageSource": "Tabletennis11",
+      "sourceUrl": "https://tabletennis11.com/en/nittaku-latika",
+      "sourceName": "Tabletennis11",
+      "price": null
+    },
+    {
+      "name": "Donic Burn OFF",
+      "brand": "Donic",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "87",
+        "layers": "5",
+        "composition": "5 chapas de madera: caoba (exterior), awan (interior) y kiri (núcleo)",
+        "handle": "Cóncavo (FL) / Recto (ST) / Anatómico",
+        "speed": "OFF",
+        "control": "OFF",
+        "stiffness": "7",
+        "flexibility": "Casi rígida",
+        "balance": "Equilibrada, no pesada en la cabeza",
+        "technology": "Thermic Burned Technology: tratamiento térmico de las chapas a 200°C durante 24 horas que endurece la madera, elimina la humedad y aumenta la estabilidad y el punto dulce"
+      },
+      "scale": {
+        "speed": "OFF",
+        "control": "ALL+/OFF"
+      },
+      "summary": "Madero ofensivo de 5 capas de madera con la tecnología Thermic Burned que ofrece gran velocidad, estabilidad y un punto dulce amplio.",
+      "description": "El Donic Burn OFF es una pala ofensiva de cinco capas de madera (caoba, awan y kiri) tratadas térmicamente a 200 °C durante 24 horas. Este proceso endurece la madera, elimina la humedad y produce una estabilidad excepcional con un punto dulce muy amplio. A pesar de ser una pala rápida, ofrece un control sorprendente para su categoría.",
+      "pros": [
+        "Gran punto dulce y estabilidad",
+        "Buena relación velocidad/control para ser ofensiva",
+        "Peso moderado de 85-90 g",
+        "Tecnología de tratamiento térmico diferenciadora"
+      ],
+      "cons": [
+        "Requiere cierta técnica para domar su velocidad",
+        "No recomendada para jugadores de control puro"
+      ],
+      "imageUrl": "https://www.donic.com/media/c2/e7/df/1728366710/donic-blade_burn_off-2024.jpg?ts=1786021126",
+      "imageAlt": "Donic Burn OFF",
+      "imageSource": "Donic (sitio oficial)",
+      "sourceUrl": "https://www.donic.com/en/DONIC-BURN-OFF/110283020",
+      "sourceName": "Donic (sitio oficial)",
+      "price": null
+    },
+    {
+      "name": "Donic Waldner Exclusive AR+",
+      "brand": "Donic",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "85",
+        "layers": "5",
+        "composition": "5 chapas de madera: ayous (núcleo), limba (2+4) y limba (exterior)",
+        "handle": "Cóncavo (FL) / Anatómico (AN) / Recto (ST)",
+        "speed": "ALL+",
+        "control": "OFF",
+        "stiffness": "5",
+        "flexibility": "Elástica de velocidad",
+        "balance": "Equilibrada",
+        "thickness": "6.0",
+        "technology": "Combinación especial de chapas de la serie Exclusive en versión Allround Plus (ALL+), con control y aceleración armoniosos"
+      },
+      "scale": {
+        "speed": "ALL+",
+        "control": "ALL+"
+      },
+      "summary": "Pala de la serie Exclusive en clase ALL+ (Allround Plus), de 5 capas de madera, con buen control y aceleración para allrounders ofensivos.",
+      "description": "El Donic Waldner Exclusive AR+ combina el poder de una pala ofensiva con el feeling de una pala allround. Su construcción de 5 chapas (núcleo de ayous y limba) ofrece características de juego armoniosas y un control excelente. Es la versión intermedia de la serie Exclusive, más rápida que la Appelgren Exclusive AR y recomendada para jugadores allround que quieren variar sus topspin cerca y a media distancia de la mesa sin perder control.",
+      "pros": [
+        "Excelente relación calidad/precio",
+        "Buen control con características armoniosas",
+        "Versatilidad para juego allround ofensivo"
+      ],
+      "cons": [
+        "Velocidad moderada, no apta para juego netamente ofensivo de alta velocidad"
+      ],
+      "imageUrl": "https://www.donic.com/media/91/f7/35/1669040699/donic-blade_waldner_exclusive_ar_plus-01-web.jpg?ts=1697464406",
+      "imageAlt": "Donic Waldner Exclusive AR+",
+      "imageSource": "Donic (sitio oficial)",
+      "sourceUrl": "https://www.donic.com/en/DONIC-WALDNER-EXCLUSIVE-AR/110231020",
+      "sourceName": "Donic (sitio oficial)",
+      "price": null
+    },
+    {
+      "name": "Donic Persson Powerplay",
+      "brand": "Donic",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "85",
+        "layers": "7",
+        "composition": "7 chapas: koto (exterior), abachi (núcleo e interiores) y película antivibración (3+5)",
+        "handle": "Cóncavo (FL) / Recto (ST)",
+        "speed": "OFF-",
+        "control": "OFF-",
+        "stiffness": "6",
+        "flexibility": "Rígida directa",
+        "balance": "Equilibrada",
+        "technology": "Película antivibración (anti-vibration film) integrada en las capas internas, una de las primeras palas en usarla; fabricada en Suecia"
+      },
+      "scale": {
+        "speed": "OFF-",
+        "control": "ALL+/OFF-"
+      },
+      "summary": "Pala ofensiva de 7 capas con película antivibración, famosa por ser usada por Jörgen Persson en sus títulos mundiales y europeos.",
+      "description": "El Donic Persson Powerplay es un clásico de 7 capas (koto exterior, abachi y película antivibración interna) que Jörgen Persson usó para ganar el Mundial y el Europeo individual. La película antivibración reduce las vibraciones no deseadas, aportando estabilidad y un control limpio. Su construcción ofrece velocidad de clase OFF- con un control excepcional, ideal para jugadores ofensivos que valoran el feedback de la bola.",
+      "pros": [
+        "Control excepcional para su velocidad",
+        "Película antivibración que mejora la estabilidad",
+        "Legado de Jörgen Persson",
+        "Excelente relación calidad/precio"
+      ],
+      "cons": [
+        "Velocidad moderada para estándares actuales",
+        "Construcción relativamente rígida"
+      ],
+      "imageUrl": "https://www.donic.com/media/fc/6d/20/1669040726/donic-persson_powerplay-01-web.jpg?ts=1697464405",
+      "imageAlt": "Donic Persson Powerplay",
+      "imageSource": "Donic (sitio oficial)",
+      "sourceUrl": "https://www.donic.com/en/DONIC-PERSSON-POWERPLAY/100206010",
+      "sourceName": "Donic (sitio oficial)",
+      "price": {
+        "amount": 33000.0,
+        "currency": "CLP",
+        "source": "Precio referencial"
+      }
+    },
+    {
+      "name": "Donic Appelgren Allplay",
+      "brand": "Donic",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "84",
+        "layers": "5",
+        "composition": "5 chapas de madera: abachi (núcleo), limba (2+4) y limba (exterior)",
+        "handle": "Cóncavo (FL) / Anatómico (AN) / Recto (ST)",
+        "speed": "ALL",
+        "control": "ALL",
+        "stiffness": "4",
+        "flexibility": "Elástica de control",
+        "balance": "Ligera y bien equilibrada",
+        "technology": "Construcción clásica sueca de 5 capas (abachi y limba), la pala allround más vendida de Donic; disponible también en versiones Senso V1/V2 y Junior"
+      },
+      "scale": {
+        "speed": "ALL",
+        "control": "ALL"
+      },
+      "summary": "La clásica pala allround de Donic, la más vendida de la marca, con 5 capas de madera (abachi y limba) y un control excepcional.",
+      "description": "El Donic Appelgren Allplay es la pala allround clásica y la más vendida de Donic, usada por Mikael Appelgren para ganar tres Europeos y el Mundial por equipos. Su construcción de 5 capas (núcleo de abachi, interiores y exteriores de limba) ofrece un feeling excelente, control óptimo y reservas de velocidad suficientes. Ligera y bien equilibrada, es la elección ideal para jugadores allround que buscan fiabilidad y precisión.",
+      "pros": [
+        "Control excelente y feeling limpio",
+        "Ligera y cómoda para partidos largos",
+        "Pala de iniciación y desarrollo muy versátil",
+        "Legado de Mikael Appelgren"
+      ],
+      "cons": [
+        "Velocidad limitada para juego netamente ofensivo",
+        "Puede necesitar gomas rápidas para añadir potencia"
+      ],
+      "imageUrl": "https://www.donic.com/media/a5/96/2e/1669040668/appelgrenall.jpg?ts=1697464405",
+      "imageAlt": "Donic Appelgren Allplay",
+      "imageSource": "Donic (sitio oficial)",
+      "sourceUrl": "https://www.donic.com/en/DONIC-APPELGREN-ALLPLAY/100201010",
+      "sourceName": "Donic (sitio oficial)",
+      "price": {
+        "amount": 35000.0,
+        "currency": "CLP",
+        "source": "Precio referencial"
+      }
+    },
+    {
+      "name": "Donic Waldner Senso V1",
+      "brand": "Donic",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "85",
+        "layers": "5",
+        "composition": "5 chapas de madera: abachi (núcleo), limba (interiores) y limba (exterior)",
+        "handle": "Cóncavo (FL) / Anatómico (AN) / Recto (ST)",
+        "speed": "ALL+",
+        "control": "OFF-",
+        "stiffness": "4",
+        "flexibility": "Elástica",
+        "balance": "Equilibrada",
+        "thickness": "5.8",
+        "technology": "Mango Senso V1 con cavidades huecas que reduce el peso y mejora el feedback de la bola; construcción clásica sueca de 5 capas"
+      },
+      "scale": {
+        "speed": "ALL+",
+        "control": "ALL+/OFF-"
+      },
+      "summary": "Pala allround ofensiva con mango hueco Senso V1 y construcción sueca de 5 capas, intermedia entre la Appelgren Allplay y la Persson Powerplay.",
+      "description": "El Donic Waldner Senso V1 es una pala de 5 capas con construcción clásica sueca (núcleo de abachi y limba) y la tecnología de mango hueco Senso V1, que reduce el peso y proporciona un excelente feedback de contacto con la bola. Con 5.8 mm de grosor, ofrece velocidad entre la Appelgren Allplay y la Persson Powerplay, con control fantástico. Es ideal para jugadores ofensivos y allround agresivos que buscan precisión y sensación.",
+      "pros": [
+        "Excelente control y feedback gracias al mango Senso",
+        "Versátil para todos los golpes",
+        "Grosor moderado que da solidez sin rigidez excesiva"
+      ],
+      "cons": [
+        "Velocidad limitada para el remate en rallies largos",
+        "Se percibe 'hueca' para algunos jugadores"
+      ],
+      "imageUrl": "https://www.donic.com/media/6c/4f/08/1669040696/donic-blade_waldner_senso_v1-01-web.jpg?ts=1697464405",
+      "imageAlt": "Donic Waldner Senso V1",
+      "imageSource": "Donic (sitio oficial)",
+      "sourceUrl": "https://www.donic.com/en/DONIC-WALDNER-SENSO-V1/100227020",
+      "sourceName": "Donic (sitio oficial)",
+      "price": null
+    },
+    {
+      "name": "Timo Boll ZLC",
+      "brand": "Butterfly",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "90",
+        "layers": "7",
+        "composition": "5 capas de madera + ZLC (Zylon-carbon) + carbono",
+        "handle": "FL",
+        "speed": "11",
+        "control": "8",
+        "stiffness": "Rígido",
+        "thickness": "5.7",
+        "technology": "ZLC (Zylon + carbono)"
+      },
+      "scale": null,
+      "summary": "Madero ofensivo de alta velocidad con fibra ZLC que combina potencia con buena sensación de la pelota.",
+      "description": "El Timo Boll ZLC combina la velocidad del carbono con el control del Zylon, ofreciendo una respuesta elástica y viva en cada golpe. Diseñado para el juego ofensivo moderno del ex número 1 del mundo.",
+      "pros": [
+        "Alta velocidad y potencia ofensiva",
+        "Buena sensación y control para un madero rápido",
+        "Respuesta dinámica en drives y topspin"
+      ],
+      "cons": [
+        "Precio elevado",
+        "Requiere técnica sólida para controlarlo"
+      ],
+      "imageUrl": "https://revspin.net/images/blade/butterfly-timo-boll-zlc.jpg",
+      "imageAlt": "Timo Boll ZLC",
+      "imageSource": "Revspin",
+      "sourceUrl": "https://revspin.net/blade/butterfly-timo-boll-zlc.html",
+      "sourceName": "Revspin",
+      "price": null
+    },
+    {
+      "name": "Timo Boll Spirit",
+      "brand": "Butterfly",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "88",
+        "layers": "7",
+        "composition": "5 capas de madera + 2 capas de ALC (Arylate-carbon)",
+        "handle": "FL",
+        "speed": "10",
+        "control": "8",
+        "stiffness": "Medio-rígido",
+        "thickness": "5.8",
+        "technology": "ALC (Arylate + carbono)"
+      },
+      "scale": null,
+      "summary": "Clásico ofensivo con fibra ALC, balance equilibrado entre velocidad y control para el juego of elite.",
+      "description": "El Timo Boll Spirit fue el madero oficial de Timo Boll durante años. Su fibra ALC ofrece una mezcla muy apreciada de potencia, control y una zona dulce amplia, ideal para jugadores de nivel avanzado que buscan consistencia ofensiva.",
+      "pros": [
+        "Excelente equilibrio velocidad/control",
+        "Zona dulce amplia",
+        "Muy buena sensación de la pelota"
+      ],
+      "cons": [
+        "No tan rápido como versiones ZLC",
+        "Precio medio-alto"
+      ],
+      "imageUrl": "https://revspin.net/images/blade/butterfly-timo-boll-spirit.jpg",
+      "imageAlt": "Timo Boll Spirit",
+      "imageSource": "Revspin",
+      "sourceUrl": "https://revspin.net/blade/butterfly-timo-boll-spirit.html",
+      "sourceName": "Revspin",
+      "price": null
+    },
+    {
+      "name": "Zhang Jike ALC",
+      "brand": "Butterfly",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "89",
+        "layers": "7",
+        "composition": "5 capas de madera + 2 capas de ALC",
+        "handle": "FL",
+        "speed": "10",
+        "control": "8",
+        "stiffness": "Medio-rígido",
+        "thickness": "5.8",
+        "technology": "ALC (Arylate + carbono)"
+      },
+      "scale": null,
+      "summary": "Madero ofensivo de fibra ALC, versátil y estable, usado por el campeón olímpico Zhang Jike.",
+      "description": "El Zhang Jike ALC ofrece un rendimiento ofensivo dinámico con un control confiable. Su construcción ALC proporciona una buena combinación de velocidad y sensación, apta para juego de topspin y contragolpeo a alta intensidad.",
+      "pros": [
+        "Versatilidad en todos los golpes",
+        "Buen control para su velocidad",
+        "Estabilidad en juego rápido"
+      ],
+      "cons": [
+        "Exige buena técnica",
+        "Precio elevado"
+      ],
+      "imageUrl": "https://revspin.net/images/blade/butterfly-zhang-jike-alc.jpg",
+      "imageAlt": "Zhang Jike ALC",
+      "imageSource": "Revspin",
+      "sourceUrl": "https://revspin.net/blade/butterfly-zhang-jike-alc.html",
+      "sourceName": "Revspin",
+      "price": null
+    },
+    {
+      "name": "Zhang Jike ZLC",
+      "brand": "Butterfly",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "89",
+        "layers": "7",
+        "composition": "5 capas de madera + 2 capas de ZLC",
+        "handle": "FL",
+        "speed": "12",
+        "control": "7",
+        "stiffness": "Rígido",
+        "thickness": "5.7",
+        "technology": "ZLC (Zylon + carbono)"
+      },
+      "scale": null,
+      "summary": "Madero ofensivo muy rápido con fibra ZLC, pensado para el juego de potencia de élite.",
+      "description": "El Zhang Jike ZLC destaca por su gran velocidad y agresividad en el ataque. La fibra ZLC aporta una sensación elástica y reactiva ideal para el topspin potente, orientado a jugadores avanzados y profesionales.",
+      "pros": [
+        "Velocidad muy alta",
+        "Gran potencia en topspin",
+        "Respuesta reactiva"
+      ],
+      "cons": [
+        "Control reducido en comparación con ALC",
+        "Precio alto"
+      ],
+      "imageUrl": "https://revspin.net/images/blade/butterfly-zhang-jike-zlc.jpg",
+      "imageAlt": "Zhang Jike ZLC",
+      "imageSource": "Revspin",
+      "sourceUrl": "https://revspin.net/blade/butterfly-zhang-jike-zlc.html",
+      "sourceName": "Revspin",
+      "price": null
+    },
+    {
+      "name": "Innerforce ZLC",
+      "brand": "Butterfly",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "90",
+        "layers": "7",
+        "composition": "5 capas de madera + 2 capas de ZLC (capa interna)",
+        "handle": "FL",
+        "speed": "11",
+        "control": "8",
+        "stiffness": "Medio-rígido",
+        "thickness": "5.6",
+        "technology": "ZLC (Zylon + carbono) interna"
+      },
+      "scale": null,
+      "summary": "Madero ofensivo con fibra ZLC interna que ofrece control adicional y una sensación más de madera.",
+      "description": "El Innerforce ZLC coloca la fibra ZLC cerca del núcleo, brindando una sensación más tradicional y un mejor control sin sacrificar velocidad ofensiva. Es apreciado por jugadores que quieren potencia con mayor sensación del toque.",
+      "pros": [
+        "Sensación de madera natural",
+        "Mejor control que ZLC externo",
+        "Buena potencia ofensiva"
+      ],
+      "cons": [
+        "Velocidad menor que fibra externa",
+        "Precio elevado"
+      ],
+      "imageUrl": "https://revspin.net/images/blade/butterfly-innerforce-zlc.jpg",
+      "imageAlt": "Innerforce ZLC",
+      "imageSource": "Revspin",
+      "sourceUrl": "https://revspin.net/blade/butterfly-innerforce-zlc.html",
+      "sourceName": "Revspin",
+      "price": null
+    },
+    {
+      "name": "Petr Korbel",
+      "brand": "Butterfly",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "88",
+        "layers": "5",
+        "composition": "5 capas de madera (sin carbono)",
+        "handle": "FL",
+        "speed": "9",
+        "control": "9",
+        "stiffness": "Medio",
+        "thickness": "5.8",
+        "technology": "Madera de 5 capas"
+      },
+      "scale": null,
+      "summary": "Madero todo-madera clásico, muy versátil, excelente para aprendizaje y juego ofensivo de control.",
+      "description": "El Petr Korbel es uno de los maderos all-wood más populares de Butterfly, famoso por su versatilidad y equilibrio. Su construcción de 5 capas de madera ofrece una gran sensación de la pelota y es apto tanto para principiantes avanzados como para jugadores intermedios.",
+      "pros": [
+        "Muy versátil y equilibrado",
+        "Excelente sensación de la pelota",
+        "Relación calidad-precio"
+      ],
+      "cons": [
+        "Menos velocidad que maderos con fibra",
+        "No ideal para juego de máxima potencia"
+      ],
+      "imageUrl": "https://revspin.net/images/blade/butterfly-petr-korbel.jpg",
+      "imageAlt": "Petr Korbel",
+      "imageSource": "Revspin",
+      "sourceUrl": "https://revspin.net/blade/butterfly-petr-korbel.html",
+      "sourceName": "Revspin",
+      "price": null
+    },
+    {
+      "name": "Maze",
+      "brand": "Butterfly",
+      "category": "BLADE",
+      "attributes": {
+        "weight": "89",
+        "layers": "7",
+        "composition": "5 capas de madera + 2 capas de ALC",
+        "handle": "FL",
+        "speed": "10",
+        "control": "8",
+        "stiffness": "Medio-rígido",
+        "thickness": "5.8",
+        "technology": "ALC (Arylate + carbono)"
+      },
+      "scale": null,
+      "summary": "Madero ofensivo de fibra ALC, elegante y equilibrado, asociado al estilo de Joo Sae-hyuk.",
+      "description": "El Maze, llamado por el defensor de élite Joo Sae-hyuk, combina la fibra ALC con una construcción que favorece tanto el topspin ofensivo como el juego defensivo de precisión. Ofrece buena velocidad con una sensación refinada.",
+      "pros": [
+        "Equilibrio ofensivo-defensivo",
+        "Sensación refinada",
+        "Buen control"
+      ],
+      "cons": [
+        "Precio medio-alto",
+        "No tan rápido como ZLC"
+      ],
+      "imageUrl": "https://revspin.net/images/blade/butterfly-maze-passion.jpg",
+      "imageAlt": "Maze",
+      "imageSource": "Revspin",
+      "sourceUrl": "https://revspin.net/blade/butterfly-maze.html",
+      "sourceName": "Revspin",
+      "price": null
     }
   ]
 }
