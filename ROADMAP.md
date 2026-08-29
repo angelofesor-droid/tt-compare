@@ -82,5 +82,19 @@ Construir primero un producto **pequeño pero excelente**:
 ## Estado actual
 
 - [x] Fase 1: auditoría de entorno + documentos de arquitectura (2026-08-29)
-- [ ] Fase 2: inicialización técnica (siguiente)
-- [ ] Fases 3–13: pendientes
+- [x] Fase 2: inicialización técnica — Next.js 16 + TS + Tailwind + lint + build (2026-08-29)
+- [x] Fase 3: base de datos — PostgreSQL 17 + Prisma 7, migración init, seed idempotente (2026-08-29)
+- [x] Fase 4: categorías y atributos — modelo Category + AttributeDefinition, rutas /rubbers /blades /tables (2026-08-29)
+- [x] Fase 5: productos e imágenes — servicio CRUD, validación Zod, slug único, reglas de publicación (2026-08-29)
+- [x] Fase 6: panel administrativo — /admin protegido (cookie HMAC), dashboard, lista, formulario dinámico, duplicar, archivar, preview (2026-08-29)
+- [x] Fase 7: homepage y catálogo — ProductCard, grids, orden, paginación, destacados/recientes (2026-08-29)
+- [x] Fase 8: páginas individuales — galería, specs, pros/contras, fuentes, relacionados, metadata dinámica (2026-08-29)
+- [x] Fase 9: búsqueda y filtros — buscador global + filtros dinámicos por categoría (2026-08-29)
+- [x] Fase 10: comparador — selector 2–4, misma categoría obligatoria, tabla, vista móvil, URL limpia (2026-08-29)
+- [x] Fase 11: SEO — metadata, canonical, OG, Schema.org, sitemap dinámico, robots.txt (2026-08-29)
+- [x] Fase 12: testing — Vitest 20 tests (unit + integración): slug, validación, creación, comparación (2026-08-29)
+- [x] Fase 13: optimización — imágenes optimizadas, índices, paginación, componentes reutilizables, build de producción OK (2026-08-29)
+
+Pendiente (no bloqueante para el MVP): seed de catálogo real con información verificable
+(30 productos perfectamente documentados), E2E Playwright, revisión de accesibilidad con
+herramientas externas, deploy. Ver DEPLOYMENT.md.

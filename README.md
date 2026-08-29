@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TT Compare
 
-## Getting Started
+Comparador de equipamiento de tenis de mesa: **gomas, maderos y mesas** con características
+verificadas contra fuentes oficiales, fichas completas, filtros dinámicos y comparación
+lado a lado.
 
-First, run the development server:
+> Catálogo especializado + base de datos + comparador + guía de compra.
+> No es una tienda ni una demo: es un producto comercial real.
+
+## Stack
+
+| Capa | Tecnología |
+|---|---|
+| Frontend | Next.js 16 (App Router) · React 19 · TypeScript · Tailwind CSS 4 |
+| Backend | Next.js Server Components · Server Actions · Route Handlers |
+| Base de datos | PostgreSQL 17 · Prisma 7 (ORM) |
+| Validación | Zod |
+| Testing | Vitest (unit + integración) |
+| Lint | ESLint (config Next.js) |
+
+## Requisitos
+
+- Node.js ≥ 20.19 (recomendado 22+)
+- PostgreSQL 15+ (local) — en Windows: `winget install PostgreSQL.PostgreSQL.17`
+
+## Puesta en marcha (desarrollo)
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# 1. Instalar dependencias (genera el cliente Prisma vía postinstall)
+npm install
+
+# 2. Configurar variables de entorno
+cp .env.example .env
+#    → DATABASE_URL: postgresql://usuario:password@localhost:5432/tt_compare
+#    → ADMIN_PASSWORD: secreto del panel (openssl rand -base64 32)
+
+# 3. Crear BD + aplicar migraciones + seed (categorías, marcas, atributos, productos demo)
+createdb tt_compare          # o crea la BD con tu cliente de PostgreSQL
+npm run db:migrate           # crea las tablas
+npm run db:seed              # datos base + productos demo marcados como (demo)
+
+# 4. Arrancar
+npm run dev                  # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Panel admin: `http://localhost:3000/admin` (contraseña = `ADMIN_PASSWORD`).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Script | Descripción |
+|---|---|
+| `npm run dev` | Servidor de desarrollo |
+| `npm run build` | Build de producción |
+| `npm run start` | Servir build |
+| `npm run lint` | ESLint |
+| `npm run typecheck` | TypeScript sin emitir |
+| `npm test` | Vitest (unit + integración) |
+| `npm run db:migrate` | Prisma migrate dev |
+| `npm run db:deploy` | Prisma migrate deploy (producción) |
+| `npm run db:seed` | Seed idempotente |
+| `npm run db:studio` | Prisma Studio |
 
-## Learn More
+## Documentación
 
-To learn more about Next.js, take a look at the following resources:
+- [ARCHITECTURE.md](ARCHITECTURE.md) — arquitectura del sistema
+- [DATABASE.md](DATABASE.md) — modelo de datos
+- [ROADMAP.md](ROADMAP.md) — plan de desarrollo por fases
+- [SEO.md](SEO.md) — estrategia SEO
+- [SECURITY.md](SECURITY.md) — seguridad
+- [DEPLOYMENT.md](DEPLOYMENT.md) — despliegue
+- [IMAGE-SOURCES.md](docs/IMAGE-SOURCES.md) — política de imágenes del catálogo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Reglas del producto (resumen)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **El sistema primero, los datos después**: agregar un producto nuevo nunca requiere tocar código.
+2. **Atributos dinámicos por categoría**: los filtros y formularios se derivan de la base de datos.
+3. **No inventar datos**: falta información → "No disponible".
+4. **Escalas de fabricante no son comparables entre sí**: se conservan valor original + escala + fuente.
+5. **Imagen principal correcta y consistente** en todas las apariciones del producto.
+6. **Comparación solo dentro de la misma categoría** (goma vs goma, madero vs madero, mesa vs mesa).
 
-## Deploy on Vercel
+## Estado
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MVP funcional (Fases 1–12 del ROADMAP): catálogo, fichas, búsqueda, filtros dinámicos,
+comparador, panel admin protegido, SEO, testing y datos demo identificados.
+Ver [ROADMAP.md](ROADMAP.md) para el detalle y el estado de cada fase.

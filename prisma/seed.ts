@@ -1,5 +1,6 @@
 import "dotenv/config";
 import { PrismaClient } from "../src/generated/prisma/client";
+import { ProductStatus } from "../src/generated/prisma/enums";
 import { PrismaPg } from "@prisma/adapter-pg";
 
 const adapter = new PrismaPg({
@@ -113,6 +114,255 @@ const attributesByCategory: Record<string, Attr[]> = {
   ],
 };
 
+// ─────────────────────────── Productos demo ───────────────────────────
+// REGLA (master prompt §64): los datos demo deben estar CLARAMENTE identificados.
+// Estos productos NO son reales: son para probar el sistema. El nombre incluye "(demo)",
+// la imagen es un placeholder y la fuente dice "Datos demo".
+
+type DemoSpec = {
+  slug: string;
+  name: string;
+  brandSlug: string;
+  categoryKey: string;
+  summary: string;
+  description: string;
+  featured?: boolean;
+  price?: { amount: number; currency: string; source: string };
+  attributes: { key: string; value: string }[];
+  pros: string[];
+  cons: string[];
+};
+
+const demoProducts: DemoSpec[] = [
+  {
+    slug: "demo-goma-speed",
+    name: "Goma demo Speed (demo)",
+    brandSlug: "butterfly",
+    categoryKey: "RUBBER",
+    summary: "Producto DEMO de goma para probar el sistema. No es un producto real.",
+    description:
+      "Este es un producto de demostración creado por el seed de desarrollo. Sus datos no corresponden a ningún producto real y deben reemplazarse o eliminarse antes de usar el catálogo en producción.",
+    featured: true,
+    price: { amount: 45000, currency: "CLP", source: "Precio demo" },
+    attributes: [
+      { key: "thickness", value: "2.1" },
+      { key: "hardness", value: "45" },
+      { key: "speed", value: "8.5" },
+      { key: "spin", value: "8.0" },
+      { key: "control", value: "7.0" },
+      { key: "tackiness", value: "Medio" },
+      { key: "weight", value: "48" },
+      { key: "color", value: "Rojo" },
+      { key: "surfaceType", value: "Lisa" },
+      { key: "technology", value: "Tecnología demo" },
+    ],
+    pros: ["Producto demo para probar la ficha", "Velocidad media-alta"],
+    cons: ["NO es un producto real", "Solo para desarrollo"],
+  },
+  {
+    slug: "demo-goma-control",
+    name: "Goma demo Control (demo)",
+    brandSlug: "dhs",
+    categoryKey: "RUBBER",
+    summary: "Producto DEMO de goma de control para probar el sistema. No es real.",
+    description:
+      "Producto de demostración. Datos de ejemplo para validar filtros, comparación y fichas. Debe eliminarse antes de producción.",
+    attributes: [
+      { key: "thickness", value: "1.8" },
+      { key: "hardness", value: "38" },
+      { key: "speed", value: "6.0" },
+      { key: "spin", value: "7.0" },
+      { key: "control", value: "9.0" },
+      { key: "tackiness", value: "Alto" },
+      { key: "weight", value: "45" },
+      { key: "color", value: "Negro" },
+      { key: "surfaceType", value: "Lisa" },
+    ],
+    pros: ["Alto control", "Ideal para probar comparaciones"],
+    cons: ["Datos demo", "No comercializable"],
+  },
+  {
+    slug: "demo-madero-allround",
+    name: "Madero demo Allround (demo)",
+    brandSlug: "stiga",
+    categoryKey: "BLADE",
+    summary: "Producto DEMO de madero allround para probar el sistema. No es real.",
+    description: "Madero de demostración. Datos de ejemplo para probar la ficha de maderos.",
+    price: { amount: 38000, currency: "CLP", source: "Precio demo" },
+    attributes: [
+      { key: "weight", value: "85" },
+      { key: "layers", value: "5" },
+      { key: "composition", value: "Madera natural (demo)" },
+      { key: "handle", value: "FL" },
+      { key: "speed", value: "6" },
+      { key: "control", value: "8" },
+      { key: "stiffness", value: "5" },
+      { key: "flexibility", value: "Media" },
+      { key: "balance", value: "Neutro" },
+      { key: "thickness", value: "6.0" },
+    ],
+    pros: ["Balance clásico", "Demo completo de atributos"],
+    cons: ["Datos demo"],
+  },
+  {
+    slug: "demo-madero-offensive",
+    name: "Madero demo Offensive (demo)",
+    brandSlug: "joola",
+    categoryKey: "BLADE",
+    summary: "Producto DEMO de madero ofensivo para probar el sistema. No es real.",
+    description: "Madero de demostración para probar la comparación entre maderos.",
+    attributes: [
+      { key: "weight", value: "88" },
+      { key: "layers", value: "7" },
+      { key: "composition", value: "Madera + carbono (demo)" },
+      { key: "handle", value: "ST" },
+      { key: "speed", value: "9" },
+      { key: "control", value: "5" },
+      { key: "stiffness", value: "8" },
+      { key: "flexibility", value: "Baja" },
+      { key: "balance", value: "Hacia la punta" },
+      { key: "thickness", value: "6.5" },
+    ],
+    pros: ["Rápido", "Permite probar comparación de maderos"],
+    cons: ["Datos demo", "Difícil de controlar (demo)"],
+  },
+  {
+    slug: "demo-mesa-indoor",
+    name: "Mesa demo Indoor (demo)",
+    brandSlug: "andro",
+    categoryKey: "TABLE",
+    summary: "Producto DEMO de mesa indoor para probar el sistema. No es real.",
+    description: "Mesa de demostración para probar la ficha de mesas.",
+    price: { amount: 220000, currency: "CLP", source: "Precio demo" },
+    attributes: [
+      { key: "dimensions", value: "274 x 152.5 cm" },
+      { key: "thickness", value: "19" },
+      { key: "surface", value: "MDF lacado (demo)" },
+      { key: "weight", value: "75" },
+      { key: "indoorOutdoor", value: "Indoor" },
+      { key: "foldable", value: "true" },
+      { key: "wheels", value: "true" },
+      { key: "brakes", value: "true" },
+      { key: "storage", value: "Plegado vertical (demo)" },
+      { key: "certification", value: "ITTF (demo)" },
+    ],
+    pros: ["Certificación demo", "Plegable"],
+    cons: ["Datos demo"],
+  },
+  {
+    slug: "demo-mesa-outdoor",
+    name: "Mesa demo Outdoor (demo)",
+    brandSlug: "tibhar",
+    categoryKey: "TABLE",
+    summary: "Producto DEMO de mesa outdoor para probar el sistema. No es real.",
+    description: "Mesa de demostración para probar la comparación de mesas.",
+    attributes: [
+      { key: "dimensions", value: "274 x 152.5 cm" },
+      { key: "thickness", value: "14" },
+      { key: "surface", value: "Resina anti-UV (demo)" },
+      { key: "weight", value: "90" },
+      { key: "indoorOutdoor", value: "Outdoor" },
+      { key: "foldable", value: "true" },
+      { key: "wheels", value: "true" },
+      { key: "brakes", value: "false" },
+      { key: "certification", value: "ITTF (demo)" },
+    ],
+    pros: ["Resistente a la intemperie (demo)"],
+    cons: ["Datos demo", "Sin frenos"],
+  },
+];
+
+async function seedDemoProducts() {
+  const brands = await prisma.brand.findMany({ select: { id: true, slug: true } });
+  const categories = await prisma.category.findMany({ select: { id: true, key: true } });
+  const brandBySlug = new Map(brands.map((b) => [b.slug, b.id]));
+  const categoryByKey = new Map(categories.map((c) => [c.key, c.id]));
+
+  for (const spec of demoProducts) {
+    const brandId = brandBySlug.get(spec.brandSlug);
+    const categoryId = categoryByKey.get(spec.categoryKey);
+    if (!brandId || !categoryId) {
+      console.warn(`⚠ Demo ${spec.slug}: falta marca o categoría, se omite.`);
+      continue;
+    }
+
+    const existing = await prisma.product.findUnique({ where: { slug: spec.slug } });
+    if (existing) {
+      console.log(`· Demo ya existe: ${spec.slug}`);
+      continue;
+    }
+
+    // Resolver definiciones de atributos de la categoría
+    const defs = await prisma.attributeDefinition.findMany({
+      where: { categoryId },
+      select: { id: true, key: true },
+    });
+    const defByKey = new Map(defs.map((d) => [d.key, d.id]));
+
+    await prisma.product.create({
+      data: {
+        name: spec.name,
+        slug: spec.slug,
+        brandId,
+        categoryId,
+        summary: spec.summary,
+        description: spec.description,
+        status: ProductStatus.PUBLISHED,
+        publishedAt: new Date(),
+        featured: spec.featured ?? false,
+        images: {
+          create: [
+            {
+              url: `https://placehold.co/600x600/0f2b46/ffffff.png?text=${encodeURIComponent(spec.name.split(" (demo)")[0])}`,
+              alt: `Imagen placeholder del producto demo ${spec.name}`,
+              source: "Datos demo — no es una imagen real",
+              sourceUrl: "https://example.com/demo",
+              kind: "PRODUCT",
+              isPrimary: true,
+              sortOrder: 0,
+            },
+          ],
+        },
+        sources: {
+          create: [
+            {
+              kind: "RELIABLE",
+              name: "Datos demo (no reales)",
+              url: "https://example.com/demo",
+              consultedAt: new Date(),
+            },
+          ],
+        },
+        attributes: {
+          create: spec.attributes.map((a, idx) => {
+            const attributeId = defByKey.get(a.key);
+            if (!attributeId) {
+              console.warn(`⚠ Demo ${spec.slug}: atributo desconocido '${a.key}', se omite.`);
+              return undefined as never;
+            }
+            return {
+              attributeId,
+              value: a.value,
+              source: "Demo",
+              sortOrder: idx,
+            };
+          }).filter(Boolean),
+        },
+        prosCons: {
+          create: [
+            ...spec.pros.map((text, idx) => ({ kind: "PRO" as const, text, sortOrder: idx })),
+            ...spec.cons.map((text, idx) => ({ kind: "CON" as const, text, sortOrder: idx })),
+          ],
+        },
+        prices: spec.price
+          ? { create: { amount: spec.price.amount, currency: spec.price.currency, source: spec.price.source } }
+          : undefined,
+      },
+    });
+    console.log(`✔ Producto demo: ${spec.name}`);
+  }
+}
+
 // ─────────────────────────── Seed ───────────────────────────
 
 async function main() {
@@ -169,6 +419,7 @@ async function main() {
   }
 
   console.log("\nSeed completado. Categorías, marcas y atributos listos.");
+  await seedDemoProducts();
 }
 
 main()
