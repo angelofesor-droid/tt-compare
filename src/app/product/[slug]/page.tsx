@@ -86,7 +86,9 @@ export default async function ProductPage({ params }: PageProps) {
 
         {/* Info principal */}
         <div>
-          <p className="text-xs font-bold uppercase tracking-[0.18em] text-accent">{product.brand.name}</p>
+          <Link href={`/marcas/${product.brand.slug}`} className="text-xs font-bold uppercase tracking-[0.18em] text-accent transition hover:text-accent-hi">
+            {product.brand.name}
+          </Link>
           <h1 className="mt-2 text-3xl font-bold leading-tight tracking-tight text-ink sm:text-4xl">{product.name}</h1>
           <p className="mt-1 text-sm text-ink-low">{product.category.name}</p>
 

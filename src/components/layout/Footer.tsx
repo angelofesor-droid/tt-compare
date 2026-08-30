@@ -24,6 +24,9 @@ export default function Footer() {
             <Link href="/rubbers" className="transition hover:text-ink">Gomas</Link>
             <Link href="/blades" className="transition hover:text-ink">Maderos</Link>
             <Link href="/tables" className="transition hover:text-ink">Mesas</Link>
+            <Link href="/balls" className="transition hover:text-ink">Pelotas</Link>
+            <Link href="/marcas" className="transition hover:text-ink">Marcas</Link>
+            <Link href="/guias" className="transition hover:text-ink">Guías</Link>
             <Link href="/compare" className="transition hover:text-ink">Comparar</Link>
           </nav>
         </div>

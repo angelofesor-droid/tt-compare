@@ -39,6 +39,33 @@ const categories = [
       "Mesas de tenis de mesa: indoor y outdoor, plegables, con ruedas y certificación ITTF.",
     sortOrder: 3,
   },
+  {
+    key: "BALL",
+    name: "Pelota",
+    namePlural: "Pelotas",
+    slug: "balls",
+    description:
+      "Pelotas de tenis de mesa: clasificación ITTF, calidad y rebote para juego reglamentario y entrenamiento.",
+    sortOrder: 4,
+  },
+  {
+    key: "BAG",
+    name: "Funda",
+    namePlural: "Fundas",
+    slug: "bags",
+    description:
+      "Fundas y estuches de tenis de mesa para raquetas y accesorios: protección y transporte.",
+    sortOrder: 5,
+  },
+  {
+    key: "GLUE",
+    name: "Pegamento",
+    namePlural: "Pegamentos",
+    slug: "glues",
+    description:
+      "Pegamentos y adhesivos para gomas de tenis de mesa: agua, VOC libre y soluciones de pegado.",
+    sortOrder: 6,
+  },
 ] as const;
 
 // ─────────────────────────── Marcas ───────────────────────────
@@ -115,6 +142,27 @@ const attributesByCategory: Record<string, Attr[]> = {
     { key: "brakes", name: "Frenos", valueType: "BOOLEAN", filterable: true, sortOrder: 8 },
     { key: "storage", name: "Sistema de almacenamiento", valueType: "TEXT", sortOrder: 9 },
     { key: "certification", name: "Certificación", valueType: "TEXT", filterable: true, sortOrder: 10 },
+  ],
+  BALL: [
+    { key: "diameter", name: "Diámetro", valueType: "NUMBER", unit: "mm", filterable: true, showOnCard: true, sortOrder: 1 },
+    { key: "stars", name: "Clasificación ITTF", valueType: "ENUM", options: ["1 estrella", "2 estrellas", "3 estrellas"], filterable: true, showOnCard: true, sortOrder: 2 },
+    { key: "weight", name: "Peso", valueType: "NUMBER", unit: "g", filterable: true, sortOrder: 3 },
+    { key: "color", name: "Color", valueType: "ENUM", options: ["Blanca", "Naranja", "Multicolor"], sortOrder: 4 },
+    { key: "material", name: "Material", valueType: "TEXT", sortOrder: 5 },
+    { key: "packSize", name: "Cantidad", valueType: "NUMBER", unit: "pelotas", sortOrder: 6 },
+  ],
+  BAG: [
+    { key: "type", name: "Tipo", valueType: "ENUM", options: ["Funda", "Blíster", "Caja", "Mochila"], filterable: true, showOnCard: true, sortOrder: 1 },
+    { key: "capacity", name: "Capacidad", valueType: "TEXT", showOnCard: true, sortOrder: 2 },
+    { key: "material", name: "Material", valueType: "TEXT", sortOrder: 3 },
+    { key: "dimensions", name: "Dimensiones", valueType: "TEXT", sortOrder: 4 },
+    { key: "features", name: "Características", valueType: "TEXT", sortOrder: 5 },
+  ],
+  GLUE: [
+    { key: "type", name: "Tipo", valueType: "ENUM", options: ["Agua (VOC libre)", "VOC", "Secado rápido", "No-pegado"], filterable: true, showOnCard: true, sortOrder: 1 },
+    { key: "dryingTime", name: "Tiempo de secado", valueType: "TEXT", showOnCard: true, sortOrder: 2 },
+    { key: "application", name: "Aplicación", valueType: "TEXT", sortOrder: 3 },
+    { key: "size", name: "Contenido", valueType: "TEXT", sortOrder: 4 },
   ],
 };
 
