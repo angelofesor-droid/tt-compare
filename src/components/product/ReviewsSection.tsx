@@ -4,7 +4,7 @@ import { getProductReviewSummary, getProductReviews } from "@/lib/services/revie
 function Stars({ rating }: { rating: number }) {
   const full = Math.round(rating);
   return (
-    <span className="inline-flex items-center gap-0.5" aria-label={`${rating} de 5 estrellas`}>
+    <span role="img" className="inline-flex items-center gap-0.5" aria-label={`${rating} de 5 estrellas`}>
       {[1, 2, 3, 4, 5].map((n) => (
         <svg
           key={n}

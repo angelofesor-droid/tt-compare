@@ -57,9 +57,9 @@ export default async function BrandPage({ params }: PageProps) {
       </nav>
 
       <div className="flex items-center gap-4">
-        <span className="text-3xl font-extrabold uppercase tracking-[0.06em] text-ink">
+        <h1 className="text-3xl font-extrabold uppercase tracking-[0.06em] text-ink">
           {brand.name}
-        </span>
+        </h1>
         <span className="rounded-full border border-accent-line px-2.5 py-0.5 text-xs font-semibold tabular-nums text-accent">
           {brand.products.length} productos
         </span>
