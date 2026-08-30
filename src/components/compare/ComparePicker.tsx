@@ -23,6 +23,17 @@ export default function ComparePicker({ products }: { products: PickableProduct[
   const bySlug = useMemo(() => new Map(products.map((p) => [p.slug, p])), [products]);
   const selectedProducts = selected.map((s) => bySlug.get(s)!).filter(Boolean);
 
+  // Agrupa los productos por categoría para mostrarlos en secciones
+  const grouped = useMemo(() => {
+    const map = new Map<string, { name: string; items: PickableProduct[] }>();
+    for (const p of products) {
+      const group = map.get(p.categoryKey) ?? { name: p.categoryName, items: [] };
+      group.items.push(p);
+      map.set(p.categoryKey, group);
+    }
+    return Array.from(map.values());
+  }, [products]);
+
   // Preselección inicial: combina el slug de la URL (?a=) con la selección persistida.
   useEffect(() => {
     const fromUrl = new URLSearchParams(window.location.search).get("a");
@@ -107,40 +118,47 @@ export default function ComparePicker({ products }: { products: PickableProduct[
         </button>
       </div>
 
-      {/* Grid seleccionable */}
-      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-        {products.map((p) => {
-          const isSelected = selected.includes(p.slug);
-          return (
-            <button
-              key={p.id}
-              onClick={() => toggle(p.slug)}
-              aria-pressed={isSelected}
-              className={`object-card group relative overflow-hidden text-left transition ${
-                isSelected ? "border-accent-line shadow-[0_0_0_1px_rgba(232,123,63,0.35)]" : ""
-              }`}
-            >
-              <div className="relative m-2 aspect-square overflow-hidden rounded-lg bg-deep shadow-[inset_0_1px_0_rgba(255,255,255,0.04)]">
-                {p.image ? (
-                  <Image src={p.image.url} alt={p.image.alt ?? p.name} fill sizes="(max-width: 640px) 50vw, 25vw" className="object-contain p-2" />
-                ) : (
-                  <span className="flex h-full items-center justify-center text-xs text-ink-faint">Sin imagen</span>
-                )}
-                {isSelected && (
-                  <span className="absolute right-2 top-2 flex h-6 w-6 items-center justify-center rounded-full bg-accent text-xs font-bold text-deep shadow">
-                    ✓
-                  </span>
-                )}
-              </div>
-              <div className="px-3 pb-3">
-                <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-accent">{p.brand}</p>
-                <p className="text-sm font-medium leading-snug text-ink">{p.name}</p>
-                <p className="mt-0.5 text-xs text-ink-faint">{p.categoryName}</p>
-              </div>
-            </button>
-          );
-        })}
-      </div>
+      {/* Productos agrupados por categoría */}
+      {grouped.map((group) => (
+        <section key={group.name} aria-label={group.name} className="mb-10">
+          <div className="mb-4 flex items-baseline gap-3 border-b border-metal/60 pb-2">
+            <h2 className="sec-label">{group.name}</h2>
+            <span className="text-xs tabular-nums text-ink-faint">{group.items.length} productos</span>
+          </div>
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+            {group.items.map((p) => {
+              const isSelected = selected.includes(p.slug);
+              return (
+                <button
+                  key={p.id}
+                  onClick={() => toggle(p.slug)}
+                  aria-pressed={isSelected}
+                  className={`object-card group relative overflow-hidden text-left transition ${
+                    isSelected ? "border-accent-line shadow-[0_0_0_1px_rgba(232,123,63,0.35)]" : ""
+                  }`}
+                >
+                  <div className="relative m-2 aspect-square overflow-hidden rounded-lg bg-deep shadow-[inset_0_1px_0_rgba(255,255,255,0.04)]">
+                    {p.image ? (
+                      <Image src={p.image.url} alt={p.image.alt ?? p.name} fill sizes="(max-width: 640px) 50vw, 25vw" className="object-contain p-2" />
+                    ) : (
+                      <span className="flex h-full items-center justify-center text-xs text-ink-faint">Sin imagen</span>
+                    )}
+                    {isSelected && (
+                      <span className="absolute right-2 top-2 flex h-6 w-6 items-center justify-center rounded-full bg-accent text-xs font-bold text-deep shadow">
+                        ✓
+                      </span>
+                    )}
+                  </div>
+                  <div className="px-3 pb-3">
+                    <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-accent">{p.brand}</p>
+                    <p className="text-sm font-medium leading-snug text-ink">{p.name}</p>
+                  </div>
+                </button>
+              );
+            })}
+          </div>
+        </section>
+      ))}
 
       {products.length === 0 && (
         <p className="panel p-8 text-center text-sm text-ink-low">

@@ -20,8 +20,7 @@ export default async function ComparePage() {
       category: true,
       images: { where: { isPrimary: true }, take: 1 },
     },
-    orderBy: [{ category: { sortOrder: "asc" } }, { updatedAt: "desc" }],
-    take: 60,
+    orderBy: [{ category: { sortOrder: "asc" } }, { brand: { name: "asc" } }, { name: "asc" }],
   });
 
   return (
