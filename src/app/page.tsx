@@ -50,7 +50,7 @@ export default async function HomePage() {
     <div>
       {/* Composición editorial de entrada */}
       <section className="relative overflow-hidden border-b border-metal">
-        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(900px_420px_at_70%_-10%,rgba(232,123,63,0.08),transparent_60%)]" />
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(900px_420px_at_70%_-10%,rgba(0,195,255,0.08),transparent_60%)]" />
         <div className="mx-auto max-w-7xl px-4 pb-10 pt-14 sm:px-6 sm:pt-20">
           <p className="sec-label mb-6">Catálogo técnico · Base de datos · Comparador</p>
           <h1 className="max-w-3xl text-4xl font-bold leading-[1.05] tracking-tight text-ink sm:text-6xl">
