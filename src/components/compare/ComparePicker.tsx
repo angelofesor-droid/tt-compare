@@ -165,7 +165,7 @@ export default function ComparePicker({ products }: { products: PickableProduct[
                   onClick={() => toggle(p.slug)}
                   aria-pressed={isSelected}
                   className={`object-card group relative overflow-hidden text-left transition ${
-                    isSelected ? "border-accent-line shadow-[0_0_0_1px_rgba(0,195,255,0.4)]" : ""
+                    isSelected ? "border-accent-line shadow-[0_0_0_1px_rgba(232,123,63,0.35)]" : ""
                   }`}
                 >
                   <div className="relative m-2 aspect-square overflow-hidden rounded-lg bg-deep shadow-[inset_0_1px_0_rgba(255,255,255,0.04)]">

@@ -27,7 +27,7 @@ export interface RadarProduct {
   color: string;
 }
 
-const PALETTE = ["#00c3ff", "#ff7b6b", "#4cd3a0", "#b08aff"];
+const PALETTE = ["#e87b3f", "#5aa7d6", "#7bc98d", "#c08ad9"];
 
 export default function RadarComparison({
   rows,

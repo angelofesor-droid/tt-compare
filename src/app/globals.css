@@ -1,46 +1,46 @@
 @import "tailwindcss";
 
 /* ═══════════════════════════════════════════════════════════
-   ZONA TENIS DE MESA — Identidad visual (v2 espacial)
-   Modernist Grid × Skeuomorfismo moderno
-   Fondo: azul noche profundo con estrellas. Acento cian brillante.
+   ZONA TENIS DE MESA — Identidad visual
+   Modernist Grid × Modern Skeuomorphism
+   Fondo: estudio fotográfico gris carbón. Acento solo jerarquía.
    ═══════════════════════════════════════════════════════════ */
 
 :root {
-  /* Fondo espacial */
-  --bg-charcoal: #0b1120;        /* azul noche profundo */
-  --bg-graphite: #111a2c;
-  --bg-deep: #0a0f1c;
+  /* Fondo de estudio */
+  --bg-charcoal: #171a1e;
+  --bg-graphite: #1e2228;
+  --bg-deep: #14171a;
 
   /* Superficies */
-  --surface: #182338;            /* panel azul oscuro */
-  --surface-raised: #1d2a42;
-  --surface-pressed: #141e33;
-  --surface-inset: #0f1728;      /* campos hundidos */
+  --surface: #262b31;        /* panel grafito mate */
+  --surface-raised: #2d333a; /* tarjeta elevada */
+  --surface-pressed: #1f242a;
+  --surface-inset: #1b1f24;  /* campos hundidos */
 
-  /* Bordes / metales azulados */
-  --line-metal: #27334d;
-  --line-metal-light: #35456a;
-  --line-highlight: rgba(255, 255, 255, 0.06);
-  --line-shadow: rgba(0, 0, 0, 0.5);
+  /* Bordes / metales */
+  --line-metal: #3a414a;
+  --line-metal-light: #464e58;
+  --line-highlight: rgba(255, 255, 255, 0.07);
+  --line-shadow: rgba(0, 0, 0, 0.45);
 
   /* Texto */
-  --text-hi: #eef4ff;            /* blanco azulado */
-  --text-mid: #b6c5e0;           /* gris azulado claro */
-  --text-low: #7f8fb0;           /* gris azulado medio */
-  --text-faint: #56648a;
+  --text-hi: #f2f4f6;        /* blanco roto */
+  --text-mid: #a8b0b9;       /* gris claro */
+  --text-low: #6b7380;       /* gris medio */
+  --text-faint: #4a515b;
 
-  /* Acento: cian brillante espacial */
-  --accent: #00c3ff;
-  --accent-hi: #38d2ff;
-  --accent-deep: #0095c4;
-  --accent-wash: rgba(0, 195, 255, 0.12);
-  --accent-line: rgba(0, 195, 255, 0.45);
+  /* Acento (jerarquía, no decoración) */
+  --accent: #e87b3f;         /* naranja técnico cálido, premium */
+  --accent-hi: #f0905a;
+  --accent-deep: #b85f2c;
+  --accent-wash: rgba(232, 123, 63, 0.14);
+  --accent-line: rgba(232, 123, 63, 0.45);
 
   /* Estados */
-  --ok: #4cd3a0;
-  --warn: #e0b54a;
-  --danger: #e26a6a;
+  --ok: #57b58c;
+  --warn: #d9a441;
+  --danger: #cf5d5d;
 
   --radius-panel: 14px;
   --radius-card: 12px;
@@ -78,15 +78,7 @@ html {
 
 body {
   background:
-    /* estrellas sutiles */
-    radial-gradient(1px 1px at 18% 22%, rgba(255, 255, 255, 0.55), transparent),
-    radial-gradient(1px 1px at 72% 12%, rgba(255, 255, 255, 0.4), transparent),
-    radial-gradient(1.4px 1.4px at 86% 58%, rgba(255, 255, 255, 0.45), transparent),
-    radial-gradient(1px 1px at 38% 78%, rgba(255, 255, 255, 0.35), transparent),
-    radial-gradient(1px 1px at 58% 42%, rgba(255, 255, 255, 0.3), transparent),
-    radial-gradient(1.2px 1.2px at 92% 28%, rgba(255, 255, 255, 0.35), transparent),
-    /* halo cian superior */
-    radial-gradient(1100px 520px at 50% -8%, rgba(0, 195, 255, 0.07), transparent 60%),
+    radial-gradient(1200px 600px at 50% -10%, rgba(255, 255, 255, 0.025), transparent 60%),
     var(--bg-charcoal);
   color: var(--text-hi);
   font-family: var(--font-geist-sans), "Segoe UI", Arial, sans-serif;
@@ -108,32 +100,32 @@ body {
 /* ── Scrollbar sutil ── */
 ::-webkit-scrollbar { width: 10px; height: 10px; }
 ::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: #27334d; border-radius: 8px; border: 2px solid var(--bg-charcoal); }
-::-webkit-scrollbar-thumb:hover { background: #35456a; }
+::-webkit-scrollbar-thumb { background: #353b43; border-radius: 8px; border: 2px solid var(--bg-charcoal); }
+::-webkit-scrollbar-thumb:hover { background: #434b55; }
 
 /* ═══════════════ Componentes skeuomórficos modernos ═══════════════ */
 
 @layer components {
-  /* Panel: placa azul oscura con bisel sutil */
+  /* Panel: placa de grafito mate con bisel sutil */
   .panel {
-    background: linear-gradient(180deg, #1b2740 0%, #161f36 100%);
+    background: linear-gradient(180deg, #2b3138 0%, #24292f 100%);
     border: 1px solid var(--line-metal);
     border-radius: var(--radius-panel);
     box-shadow:
       inset 0 1px 0 var(--line-highlight),
       inset 0 -1px 0 rgba(0, 0, 0, 0.35),
-      0 1px 2px rgba(0, 0, 0, 0.5);
+      0 1px 2px rgba(0, 0, 0, 0.45);
   }
 
   /* Tarjeta de producto: objeto técnico colocado sobre la superficie */
   .object-card {
-    background: linear-gradient(180deg, #1e2b45 0%, #18233b 100%);
+    background: linear-gradient(180deg, #2e343b 0%, #282d33 100%);
     border: 1px solid var(--line-metal);
     border-radius: var(--radius-card);
     box-shadow:
       inset 0 1px 0 rgba(255, 255, 255, 0.05),
-      0 1px 2px rgba(0, 0, 0, 0.45),
-      0 4px 12px rgba(0, 0, 0, 0.3);
+      0 1px 2px rgba(0, 0, 0, 0.4),
+      0 4px 12px rgba(0, 0, 0, 0.25);
     transition:
       transform 180ms ease,
       box-shadow 180ms ease,
@@ -144,9 +136,9 @@ body {
     border-color: var(--line-metal-light);
     box-shadow:
       inset 0 1px 0 rgba(255, 255, 255, 0.07),
-      0 3px 6px rgba(0, 0, 0, 0.5),
-      0 10px 24px rgba(0, 0, 0, 0.4),
-      0 0 0 1px rgba(0, 195, 255, 0.14);
+      0 3px 6px rgba(0, 0, 0, 0.45),
+      0 10px 24px rgba(0, 0, 0, 0.35),
+      0 0 0 1px rgba(232, 123, 63, 0.12);
   }
 
   /* Campo hundido: buscador, inputs */
@@ -155,7 +147,7 @@ body {
     border: 1px solid var(--line-metal);
     border-radius: var(--radius-ctl);
     box-shadow:
-      inset 0 2px 4px rgba(0, 0, 0, 0.5),
+      inset 0 2px 4px rgba(0, 0, 0, 0.45),
       inset 0 1px 0 rgba(0, 0, 0, 0.3);
     transition: border-color 180ms ease, box-shadow 180ms ease;
   }
@@ -165,8 +157,8 @@ body {
   .well:focus-within {
     border-color: var(--accent-line);
     box-shadow:
-      inset 0 2px 4px rgba(0, 0, 0, 0.5),
-      0 0 0 3px rgba(0, 195, 255, 0.15);
+      inset 0 2px 4px rgba(0, 0, 0, 0.45),
+      0 0 0 3px rgba(232, 123, 63, 0.15);
   }
 
   /* Botón: goma técnica / metal oscuro con bisel y estado pressed */
@@ -195,15 +187,15 @@ body {
   .ctl-primary {
     background: linear-gradient(180deg, var(--accent-hi) 0%, var(--accent) 45%, var(--accent-deep) 100%);
     border: 1px solid var(--accent-deep);
-    color: #05242e;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+    color: #1a110a;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.15);
     box-shadow:
       inset 0 1px 0 rgba(255, 255, 255, 0.35),
       inset 0 -1px 0 rgba(0, 0, 0, 0.25),
       0 1px 2px rgba(0, 0, 0, 0.5);
   }
   .ctl-primary:hover {
-    background: linear-gradient(180deg, #54d8ff 0%, var(--accent-hi) 45%, var(--accent) 100%);
+    background: linear-gradient(180deg, #f49a62 0%, var(--accent-hi) 45%, var(--accent) 100%);
     box-shadow:
       inset 0 1px 0 rgba(255, 255, 255, 0.4),
       inset 0 -1px 0 rgba(0, 0, 0, 0.25),
@@ -222,43 +214,43 @@ body {
   }
 
   .ctl-ghost {
-    background: linear-gradient(180deg, #203049 0%, #1a2640 100%);
+    background: linear-gradient(180deg, #333a42 0%, #2a3037 100%);
     border: 1px solid var(--line-metal-light);
     color: var(--text-hi);
     box-shadow:
       inset 0 1px 0 rgba(255, 255, 255, 0.08),
-      0 1px 2px rgba(0, 0, 0, 0.45);
+      0 1px 2px rgba(0, 0, 0, 0.4);
   }
   .ctl-ghost:hover {
-    background: linear-gradient(180deg, #263a58 0%, #1e2c4a 100%);
-    border-color: #41557c;
+    background: linear-gradient(180deg, #3a424b 0%, #313840 100%);
+    border-color: #545e69;
   }
   .ctl-ghost:active {
-    background: linear-gradient(180deg, #1a243c 0%, #202c48 100%);
+    background: linear-gradient(180deg, #282e35 0%, #2e353c 100%);
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.35);
   }
 
-  /* Comparar: control técnico en tono cian/azul */
+  /* Comparar: control técnico reconocible, elegante */
   .ctl-compare {
-    background: linear-gradient(180deg, #0e2a3a 0%, #0a2130 100%);
-    border: 1px solid #15566e;
-    color: #7ee0ff;
+    background: linear-gradient(180deg, #3d3a34 0%, #322f29 100%);
+    border: 1px solid #554d40;
+    color: #f0b98a;
     box-shadow:
       inset 0 1px 0 rgba(255, 255, 255, 0.1),
       inset 0 -1px 0 rgba(0, 0, 0, 0.4),
       0 1px 2px rgba(0, 0, 0, 0.45);
   }
   .ctl-compare:hover {
-    background: linear-gradient(180deg, #123a4e 0%, #0c2c3f 100%);
-    border-color: #1d7ea8;
-    color: #a6eaff;
+    background: linear-gradient(180deg, #4a453c 0%, #3a3630 100%);
+    border-color: #6a5f4e;
+    color: #ffd2a6;
   }
   .ctl-compare:active {
-    background: linear-gradient(180deg, #081c28 0%, #0b2637 100%);
+    background: linear-gradient(180deg, #2e2b26 0%, #353129 100%);
     box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.5);
   }
 
-  /* Divisor: metal azulado muy fino */
+  /* Divisor: metal oscuro muy fino */
   .metal-divider {
     height: 1px;
     background: linear-gradient(90deg, transparent, var(--line-metal-light) 20%, var(--line-metal-light) 80%, transparent);
@@ -272,7 +264,7 @@ body {
     gap: 0.3rem;
     border-radius: 999px;
     border: 1px solid var(--line-metal);
-    background: linear-gradient(180deg, #1d2a42, #182338);
+    background: linear-gradient(180deg, #2d333a, #262b31);
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
     font-size: 0.72rem;
     font-weight: 500;
@@ -284,11 +276,11 @@ body {
   .spec-plate {
     border-radius: var(--radius-panel);
     border: 1px solid var(--line-metal);
-    background: linear-gradient(180deg, #161f36 0%, #121a2d 100%);
+    background: linear-gradient(180deg, #24292f 0%, #20242a 100%);
     box-shadow:
       inset 0 1px 0 rgba(255, 255, 255, 0.05),
       inset 0 -1px 0 rgba(0, 0, 0, 0.35),
-      0 1px 2px rgba(0, 0, 0, 0.45);
+      0 1px 2px rgba(0, 0, 0, 0.4);
     overflow: hidden;
   }
   .spec-plate-row {
@@ -340,8 +332,8 @@ body {
     height: 1.05rem;
     border-radius: 5px;
     border: 1px solid var(--line-metal-light);
-    background: linear-gradient(180deg, #203049, #1a2640);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.07), 0 1px 2px rgba(0, 0, 0, 0.45);
+    background: linear-gradient(180deg, #333a42, #2a3037);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.07), 0 1px 2px rgba(0, 0, 0, 0.4);
     display: inline-grid;
     place-content: center;
     cursor: pointer;
@@ -355,27 +347,27 @@ body {
     content: "✓";
     font-size: 0.7rem;
     font-weight: 800;
-    color: #05242e;
+    color: #1a110a;
   }
 
   /* Select skeuomórfico */
   .ctl-select {
     appearance: none;
     background:
-      linear-gradient(180deg, #203049 0%, #1a2640 100%),
+      linear-gradient(180deg, #333a42 0%, #2a3037 100%),
       var(--surface);
     border: 1px solid var(--line-metal-light);
     border-radius: var(--radius-ctl);
     color: var(--text-hi);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.07), 0 1px 2px rgba(0, 0, 0, 0.45);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.07), 0 1px 2px rgba(0, 0, 0, 0.4);
     padding: 0.5rem 2.2rem 0.5rem 0.75rem;
     font-size: 0.85rem;
     cursor: pointer;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23b6c5e0' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23a8b0b9' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: right 0.7rem center;
   }
-  .ctl-select:hover { border-color: #41557c; }
+  .ctl-select:hover { border-color: #545e69; }
   .ctl-select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
   /* Input en campo hundido */
@@ -406,6 +398,6 @@ body::before {
   inset: 0;
   pointer-events: none;
   z-index: 0;
-  opacity: 0.3;
+  opacity: 0.35;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3CfeComponentTransfer%3E%3CfeFuncA type='linear' slope='0.035'/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }

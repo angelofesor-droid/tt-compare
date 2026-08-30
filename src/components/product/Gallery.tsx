@@ -48,7 +48,7 @@ export default function Gallery({ images, name }: { images: GalleryImage[]; name
               onClick={() => setActive(idx)}
               className={`relative h-16 w-16 shrink-0 overflow-hidden rounded-lg border transition ${
                 idx === active
-                  ? "border-accent shadow-[0_0_0_3px_rgba(0,195,255,0.18)]"
+                  ? "border-accent shadow-[0_0_0_3px_rgba(232,123,63,0.15)]"
                   : "border-metal opacity-60 hover:opacity-100"
               } bg-deep`}
             >
