@@ -6772,6 +6772,888 @@
       "sourceUrl": "https://butterflyaustralia.com/products/franziska-innerforce-alc",
       "sourceName": "Butterfly Australia (distribuidor oficial)",
       "price": null
+    },
+    {
+      "name": "Yasaka Rakza XX",
+      "brand": "Yasaka",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "98",
+        "spin": "95",
+        "control": "67",
+        "thickness": "2.0 / Max",
+        "hardness": "50° ESN",
+        "color": "Rojo / Negro",
+        "tackiness": "No pegajosa (grippy)",
+        "surfaceType": "Invertida (smooth)",
+        "technology": "Tensor de alta velocidad: esponja dura con grandes burbujas de aire que se comprimen para un efecto catapulta, top lámina con alto contenido de caucho natural para más efecto."
+      },
+      "scale": null,
+      "summary": "Goma invertida tensor muy rápida para jugadores avanzados. Esponja dura con burbujas de aire grandes que otorgan un potente efecto catapulta, logrando velocidad explosiva manteniendo fuerte efecto y alta estabilidad.",
+      "description": "Rakza XX es la última versión de la exitosa serie Rakza. Aunque la esponja está hecha de un caucho más duro, se deforma con facilidad gracias a sus grandes burbujas de aire: estas se comprimen al contacto con la pelota y transfieren la energía en una liberación estable y un golpe más potente. La capa superior, como en el resto de la serie, tiene una alta proporción de caucho natural que mejora la generación de efecto. El resultado es un rendimiento de velocidad increíble con fuerte efecto y alta estabilidad. Según Megaspin: Velocidad 98, Efecto 95, Control 67 (escala 0-100).",
+      "pros": [
+        "Velocidad explosiva con fuerte efecto catapulta",
+        "Excelente equilibrio velocidad-efecto-estabilidad",
+        "Alto potencial de potencia en topspin y remates",
+        "Ángulo de salida medio que favorece el control de trayectoria"
+      ],
+      "cons": [
+        "Diseñada para jugadores avanzados/ofensivos",
+        "Esponja dura que exige técnica y energía",
+        "Control menor en juego corto comparado con gomas más suaves"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_y-rakza-xx.jpg",
+      "imageAlt": "Yasaka Rakza XX",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=y-rakza-xx",
+      "sourceName": "Megaspin",
+      "price": {
+        "amount": 49990.0,
+        "currency": "CLP",
+        "source": "Precio referencial"
+      }
+    },
+    {
+      "name": "Yasaka Rakza Z",
+      "brand": "Yasaka",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "90",
+        "spin": "97",
+        "control": "70",
+        "thickness": "2.0 / Max",
+        "hardness": "50°",
+        "weight": "74.5",
+        "color": "Rojo / Negro",
+        "tackiness": "Pegajosa (sticky)",
+        "surfaceType": "Invertida híbrida pegajosa",
+        "technology": "Híbrido tensor: top lámina pegajosa (nuevo método de producción) + 'Power Sponge' duro con tensión incorporada."
+      },
+      "scale": null,
+      "summary": "Goma invertida híbrida que combina una top lámina pegajosa de estilo chino con una esponja de potencia dura tipo tensor europeo. Efecto excepcional, arco alto y gran control en juego corto, ideal para atacantes con juego de efecto.",
+      "description": "Por primera vez en la serie RAKZA, la top lámina tiene adherencia (stickiness) gracias a un nuevo método de producción. El resultado es una superficie con agarre excepcional que permite generar un efecto fenomenal. La top lámina se combina con una 'Power Sponge' (esponja de potencia) más dura, lo que permite realizar fuerte efecto con un arco muy alto. Los servicios y devoluciones cortas son precisos y agudos. Está hecha para jugadores atacantes, tanto de cerca de la mesa como de media distancia. Según Megaspin: Velocidad 90, Efecto 97, Control 70 (escala 0-100).",
+      "pros": [
+        "Efecto excepcional por la top lámina pegajosa",
+        "Arco alto que facilita pasar la red en topspin agresivo",
+        "Excelente control en juego corto (servicios y devoluciones)",
+        "Potencia lineal que crece al golpear fuerte"
+      ],
+      "cons": [
+        "Velocidad moderada que depende de la activación del jugador",
+        "Esponja dura que exige esfuerzo físico",
+        "Peso medio-alto (revspin 6.7/10)"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_y-rakza-z.jpg",
+      "imageAlt": "Yasaka Rakza Z",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=y-rakza-z",
+      "sourceName": "Megaspin",
+      "price": {
+        "amount": 44900.0,
+        "currency": "CLP",
+        "source": "Precio referencial"
+      }
+    },
+    {
+      "name": "Yasaka Rakza Z Extra Hard",
+      "brand": "Yasaka",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "91",
+        "spin": "96",
+        "control": "69",
+        "thickness": "2.0 / Max",
+        "hardness": "55° ESN",
+        "color": "Rojo / Negro",
+        "tackiness": "Pegajosa (sticky)",
+        "surfaceType": "Invertida híbrida pegajosa",
+        "technology": "Híbrido tensor: top lámina pegajosa (nuevo método de producción) + 'Power Sponge' extra duro con tensión, que añade más velocidad."
+      },
+      "scale": null,
+      "summary": "Versión de dureza extra de la Rakza Z. Combina la top lámina pegajosa de agarre excepcional con una esponja de potencia extra dura que amplifica la velocidad y crea una trayectoria de arco alto. Orientada a atacantes potentes.",
+      "description": "RAKZA Z Extra Hard es la nueva incorporación a la exitosa serie RAKZA. Por primera vez, la top lámina tiene adherencia gracias a un nuevo método de producción: superficie con agarre excepcional y potencial de efecto fenomenal. La top lámina se combina con una 'Power Sponge' aún más dura que da más velocidad. El resultado es fuerte efecto con un arco muy alto. A pesar de su dureza, conserva la durabilidad y consistencia esperadas de la serie Rakza. Funciona bien de cerca de la mesa y desde media distancia, destacando en contra-topspin potentes, bloqueos y rallies rápidos. Según Megaspin: Velocidad 91, Efecto 96, Control 69 (escala 0-100).",
+      "pros": [
+        "Máxima potencia y velocidad gracias a la esponja extra dura",
+        "Efecto fenomenal con arco de salida muy alto",
+        "Excelente para contra-topspin, bloqueos y rallies rápidos",
+        "Alta durabilidad (revspin 8.3/10)"
+      ],
+      "cons": [
+        "Muy exigente físicamente, esponja muy dura de activar",
+        "Control reducido (revspin 8.9/10)",
+        "Goma pesada (revspin 7.9/10)",
+        "Reservada para jugadores potentes y avanzados"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_y-rakza-z-ex-hard.jpg",
+      "imageAlt": "Yasaka Rakza Z Extra Hard",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=y-rakza-z-ex-hard",
+      "sourceName": "Megaspin",
+      "price": {
+        "amount": 43990.0,
+        "currency": "CLP",
+        "source": "Precio referencial"
+      }
+    },
+    {
+      "name": "Xiom Jekyll & Hyde V47.5",
+      "brand": "Xiom",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "90",
+        "spin": "92",
+        "control": "68",
+        "thickness": "Max (2.1 mm)",
+        "hardness": "47.5° ESN",
+        "weight": "~70 g (sin cortar)",
+        "color": "Negro, Rojo, Rosa",
+        "tackiness": "Grippy (baja adherencia / topsheet suave-gomoso)",
+        "surfaceType": "Inverted (lisa)",
+        "technology": "Spin Dragging, goma híbrida tensor ESN (hecha en Alemania)"
+      },
+      "scale": {
+        "speed": "OFF+"
+      },
+      "summary": "Goma híbrida ofensiva de la serie V, con tecnología Spin Dragging que mantiene el agarre del balón pese a la alta energía de rebote.",
+      "description": "La Jekyll & Hyde V47.5 es la referencia de la serie V. Combina una esponja tipo 'cake' de dureza media (47.5° ESN) con un topsheet de alta fricción. Su tecnología Spin Dragging genera una trayectoria alta y controlable a la vez que entrega energía ofensiva. Es un híbrido entre el control de las gomas pegajosas y la velocidad de las gomas tensor modernas. Disponible únicamente en grosor Max.",
+      "pros": [
+        "Muy buen control y toque para su categoría",
+        "Genera giro alto con buena retención del balón",
+        "Trayectoria alta y predecible, ideal para topspin",
+        "Versátil: sirve tanto para drive como para giro"
+      ],
+      "cons": [
+        "Velocidad máxima menor que gomas más explosivas",
+        "Exige buena técnica para exprimir todo el giro",
+        "Solo disponible en grosor Max"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_xiom-j-h-v475.jpg",
+      "imageAlt": "Xiom Jekyll & Hyde V47.5",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=xiom-j-h-v475",
+      "sourceName": "Megaspin",
+      "price": null
+    },
+    {
+      "name": "Xiom Jekyll & Hyde V52.5",
+      "brand": "Xiom",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "91",
+        "spin": "87",
+        "control": "89",
+        "thickness": "Max (2.1 mm)",
+        "hardness": "52.5° ESN",
+        "color": "Negro, Rojo",
+        "tackiness": "Grippy (baja adherencia / topsheet suave-gomoso)",
+        "surfaceType": "Inverted (lisa)",
+        "technology": "Spin Dragging, goma híbrida tensor ESN, esponja dura"
+      },
+      "scale": {
+        "speed": "OFF+"
+      },
+      "summary": "Versión más dura de la serie V, que entrega más velocidad a cambio de un toque más firme, manteniendo la filosofía Spin Dragging.",
+      "description": "La Jekyll & Hyde V52.5 sube la dureza a 52.5° ESN respecto a la V47.5, aumentando la velocidad y el rebote. Pertenece a la serie de alto rendimiento de Jekyll & Hyde, pensada para jugadores ofensivos que buscan más potencia sin perder por completo la capacidad de generar giro controlado. Se recomienda para jugadores avanzados.",
+      "pros": [
+        "Mayor velocidad y potencia que la V47.5",
+        "Buen rebote y energía ofensiva",
+        "Mantiene la retención del balón de la serie V"
+      ],
+      "cons": [
+        "Esponja dura, exige técnica y potencia",
+        "Menos giro máximo que la V47.5",
+        "Requiere nivel avanzado para su control"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_xiom-j-h-v525.jpg",
+      "imageAlt": "Xiom Jekyll & Hyde V52.5",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=xiom-j-h-v525",
+      "sourceName": "Megaspin",
+      "price": null
+    },
+    {
+      "name": "Xiom Jekyll & Hyde X47.5",
+      "brand": "Xiom",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "91",
+        "spin": "88",
+        "control": "68",
+        "thickness": "Max (2.1 mm)",
+        "hardness": "47.5° ESN",
+        "weight": "~68 g (sin cortar)",
+        "color": "Negro, Rojo, Rosa",
+        "tackiness": "Grippy/tacky (top sheet con mayor adherencia)",
+        "surfaceType": "Inverted (lisa)",
+        "technology": "Catapult 'SLING', esponja de velocidad-potencia, topsheet con adherencia mejorada"
+      },
+      "scale": {
+        "speed": "OFF+"
+      },
+      "summary": "Goma de la serie X enfocada en topspin agresivo con efecto catapulta, combinando un topsheet adherente con esponja de dureza media.",
+      "description": "La Jekyll & Hyde X47.5 aplica el principio 'SLING' para generar un potente efecto catapulta: sostiene el balón profundamente en la superficie y transfiere energía vertical y horizontal de forma simultánea. Esto produce topspin agresivo con gran velocidad y giro. Es un híbrido con topsheet adherente y esponja de velocidad-potencia de 47.5°.",
+      "pros": [
+        "Efecto catapulta potente para topspin",
+        "Alto giro y velocidad combinados",
+        "Sostiene el balón en la superficie (dwell)"
+      ],
+      "cons": [
+        "Control más exigente que la serie V",
+        "Menos tolerante para jugadores intermedios",
+        "Requiere ángulo de pala cerrado"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_xiom-j-h-x475.jpg",
+      "imageAlt": "Xiom Jekyll & Hyde X47.5",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=xiom-j-h-x475",
+      "sourceName": "Megaspin",
+      "price": null
+    },
+    {
+      "name": "Xiom Omega VIII Pro",
+      "brand": "Xiom",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "92",
+        "spin": "94",
+        "control": "62",
+        "thickness": "1.9 mm y Max (2.1 mm)",
+        "hardness": "47.5° ESN (esponja NIF)",
+        "weight": "~67 g (sin cortar)",
+        "color": "Negro, Rojo",
+        "tackiness": "Grippy",
+        "surfaceType": "Inverted (lisa)",
+        "technology": "Estructura X-Factor desarrollada por IA, esponja NIF, alto efecto catapulta"
+      },
+      "scale": {
+        "speed": "OFF+"
+      },
+      "summary": "La gama alta de la serie Omega VIII: catapulta potente, lanzamiento agresivo y giro explosivo para jugadores avanzados.",
+      "description": "La Omega VIII Pro ofrece una experiencia potente con catapulta alta y topspin agresivo. Su estructura fue desarrollada con inteligencia artificial (X-Factor), logrando un lanzamiento del balón poderoso con esfuerzo mínimo. Aporta más agarre y tiempo de retención que la Omega VII Pro, con esponja NIF de 47.5°. Es una goma ligera para su dureza.",
+      "pros": [
+        "Giro muy alto y explosivo",
+        "Potente efecto catapulta (slingshot)",
+        "Ligera para su dureza; mejora el agarre frente a Omega VII"
+      ],
+      "cons": [
+        "Control exigente, orientada a avanzados",
+        "Puede resultar bouncy en golpes de poca potencia",
+        "Precio elevado (gama alta)"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_xiom-omega-8-pro.jpg",
+      "imageAlt": "Xiom Omega VIII Pro",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=xiom-omega-8-pro",
+      "sourceName": "Megaspin",
+      "price": null
+    },
+    {
+      "name": "Xiom Omega VIII Euro (Europe)",
+      "brand": "Xiom",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "89",
+        "spin": "90",
+        "control": "72",
+        "thickness": "1.9 mm y Max (2.1 mm)",
+        "hardness": "45° ESN (esponja NIF)",
+        "weight": "Ligera (tecnología 2IN1 Light)",
+        "color": "Negro, Rojo",
+        "tackiness": "Grippy",
+        "surfaceType": "Inverted (lisa)",
+        "technology": "Esponja NIF, tecnología 2IN1 Light (peso reducido), máxima conversión de giro"
+      },
+      "scale": {
+        "speed": "OFF"
+      },
+      "summary": "Versión europea de Omega VIII: equilibrio dinámico entre giro, control y peso ligero, optimizada para topspin europeo con ángulo de salida alto.",
+      "description": "La Omega VIII Euro está pensada para el estilo de juego europeo, ofreciendo una trayectoria alta, gran conversión de giro y control superior. Incorpora esponja NIF de dureza media-baja (45°) y la tecnología 2IN1 Light que reduce el peso, resultando muy manejable y adecuada para topspin y drives con alto arco. Ideal para jugadores que priorizan control y giro sobre potencia bruta.",
+      "pros": [
+        "Excelente control y toque",
+        "Alta conversión de giro con trayectoria alta",
+        "Ligera y manejable (tecnología 2IN1 Light)"
+      ],
+      "cons": [
+        "Menos velocidad que otras versiones de Omega VIII",
+        "No ideal para golpes planos o bloqueo pasivo",
+        "Requiere técnica de topspin para aprovecharla"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_xiom-omega-8-euro.jpg",
+      "imageAlt": "Xiom Omega VIII Euro (Europe)",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=xiom-omega-8-euro",
+      "sourceName": "Megaspin",
+      "price": null
+    },
+    {
+      "name": "Xiom Omega VIII China",
+      "brand": "Xiom",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "90",
+        "spin": "95",
+        "control": "60",
+        "thickness": "1.9 mm y Max (2.1 mm)",
+        "hardness": "52.5° ESN (esponja NIF)",
+        "color": "Negro, Rojo",
+        "tackiness": "Sticky (pegajosa)",
+        "surfaceType": "Inverted (lisa)",
+        "technology": "Esponja NIF dura, topsheet pegajoso y duro, ángulo de salida bajo, estructura X-Factor"
+      },
+      "scale": {
+        "speed": "OFF+"
+      },
+      "summary": "Versión híbrida de estilo chino de Omega VIII: goma semi-dura con topsheet pegajoso que produce giro muy pesado y respuesta lineal, para juego muy exigente.",
+      "description": "La Omega VIII China es un híbrido moderno que fusiona la pegajosidad de las gomas chinas con la tensión europea. Su esponja NIF dura (52.5°) aporta una respuesta lineal y nítida en drives, loops y contrabloques, mientras el topsheet pegajoso genera giro muy pesado. Requiere un alto nivel técnico y una ejecución potente para exprimir todo su potencial.",
+      "pros": [
+        "Giro muy pesado y profundo (giro excepcional)",
+        "Sensación nítida y lineal en drives y counterdrives",
+        "Excelente en topspin cerrado y cortes"
+      ],
+      "cons": [
+        "Esponja muy dura, exigente físicamente",
+        "Control reducido (baja tolerancia a errores)",
+        "Requiere gran nivel técnico (híbrido de estilo chino)"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_xiom-omega-8-china.jpg",
+      "imageAlt": "Xiom Omega VIII China",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=xiom-omega-8-china",
+      "sourceName": "Megaspin",
+      "price": null
+    },
+    {
+      "name": "Xiom Omega VIII Hybrid",
+      "brand": "Xiom",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "92",
+        "spin": "95",
+        "control": "61",
+        "thickness": "1.9 mm y Max (2.1 mm)",
+        "hardness": "52.5° ESN (esponja NIF)",
+        "color": "Negro, Rojo",
+        "tackiness": "Sticky (pegajosa)",
+        "surfaceType": "Inverted (lisa)",
+        "technology": "Esponja NIF dura con catapulta tensor, topsheet pegajoso, ángulo de salida bajo"
+      },
+      "scale": {
+        "speed": "OFF+"
+      },
+      "summary": "La versión Hybrid de Omega VIII combina la potencia dinámica de las gomas europeas con la pegajosidad de las chinas, logrando topspin muy rápido con un 'click' característico.",
+      "description": "La Omega VIII Hybrid mezcla la potencia de las gomas de tensión europeas con el agarre pegajoso de las gomas chinas. Su esponja dura (52.5°) con catapulta tensor ofrece un rebote directo y poderoso con ángulo de salida bajo, ideal para dominar el intercambio con topspin muy rápidos. Produce una sensación de 'click' característica al contacto.",
+      "pros": [
+        "Velocidad y giro máximos combinados",
+        "Topspin muy rápido con rebote poderoso",
+        "Sensación de 'click' nítida y definida"
+      ],
+      "cons": [
+        "Esponja muy dura, exige gran potencia",
+        "Control reducido; no apta para principiantes",
+        "Ángulo de salida bajo, requiere ajuste técnico"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_xiom-omega-8-hybrid.jpg",
+      "imageAlt": "Xiom Omega VIII Hybrid",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=xiom-omega-8-hybrid",
+      "sourceName": "Megaspin",
+      "price": null
+    },
+    {
+      "name": "DHS Hurricane 3 NEO National (Orange Sponge)",
+      "brand": "DHS",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "92",
+        "spin": "97",
+        "control": "70",
+        "thickness": "2.15",
+        "hardness": "40° DHS",
+        "color": "Rojo / Negro",
+        "tackiness": "Alta (pegajosa)",
+        "surfaceType": "Inverted (lisa)",
+        "technology": "Sponge NEO (pre-tuneado de fábrica), goma superior Hurricane 3 pegajosa"
+      },
+      "scale": {
+        "speed": "0-100 (Megaspin)"
+      },
+      "summary": "Versión 'National' del Hurricane 3 NEO con sponge naranja y dureza 40°. Es la variante de máxima calidad de la línea NEO: potencia, spin y control amplificados respecto al NEO comercial, pensada para jugadores ofensivos de nivel alto.",
+      "description": "La versión National es la de mayor calidad disponible de la línea Hurricane 3 NEO. Combina el topsheet pegajoso Hurricane 3 con el sponge NEO naranja de alta energía (dureza 40°). Está diseñada para el juego ofensivo de alto nivel, con loops estables de trayectoria alta y potente spin. Requiere técnica depurada y suele beneficiarse del boosteado.",
+      "pros": [
+        "Máxima calidad dentro de la línea NEO",
+        "Alto spin y control superiores al NEO comercial",
+        "Topsheet pegajoso duradero",
+        "Arco estable para top-spin de revés/forehand"
+      ],
+      "cons": [
+        "Precio alto",
+        "Requiere buena técnica y boosteado para su máximo rendimiento",
+        "Menos velocidad bruta que gomas tensores modernas"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_dhs-h3-neo-nn.jpg",
+      "imageAlt": "DHS Hurricane 3 NEO National (Orange Sponge)",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=dhs-h3-neo-nn",
+      "sourceName": "Megaspin",
+      "price": null
+    },
+    {
+      "name": "DHS Hurricane 3 NEO National Blue Sponge",
+      "brand": "DHS",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "65",
+        "spin": "98",
+        "control": "75",
+        "hardness": "40° DHS",
+        "weight": "75",
+        "color": "Rojo / Negro",
+        "tackiness": "Alta (pegajosa)",
+        "surfaceType": "Inverted (lisa)",
+        "technology": "Sponge NEO azul (mayor elasticidad), goma Hurricane 3 pegajosa"
+      },
+      "scale": {
+        "speed": "0-100 (RubberMetrics)"
+      },
+      "summary": "Versión 'National' con sponge azul, la cima de la serie Hurricane 3 NEO. El sponge azul aporta mayor elasticidad, agarre profundo de la bola y tiros más potentes y variados. Recomendada para jugadores ofensivos élite que buscan máximo spin.",
+      "description": "Representa el nivel máximo de la serie Hurricane. Combina un topsheet excepcionalmente pegajoso con un sponge NEO azul duro, que amplifica velocidad y spin para loops potentes y ataques agresivos. Ofrece una trayectoria estable y de arco alto con notable agarre de la bola. Es una goma de grado profesional que exige gran técnica.",
+      "pros": [
+        "Máximo spin y control de la serie",
+        "Sponge azul más elástico y dinámico",
+        "Agarre profundo de la bola",
+        "Trayectoria estable y de arco alto"
+      ],
+      "cons": [
+        "Precio muy alto",
+        "Sponge duro que requiere técnica avanzada",
+        "Recomendado boosteado"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom_dhs-h3-neo-n-bl.jpg",
+      "imageAlt": "DHS Hurricane 3 NEO National Blue Sponge",
+      "imageSource": "RubberMetrics",
+      "sourceUrl": "https://rubbermetrics.com/rubbers/dhs/hurricane-3-neo-national-40-blue-sponge",
+      "sourceName": "RubberMetrics",
+      "price": null
+    },
+    {
+      "name": "DHS Hurricane 3 NEO Provincial (39°)",
+      "brand": "DHS",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "62",
+        "spin": "97",
+        "control": "76",
+        "thickness": "2.15",
+        "hardness": "39° DHS",
+        "color": "Rojo / Negro",
+        "tackiness": "Alta (pegajosa)",
+        "surfaceType": "Inverted (lisa)",
+        "technology": "Sponge NEO naranja (pre-tuneado), goma Hurricane 3 pegajosa"
+      },
+      "scale": {
+        "speed": "0-100 (RubberMetrics)"
+      },
+      "summary": "Versión 'Provincial' con sponge naranja y dureza 39°. Es una calidad superior al NEO comercial: ofrece un aumento notable de spin, control y velocidad. Una opción muy popular como revés/forehand para jugadores avanzados.",
+      "description": "La versión Provincial es de calidad superior al Hurricane 3 NEO comercial (disponible en durezas 39° y 40°). Con el Provincial se obtiene un aumento dramático de spin, control y velocidad respecto al NEO de serie, manteniendo el característico topsheet pegajoso. Jugadores la describen como similar al NEO comercial pero con mejor velocidad y spin, ideal para forehand con swing completo.",
+      "pros": [
+        "Mejor spin y control que el NEO comercial",
+        "Excelente agarre pegajoso",
+        "Buen rendimiento como forehand",
+        "Dureza 39° algo más accesible"
+      ],
+      "cons": [
+        "Requiere boosteado para máximo rendimiento",
+        "Velocidad moderada sin boost",
+        "Precio superior al comercial"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_dhs-h3-neo-provincial.jpg",
+      "imageAlt": "DHS Hurricane 3 NEO Provincial (39°)",
+      "imageSource": "Megaspin / RubberMetrics",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=dhs-h3-neo-provincial",
+      "sourceName": "Megaspin / RubberMetrics",
+      "price": null
+    },
+    {
+      "name": "DHS Hurricane 3 NEO Provincial Blue Sponge (39°)",
+      "brand": "DHS",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "63",
+        "spin": "98",
+        "control": "75",
+        "hardness": "39° DHS",
+        "color": "Rojo / Negro",
+        "tackiness": "Alta (pegajosa)",
+        "surfaceType": "Inverted (lisa)",
+        "technology": "Sponge NEO azul (mayor elasticidad), goma Hurricane 3 pegajosa"
+      },
+      "scale": {
+        "speed": "0-100 (RubberMetrics)"
+      },
+      "summary": "Versión 'Provincial' con sponge azul y dureza 39°. Combina la calidad Provincial con el sponge azul más elástico, ofreciendo gran spin y dinámica de juego para jugadores ofensivos de nivel avanzado.",
+      "description": "La versión Provincial Blue Sponge es una de las gomas pegajosas más codiciadas. Combina el topsheet Hurricane 3 con el sponge NEO azul, más elástico, que agarra la bola más profundo y produce tiros más potentes y variados. Ofrece una trayectoria estable y de arco alto, ideal para ataque con loops de swing largo.",
+      "pros": [
+        "Gran spin con sponge azul más dinámico",
+        "Control y trayectoria estables",
+        "Topsheet pegajoso premium",
+        "Dureza 39° equilibrada"
+      ],
+      "cons": [
+        "Precio elevado",
+        "Exige técnica depurada",
+        "Recomendado boosteado"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom_dhs-h3-neo-prov-blue.jpg",
+      "imageAlt": "DHS Hurricane 3 NEO Provincial Blue Sponge (39°)",
+      "imageSource": "RubberMetrics / Megaspin",
+      "sourceUrl": "https://rubbermetrics.com/rubbers/dhs/hurricane-3-neo-provincial-39-blue-sponge",
+      "sourceName": "RubberMetrics / Megaspin",
+      "price": null
+    },
+    {
+      "name": "Donic Bluegrip J1",
+      "brand": "Donic",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "95",
+        "spin": "98",
+        "control": "69",
+        "hardness": "55° (estándar alemán; ~42° Butterfly/DHS)",
+        "tackiness": "Ligeramente tacky / agarre híbrido",
+        "surfaceType": "Liso (inverted) - híbrido",
+        "technology": "Symbiosis BlueStar A + BlueGrip C; desarrollada con Zhang Jike; esponja fina porosa; versión más dura de la serie J"
+      },
+      "scale": {
+        "speed": "0-100 (escala de fabricante, megaspin.net)"
+      },
+      "summary": "Goma híbrida premium de Donic, la más dura de la serie Bluegrip J (55°), desarrollada con Zhang Jike.",
+      "description": "La Bluegrip J1 es la versión más dura de la serie J de gomas híbridas premium de Donic. Combina la velocidad dinámica de la serie BlueStar A con la esponja generadora de efecto de la serie BlueGrip C, desarrollada bajo la guía de Zhang Jike. Pensada para atacantes ambiciosos que buscan potencia y control de precisión.",
+      "pros": [
+        "Goma híbrida premium con gran velocidad y efecto",
+        "Desarrollada con Zhang Jike",
+        "Combina potencia BlueStar A con esponja BlueGrip C"
+      ],
+      "cons": [
+        "Dureza alta (55°) exige buena técnica",
+        "Menor control que J2/J3 por su dureza",
+        "Precio elevado (gama alta)"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom_d-bluegrip-j1.jpg",
+      "imageAlt": "Donic Bluegrip J1",
+      "imageSource": "Megaspin.net",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=d-bluegrip-j1",
+      "sourceName": "Megaspin.net",
+      "price": null
+    },
+    {
+      "name": "Donic Bluegrip J2",
+      "brand": "Donic",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "91",
+        "spin": "98",
+        "control": "71",
+        "hardness": "52.5° (estándar alemán; ~40° Butterfly/DHS)",
+        "tackiness": "Ligeramente tacky / agarre híbrido",
+        "surfaceType": "Liso (inverted) - híbrido",
+        "technology": "Symbiosis BlueStar A + BlueGrip C; esponja fina porosa; versión media de la serie J"
+      },
+      "scale": {
+        "speed": "0-100 (escala de fabricante, megaspin.net)"
+      },
+      "summary": "Versión intermedia de la serie Bluegrip J (52.5°), equilibra velocidad y control con alto efecto.",
+      "description": "La Bluegrip J2 es la versión intermedia de la serie J, con dureza media (52.5°). Equilibra velocidad y control, situándose entre la potencia de la J1 y la suavidad de la J3, manteniendo la generosa generación de efecto característica de la serie híbrida desarrollada con Zhang Jike.",
+      "pros": [
+        "Equilibrio entre velocidad y control",
+        "Generación de efecto muy alta (spin 98)",
+        "Versátil para revés y derecha ofensiva"
+      ],
+      "cons": [
+        "Dureza media aún exigente para principiantes",
+        "Precio elevado (gama alta)"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom_d-bluegrip-j2.jpg",
+      "imageAlt": "Donic Bluegrip J2",
+      "imageSource": "Megaspin.net",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=d-bluegrip-j2",
+      "sourceName": "Megaspin.net",
+      "price": null
+    },
+    {
+      "name": "Donic Bluegrip J3",
+      "brand": "Donic",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "88",
+        "spin": "98",
+        "control": "73",
+        "hardness": "50° (estándar alemán; ~38° Butterfly/DHS)",
+        "tackiness": "Ligeramente tacky / agarre híbrido",
+        "surfaceType": "Liso (inverted) - híbrido",
+        "technology": "Symbiosis BlueStar A + BlueGrip C; esponja fina porosa; versión más blanda de la serie J; se siente más rápida y viva"
+      },
+      "scale": {
+        "speed": "0-100 (escala de fabricante, megaspin.net)"
+      },
+      "summary": "Versión más blanda de la serie Bluegrip J (50°), rápida y viva con gran efecto.",
+      "description": "La Bluegrip J3 es la versión más blanda del serie J (50°), diseñada para sacar el máximo partido a los golpes agresivos. Comparada con J1 y J2 se siente más rápida y viva, manteniendo control en manos de jugadores experimentados, con una generación de efecto sobresaliente.",
+      "pros": [
+        "Esponja más blanda: mayor dwell time y control",
+        "Goma híbrida muy viva y con gran efecto",
+        "Más tolerante que J1/J2 para iniciarse en híbridos"
+      ],
+      "cons": [
+        "Menos velocidad máxima que J1/J2",
+        "Gama alta y exigente"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom_d-bluegrip-j3.jpg",
+      "imageAlt": "Donic Bluegrip J3",
+      "imageSource": "Megaspin.net",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=d-bluegrip-j3",
+      "sourceName": "Megaspin.net",
+      "price": null
+    },
+    {
+      "name": "Donic Bluefire M3",
+      "brand": "Donic",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "88",
+        "spin": "95",
+        "control": "73",
+        "thickness": "1.8 mm / 2.0 mm / max",
+        "hardness": "40° (blanda)",
+        "color": "Rojo / Negro",
+        "tackiness": "Nada tacky (tensor, agarre tipo grano)",
+        "surfaceType": "Liso (inverted) - tensor",
+        "technology": "Formula FD3; esponja azul de poro grande; versión blanda (40°); buen feedback de bola y sonido"
+      },
+      "scale": {
+        "speed": "0-100 (escala de fabricante, megaspin.net)"
+      },
+      "summary": "Versión blanda de la serie Bluefire (40°), excelente control con buen efecto y velocidad.",
+      "description": "La Bluefire M3 es la versión blanda de la serie Bluefire, con esponja de 40° que ofrece excelente feedback de bola, efecto increíble y un sonido satisfactorio. Recomendada para jugadores que prefieren control perfecto sin sacrificar velocidad, y para allround ofensivos.",
+      "pros": [
+        "Control excelente con buen efecto",
+        "Esponja blanda 40°: fácil de penetrar",
+        "Ideal para revés y allround ofensivo"
+      ],
+      "cons": [
+        "Menos velocidad que M1/M2",
+        "Sensación y sonido muy marcados que no a todos gustan"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom_d-bluefire-ms3.jpg",
+      "imageAlt": "Donic Bluefire M3",
+      "imageSource": "Megaspin.net",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=d-bluefire-ms3",
+      "sourceName": "Megaspin.net",
+      "price": null
+    },
+    {
+      "name": "Donic Bluefire JP02",
+      "brand": "Donic",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "93",
+        "spin": "93",
+        "control": "71",
+        "hardness": "45° (media)",
+        "tackiness": "Nada tacky (tensor)",
+        "surfaceType": "Liso (inverted) - tensor",
+        "technology": "Esponja de poro abierto, dureza media (45°); combinación equilibrada de efecto, velocidad y control"
+      },
+      "scale": {
+        "speed": "0-100 (escala de fabricante, megaspin.net)"
+      },
+      "summary": "Goma de poro abierto y dureza media (45°), combinación equilibrada de efecto, velocidad y control.",
+      "description": "La Bluefire JP02 tiene esponja de poro abierto en rango de dureza media (45°), produciendo una combinación perfecta de efecto, velocidad y control. Ideal para atacantes y allround potentes que requieren todas estas cualidades en una sola goma.",
+      "pros": [
+        "Combinación equilibrada de velocidad, efecto y control",
+        "Esponja media versátil para derecha y revés",
+        "Comportamiento predecible"
+      ],
+      "cons": [
+        "Sensible a la rotación entrante según usuarios",
+        "Puede resultar pesada para su dureza"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom_d-bluefire-jp-02.jpg",
+      "imageAlt": "Donic Bluefire JP02",
+      "imageSource": "Megaspin.net",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=d-bluefire-jp-02",
+      "sourceName": "Megaspin.net",
+      "price": null
+    },
+    {
+      "name": "Donic Bluestorm Z1",
+      "brand": "Donic",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "97",
+        "spin": "97",
+        "control": "69",
+        "hardness": "47.5° (media dura)",
+        "tackiness": "Nada tacky (agarre grano)",
+        "surfaceType": "Liso (inverted) - tensor",
+        "technology": "Esponja de poro medio (47.5°), estructura de pimple corta y ancha; la más dura y rápida del serie Bluestorm"
+      },
+      "scale": {
+        "speed": "0-100 (escala de fabricante, megaspin.net)"
+      },
+      "summary": "La más dura y rápida del serie Bluestorm (47.5°), potencia inmensa para jugadores ofensivos de élite.",
+      "description": "La Bluestorm Z1 es la versión más dura y rápida del serie Bluestorm, con esponja de poro medio y estructura de pimple corta y ancha. Ofrece potencia inmensa, pero requiere un jugador bien entrenado para controlarla. Superficie más fina de alta tensión que permite una esponja más gruesa.",
+      "pros": [
+        "Velocidad y potencia inmensas",
+        "Efecto muy alto (spin 97)",
+        "Ideal para ofensivos de élite"
+      ],
+      "cons": [
+        "Requiere buena técnica para controlarla",
+        "Poco dwell time y trayectoria baja",
+        "No apta para principiantes"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom_d-bluestorm-z1.jpg",
+      "imageAlt": "Donic Bluestorm Z1",
+      "imageSource": "Megaspin.net",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=d-bluestorm-z1",
+      "sourceName": "Megaspin.net",
+      "price": null
+    },
+    {
+      "name": "Donic Bluestorm Z2",
+      "brand": "Donic",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "95",
+        "spin": "97",
+        "control": "70",
+        "hardness": "47.5° (media dura)",
+        "tackiness": "Nada tacky (agarre grano)",
+        "surfaceType": "Liso (inverted) - tensor",
+        "technology": "Esponja de poro grande media dura (47.5°), pimple largo y fino; excelente equilibrio de velocidad, efecto y control"
+      },
+      "scale": {
+        "speed": "0-100 (escala de fabricante, megaspin.net)"
+      },
+      "summary": "Opción intermedia del serie Bluestorm (47.5°), gran equilibrio de velocidad, efecto y control.",
+      "description": "La Bluestorm Z2 tiene estructura de pimple largo y fino con esponja de poro grande de 47.5°. Es la opción intermedia del serie, con gran velocidad, enorme rebote y excelentes características de efecto y control. Ideal para atacantes y allround ofensivos, excelente para revés y derecha.",
+      "pros": [
+        "Gran equilibrio velocidad/control",
+        "Efecto excelente, ideal para loops",
+        "Versátil para derecha y revés"
+      ],
+      "cons": [
+        "Alta sensibilidad a la rotación entrante",
+        "Requiere golpe comprometido para máximo control"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom_d-bluestorm-z2.jpg",
+      "imageAlt": "Donic Bluestorm Z2",
+      "imageSource": "Megaspin.net",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=d-bluestorm-z2",
+      "sourceName": "Megaspin.net",
+      "price": null
+    },
+    {
+      "name": "Donic Bluestorm Z3",
+      "brand": "Donic",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "91",
+        "spin": "97",
+        "control": "73",
+        "hardness": "42.5° (más blanda)",
+        "tackiness": "Nada tacky (agarre grano)",
+        "surfaceType": "Liso (inverted) - tensor",
+        "technology": "Esponja de poro grande 42.5°, considerablemente más blanda; sensación y sonido tipo recién encolada"
+      },
+      "scale": {
+        "speed": "0-100 (escala de fabricante, megaspin.net)"
+      },
+      "summary": "Versión más blanda del serie Bluestorm (42.5°), excelente control y efecto con sonido tipo recién encolada.",
+      "description": "La Bluestorm Z3 con su esponja de poro grande de 42.5° es considerablemente más blanda, lo que se nota y se oye: el golpe suena como un trueno mientras el topspin se mantiene bajo control. Excelente para control y efecto con buena velocidad, muy recomendada para revés.",
+      "pros": [
+        "Excelente control y efecto",
+        "Esponja blanda cómoda para revés",
+        "Buen feedback y sonido agradable"
+      ],
+      "cons": [
+        "Menos velocidad máxima que Z1/Z2",
+        "No ideal para golpes de máxima potencia"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom_d-bluestorm-z3.jpg",
+      "imageAlt": "Donic Bluestorm Z3",
+      "imageSource": "Megaspin.net",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=d-bluestorm-z3",
+      "sourceName": "Megaspin.net",
+      "price": null
+    },
+    {
+      "name": "Donic Bluestar A1",
+      "brand": "Donic",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "98",
+        "spin": "99",
+        "control": "68",
+        "hardness": "52.5° (esponja OPTE)",
+        "tackiness": "Superficie ligeramente pegajosa, muy agarrosa",
+        "surfaceType": "Liso (inverted) - híbrido",
+        "technology": "Optimized Energy Sponge (OPTE) de poro fino, 52.5°; catapulta y velocidad fantásticas; topsheet ligeramente tacky"
+      },
+      "scale": {
+        "speed": "0-100 (escala de fabricante, megaspin.net)"
+      },
+      "summary": "La estrella de Donic con esponja OPTE de poro fino (52.5°), velocidad y catapulta excepcionales.",
+      "description": "La BlueStar A1 es la estrella de Donic gracias a su tecnología de esponja Optimized Energy Sponge (OPTE), totalmente diferente al resto de la línea. De poro fino y composición especial, ofrece una catapulta y velocidad excepcionales. La topsheet es solo ligeramente pegajosa pero extremadamente agarrosa. Con esponja de 52.5°, ideal para ofensivos de élite. Elogiada por el campeón Jörgen Persson.",
+      "pros": [
+        "Velocidad y catapulta excepcionales",
+        "Efecto sobresaliente (spin 99)",
+        "Tecnología de esponja OPTE única"
+      ],
+      "cons": [
+        "Dureza alta: solo para jugadores experimentados",
+        "Durabilidad del efecto limitada según usuarios",
+        "Precio alto (gama premium)"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom_d-bluestar-a1.jpg",
+      "imageAlt": "Donic Bluestar A1",
+      "imageSource": "Megaspin.net",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=d-bluestar-a1",
+      "sourceName": "Megaspin.net",
+      "price": null
+    },
+    {
+      "name": "Donic Bluestar A2",
+      "brand": "Donic",
+      "category": "RUBBER",
+      "attributes": {
+        "speed": "97",
+        "spin": "99",
+        "control": "69",
+        "hardness": "50° (esponja OPTE)",
+        "tackiness": "Ligeramente pegajosa, muy agarrosa",
+        "surfaceType": "Liso (inverted) - híbrido",
+        "technology": "Optimized Energy Sponge (OPTE) de poro fino, 50°; alternativa más blanda a la A1 con super velocidad y efecto"
+      },
+      "scale": {
+        "speed": "0-100 (escala de fabricante, megaspin.net)"
+      },
+      "summary": "Alternativa más blanda a la A1 (50°) con tecnología OPTE y excelente velocidad y efecto.",
+      "description": "La BlueStar A2 es la alternativa para quienes encuentran la esponja de 52.5° de la A1 demasiado dura, con esponja de 50°. Mantiene la tecnología OPTE (Optimized Energy Sponge) con su elasticidad y absorción de impactos. Muy dinámica, con excelentes características de velocidad y efecto, ideal para atacantes y ofensivos.",
+      "pros": [
+        "Excelente velocidad y efecto (spin 99)",
+        "Alternativa más blanda y controlable que A1",
+        "Tecnología OPTE de poro fino"
+      ],
+      "cons": [
+        "Aún es una goma muy rápida y exigente",
+        "No recomendada para principiantes"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom_d-bluestar-a2.jpg",
+      "imageAlt": "Donic Bluestar A2",
+      "imageSource": "Megaspin.net",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=d-bluestar-a2",
+      "sourceName": "Megaspin.net",
+      "price": null
     }
   ]
 }

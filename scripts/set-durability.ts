@@ -40,6 +40,13 @@ const overrides: Record<string, number> = {
   "Andro Rasanter R47": 6,
   "Andro Hexer Powergrip": 6,
   "Donic Bluefire M2": 5,
+  "Xiom Jekyll & Hyde V47.5": 7,
+  "Xiom Jekyll & Hyde V52.5": 7,
+  "Xiom Jekyll & Hyde X47.5": 7,
+  "Xiom Omega VIII Pro": 7,
+  "Xiom Omega VIII Euro (Europe)": 7,
+  "Xiom Omega VIII China": 7,
+  "Xiom Omega VIII Hybrid": 7,
 };
 
 async function main() {
