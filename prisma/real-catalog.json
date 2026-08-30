@@ -7654,6 +7654,675 @@
       "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=d-bluestar-a2",
       "sourceName": "Megaspin.net",
       "price": null
+    },
+    {
+      "name": "Butterfly R40+ 3-Star",
+      "brand": "Butterfly",
+      "category": "BALL",
+      "attributes": {
+        "diameter": "40",
+        "stars": "3 estrellas",
+        "weight": "2.85-2.9",
+        "color": "Blanca",
+        "material": "ABS",
+        "packSize": "3"
+      },
+      "scale": null,
+      "summary": "Bola oficial de 3 estrellas de Butterfly, pelota oficial de los Mundiales 2024-2026 y de la Major League Table Tennis. Es la tercera generación de la bola 40+.",
+      "description": "La Butterfly R40+ es la bola insignia de Butterfly, aprobada por la ITTF y usada como pelota oficial del Campeonato Mundial por Equipos e Individual (2024-2026) y de la Major League Table Tennis. Fabricada en China bajo un control de calidad muy estricto, ofrece una gran uniformidad, bote constante y trayectoria fiable, con más durabilidad que las generaciones anteriores. Su construcción de alta precisión garantiza giro, velocidad y equilibrio estables.",
+      "pros": [
+        "Bola oficial de los Mundiales 2024-2026 y MLTT",
+        "Tercera generación: muy uniforme y duradera",
+        "Bote constante y trayectoria fiable",
+        "Alta precisión en control de calidad"
+      ],
+      "cons": [
+        "Precio elevado en el segmento premium",
+        "Requiere manejo delicado para máxima vida útil"
+      ],
+      "imageUrl": "https://www.butterfly-global.com/en/products/item/95820.jpg",
+      "imageAlt": "Butterfly R40+ 3-Star",
+      "imageSource": "Butterfly Global (Tamasu)",
+      "sourceUrl": "https://www.butterfly-global.com/en/products/detail/95820.html",
+      "sourceName": "Butterfly Global (Tamasu)",
+      "price": null
+    },
+    {
+      "name": "Butterfly A40+ 3-Star",
+      "brand": "Butterfly",
+      "category": "BALL",
+      "attributes": {
+        "diameter": "40",
+        "stars": "3 estrellas",
+        "weight": "2.7",
+        "color": "Blanca",
+        "material": "ABS",
+        "packSize": "3"
+      },
+      "scale": null,
+      "summary": "Bola estándar de 3 estrellas de Butterfly, aprobada por la ITTF para competición. Superficie algo más brillante y rebote inicial ligeramente más rápido.",
+      "description": "La Butterfly A40+ es la bola de 3 estrellas estándar de la marca, aprobada por la ITTF y apta para competiciones sancionadas. Cumple las especificaciones oficiales de 40+ mm de diámetro y 2.7 g de peso. Fabricada en China en plástico, ofrece una superficie más brillante que otras marcas y un rebote inicial ligeramente más rápido. Es una opción fiable y de alta calidad para jugadores y torneos.",
+      "pros": [
+        "Aprobada por la ITTF para competición",
+        "Cumple especificaciones oficiales (40+ mm, 2.7 g)",
+        "Superficie brillante y rebote consistente",
+        "Marca consolidada y de confianza"
+      ],
+      "cons": [
+        "Superficie más brillante puede desgastarse antes",
+        "Precio premium frente a opciones de entrenamiento"
+      ],
+      "imageUrl": "https://www.butterfly-global.com/en/products/item/95770.jpg",
+      "imageAlt": "Butterfly A40+ 3-Star",
+      "imageSource": "Butterfly Global (Tamasu)",
+      "sourceUrl": "https://www.butterfly-global.com/en/products/detail/95770.html",
+      "sourceName": "Butterfly Global (Tamasu)",
+      "price": null
+    },
+    {
+      "name": "DHS D40+ 3-Star",
+      "brand": "DHS",
+      "category": "BALL",
+      "attributes": {
+        "diameter": "40",
+        "stars": "3 estrellas",
+        "weight": "2.7",
+        "color": "Blanca",
+        "material": "ABS",
+        "packSize": "10"
+      },
+      "scale": null,
+      "summary": "Bola de competición de 3 estrellas de DHS, con costura, fabricada en ABS premium. Excelente relación calidad-precio y muy valorada por su jugabilidad.",
+      "description": "La DHS D40+ 3-Star es una bola de 3 estrellas aprobada por la ITTF, de 40 mm con costura, fabricada con material ABS de primera calidad. Utilizada en competiciones internacionales (Mundiales 2017-2020), destaca por su esfericidad precisa, mayor elasticidad y gran durabilidad. Disponible en blanco y naranja, es una de las bolas con mejor equilibrio entre características de juego y precio.",
+      "pros": [
+        "Excelente relación calidad-precio",
+        "Aprobada por la ITTF para competición",
+        "Gran esfericidad y elasticidad",
+        "Muy buena durabilidad en ABS"
+      ],
+      "cons": [
+        "Bola con costura (no seamless)",
+        "Algunos jugadores la perciben algo más rápida"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom_dhs-3-star-d40p-10.jpg",
+      "imageAlt": "DHS D40+ 3-Star",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=dhs-3-star-d40p-10",
+      "sourceName": "Megaspin",
+      "price": null
+    },
+    {
+      "name": "Nittaku 3-Star Premium 40+",
+      "brand": "Nittaku",
+      "category": "BALL",
+      "attributes": {
+        "diameter": "40",
+        "stars": "3 estrellas",
+        "weight": "2.7",
+        "color": "Blanca",
+        "material": "ABS",
+        "packSize": "12"
+      },
+      "scale": null,
+      "summary": "Bola de gama alta de Nittaku, fabricada en Japón con material poli exclusivo. Considerada el estándar de oro en pelotas de tenis de mesa.",
+      "description": "La Nittaku 3-Star Premium 40+ es una bola de plástico (no celuloide) fabricada en Japón con un material de poli especial exclusivo de Nittaku. Aprobada por la ITTF y legal en torneos sancionados, es bola oficial del tenis de mesa de EE. UU. (US Nationals, US Open, Olympic Trials). Destaca por su excepcional redondez, consistencia y durabilidad, siendo considerada por muchos el estándar de oro en bolas de competición.",
+      "pros": [
+        "Fabricada en Japón con material exclusivo",
+        "Excelente redondez y consistencia",
+        "Bola oficial del tenis de mesa de EE. UU.",
+        "Considerada el estándar de oro del mercado"
+      ],
+      "cons": [
+        "Precio alto en el segmento premium",
+        "Algunos usuarios notan que se vuelve brillante con el uso"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom_nitt-40p-3-12.jpg",
+      "imageAlt": "Nittaku 3-Star Premium 40+",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=nitt-40p-3-12",
+      "sourceName": "Megaspin",
+      "price": null
+    },
+    {
+      "name": "Stiga Perform 40+ 3-Star",
+      "brand": "Stiga",
+      "category": "BALL",
+      "attributes": {
+        "diameter": "40",
+        "stars": "3 estrellas",
+        "weight": "2.7",
+        "color": "Blanca",
+        "material": "ABS",
+        "packSize": "3"
+      },
+      "scale": null,
+      "summary": "Bola de competición 3 estrellas de Stiga, fabricada en ABS premium y aprobada por la ITTF, con selección automática y manual para máxima calidad.",
+      "description": "La Stiga Perform 40+ 3-Star es una bola de competición de alta calidad aprobada por la ITTF, fabricada en China con material ABS premium. Cada bola pasa por un proceso de selección automático y manual que garantiza calidad profesional en materia prima, peso y redondez. Ofrece mayor control, voleas más largas y un excelente giro, lo que la hace ideal para competición y entrenamiento intensivo.",
+      "pros": [
+        "Aprobada por la ITTF para competición",
+        "Selección automática y manual de calidad",
+        "Excelente control, giro y durabilidad",
+        "Buen precio frente a marcas premium"
+      ],
+      "cons": [
+        "Bola con costura",
+        "Menor prestigio que Nittaku/Butterfly en torneos top"
+      ],
+      "imageUrl": "https://www.stigaus.com/cdn/shop/files/1_1__T1436-2.jpg?v=1751550980",
+      "imageAlt": "Stiga Perform 40+ 3-Star",
+      "imageSource": "STIGA US",
+      "sourceUrl": "https://www.stigaus.com/products/stiga-three-star-table-tennis-balls",
+      "sourceName": "STIGA US",
+      "price": null
+    },
+    {
+      "name": "Joola Prime 3-Star ABS",
+      "brand": "Joola",
+      "category": "BALL",
+      "attributes": {
+        "diameter": "40",
+        "stars": "3 estrellas",
+        "weight": "2.7",
+        "color": "Blanca",
+        "material": "ABS",
+        "packSize": "3"
+      },
+      "scale": null,
+      "summary": "Bola 3 estrellas de Joola de 40+ mm en ABS, aprobada por la ITTF para competición oficial.",
+      "description": "La Joola Prime 3-Star ABS es una bola de tenis de mesa de 40+ mm fabricada en ABS y aprobada por la Federación Internacional de Tenis de Mesa (ITTF) para uso en competición oficial. Diseñada para ofrecer jugabilidad estable y durabilidad en partidos de nivel, es una opción equilibrada dentro del catálogo de bolas de 3 estrellas de Joola.",
+      "pros": [
+        "Aprobada por la ITTF para competición oficial",
+        "Material ABS duradero",
+        "Gran jugabilidad y precio equilibrado"
+      ],
+      "cons": [
+        "Menos reputación que marcas top japonesas",
+        "Disponibilidad menor en tiendas"
+      ],
+      "imageUrl": "https://joola.com/cdn/shop/files/PrimeABS-Hero.png?v=1712310165",
+      "imageAlt": "Joola Prime 3-Star ABS",
+      "imageSource": "JOOLA",
+      "sourceUrl": "https://joola.com/products/prime-3-star-abs-table-tennis-balls",
+      "sourceName": "JOOLA",
+      "price": null
+    },
+    {
+      "name": "Andro Zero T 3-Star",
+      "brand": "Andro",
+      "category": "BALL",
+      "attributes": {
+        "diameter": "40",
+        "stars": "3 estrellas",
+        "weight": "2.7",
+        "color": "Blanca",
+        "material": "ABS",
+        "packSize": "12"
+      },
+      "scale": null,
+      "summary": "Bola ABS de nueva generación de Andro con costura, muy redonda y de trayectoria constante gracias a la rigidez del material.",
+      "description": "La Andro Zero T 3-Star es una bola de ABS de la nueva generación, fabricada con procesos de producción optimizados centrados en la costura, lo que la hace perfectamente redonda. La alta rigidez del material garantiza una trayectoria constante. Probada a fondo, ofrece consistencia, previsibilidad, durabilidad y un gran equilibrio entre velocidad y control.",
+      "pros": [
+        "Perfecta redondez gracias a proceso optimizado",
+        "Trayectoria constante por rigidez del ABS",
+        "Equilibrio entre velocidad y control",
+        "Buen precio por bola"
+      ],
+      "cons": [
+        "Marca menos presente en tiendas americanas",
+        "Menos historia competitiva que DHS/Nittaku"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom_andro-zero-t-3-star-6.jpg?v=3",
+      "imageAlt": "Andro Zero T 3-Star",
+      "imageSource": "Megaspin",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=andro-zero-t-3-star-12",
+      "sourceName": "Megaspin",
+      "price": null
+    },
+    {
+      "name": "Donic P40+ 3-Star",
+      "brand": "Donic",
+      "category": "BALL",
+      "attributes": {
+        "diameter": "40",
+        "stars": "3 estrellas",
+        "weight": "2.7",
+        "color": "Blanca",
+        "material": "ABS",
+        "packSize": "3"
+      },
+      "scale": null,
+      "summary": "Bola de competición 3 estrellas de Donic fabricada en ABS muy duradero, aprobada por la ITTF, con mínimas desviaciones de redondez.",
+      "description": "La Donic P40+ 3-Star (Cell-Free) es una bola fabricada con material ABS probado y extremadamente duradero que cumple los estrictos requisitos de aprobación de la ITTF. Ofrece desviaciones mínimas de redondez, bote alto, preciso y uniforme, y una mínima pérdida de giro. Proporciona máxima calidad con una relación precio-rendimiento difícil de superar.",
+      "pros": [
+        "Aprobada por la ITTF para competición",
+        "ABS muy duradero y consistente",
+        "Redondez con mínimas desviaciones",
+        "Relación precio-rendimiento excelente"
+      ],
+      "cons": [
+        "Menor prestigio que marcas top japonesas",
+        "Bola con costura"
+      ],
+      "imageUrl": "https://www.gosports.at/cdn/shop/files/donic-balle-p40-481993.jpg?v=1740150814",
+      "imageAlt": "Donic P40+ 3-Star",
+      "imageSource": "DONIC",
+      "sourceUrl": "https://www.donic.com/en/DONIC-P40-Cell-Free/550241003",
+      "sourceName": "DONIC",
+      "price": null
+    },
+    {
+      "name": "Butterfly BD Tour Case II",
+      "brand": "Butterfly",
+      "category": "BAG",
+      "attributes": {
+        "type": "Funda doble acolchada",
+        "capacity": "Hasta 2 raquetas y 4 pelotas",
+        "material": "Poliéster 320 denier",
+        "dimensions": "30 × 21 × 4 cm",
+        "features": "Divisor tipo bandeja con muesca para el mango y orificios para 4 pelotas; paneles delantero y trasero acolchados; bolsillo interior para accesorios; cierre de cremallera y asa de transporte."
+      },
+      "scale": null,
+      "summary": "Estuche rectangular de Butterfly que protege hasta dos raquetas y cuatro pelotas. Está fabricado en poliéster de 320 denier con paneles acolchados y un divisor moldeado con muesca para el mango. Incluye bolsillo interior para accesorios, cierre de cremallera y asa de transporte, ideal para llevar el equipo al torneo o entrenamiento de forma organizada y segura.",
+      "description": null,
+      "pros": [
+        "Protege 2 raquetas + 4 pelotas",
+        "Divisor interior con muesca para mango",
+        "Paneles delantero y trasero acolchados",
+        "Bolsillo interior de accesorios"
+      ],
+      "cons": [
+        "Algo voluminoso para llevar una sola raqueta",
+        "Acolchado no rígido (menos protección ante impactos fuertes)"
+      ],
+      "imageUrl": "https://tabletennisstore.us/cdn/shop/files/butterfly-bd-tour-case-ii-table-tennis-racket-case-lime-green.png?v=1762256750",
+      "imageAlt": "Butterfly BD Tour Case II",
+      "imageSource": "Butterfly Online (distribuidor oficial EE. UU.)",
+      "sourceUrl": "https://shop.butterflyonline.com/bd-tour-case-ii-538",
+      "sourceName": "Butterfly Online (distribuidor oficial EE. UU.)",
+      "price": null
+    },
+    {
+      "name": "Butterfly BD Full Case II",
+      "brand": "Butterfly",
+      "category": "BAG",
+      "attributes": {
+        "type": "Funda individual",
+        "capacity": "1 raqueta",
+        "material": "Poliéster 320 denier",
+        "features": "Forma de raqueta para un ajuste ceñido; paneles delantero y trasero acolchados; cierre de cremallera completo; asa de transporte. Colores: oro, verde lima, rosa y azul cielo."
+      },
+      "scale": null,
+      "summary": "Funda individual con forma de raqueta que se ajusta cómodamente a la pala. Los paneles acolchados, la cremallera completa y el asa protegen la goma del polvo y ayudan a mantener su tackiness, aumentando la vida útil del caucho. Es ligera y práctica para entrenamiento diario, viajes o competición.",
+      "description": null,
+      "pros": [
+        "Ajuste ceñido con forma de raqueta",
+        "Acolchado frontal y trasero",
+        "Liviana y fácil de transportar",
+        "Precio económico"
+      ],
+      "cons": [
+        "Solo para una raqueta",
+        "No incluye bolsillo para pelotas"
+      ],
+      "imageUrl": "https://tabletennisstore.us/cdn/shop/files/butterfly-bd-full-case-ii-gold-front-view.jpg?v=1753717020",
+      "imageAlt": "Butterfly BD Full Case II",
+      "imageSource": "TableTennisStore.us",
+      "sourceUrl": "https://tabletennisstore.us/products/butterfly-bd-full-case-ii",
+      "sourceName": "TableTennisStore.us",
+      "price": null
+    },
+    {
+      "name": "Stiga Rival Eco Double Rectangular Case",
+      "brand": "Stiga",
+      "category": "BAG",
+      "attributes": {
+        "type": "Funda doble",
+        "capacity": "Hasta 2 palas",
+        "material": "Plástico reciclado resistente al agua",
+        "features": "Caja rectangular rígida de plástico reciclado resistente al agua; logo grande plateado de Stiga Sports al frente y un logo pequeño atrás; protege las palas y prolonga su vida útil."
+      },
+      "scale": null,
+      "summary": "Funda doble rectangular de Stiga fabricada en plástico reciclado resistente al agua que protege hasta dos palas. Su diseño sobrio con el logo plateado de Stiga Sports le da un acabado cuidado, convirtiéndola en una opción sostenible y resistente para el uso diario en el club.",
+      "description": null,
+      "pros": [
+        "Plástico reciclado y sostenible",
+        "Resistente al agua",
+        "Protege 2 palas"
+      ],
+      "cons": [
+        "No incluye bolsillos de accesorios",
+        "Estética sobria"
+      ],
+      "imageUrl": "https://tabletennisstore.us/cdn/shop/products/stiga-rival-eco-double-rectangular-table-tennis-case-front-view.jpg?v=1746348160",
+      "imageAlt": "Stiga Rival Eco Double Rectangular Case",
+      "imageSource": "TableTennisStore.us",
+      "sourceUrl": "https://tabletennisstore.us/products/stiga-rival-eco-double-rectangular-table-tennis-case",
+      "sourceName": "TableTennisStore.us",
+      "price": null
+    },
+    {
+      "name": "Stiga Stage Rectangular Single Case",
+      "brand": "Stiga",
+      "category": "BAG",
+      "attributes": {
+        "type": "Funda individual",
+        "capacity": "1 pala + bolsillo trasero",
+        "material": "Tela resistente",
+        "dimensions": "Bolsillo trasero de 8 pulgadas (aprox. 20 cm)",
+        "features": "Un compartimento para una pala; cremallera de doble cursor que abre por tres lados para desplegar la funda plana; bolsillo trasero con cierre de 8\" para accesorios; color naranja con ribetes negro y blanco."
+      },
+      "scale": null,
+      "summary": "Funda rectangular de Stiga con espacio para una pala. Su cremallera de doble cursor abre por tres lados, permitiendo desplegar la funda y acceder cómodamente a la raqueta. Incluye un bolsillo trasero con cierre para guardar accesorios; diseño naranja con detalles en negro y blanco.",
+      "description": null,
+      "pros": [
+        "Cremallera doble que abre por 3 lados",
+        "Bolsillo trasero para accesorios",
+        "Compacta y ligera"
+      ],
+      "cons": [
+        "Capacidad solo para una pala",
+        "Sin acolchado rígido de alta protección"
+      ],
+      "imageUrl": "https://tabletennisstore.us/cdn/shop/files/stiga-stage-rectangular-single-case-front.jpg?v=1784747059",
+      "imageAlt": "Stiga Stage Rectangular Single Case",
+      "imageSource": "TableTennisStore.us",
+      "sourceUrl": "https://tabletennisstore.us/products/stiga-stage-rectangular-single-case",
+      "sourceName": "TableTennisStore.us",
+      "price": null
+    },
+    {
+      "name": "JOOLA Vision II Safe Racket Case",
+      "brand": "Joola",
+      "category": "BAG",
+      "attributes": {
+        "type": "Funda doble",
+        "capacity": "2 raquetas + compartimento para objetos personales",
+        "material": "Poliéster 600d / 210d",
+        "dimensions": "12 × 8.5 × 2.5 in (aprox. 30.5 × 21.6 × 6.4 cm)",
+        "features": "Cremalleras SBS moldeadas de forma especial; compartimento con dos bolsillos para raquetas; segundo compartimento para objetos personales; acolchado de espuma integrado. Colores: negro y azul."
+      },
+      "scale": null,
+      "summary": "Estuche doble de JOOLA equipado con cremalleras SBS de diseño especial. Un compartimento con dos bolsillos guarda las raquetas de forma segura y un segundo compartimento sirve para efectos personales. El acolchado de espuma integrado proporciona protección adicional para las palas.",
+      "description": null,
+      "pros": [
+        "Compartimento doble para raquetas",
+        "Segundo compartimento para accesorios",
+        "Cremalleras SBS robustas",
+        "Acolchado de espuma integrado"
+      ],
+      "cons": [
+        "Ficha con medidas en pulgadas (no métricas)",
+        "Disponibilidad de color variable"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_j-vision-ii-safe.jpg",
+      "imageAlt": "JOOLA Vision II Safe Racket Case",
+      "imageSource": "Megaspin.net",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=j-vision-ii-safe",
+      "sourceName": "Megaspin.net",
+      "price": null
+    },
+    {
+      "name": "DONIC Double Bat Cover ZYLO",
+      "brand": "Donic",
+      "category": "BAG",
+      "attributes": {
+        "type": "Funda doble (estuche)",
+        "capacity": "2 raquetas",
+        "material": "100% poliéster jacquard; laterales reforzados con cubierta dura y acolchado de espuma",
+        "features": "Laterales reforzados con cubierta rígida para máxima protección contra roturas; acolchado de espuma voluminoso; dos compartimentos interiores separados con acolchado adicional; bolsillo de velcro trasero. Colores: negro y cian. Ref. 320 218."
+      },
+      "scale": null,
+      "summary": "Funda doble de Donic que ofrece máxima protección para dos raquetas. Los laterales reforzados de cubierta dura y el voluminoso acolchado de espuma protegen la pala de golpes y roturas, mientras que dos compartimentos separados y un bolsillo trasero de velcro la hacen ideal para jugadores de competición.",
+      "description": null,
+      "pros": [
+        "Cubierta dura reforzada",
+        "Acolchado de espuma voluminoso",
+        "2 compartimentos interiores separados",
+        "Bolsillo trasero de velcro"
+      ],
+      "cons": [
+        "Precio superior a fundas básicas",
+        "Dimensiones no publicadas"
+      ],
+      "imageUrl": "https://www.donic.com/media/f9/eb/34/1772463237/Double-Bat-Cover-Zylo-Black.jpg?ts=1772463237",
+      "imageAlt": "DONIC Double Bat Cover ZYLO",
+      "imageSource": "Donic (fabricante)",
+      "sourceUrl": "https://www.donic.com/en/DONIC-Double-Bat-Cover-ZYLO/320218100",
+      "sourceName": "Donic (fabricante)",
+      "price": null
+    },
+    {
+      "name": "XIOM Nova Racket Case",
+      "brand": "Xiom",
+      "category": "BAG",
+      "attributes": {
+        "type": "Estuche rígido (hard case)",
+        "capacity": "1 raqueta",
+        "material": "Plástico rígido con forro interior acolchado suave",
+        "features": "Estuche de plástico duro con forro interior acolchado suave; forma redondeada de raqueta; fácil de transportar; colores Brushed Black y Carbon Grey (blanco por pedido especial). Hecho en China."
+      },
+      "scale": null,
+      "summary": "Estuche rígido de Xiom fabricado en plástico duro con un forro interior acolchado suave que protege la raqueta de golpes y polvo. Con forma redondeada de raqueta y fácil de llevar, ofrece una excelente relación calidad-precio para el jugador que busca protección firme.",
+      "description": null,
+      "pros": [
+        "Carcasa rígida de alta protección",
+        "Forro interior acolchado",
+        "Precio accesible"
+      ],
+      "cons": [
+        "Solo para una raqueta",
+        "Sin compartimentos adicionales"
+      ],
+      "imageUrl": "https://cdn.megaspin.net/store/images/products/zoom2_xiom-nova-case.jpg",
+      "imageAlt": "XIOM Nova Racket Case",
+      "imageSource": "Megaspin.net",
+      "sourceUrl": "https://www.megaspin.net/store/default.asp?pid=xiom-nova-case",
+      "sourceName": "Megaspin.net",
+      "price": null
+    },
+    {
+      "name": "DHS RC530 Rhino-Tech Racket Case",
+      "brand": "DHS (Double Happiness)",
+      "category": "BAG",
+      "attributes": {
+        "type": "Funda rectangular",
+        "capacity": "1-2 raquetas",
+        "material": "Tela resistente al agua (estilo Rhino-Tech)",
+        "dimensions": "12.5 × 9.5 × 2.0 in",
+        "features": "Forma cuadrada; diseño rojo sólido; cremallera duradera; resistente al agua; fácil de limpiar; puede guardar una o dos raquetas."
+      },
+      "scale": null,
+      "summary": "Funda cuadrada clásica de DHS con diseño rojo sólido y cremallera duradera. Es resistente al agua y fácil de limpiar, y su interior admite una o dos raquetas. Una opción económica y práctica para proteger la pala durante entrenamientos y desplazamientos.",
+      "description": null,
+      "pros": [
+        "Resistente al agua y fácil de limpiar",
+        "Almacena 1 o 2 raquetas",
+        "Precio económico"
+      ],
+      "cons": [
+        "Sin acolchado rígido",
+        "Diseño básico"
+      ],
+      "imageUrl": "https://tabletennisstore.us/cdn/shop/products/dhs-rc530-rhino-tech-racket-case.jpg?v=1740301462",
+      "imageAlt": "DHS RC530 Rhino-Tech Racket Case",
+      "imageSource": "TableTennisStore.us",
+      "sourceUrl": "https://tabletennisstore.us/products/dhs-rc530-rhino-tech-racket-case",
+      "sourceName": "TableTennisStore.us",
+      "price": null
+    },
+    {
+      "name": "Butterfly Free Chack II",
+      "brand": "Butterfly",
+      "category": "GLUE",
+      "attributes": {
+        "type": "Agua VOC libre",
+        "application": "Se aplica con esponja sobre la goma y la hoja de la pala; deja secar antes de montar. Pegamento de látex de base acuosa.",
+        "size": "100 ml (también 20 ml y 500 ml)"
+      },
+      "scale": null,
+      "summary": "Pegamento de goma de base acuosa (látex) de Butterfly, con fuerte adherencia y fácil limpieza. Diseñado especialmente para gomas Spring Sponge como Tenergy, Dignics y Rozena. Fabricado en Japón.",
+      "description": null,
+      "pros": [
+        "Adherencia más fuerte que el Free Chack original",
+        "Base acuosa libre de VOC, fácil de limpiar y quitar el exceso",
+        "Recomendado oficialmente para gomas Tenergy/Dignics"
+      ],
+      "cons": [
+        "Requiere varias capas para un pegado óptimo",
+        "No apto para personas con alergia al látex",
+        "Precio relativamente alto"
+      ],
+      "imageUrl": "https://www.butterfly-global.com/en/products/item/74860_01.jpg",
+      "imageAlt": "Butterfly Free Chack II",
+      "imageSource": "Butterfly Global",
+      "sourceUrl": "https://www.butterfly-global.com/en/products/detail/74860.html",
+      "sourceName": "Butterfly Global",
+      "price": null
+    },
+    {
+      "name": "DHS No.15 Rubber Adhesive",
+      "brand": "DHS",
+      "category": "GLUE",
+      "attributes": {
+        "type": "Agua VOC libre",
+        "dryingTime": "Corto",
+        "application": "Se aplica con las esponjas blancas incluidas sobre la goma y la hoja; secado rápido antes del montaje.",
+        "size": "50 ml (también 98 ml y 500 ml)"
+      },
+      "scale": null,
+      "summary": "Pegamento de gomas libre de VOC y aprobado por la ITTF, desarrollado por DHS junto al equipo nacional chino. Ofrece excelente elasticidad, fuerte adherencia y fácil limpieza, mejorando el rebote y la velocidad de la bola.",
+      "description": null,
+      "pros": [
+        "Aprobado por la ITTF",
+        "Alta elasticidad que aumenta con encolados repetidos",
+        "Fuerte adherencia y fácil limpieza de residuos"
+      ],
+      "cons": [
+        "Envase pequeño (50 ml) para uso frecuente",
+        "Aplicación manual con esponja requiere práctica"
+      ],
+      "imageUrl": "https://dhssportsusa.com/cdn/shop/files/1_e302768b-d1b4-49f5-b396-41cca2d7534b.png",
+      "imageAlt": "DHS No.15 Rubber Adhesive",
+      "imageSource": "DHS Sport",
+      "sourceUrl": "https://dhssport.com/en/DHS-NO-15-glue",
+      "sourceName": "DHS Sport",
+      "price": null
+    },
+    {
+      "name": "Stiga Bond Rubber Glue",
+      "brand": "Stiga",
+      "category": "GLUE",
+      "attributes": {
+        "type": "Agua VOC libre",
+        "dryingTime": "Rápido",
+        "application": "Pegamento de consistencia fina para fácil aplicación sobre goma y hoja; secado rápido antes de montar.",
+        "size": "100 ml"
+      },
+      "scale": null,
+      "summary": "Pegamento de gomas de base acuosa de Stiga, de consistencia fina para una aplicación fácil. Su mezcla única aporta una ligera catapulta adicional, buena adherencia y secado rápido. Desarrollado especialmente para gomas Stiga.",
+      "description": null,
+      "pros": [
+        "Secado rápido y buena adherencia",
+        "Consistencia fina, fácil de extender",
+        "Efecto catapulta ligeramente mayor"
+      ],
+      "cons": [
+        "Encolar la pala requiere técnica y tiempo",
+        "Solo en presentación de 100 ml"
+      ],
+      "imageUrl": "https://stigasports.centracdn.net/client/dynamic/images/4411_b690e99d01-stiga-bond-glue-full.jpg",
+      "imageAlt": "Stiga Bond Rubber Glue",
+      "imageSource": "STIGA Sports",
+      "sourceUrl": "https://www.stigasports.com/en/product/bond-100-ml",
+      "sourceName": "STIGA Sports",
+      "price": null
+    },
+    {
+      "name": "Tibhar VS Top Glue",
+      "brand": "Tibhar",
+      "category": "GLUE",
+      "attributes": {
+        "type": "Secado rápido",
+        "dryingTime": "Rápido",
+        "application": "Incluye aplicadores de esponja para aplicar uniformemente sobre goma y hoja; secado rápido.",
+        "size": "90 ml"
+      },
+      "scale": null,
+      "summary": "Adhesivo de gomas de alta calidad de base acuosa, libre de VOC y de secado rápido. Su contenido de 90 ml es suficiente para numerosos encolados, y gracias a los aplicadores de esponja incluidos el pegamento se aplica de forma uniforme y limpia, dejando la goma removible sin residuos.",
+      "description": null,
+      "pros": [
+        "Secado rápido y libre de VOC",
+        "Incluye aplicadores de esponja",
+        "Goma removible sin dejar residuos"
+      ],
+      "cons": [
+        "Presentación de 90 ml limitada",
+        "Precio medio-alto"
+      ],
+      "imageUrl": "https://ttm-store.com/cdn/shop/files/TibharVSTopGlue.png",
+      "imageAlt": "Tibhar VS Top Glue",
+      "imageSource": "TTM-Store",
+      "sourceUrl": "https://ttm-store.com/en/products/tibhar-vs-top-glue",
+      "sourceName": "TTM-Store",
+      "price": null
+    },
+    {
+      "name": "Donic Vario Clean",
+      "brand": "Donic",
+      "category": "GLUE",
+      "attributes": {
+        "type": "Agua VOC libre",
+        "dryingTime": "Rápido",
+        "application": "Pegamento de base acuosa libre de VOC que se aplica con esponja sobre la goma y la hoja; secado rápido.",
+        "size": "37 ml (también 90 ml)"
+      },
+      "scale": null,
+      "summary": "Pegamento de gomas Donic libre de VOC y de secado rápido. Fórmula de base acuosa que ofrece una fuerte adherencia y fácil aplicación, manteniendo la goma limpia y removible. Ideal para montar gomas y hojas de forma rápida y sin complicaciones.",
+      "description": null,
+      "pros": [
+        "Libre de VOC y secado rápido",
+        "Fuerte adherencia",
+        "Fácil de aplicar y remover"
+      ],
+      "cons": [
+        "Envase de 37 ml es pequeño",
+        "Requiere aplicar varias capas"
+      ],
+      "imageUrl": "https://www.tt-shop.com/media/catalog/product/cache/4/image/9df78eab33525d08d6e5fb8d27136e95/d/o/donic-glue_vario_clean-37ml-web_1280x1280.jpg",
+      "imageAlt": "Donic Vario Clean",
+      "imageSource": "TT-Shop",
+      "sourceUrl": "https://www.tt-shop.com/com_eng/donic-vario-clean-voc-free-table-tennis-glue.html",
+      "sourceName": "TT-Shop",
+      "price": null
+    },
+    {
+      "name": "JOOLA X-Glue",
+      "brand": "JOOLA",
+      "category": "GLUE",
+      "attributes": {
+        "type": "Agua VOC libre",
+        "dryingTime": "Corto",
+        "application": "Pegamento de látex de base acuosa, sin disolventes, que se aplica con esponja incluida sobre goma y hoja; secado corto antes del montaje.",
+        "size": "1000 ml (también 37 ml)"
+      },
+      "scale": null,
+      "summary": "Pegamento de gomas de látex de base acuosa y libre de solventes de JOOLA. Fórmula fácil de aplicar y de remover, con un corto tiempo de secado para un montaje rápido y limpio de la pala. Incluye aplicador de esponja.",
+      "description": null,
+      "pros": [
+        "Fórmula libre de VOC/solventes",
+        "Corta duración de secado y fuerte adherencia",
+        "Fácil de aplicar y de quitar la goma"
+      ],
+      "cons": [
+        "Precio elevado en presentación grande",
+        "Látex puede manchar si no se aplica con cuidado"
+      ],
+      "imageUrl": "https://joola.com/cdn/shop/files/xglue_01.png",
+      "imageAlt": "JOOLA X-Glue",
+      "imageSource": "JOOLA USA",
+      "sourceUrl": "https://joola.com/products/x-glue-table-tennis-rubber-glue",
+      "sourceName": "JOOLA USA",
+      "price": null
     }
   ]
 }
