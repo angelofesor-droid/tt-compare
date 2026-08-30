@@ -6,6 +6,7 @@ import { useCallback, useMemo } from "react";
 export interface FilterOption {
   value: string;
   count: number;
+  china?: boolean;
 }
 
 export interface AttributeFilterGroup {
@@ -18,6 +19,26 @@ export interface FiltersProps {
   brands: { id: string; name: string; count: number }[];
   attributes: AttributeFilterGroup[];
   priceRange: { min: number | null; max: number | null };
+}
+
+/** Formatea la etiqueta de cada opción según el atributo normalizado. */
+function optionLabel(key: string, opt: FilterOption): string {
+  switch (key) {
+    case "thickness":
+      return opt.value === "2.0 Max" ? "2.0 Max" : `${opt.value} mm`;
+    case "hardness":
+      return `${opt.value}°${opt.china ? " (China)" : ""}`;
+    case "speed":
+    case "spin":
+    case "control":
+      return `${opt.value}/10`;
+    case "durability":
+      return `${opt.value}/10`;
+    case "tackiness":
+      return opt.value; // Sticky / Tacky
+    default:
+      return opt.value;
+  }
 }
 
 export default function CategoryFilters({ brands, attributes }: FiltersProps) {
@@ -96,12 +117,7 @@ export default function CategoryFilters({ brands, attributes }: FiltersProps) {
       {/* Orden */}
       <div className="mb-5">
         <h3 className="spec-label mb-2">Ordenar</h3>
-        <select
-          value={sort}
-          onChange={(e) => changeSort(e.target.value)}
-          className="ctl-select w-full"
-          aria-label="Ordenar resultados"
-        >
+        <select value={sort} onChange={(e) => changeSort(e.target.value)} className="ctl-select w-full" aria-label="Ordenar resultados">
           <option value="recent">Más recientes</option>
           <option value="name">Nombre (A–Z)</option>
         </select>
@@ -109,54 +125,54 @@ export default function CategoryFilters({ brands, attributes }: FiltersProps) {
 
       <hr className="metal-divider mb-5" />
 
-      {/* Marcas */}
+      {/* Marca */}
       {brands.length > 0 && (
-        <div className="mb-5">
-          <h3 className="spec-label mb-2.5">Marca</h3>
-          <ul className="space-y-2">
+        <details open className="group mb-3 border-b border-metal/50 pb-3">
+          <summary className="spec-label flex cursor-pointer select-none items-center justify-between">
+            Marca
+            <span className="text-xs text-ink-faint transition group-open:rotate-180">▾</span>
+          </summary>
+          <ul className="mt-2.5 space-y-2">
             {brands.map((b) => (
               <li key={b.id}>
                 <label className="flex cursor-pointer items-center gap-2.5 text-sm text-ink-mid transition hover:text-ink">
-                  <input
-                    type="checkbox"
-                    checked={selectedBrands.includes(b.name)}
-                    onChange={() => toggleBrand(b.name)}
-                    className="ctl-check"
-                  />
+                  <input type="checkbox" checked={selectedBrands.includes(b.name)} onChange={() => toggleBrand(b.name)} className="ctl-check" />
                   <span className="flex-1">{b.name}</span>
                   <span className="text-xs tabular-nums text-ink-faint">{b.count}</span>
                 </label>
               </li>
             ))}
           </ul>
-        </div>
+        </details>
       )}
 
-      {/* Atributos dinámicos */}
-      {attributes.map((group) => (
-        <div key={group.key} className="mb-5">
-          <h3 className="spec-label mb-2.5">{group.name}</h3>
-          <ul className="space-y-2">
-            {group.options.map((opt) => {
-              const checked = selectedAttrs[group.key]?.includes(opt.value) ?? false;
-              return (
-                <li key={opt.value}>
-                  <label className="flex cursor-pointer items-center gap-2.5 text-sm text-ink-mid transition hover:text-ink">
-                    <input
-                      type="checkbox"
-                      checked={checked}
-                      onChange={() => toggleAttr(group.key, opt.value)}
-                      className="ctl-check"
-                    />
-                    <span className="flex-1">{opt.value}</span>
-                    <span className="text-xs tabular-nums text-ink-faint">{opt.count}</span>
-                  </label>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-      ))}
+      {/* Atributos normalizados en dropdowns colapsables */}
+      {attributes.map((group) => {
+        const active = selectedAttrs[group.key] ?? [];
+        return (
+          <details key={group.key} open={active.length > 0} className="group mb-3 border-b border-metal/50 pb-3">
+            <summary className="spec-label flex cursor-pointer select-none items-center justify-between">
+              {group.name}
+              {active.length > 0 && <span className="rounded-full bg-accent/20 px-1.5 text-[10px] font-bold text-accent-hi">{active.length}</span>}
+              <span className="text-xs text-ink-faint transition group-open:rotate-180">▾</span>
+            </summary>
+            <ul className="mt-2.5 space-y-2">
+              {group.options.map((opt) => {
+                const checked = active.includes(opt.value);
+                return (
+                  <li key={opt.value}>
+                    <label className="flex cursor-pointer items-center gap-2.5 text-sm text-ink-mid transition hover:text-ink">
+                      <input type="checkbox" checked={checked} onChange={() => toggleAttr(group.key, opt.value)} className="ctl-check" />
+                      <span className="flex-1">{optionLabel(group.key, opt)}</span>
+                      <span className="text-xs tabular-nums text-ink-faint">{opt.count}</span>
+                    </label>
+                  </li>
+                );
+              })}
+            </ul>
+          </details>
+        );
+      })}
     </aside>
   );
 }

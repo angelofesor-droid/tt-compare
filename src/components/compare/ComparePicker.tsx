@@ -25,14 +25,17 @@ export default function ComparePicker({ products }: { products: PickableProduct[
 
   // Agrupa los productos por categoría para mostrarlos en secciones
   const grouped = useMemo(() => {
-    const map = new Map<string, { name: string; items: PickableProduct[] }>();
+    const map = new Map<string, { key: string; name: string; items: PickableProduct[] }>();
     for (const p of products) {
-      const group = map.get(p.categoryKey) ?? { name: p.categoryName, items: [] };
+      const group = map.get(p.categoryKey) ?? { key: p.categoryKey, name: p.categoryName, items: [] };
       group.items.push(p);
       map.set(p.categoryKey, group);
     }
     return Array.from(map.values());
   }, [products]);
+
+  // Categoría activa: si hay selección, se limita a la categoría de la selección
+  const [activeCat, setActiveCat] = useState<string | null>(null);
 
   // Preselección inicial: combina el slug de la URL (?a=) con la selección persistida.
   useEffect(() => {
@@ -47,8 +50,14 @@ export default function ComparePicker({ products }: { products: PickableProduct[
     // Hidratación de estado desde fuentes externas (URL + localStorage): caso legítimo
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setSelected(initial.slice(0, 4));
+    // Fijar la categoría activa según la selección (o la primera disponible)
+    const firstCat = bySlug.get(initial[0])?.categoryKey ?? grouped[0]?.key ?? null;
+    setActiveCat((prev) => prev ?? firstCat);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [products]);
+
+  // Grupos visibles: solo la categoría activa (si hay una elegida)
+  const visibleGroups = activeCat ? grouped.filter((g) => g.key === activeCat) : grouped;
 
   function toggle(slug: string) {
     setError(null);
@@ -118,8 +127,30 @@ export default function ComparePicker({ products }: { products: PickableProduct[
         </button>
       </div>
 
-      {/* Productos agrupados por categoría */}
-      {grouped.map((group) => (
+      {/* Selector de categoría (gomas / maderos / mesas) */}
+      {grouped.length > 1 && (
+        <div className="mb-5 flex flex-wrap gap-2" role="tablist" aria-label="Categoría de productos">
+          {grouped.map((g) => {
+            const isActive = activeCat === g.key;
+            return (
+              <button
+                key={g.key}
+                role="tab"
+                aria-selected={isActive}
+                onClick={() => setActiveCat(g.key)}
+                className={`rounded-full px-4 py-1.5 text-sm transition ${
+                  isActive ? "bg-accent text-deep font-semibold shadow" : "ctl text-ink-mid hover:text-ink"
+                }`}
+              >
+                {g.name} <span className="text-xs opacity-70">({g.items.length})</span>
+              </button>
+            );
+          })}
+        </div>
+      )}
+
+      {/* Productos agrupados por categoría (solo la categoría activa) */}
+      {visibleGroups.map((group) => (
         <section key={group.name} aria-label={group.name} className="mb-10">
           <div className="mb-4 flex items-baseline gap-3 border-b border-metal/60 pb-2">
             <h2 className="sec-label">{group.name}</h2>
