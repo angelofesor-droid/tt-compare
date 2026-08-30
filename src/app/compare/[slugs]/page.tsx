@@ -218,7 +218,7 @@ function buildRadarData(products: Awaited<ReturnType<typeof getCompareProducts>>
   rows: RadarRow[];
   radarProducts: RadarProduct[];
 } {
-  const palette = ["#e87b3f", "#5aa7d6", "#7bc98d", "#c08ad9"];
+  const palette = ["#00e5ff", "#ff2d95", "#8a5cff", "#00ff9c"];
   const radarProducts: RadarProduct[] = products.map((p, i) => ({
     slug: p.slug,
     name: p.name,

@@ -11,13 +11,13 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-metal bg-graphite/95 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-7xl items-center gap-4 px-4 sm:gap-6 sm:px-6">
-        {/* Logo: placa limpia, sin clichés */}
+        {/* Logo: placa cyberpunk con glow */}
         <Link href="/" className="flex shrink-0 items-center gap-3">
-          <span className="flex h-9 items-center justify-center rounded-md border border-metal-light bg-gradient-to-b from-surface-raised to-surface px-2 text-sm font-extrabold tracking-tight text-ink shadow-[inset_0_1px_0_rgba(255,255,255,0.07),0_1px_2px_rgba(0,0,0,0.5)]">
+          <span className="flex h-9 items-center justify-center rounded-md border border-accent bg-gradient-to-b from-surface-raised to-surface px-2 text-sm font-extrabold tracking-tight text-accent shadow-[0_0_12px_rgba(0,229,255,0.35),inset_0_1px_0_rgba(255,255,255,0.1)]">
             ZT
           </span>
           <span className="hidden text-[15px] font-bold uppercase tracking-[0.14em] text-ink sm:block">
-            Zona <span className="text-accent">Tenis de Mesa</span>
+            Zona <span className="text-accent [text-shadow:0_0_10px_rgba(0,229,255,0.6)]">Tenis de Mesa</span>
           </span>
         </Link>
 
