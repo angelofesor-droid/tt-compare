@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import CompareButton from "@/components/compare/CompareButton";
 
 export interface CardProduct {
   id: string;
@@ -79,12 +80,7 @@ export default function ProductCard({ product, showCategory = false }: { product
           ) : (
             <span className="text-xs text-ink-faint">Precio no disponible</span>
           )}
-          <Link
-            href={`/compare?a=${product.slug}`}
-            className="ctl ctl-compare rounded-full px-3 py-1.5 text-xs"
-          >
-            Comparar
-          </Link>
+          <CompareButton slug={product.slug} className="ctl ctl-compare rounded-full px-3 py-1.5 text-xs" />
         </div>
       </div>
     </article>

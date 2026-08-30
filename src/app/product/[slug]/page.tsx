@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Gallery from "@/components/product/Gallery";
 import ProductCard from "@/components/product/ProductCard";
 import ReviewsSection from "@/components/product/ReviewsSection";
+import CompareButton from "@/components/compare/CompareButton";
 import { getPublishedProductBySlug } from "@/lib/services/product.service";
 import { getRelatedProducts } from "@/lib/services/catalog.service";
 
@@ -99,9 +100,7 @@ export default async function ProductPage({ params }: PageProps) {
           )}
 
           <div className="mt-7 flex flex-wrap gap-3">
-            <Link href={`/compare?a=${product.slug}`} className="ctl ctl-compare rounded-lg px-5 py-2.5 text-sm">
-              Comparar este producto
-            </Link>
+            <CompareButton slug={product.slug} label="Comparar este producto" className="ctl ctl-compare rounded-lg px-5 py-2.5 text-sm" />
           </div>
 
           {/* Specs destacadas en placa */}

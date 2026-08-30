@@ -2,7 +2,8 @@
 
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { readSelection, writeSelection } from "@/lib/compare-store";
 
 export interface PickableProduct {
   id: string;
@@ -22,20 +23,42 @@ export default function ComparePicker({ products }: { products: PickableProduct[
   const bySlug = useMemo(() => new Map(products.map((p) => [p.slug, p])), [products]);
   const selectedProducts = selected.map((s) => bySlug.get(s)!).filter(Boolean);
 
+  // Preselección inicial: combina el slug de la URL (?a=) con la selección persistida.
+  useEffect(() => {
+    const fromUrl = new URLSearchParams(window.location.search).get("a");
+    const stored = readSelection();
+    let initial: string[] = [];
+    if (fromUrl) initial.push(fromUrl);
+    for (const s of stored) if (!initial.includes(s)) initial.push(s);
+    // Limitar a 4 y a una sola categoría
+    const cats = new Set(initial.map((s) => bySlug.get(s)?.categoryKey).filter(Boolean));
+    if (cats.size > 1) initial = initial.filter((s) => bySlug.get(s)?.categoryKey === bySlug.get(initial[0])?.categoryKey);
+    // Hidratación de estado desde fuentes externas (URL + localStorage): caso legítimo
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setSelected(initial.slice(0, 4));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [products]);
+
   function toggle(slug: string) {
     setError(null);
     setSelected((prev) => {
-      if (prev.includes(slug)) return prev.filter((s) => s !== slug);
-      if (prev.length >= 4) {
+      let next: string[];
+      if (prev.includes(slug)) {
+        next = prev.filter((s) => s !== slug);
+      } else if (prev.length >= 4) {
         setError("Puedes comparar hasta 4 productos.");
         return prev;
+      } else {
+        const cats = new Set([...prev, slug].map((s) => bySlug.get(s)?.categoryKey));
+        if (cats.size > 1) {
+          setError(
+            "Solo puedes comparar productos de la misma categoría: gomas con gomas, maderos con maderos o mesas con mesas."
+          );
+          return prev;
+        }
+        next = [...prev, slug];
       }
-      const next = [...prev, slug];
-      const cats = new Set(next.map((s) => bySlug.get(s)?.categoryKey));
-      if (cats.size > 1) {
-        setError("Solo puedes comparar productos de la misma categoría: gomas con gomas, maderos con maderos o mesas con mesas.");
-        return prev;
-      }
+      writeSelection(next); // persiste la selección entre visitas
       return next;
     });
   }
@@ -45,6 +68,7 @@ export default function ComparePicker({ products }: { products: PickableProduct[
       setError("Selecciona al menos 2 productos para comparar.");
       return;
     }
+    writeSelection(selected); // asegura persistencia
     const sorted = [...selected].sort();
     router.push(`/compare/${sorted.join("-vs-")}`);
   }
