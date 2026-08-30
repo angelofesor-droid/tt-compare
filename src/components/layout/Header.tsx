@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import SearchBar from "@/components/search/SearchBar";
 
 const nav = [
@@ -11,10 +12,16 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-metal bg-graphite/95 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-7xl items-center gap-4 px-4 sm:gap-6 sm:px-6">
-        {/* Logo: placa cyberpunk con glow */}
+        {/* Logo: monograma generado + wordmark animado */}
         <Link href="/" className="flex shrink-0 items-center gap-3">
-          <span className="flex h-9 items-center justify-center rounded-md border border-accent bg-gradient-to-b from-surface-raised to-surface px-2 text-sm font-extrabold tracking-tight text-accent shadow-[0_0_12px_rgba(0,229,255,0.35),inset_0_1px_0_rgba(255,255,255,0.1)]">
-            ZT
+          <span className="relative flex h-10 w-10 items-center justify-center">
+            <Image
+              src="/logo/zt-monogram.png"
+              alt="Zona Tenis de Mesa"
+              width={40}
+              height={40}
+              className="h-10 w-10 object-contain drop-shadow-[0_0_10px_rgba(0,229,255,0.5)]"
+            />
           </span>
           <span className="hidden text-[15px] font-bold uppercase tracking-[0.14em] sm:block">
             Zona <span className="neon-wordmark inline-block">Tenis de Mesa</span>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -6,10 +7,15 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6">
         <div className="flex flex-col gap-8 sm:flex-row sm:items-start sm:justify-between">
           <div>
-            <p className="text-sm font-bold uppercase tracking-[0.14em]">
-              Zona <span className="text-accent">Tenis de Mesa</span>
-            </p>
-            <p className="mt-2 max-w-md text-sm leading-relaxed text-ink-low">
+            <Image
+              src="/logo/zt-wordmark.png"
+              alt="Zona Tenis de Mesa"
+              width={300}
+              height={100}
+              className="h-auto w-64 max-w-full object-contain"
+              priority={false}
+            />
+            <p className="mt-4 max-w-md text-sm leading-relaxed text-ink-low">
               Catálogo, fichas técnicas y comparaciones de equipamiento de tenis de mesa.
               Datos verificados contra fuentes oficiales de fabricantes.
             </p>
