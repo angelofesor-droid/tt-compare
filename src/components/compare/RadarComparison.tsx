@@ -32,9 +32,13 @@ const PALETTE = ["#e87b3f", "#5aa7d6", "#7bc98d", "#c08ad9"];
 export default function RadarComparison({
   rows,
   products,
+  hovered = null,
+  onHover = null,
 }: {
   rows: RadarRow[];
   products: RadarProduct[];
+  hovered?: string | null;
+  onHover?: ((slug: string | null) => void) | null;
 }) {
   if (rows.length < 3 || products.length < 2) {
     return (
@@ -143,18 +147,26 @@ export default function RadarComparison({
             );
           })}
 
-          {/* Polígonos de productos */}
-          {products.map((p) => (
-            <polygon
-              key={p.slug}
-              points={polygonFor(p.slug)}
-              fill={colorFor(p.slug)}
-              fillOpacity="0.12"
-              stroke={colorFor(p.slug)}
-              strokeWidth="2"
-              strokeLinejoin="round"
-            />
-          ))}
+          {/* Polígonos de productos (resaltan al pasar sobre la goma) */}
+          {products.map((p) => {
+            const isHovered = hovered === p.slug;
+            const dimmed = hovered != null && !isHovered;
+            return (
+              <polygon
+                key={p.slug}
+                points={polygonFor(p.slug)}
+                fill={colorFor(p.slug)}
+                fillOpacity={isHovered ? 0.28 : 0.12}
+                stroke={colorFor(p.slug)}
+                strokeWidth={isHovered ? 3 : 2}
+                strokeLinejoin="round"
+                opacity={dimmed ? 0.25 : 1}
+                style={{ transition: "opacity .2s" }}
+                onMouseEnter={onHover ? () => onHover(p.slug) : undefined}
+                onMouseLeave={onHover ? () => onHover(null) : undefined}
+              />
+            );
+          })}
 
           {/* Puntos con tooltip */}
           {rows.map((row, i) =>

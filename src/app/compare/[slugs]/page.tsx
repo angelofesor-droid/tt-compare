@@ -3,7 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { CompareError, getCompareProducts, unionAttributes } from "@/lib/services/compare.service";
-import RadarComparison, { type RadarRow, type RadarProduct } from "@/components/compare/RadarComparison";
+import CompareSection from "@/components/compare/CompareSection";
+import type { RadarRow, RadarProduct } from "@/components/compare/RadarComparison";
 
 export const dynamic = "force-dynamic";
 
@@ -87,32 +88,20 @@ export default async function CompareDetailPage({ params }: PageProps) {
         {products.length} {categoryName.toLowerCase()}s alineados. Las escalas corresponden a cada fabricante.
       </p>
 
-      {/* Cabecera: productos alineados (imagen + nombre clickeables) */}
-      <div className={`mt-8 grid gap-4 ${products.length === 2 ? "sm:grid-cols-2" : products.length === 3 ? "sm:grid-cols-3" : "sm:grid-cols-4"}`}>
-        {products.map((p) => (
-          <Link
-            key={p.id}
-            href={`/product/${p.slug}`}
-            className="object-card group flex flex-col items-center p-4 text-center"
-          >
-            <div className="relative aspect-square w-full max-w-[170px] overflow-hidden rounded-lg bg-deep shadow-[inset_0_1px_0_rgba(255,255,255,0.04)]">
-              {p.image ? (
-                <Image src={p.image.url} alt={p.image.alt ?? p.name} fill sizes="170px" className="object-contain p-2 transition duration-300 group-hover:scale-[1.03]" />
-              ) : (
-                <span className="flex h-full items-center justify-center text-xs text-ink-faint">Sin imagen</span>
-              )}
-            </div>
-            <p className="mt-3 text-[11px] font-bold uppercase tracking-[0.14em] text-accent">{p.brand}</p>
-            <p className="mt-0.5 text-sm font-semibold text-ink transition group-hover:text-accent-hi">{p.name}</p>
-            {p.price && <p className="mt-1 text-sm font-bold tabular-nums text-ink">{formatPrice(p.price)}</p>}
-          </Link>
-        ))}
-      </div>
-
-      {/* Gráfico de radar comparativo (entre imágenes y matriz) */}
-      <div className="mt-10">
-        <RadarComparison rows={radarRows} products={radarProducts} />
-      </div>
+      {/* Cabecera + radar interactivo: tarjetas con hover y botón quitar */}
+      <CompareSection
+        products={products.map((p) => ({
+          id: p.id,
+          slug: p.slug,
+          name: p.name,
+          brand: p.brand,
+          price: p.price ?? null,
+          image: p.image ?? null,
+          color: radarProducts.find((r) => r.slug === p.slug)?.color ?? "#8b93a0",
+        }))}
+        rows={radarRows}
+        radarProducts={radarProducts}
+      />
 
       {/* Matriz de análisis (desktop) */}
       <div className="spec-plate mt-10 hidden md:block">
