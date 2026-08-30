@@ -53,8 +53,8 @@ export default async function HomePage() {
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(900px_420px_at_70%_-10%,rgba(0,229,255,0.09),transparent_60%)]" />
         <div className="mx-auto max-w-7xl px-4 pb-10 pt-14 sm:px-6 sm:pt-20">
           <p className="sec-label mb-6">Catálogo técnico · Base de datos · Comparador</p>
-          <h1 className="max-w-3xl text-4xl font-bold leading-[1.05] tracking-tight text-ink sm:text-6xl">
-            Zona Tenis de Mesa
+          <h1 className="max-w-3xl text-4xl font-bold leading-[1.05] tracking-tight sm:text-6xl">
+            Zona <span className="neon-wordmark">Tenis de Mesa</span>
           </h1>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-ink-mid sm:text-lg">
             Compara el equipamiento que realmente necesitas. Gomas, maderos y mesas

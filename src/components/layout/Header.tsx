@@ -16,8 +16,8 @@ export default function Header() {
           <span className="flex h-9 items-center justify-center rounded-md border border-accent bg-gradient-to-b from-surface-raised to-surface px-2 text-sm font-extrabold tracking-tight text-accent shadow-[0_0_12px_rgba(0,229,255,0.35),inset_0_1px_0_rgba(255,255,255,0.1)]">
             ZT
           </span>
-          <span className="hidden text-[15px] font-bold uppercase tracking-[0.14em] text-ink sm:block">
-            Zona <span className="text-accent [text-shadow:0_0_10px_rgba(0,229,255,0.6)]">Tenis de Mesa</span>
+          <span className="hidden text-[15px] font-bold uppercase tracking-[0.14em] sm:block">
+            Zona <span className="neon-wordmark inline-block">Tenis de Mesa</span>
           </span>
         </Link>
 

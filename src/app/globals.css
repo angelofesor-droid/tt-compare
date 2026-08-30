@@ -403,6 +403,25 @@ body {
   .well-input::placeholder { color: var(--text-faint); }
 }
 
+/* ── Animaciones cyberpunk del wordmark ── */
+@keyframes neonShift {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
+}
+@keyframes neonPulse {
+  0%, 100% { text-shadow: 0 0 6px rgba(0, 229, 255, 0.4), 0 0 16px rgba(0, 229, 255, 0.2); }
+  50% { text-shadow: 0 0 10px rgba(0, 229, 255, 0.85), 0 0 26px rgba(0, 229, 255, 0.45); }
+}
+/* Wordmark animado: gradiente cian↔magenta en movimiento + glow pulsante */
+.neon-wordmark {
+  background: linear-gradient(90deg, #00e5ff, #ff2d95, #00e5ff);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: neonShift 4s linear infinite, neonPulse 3s ease-in-out infinite;
+}
+
 /* ── Animaciones sutiles (150–250ms) + reduced motion ── */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
